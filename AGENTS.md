@@ -49,3 +49,11 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 - GitHub Pages 已开启（workflow 模式），推送 main 或每天 UTC 0 点自动构建部署
 - **本机网络阻断 github.com**（api.github.com 和 codeload 可达）：普通 `git push` 不可用，需用 `.tmp/push-via-api.mjs` 走 Git Data API 推送（以远端 head 为父提交，本地与远端 commit sha 可能不一致，属正常现象）
 - 个人 Token 需同时具备 `repo` + `workflow` 权限，否则无法推送 `.github/workflows/` 下的文件
+
+## 阿里云服务器部署（2026-07-24）
+
+- 服务器：阿里云 ECS 华南2（河源），Alibaba Cloud Linux 3，公网 IP `47.120.70.114`，网站根路径直接访问：http://47.120.70.114
+- 项目位置 `/opt/ai-news`，Node.js 在 `/usr/local/nodejs`，Nginx 站点配置 `/etc/nginx/conf.d/ai-news.conf`（默认 server 块已在 nginx.conf 中注释，备份 nginx.conf.bak）
+- 每日更新：cron `0 8 * * *` 执行 `/opt/ai-news/update.sh`（ASTRO_BASE=/ 构建到根路径），日志 `/var/log/ai-news-update.log`
+- 构建用 `ASTRO_BASE=/` 覆盖 base；GitHub Pages 仍用 `/chichihehe`（两处部署互不影响）
+- 本机 SSH 工具：`.tmp/deploy/ssh.mjs`（执行远端命令）、`.tmp/deploy/upload.mjs`（上传文件），凭据在 `.tmp/deploy/config.json`（.tmp 已 gitignore）；Git Bash 中调用时必须 `export MSYS_NO_PATHCONV=1`，否则 `/opt/...` 参数会被转成 Windows 路径
