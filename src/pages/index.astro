@@ -9,36 +9,26 @@ interface NewsItem {
   lang: 'zh' | 'en';
   pubDate: string;
   summary: string;
+  heat: number;
 }
 
+// 数据已由抓取脚本按热度降序排好
 const items = (newsData.items || []) as NewsItem[];
 
-function formatDate(iso: string) {
+function formatDateTime(iso: string) {
   const d = new Date(iso);
-  const y = d.getFullYear();
   const m = String(d.getMonth() + 1).padStart(2, '0');
   const day = String(d.getDate()).padStart(2, '0');
-  return `${y}-${m}-${day}`;
-}
-
-function formatTime(iso: string) {
-  const d = new Date(iso);
-  return `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
-}
-
-// 按日期分组
-const groups = new Map<string, NewsItem[]>();
-for (const item of items) {
-  const key = formatDate(item.pubDate);
-  if (!groups.has(key)) groups.set(key, []);
-  groups.get(key)!.push(item);
+  const hh = String(d.getHours()).padStart(2, '0');
+  const mm = String(d.getMinutes()).padStart(2, '0');
+  return `${m}-${day} ${hh}:${mm}`;
 }
 
 const sources = [...new Set(items.map((i) => i.source))];
 const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleString('zh-CN') : '';
 ---
 <Layout title="AI 每日资讯">
-  {updatedAt && <p class="updated-at">最近更新：{updatedAt}</p>}
+  {updatedAt && <p class="updated-at">最近更新：{updatedAt} · 按热度排序（热点实体被多家媒体提及则热度更高）</p>}
 
   <div class="filters" id="filters">
     <button class="active" data-filter="all">全部</button>
@@ -51,21 +41,15 @@ const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleStri
 
   {items.length > 0 && (
     <ul class="news-list" id="news-list">
-      {[...groups.entries()].map(([date, list]) => (
-        <li>
-          <h3 class="date-group">{date}</h3>
-          <ul class="news-list">
-            {list.map((item) => (
-              <li class="news-card" data-lang={item.lang} data-source={item.source}>
-                <h2><a href={item.link} target="_blank" rel="noopener noreferrer">{item.title}</a></h2>
-                <div class="news-meta">
-                  <span class:list={['tag', { en: item.lang === 'en' }]}>{item.source}</span>
-                  <time datetime={item.pubDate}>{formatTime(item.pubDate)}</time>
-                </div>
-                {item.summary && <p class="news-summary">{item.summary}</p>}
-              </li>
-            ))}
-          </ul>
+      {items.map((item) => (
+        <li class="news-card" data-lang={item.lang} data-source={item.source}>
+          <h2><a href={item.link} target="_blank" rel="noopener noreferrer">{item.title}</a></h2>
+          <div class="news-meta">
+            <span class:list={['tag', { en: item.lang === 'en' }]}>{item.source}</span>
+            {item.heat >= 8 && <span class="heat">🔥 热度 {item.heat}</span>}
+            <time datetime={item.pubDate}>{formatDateTime(item.pubDate)}</time>
+          </div>
+          {item.summary && <p class="news-summary">{item.summary}</p>}
         </li>
       ))}
     </ul>

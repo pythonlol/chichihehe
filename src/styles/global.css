@@ -188,6 +188,16 @@ main.container {
   border-color: rgba(52, 211, 153, 0.25);
 }
 
+.heat {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 1px 8px;
+  font-size: 12px;
+  background: rgba(251, 146, 60, 0.12);
+  color: #fb923c;
+  border: 1px solid rgba(251, 146, 60, 0.3);
+}
+
 .news-summary {
   font-size: 14px;
   color: var(--muted);

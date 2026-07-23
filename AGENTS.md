@@ -55,5 +55,6 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 - 服务器：阿里云 ECS 华南2（河源），Alibaba Cloud Linux 3，公网 IP `47.120.70.114`，网站根路径直接访问：http://47.120.70.114
 - 项目位置 `/opt/ai-news`，Node.js 在 `/usr/local/nodejs`，Nginx 站点配置 `/etc/nginx/conf.d/ai-news.conf`（默认 server 块已在 nginx.conf 中注释，备份 nginx.conf.bak）
 - 每日更新：cron `0 8 * * *` 执行 `/opt/ai-news/update.sh`（ASTRO_BASE=/ 构建到根路径），日志 `/var/log/ai-news-update.log`
+- 域名 `chichihehe.cc`（含 www）已预置在 Nginx `server_name`（default_server，IP 访问不受影响）；备案期间不可用域名访问境内服务器，备案通过后需在 DNS 加 A 记录指向 47.120.70.114，再配 Let's Encrypt HTTPS
 - 构建用 `ASTRO_BASE=/` 覆盖 base；GitHub Pages 仍用 `/chichihehe`（两处部署互不影响）
 - 本机 SSH 工具：`.tmp/deploy/ssh.mjs`（执行远端命令）、`.tmp/deploy/upload.mjs`（上传文件），凭据在 `.tmp/deploy/config.json`（.tmp 已 gitignore）；Git Bash 中调用时必须 `export MSYS_NO_PATHCONV=1`，否则 `/opt/...` 参数会被转成 Windows 路径

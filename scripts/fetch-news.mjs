@@ -78,6 +78,43 @@ const items = results
   .sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate))
   .slice(0, MAX_ITEMS);
 
+// —— 热度计算：热门实体打分 ——
+// 统计标题关键词被多少家不同媒体提及，同一实体（公司/产品/人物）被报道得越多，
+// 包含该实体的新闻热度越高；用 IDF 抑制“的、发布”这类高频泛词的干扰。
+const STOP = new Set(['the', 'and', 'for', 'with', 'from', 'that', 'this', 'will', 'says', 'after', 'over', 'into', 'amid', 'what', 'how', 'why', 'its', 'are', 'was', 'has', 'have', 'new', 'news', 'you', 'your']);
+
+function tokensOf(title) {
+  const t = new Set();
+  for (const w of title.toLowerCase().match(/[a-z0-9]+/g) || []) {
+    if (w.length >= 3 && !STOP.has(w)) t.add(w);
+  }
+  const zh = title.match(/[一-鿿]/g);
+  if (zh) for (let i = 0; i < zh.length - 1; i++) t.add(zh[i] + zh[i + 1]);
+  return t;
+}
+
+const toksOf = items.map((it) => tokensOf(it.title));
+const srcOf = new Map(); // token -> Set(source)
+const df = new Map();    // token -> 出现该 token 的新闻数
+toksOf.forEach((toks, i) => {
+  for (const x of toks) {
+    if (!srcOf.has(x)) srcOf.set(x, new Set());
+    srcOf.get(x).add(items[i].source);
+    df.set(x, (df.get(x) || 0) + 1);
+  }
+});
+const N = items.length;
+items.forEach((item, i) => {
+  let s = 0;
+  for (const x of toksOf[i]) {
+    const ns = srcOf.get(x).size;
+    if (ns >= 2) s += (ns - 1) * Math.log(N / df.get(x));
+  }
+  item.heat = Math.round(s * 10) / 10;
+});
+// 热度降序，热度相同按时间降序
+items.sort((a, b) => b.heat - a.heat || Date.parse(b.pubDate) - Date.parse(a.pubDate));
+
 await mkdir(dirname(OUT), { recursive: true });
 await writeFile(OUT, JSON.stringify({ updatedAt: new Date().toISOString(), items }, null, 2), 'utf8');
 console.log(`已写入 ${items.length} 条资讯 -> ${OUT}`);

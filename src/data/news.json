@@ -1,621 +1,14 @@
 {
-  "updatedAt": "2026-07-23T16:48:55.828Z",
+  "updatedAt": "2026-07-23T16:58:34.565Z",
   "items": [
-    {
-      "title": "圆桌访谈：AI 产业进入新阶段了吗？",
-      "link": "https://www.infoq.cn/video/7RkQ9IXvQpwoMCPj4YiQ?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T20:00:00.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "WAIC现场探展：从 Coding 到办公，AI 新物种出现了吗？",
-      "link": "https://www.infoq.cn/video/foIhBcWJok2LdIfZ2qjw?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T18:16:06.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "腾讯云发布首个“流程原生”研发智能体 CodeBuddy NPC",
-      "link": "https://www.infoq.cn/article/w6DHDb3QUYPLC1vaU8z1?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T18:01:13.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "Agent 越能干，安全越难做？",
-      "link": "https://www.infoq.cn/video/G0R3FyRBpfeSsa2QqJIr?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T17:08:05.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "AI用23秒，学走了老师傅的判断",
-      "link": "https://www.infoq.cn/article/TWXI9ulbiPjRYmPFTGST?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T17:03:57.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "开发并部署一个既能让业务部门理解、又能真正满足开发者需求的平台",
-      "link": "https://www.infoq.cn/article/dgIQlw6lQc0qEol7VQE4?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T17:00:00.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
-      "link": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T16:28:50.000Z",
-      "summary": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse."
-    },
-    {
-      "title": "医疗与生命科学领导者必须回答的 10 个 Agentic AI 关键问题 ｜ 技术实践",
-      "link": "https://www.infoq.cn/article/06XxocxibFHWsL53PPFc?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T16:20:00.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "为什么决定法律 AI 成效的，是数据平台，而不是模型 ｜ 技术实践",
-      "link": "https://www.infoq.cn/article/PZ5Xe45iTQlOXtZveBKU?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T15:36:29.000Z",
-      "summary": "点击查看原文>"
-    },
     {
       "title": "全球首个端侧驱动本体的世界模型来了！大晓机器人首创“信息密度定律”，重写物理AI训练逻辑",
       "link": "https://www.infoq.cn/article/u0hD10fj7HWAfb10Dbr3?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "lang": "zh",
       "pubDate": "2026-07-23T15:10:30.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "Nvidia is sending GPUs to the moon",
-      "link": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T15:00:00.000Z",
-      "summary": "If there's a place in the universe without GPUs, Nvidia is sending them there."
-    },
-    {
-      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
-      "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T15:00:00.000Z",
-      "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says."
-    },
-    {
-      "title": "Google’s Gemini nears billion-user milestone",
-      "link": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T14:52:44.000Z",
-      "summary": "Gemini had over 750 million monthly users in February."
-    },
-    {
-      "title": "Lawmakers prepare bill requiring AI ‘kill switch’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T14:13:35.000Z",
-      "summary": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a r"
-    },
-    {
-      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-      "link": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T14:00:00.000Z",
-      "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m"
-    },
-    {
-      "title": "Linkerd 2.20 发布：智能流量管理升级，资源占用大幅降低",
-      "link": "https://www.infoq.cn/article/TJL8TIiuD6Cev0Ig0AAS?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T13:25:00.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "COLMO发布一风口内机与图灵Pro全时三管制中央空调",
-      "link": "https://36kr.com/newsflashes/3907837666989192?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T13:00:00.000Z",
-      "summary": "7月23日，AI科技家电品牌COLMO举办图灵Pro新品发布会，推出行业首创一风口中央空调室内机、图灵Pro全时三管制中央空调。新品将出回检三口归一，实现单一线性槽道安装，释放层高与柜体空间；搭载3Hz超宽频压缩机与AI算法，实现全地域±0.2℃精准控温，搭配AI智慧屏，打造全屋智能空气中枢。"
-    },
-    {
-      "title": "热门中概股美股盘前涨跌不一，阿里巴巴跌超1%",
-      "link": "https://36kr.com/newsflashes/3908229388178564?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:56:31.000Z",
-      "summary": "36氪获悉，热门中概股美股盘前涨跌不一，截至发稿，理想汽车涨超1%，蔚来涨0.21%，百度涨0.16%，京东涨0.1%；阿里巴巴跌超1%，哔哩哔哩跌0.96%，网易跌0.42%，拼多多跌0.31%。"
-    },
-    {
-      "title": "美股大型科技股盘前普跌，特斯拉跌超7%",
-      "link": "https://36kr.com/newsflashes/3908227357922696?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:54:27.000Z",
-      "summary": "36氪获悉，美股大型科技股盘前普跌，截至发稿，特斯拉跌超7%，谷歌跌超5%，Meta、亚马逊跌超2%，英伟达跌超1%，苹果跌0.7%，微软跌0.65%。"
-    },
-    {
-      "title": "美国上周首次申领失业救济人数为18.7万人，低于市场预期",
-      "link": "https://36kr.com/newsflashes/3908215196439688?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:42:05.000Z",
-      "summary": "美国上周首次申领失业救济人数为18.7万人，预估为21.1万人，前值为20.8万人。（界面）"
-    },
-    {
-      "title": "黑石集团依托人工智能投资利润大幅飙升",
-      "link": "https://36kr.com/newsflashes/3908211008050567?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:37:49.000Z",
-      "summary": "受益于布局人工智能产业建设带来的收益，黑石第二季度可分配收益大涨26%，达到19.8亿美元。黑石本轮盈利增长核心驱动力来自人工智能相关投资。这家顶级资管巨头第二季度利润大幅走高，公司在全美大范围人工智能基建赛道的多板块投资兑现收益，利好覆盖私募股权、私募信贷、不动产等全部核心业务板块。（新浪财经）"
-    },
-    {
-      "title": "航锦科技：拟挂牌转让中电华星51%股权",
-      "link": "https://36kr.com/newsflashes/3908204461446274?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:31:09.000Z",
-      "summary": "36氪获悉，航锦科技公告，全资子公司威科电子拟通过武汉光谷联合产权交易所以公开挂牌方式转让持有的深圳市中电华星电子技术有限公司（以下简称“中电华星”）51%股权。交易完成后，威科电子将不再持有中电华星股权，中电华星不再纳入公司合并报表范围。首次挂牌价格不低于4844.14万元。"
-    },
-    {
-      "title": "欧洲央行维持三大关键利率不变",
-      "link": "https://36kr.com/newsflashes/3908195803010176?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:22:21.000Z",
-      "summary": "7月23日，欧洲央行管理委员会决定维持三大关键利率不变，存款便利利率、主要再融资操作利率和边际贷款便利利率分别维持在2.25%、2.40%和2.65%。（界面）"
-    },
-    {
-      "title": "“杀猪盘”逼出雷霆手段，美国SEC批准纳斯达克加速退市新规",
-      "link": "https://36kr.com/newsflashes/3908181359039625?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:20:40.000Z",
-      "summary": "美国SEC批准纳斯达克新规，若公司连续30个交易日上市证券市值低于500万美元，将立即暂停交易并启动退市程序，且听证申诉期间股票通常只能转入OTC市场交易。纳斯达克称，此举旨在降低微盘股被操纵和“拉高出货”骗局的风险。（新浪财经）"
-    },
-    {
-      "title": "澜起科技：拟以3亿元-6亿元回购A股股份",
-      "link": "https://36kr.com/newsflashes/3908179818173831?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:18:20.000Z",
-      "summary": "36氪获悉，澜起科技公告，公司拟以集中竞价交易方式回购A股股份，回购金额不低于3亿元（含），不超过6亿元（含），回购价格不超过332.90元/股（含），回购期限自董事会审议通过之日起3个月内，回购资金来源于公司自有资金，回购股份用于维护公司价值及股东权益。"
-    },
-    {
-      "title": "证监会：更大力度推动上市公司规范治理，持续释放并购重组活力",
-      "link": "https://36kr.com/newsflashes/3908188405044608?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:14:49.000Z",
-      "summary": "36氪获悉，中国证监会召开党的建设暨监管工作座谈会，会议强调，扶优限劣促进上市公司做优做强。进一步夯实财务造假综合惩防体系，更大力度推动上市公司规范治理，持续释放并购重组活力，推出更多典型案例。分层分类推动行业机构高质量发展。健全证券公司“1+N+X”监管制度体系，加快落实推动基金公司规范发展的一揽子措施，尽快出台期货公司监管办法，大力促进私募基金规范健康发展。防微杜渐守牢重点领域风险底线。坚决维"
-    },
-    {
-      "title": "证监会：落实落细投融资综合改革各项措施，更好发挥股票、基金、债券、期货市场功能",
-      "link": "https://36kr.com/newsflashes/3908187949159560?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:14:22.000Z",
-      "summary": "36氪获悉，中国证监会召开党的建设暨监管工作座谈会，会议强调，深化改革提升制度包容性适应性。落实落细投融资综合改革各项措施，更好发挥股票、基金、债券、期货市场功能。从严监管维护市场“三公”。坚持打大打恶打重点，提高监管执法质效，依法严查严处财务造假、内幕交易、操纵市场等违法违规行为，加强新型业务监管，推进人工智能在监管中的应用。"
-    },
-    {
-      "title": "证监会：加强应对全球市场波动和风险跨境传导的政策储备 筑牢防范外部风险冲击的防波堤防浪堤",
-      "link": "https://36kr.com/newsflashes/3908187660735881?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:14:04.000Z",
-      "summary": "36氪获悉，中国证监会召开党的建设暨监管工作座谈会。会议强调，综合施策全力维护市场平稳运行，提升资本市场韧性。更加精准有效实施逆周期调节，推动中长期资金稳步提升入市规模和比例，加强应对全球市场波动和风险跨境传导的政策储备，筑牢防范外部风险冲击的防波堤防浪堤。"
-    },
-    {
-      "title": "中国证监会召开党的建设暨监管工作座谈会",
-      "link": "https://36kr.com/newsflashes/3908186378884487?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:12:46.000Z",
-      "summary": "36氪获悉，7月23日，中国证监会召开党的建设暨监管工作座谈会。会议强调，当前百年变局加速演进，地缘政治冲突持续，全球金融市场联动共振风险上升。同时，新一轮科技革命和产业变革加速突破，宏观政策面、基本面、资金面等方面的积极因素不断积聚，资本市场改革效应持续��现，市场整体具备较好的配置价值。必须坚定信心、保持定力，坚持稳中求进工作总基调，扎扎实实办好自己的事，更加注重把握好局部与全局、政策稳定性与"
-    },
-    {
-      "title": "The Download: energy transmission and US threats against Chinese AI",
-      "link": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "pubDate": "2026-07-23T12:10:00.000Z",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The power line that could reshape New York’s grid is hitting s"
-    },
-    {
-      "title": "普冉股份：预计2026年上半年净利润同比增长1925.36%",
-      "link": "https://36kr.com/newsflashes/3908171048326532?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:04:10.000Z",
-      "summary": "36氪获悉，普冉股份公告，预计2026年半年度实现归属于母公司所有者的净利润约为8.25亿元，与上年同期（法定披露数据）相比，将增加7.84亿元左右，同比增加1925.36%左右。2026年上半年，受益于全球人工智能算力建设，存储芯片行业供给格局结构优化，通用存储芯片产品价格维持上涨态势，存储业务实现量价同步改善。同时公司持续落实“存储+”发展战略，MCU、Driver等模拟新产品逐步渗透工业控制"
-    },
-    {
-      "title": "洛克希德·马丁公司上调2026全年销售额预期",
-      "link": "https://36kr.com/newsflashes/3908160078452097?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T12:00:55.000Z",
-      "summary": "7月23日，洛克希德·马丁公司公布第二季度财务业绩报告，公司第二季度销售额200.6亿美元，净利润18.3亿美元，每股收益7.94美元。报告显示，洛克希德·马丁公司将2026全年销售额预期上调至797.5-817.5亿美元，此前预期为775-800亿美元；将2026全年每股收益预期上调至29.95-30.65美元，此前预期为29.35-30.25美元。（界面）"
-    },
-    {
-      "title": "How AI helps scientists design the next generation of medicines",
-      "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "pubDate": "2026-07-23T12:00:00.000Z",
-      "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most pos"
-    },
-    {
-      "title": "The right-wing boomers protesting data centers have a lot in common with the left",
-      "link": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T12:00:00.000Z",
-      "summary": "A person holds signs during a nationwide protest against AI data center expansion outside Peace Hall in New Port Richey, Florida. | AFP via Getty Images On a gray, humid Saturday morning in central Fl"
-    },
-    {
-      "title": "美国航空第二季度整后每股收益0.15美元，高于市场预期",
-      "link": "https://36kr.com/newsflashes/3908156160791684?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T11:53:02.000Z",
-      "summary": "美国航空第二季度营收167.35亿美元，高于市场预期的167.07亿美元；第二季度调整后每股收益0.15美元，高于市场预测的0.03美元。美国航空第三季度调整后每股收益预期为-0.7至-0.1美元，而市场的预测为0.28美元。美国航空第二季度营业利润率为2.7%。美国航空第二季度燃油费用增加超过22亿美元，同比增长83%。（财联社）"
-    },
-    {
-      "title": "欧洲央行决议前油价飙升，德国国债收益率触及15年新高",
-      "link": "https://36kr.com/newsflashes/3908155587220617?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T11:47:27.000Z",
-      "summary": "德国国债收益率升至2011年以来最高水平，能源价格飙升及通胀预期加剧使市场围绕欧洲央行的加息押注升温。10年期德债收益率一度涨3个基点，至3.21%。交易员目前预计欧洲央行年底前将进行将近两次、每次25个基点的加息。（新浪财经）"
-    },
-    {
-      "title": "谷歌：持有SpaceX股份价值为940亿美元，其中约800亿美元受短期禁售协议约束",
-      "link": "https://36kr.com/newsflashes/3908159043179908?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T11:44:57.000Z",
-      "summary": "谷歌表示，在SpaceX完成首次公开募股（IPO）后，其持有的SpaceX股份价值为940亿美元，其中约800亿美元部分受短期禁售协议约束。（财联社）"
-    },
-    {
-      "title": "Meta 开源 Brain2Qwerty v2：非侵入式脑机接口语句解码准确率达到 61%",
-      "link": "https://www.infoq.cn/article/39UvyRHmCOs2Emx9T8Hl?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T11:43:00.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "Mobileye宣布计划进行领导层过渡，沙舒亚拟卸任CEO一职",
-      "link": "https://36kr.com/newsflashes/3908154814846083?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T11:40:39.000Z",
-      "summary": "Mobileye 7月23日宣布，其创始人阿姆农·沙舒亚（Amnon Shashua）已向董事会表示，一旦继任者就任，他将辞去公司首席执行官一职。董事会将开展全面的首席执行官遴选流程以确定继任者。董事会已提议在新任首席执行官就职后，由沙舒亚出任公司董事长。（界面）"
-    },
-    {
-      "title": "红板科技：拟投资不超过50亿元建设高阶mSAP高端精密电路板产业化项目",
-      "link": "https://36kr.com/newsflashes/3908149049332869?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T11:34:47.000Z",
-      "summary": "36氪获悉，红板科技公告，全资子公司赣州红板拟投资建设高阶mSAP高端精密电路板产业化项目，预计总投资不超过50亿元，资金来源为自有资金及自筹资金。项目旨在优化产品结构，提升公司在高端PCB领域的综合竞争力与盈利水平。项目建设期48个月，预计2027年1月开工。项目建成达产后，将主要生产高阶HDI和mSAP高端精密电路板，供应国内外高端电子领域优质头部客户。"
-    },
-    {
-      "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
-      "link": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T11:00:00.000Z",
-      "summary": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch."
-    },
-    {
-      "title": "First 超短片，把镜头对准了 AI 够不着的地方",
-      "link": "https://www.ifanr.com/1672900?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T10:32:34.000Z",
-      "summary": "如果一切皆可生成，影像的「真实」与「必要」又该被如何重新定义？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
-    },
-    {
-      "title": "苹果全家桶「年年焕新」来了，到底划不划算？",
-      "link": "https://www.ifanr.com/1672909?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T10:30:21.000Z",
-      "summary": "苹果可能要改变大伙儿买苹果全家桶的方式了。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
-    },
-    {
-      "title": "氪星晚报 ｜DeepSeek今年已增资65%；马斯克：FSD是拉动特斯拉汽车需求的核心驱动力",
-      "link": "https://36kr.com/p/3908051015488640?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T10:09:52.000Z",
-      "summary": "大公司： DeepSeek今年已增资65% 36氪获悉，据媒体报道，近日，DeepSeek创始人梁文锋一场4小时的投资人闭门会议实录在科技与创投圈刷屏，他明确表示“DeepSeek只有一条主线，即通往通用人工智能（AGI）”，相关话题引发关注。天眼查App显示，DeepSeek关联公司杭州深度求索成立于2023年7月，法定代表人为裴湉，经营范围含工程和技术研究和试验发展、软件开发、人工智能应用软件"
-    },
-    {
-      "title": "网格智算：“不堆算力”的AI大脑如何填补林下场景空白 | 水下项目",
-      "link": "https://36kr.com/p/3908027308823684?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T10:01:57.000Z",
-      "summary": "从消费市场到工业赛道，一片“红海”的无人机市场早已挤满各路玩家，但仍有一块细分领域，即便行业头部厂商也鲜有布局——林下场景。 林下场景蕴藏的产业需求体量惊人：根据国家林草局数据，2025年我国森林蓄积量达209.88亿立方米，全国木材产量达1.4亿立方米；联合国粮农组织数据显示，全球圆木年采伐量约40亿立方米，这背后是伐区蓄积量核算、树木胸径测量等大量工作。 林下环境复杂，传统人工作业模式成本大、"
-    },
-    {
-      "title": "从入鸿蒙到 AI Native：系统与 AI 融合下的应用智能化跃迁｜AICon深圳",
-      "link": "https://www.infoq.cn/article/Ti4HDYkZAlbNmEFFYp24?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T10:00:00.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "从全球化组织到 AI-Native 团队：Snowflake 营销 AI 委员会的转型实践 ｜ 技术实践",
-      "link": "https://www.infoq.cn/article/HwODT4jsAeL4iOCUFHVV?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T10:00:00.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "苹果 Mac 将迎来全线换代，一种给人用，一种给 AI 用",
-      "link": "https://www.ifanr.com/1672867?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T09:52:40.000Z",
-      "summary": "你的换电脑动力是什么？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
-    },
-    {
-      "title": "揽胜首款 GT 即将问世，产品愈发激进的路虎，准备蚕食停滞的捷豹",
-      "link": "https://www.ifanr.com/1672886?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T09:49:40.000Z",
-      "summary": "路虎不再守 SUV 的边界，捷豹等不到独占的 GT。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
-    },
-    {
-      "title": "谷歌联合多家企业发布 Agentic Resource Discovery 规范，为 AI Agent 建立统一资源发现机制",
-      "link": "https://www.infoq.cn/article/9sEaQuLww0wAu016qH5R?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T09:48:46.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "新玩意 247｜少数派的编辑们最近买了啥？",
-      "link": "https://sspai.com/post/112668",
-      "source": "少数派",
-      "lang": "zh",
-      "pubDate": "2026-07-23T09:38:21.000Z",
-      "summary": "关于栏目很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。@Lotta：海备思文件夹读 ...查看全文"
-    },
-    {
-      "title": "30+ 家企业组团参展 WAIC，张江 AI 小镇藏不住了",
-      "link": "https://www.infoq.cn/article/cKrPV6EdBMEoOb2mBvju?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T09:00:00.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "The power line that could reshape New York’s grid is hitting snags",
-      "link": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "pubDate": "2026-07-23T09:00:00.000Z",
-      "summary": "On July 3, as a heat wave swept the region, New York State’s grid imported 52 gigawatt-hours of electricity from Canada—enough to meet about 9% of its total electricity demand that day. Some of that p"
-    },
-    {
-      "title": "专访郭列：做出脸萌、FaceU、剪映等爆款后，他第一次阐释如何在AI时代做产品",
-      "link": "https://36kr.com/p/3907953777120385?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T08:16:42.000Z",
-      "summary": "文｜周鑫雨 编辑｜张雨忻 什么样画像的AI创业者会饱受瞩目？不同投资人心里或许有不同的答案，但其中一个答案一定是：剪映系。 陈冕，Lovart、LibTV等热门创作工具的缔造者；明超平，AI Coding社区YouWare的创始人，2025年一级市场最火的95后；闹闹，其打造的AI视频创作工具OiiOii，被高瓴、锦秋投资...... 他们履历的共同点是：曾在剪映、CapCut团队——参与过这两款"
-    },
-    {
-      "title": "独家｜混元多模态理解负责人胡瀚离职创业，原团队或将聚焦世界模型",
-      "link": "https://36kr.com/p/3907934819521670?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T08:07:02.000Z",
-      "summary": "文 | 周鑫雨 编辑 | 张雨忻 《智能涌现》独家获悉，近期，腾讯混元多模态理解负责人胡瀚提出了离职。 此前，他曾担任微软亚洲研究院视觉计算组首席研究员。2025 年初加入腾讯后，负责视觉大模型的研究。在后续的调整中，他加入大语言模型部旗下的“Frontier”前沿技术研究组，负责多模态理解的相关研究，汇报给姚顺雨。 据了解，胡瀚还曾承担世界模型的研发工作。 与此同时，腾讯大语言模型部负责人姚顺雨"
-    },
-    {
-      "title": "小小云台，稳住「口袋电影机」：DJI Pocket 4P 漫谈",
-      "link": "https://sspai.com/post/112428",
-      "source": "少数派",
-      "lang": "zh",
-      "pubDate": "2026-07-23T07:00:00.000Z",
-      "summary": "Pocket 一体式云台相机满是让人不容小觑的护城河与想象空间。查看全文"
-    },
-    {
-      "title": "Kimi 叫停新订阅后，如何用上 K3｜实测避坑",
-      "link": "https://www.ifanr.com/1672800?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T06:43:19.000Z",
-      "summary": "同一个模型，进入不同的壳，就不再是同一个「设计师」，这中间是 harness 的差异 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
-    },
-    {
-      "title": "三步爆改旧鼠标，打造最好用的 AI 外挂｜AI 器物志",
-      "link": "https://www.ifanr.com/1672824?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T06:11:27.000Z",
-      "summary": "230 刀的 Codex 键盘很好，但不是每个人都需要。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
-    },
-    {
-      "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
-      "link": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T06:09:13.000Z",
-      "summary": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally."
-    },
-    {
-      "title": "不拼通用能力、聚焦端侧，腾讯副总裁林松涛：Marvis专注做好系统级操作",
-      "link": "https://36kr.com/p/3907676111983745?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T04:23:24.000Z",
-      "summary": "文｜王欣逸 编辑｜张雨忻 “技术突破决定AI能走多快，真正能否创造价值决定AI能走多远。”在今年的WAIC腾讯AI应用创新论坛上，腾讯公司副总裁林松涛分享了这样一个观点。 同样是“Claw热”之后上线的产品，腾讯的三大Agent产品WorkBuddy、QClaw和Marvis迎来了各自不同的命运。 首先是WorkBuddy，林松涛在此次论坛上公开表示，WorkBuddy的DAU已稳居国内效率智能体"
-    },
-    {
-      "title": "对话FutureTech张梦钊：从“一个人+一群Agent”到超级个体，AI正在重塑创业范式",
-      "link": "https://36kr.com/p/3907639172027522?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T02:57:46.000Z",
-      "summary": "7月17日，2026世界人工智能大会在上海开幕。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。FutureTech负责人张梦钊在WAIC现场接受36氪「氪话未来」特邀专访，围绕FutureTech平台定位、OPC独立先锋挑战赛、AI创业趋势以及初创企业商业化路径等话题，分享了FutureTech如何连接创业团队、产业资源与创新生态，探索AI时代"
-    },
-    {
-      "title": "让 Windows 顺眼又省心：我的新设备配置经验",
-      "link": "https://sspai.com/post/111300",
-      "source": "少数派",
-      "lang": "zh",
-      "pubDate": "2026-07-23T02:57:30.000Z",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文"
-    },
-    {
-      "title": "硬氪首发 | 大疆系AI自然探索公司获五源、顺为投资，首创水下光学系统",
-      "link": "https://36kr.com/p/3906474040153220?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T02:30:00.000Z",
-      "summary": "硬氪获悉，水下AI自然探索科技公司Deeplore近日完成数千万元种子轮融资，由五源资本、顺为资本联合投资。资金将核心用于研发团队扩建与水下AI技术深耕，加速首款AI潜水面镜落地迭代，搭建水下自然探索智能平台的技术底座。 一群在消费电子行业征战十余年的大疆老兵，把目光从天空转向了深海。 Deeplore 2025年诞生于深圳，核心团队大多出自大疆，覆盖产品定义、硬核研发、全球商业全链路，是典型的“"
-    },
-    {
-      "title": "对话蚂蚁数科：打造商业智能体超级工厂，生态共建中国行业版Harness标准",
-      "link": "https://36kr.com/p/3907590205085056?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T02:09:19.000Z",
-      "summary": "7月17日，2026世界人工智能大会（WAIC）在上海开幕。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。蚂蚁数科副总裁、中国区业务发展部总经理孙磊在WAIC现场接受36氪「氪话未来」特邀专访，围绕商业智能体超级工厂、行业垂直大模型、AI工程化能力以及企业智能体落地等话题，分享了蚂蚁数科面向企业智能化升级的最新实践与思考。 本届WAIC以“智能"
-    },
-    {
-      "title": "36氪首发 | 前华尔街投资人下场造“手”，以“自研视触觉+软硬闭环”破解行业数据难题",
-      "link": "https://36kr.com/p/3907536767833473?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T01:12:15.000Z",
-      "summary": "图源/企业 本文约2100字，建议阅读5分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，机器人灵巧操作方案提供商拾玥科技（LumiBot）近日完成数千万元天使轮融资。本轮由某上市公司旗下基金领投。资金将主要用于团队扩张、产品迭代与小批量产线建设，以及灵巧操作数据采集与模型研发。 拾玥科技成立于2025年初，专注于为工业制造、精密装配等高精度场景提供灵巧操作解决方案。目前，公司已推出Lumi-Dex系列高"
-    },
-    {
-      "title": "36氪首发 | 同济博士做几何、物理AI重构设计制造，累计获超3亿元融资",
-      "link": "https://36kr.com/p/3907532622648453?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T01:08:03.000Z",
-      "summary": "图源/企业 本文约1400字，建议阅读3分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，工业AI设计研发解决方案供应商「设序科技」于近日正式完成B轮超亿元融资，累计获超3亿元融资，投资方包括深产投、合鼎共及老股东涌铧投资等。融资将用于市场开拓（含出海）及核心模型技术研发。 设序科技成立于2020年，旗下产品“则形AI”是基于自研工业世界模型与自然语言大模型封装的面向硬件工程的设计研发智能体平台，提供云架"
-    },
-    {
-      "title": "派早报：三星发布多款折叠屏新品、索尼发布 FX5 电影摄影机等",
-      "link": "https://sspai.com/post/112647",
-      "source": "少数派",
-      "lang": "zh",
-      "pubDate": "2026-07-23T00:50:21.000Z",
-      "summary": "OpenAI 发布面向企业用户的 OpenAI Presence，耐克宣布重构大中华区市场生态等。查看全文"
-    },
-    {
-      "title": "早报｜12999起,首台安卓阔折叠发布/曝苹果MacBook将迎全线更新/小红书否认IPO相关传闻",
-      "link": "https://www.ifanr.com/1672820?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T00:15:27.000Z",
-      "summary": "· AMD 与 Anthropic 达成数百亿美元 AI 服务器合作 · 台积电拟于 2027 年上调芯片代工价格，最高涨幅 10% · Claude Cowork 可通过录屏学习并保存可复用 Skill #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
-    },
-    {
-      "title": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
-      "link": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T23:47:54.000Z",
-      "summary": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily."
-    },
-    {
-      "title": "Google justifies its massive AI spending with a booming cloud business",
-      "link": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T22:01:52.000Z",
-      "summary": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits."
-    },
-    {
-      "title": "加速 AI Readiness：借助 Snowflake CoWork 从数据走向实时答案 ｜ Summit 2026",
-      "link": "https://www.infoq.cn/video/l6UhmOLGpL7Q4bHlsRXy?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-22T21:49:23.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
-      "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T20:49:03.000Z",
-      "summary": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models."
-    },
-    {
-      "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
-      "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T19:11:46.000Z",
-      "summary": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Huggin"
-    },
-    {
-      "title": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
-      "link": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T18:50:44.000Z",
-      "summary": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world."
-    },
-    {
-      "title": "驱动 Agentic Enterprise：让企业上下文转化为可治理的 Agentic 行动 ｜ 技术趋势",
-      "link": "https://www.infoq.cn/article/shzCr5FsOcHUyBc8CEsj?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-22T18:44:59.000Z",
-      "summary": "点击查看原文>"
-    },
-    {
-      "title": "Yope raises $12.3M to build a private social network without algorithms or ads",
-      "link": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T18:13:58.000Z",
-      "summary": "Yope, a fast-growing social app focused on private groups of friends and family, has raised $12.3 million in seed funding. Instead of chasing creators and algorithmic feeds, the startup is betting tha"
-    },
-    {
-      "title": "Monday.com lays off hundreds to focus on AI",
-      "link": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T17:54:14.000Z",
-      "summary": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform."
+      "summary": "点击查看原文>",
+      "heat": 33.3
     },
     {
       "title": "OpenAI承认为了偷答案，GPT-5.6 Sol 一路“杀进”生产系统：AI自主攻击时代真的来了",
@@ -623,175 +16,71 @@
       "source": "InfoQ 中文",
       "lang": "zh",
       "pubDate": "2026-07-22T17:46:50.000Z",
-      "summary": "点击查看原文>"
+      "summary": "点击查看原文>",
+      "heat": 27
     },
     {
-      "title": "阿里千问发布 Qwen-Image-3.0，文本输入长度提升4.5倍",
-      "link": "https://www.infoq.cn/article/jXQ5oQeOcEjLkuq2Qc0y?utm_source=rss&utm_medium=article",
+      "title": "开发并部署一个既能让业务部门理解、又能真正满足开发者需求的平台",
+      "link": "https://www.infoq.cn/article/dgIQlw6lQc0qEol7VQE4?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "lang": "zh",
-      "pubDate": "2026-07-22T17:42:33.000Z",
-      "summary": "点击查看原文>"
+      "pubDate": "2026-07-23T17:00:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 22.3
     },
     {
-      "title": "不靠最强模型也能赢？谷歌正用一款“冷冻”芯片复制搜索时代的“全栈碾压”",
-      "link": "https://www.infoq.cn/article/QGd73qDEWeoy1HxshQMH?utm_source=rss&utm_medium=article",
+      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
+      "link": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T14:00:00.000Z",
+      "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m",
+      "heat": 20.3
+    },
+    {
+      "title": "独家｜混元多模态理解负责人胡瀚离职创业，原团队或将聚焦世界模型",
+      "link": "https://36kr.com/p/3907934819521670?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T08:07:02.000Z",
+      "summary": "文 | 周鑫雨 编辑 | 张雨忻 《智能涌现》独家获悉，近期，腾讯混元多模态理解负责人胡瀚提出了离职。 此前，他曾担任微软亚洲研究院视觉计算组首席研究员。2025 年初加入腾讯后，负责视觉大模型的研究。在后续的调整中，他加入大语言模型部旗下的“Frontier”前沿技术研究组，负责多模态理解的相关研究，汇报给姚顺雨。 据了解，胡瀚还曾承担世界模型的研发工作。 与此同时，腾讯大语言模型部负责人姚顺雨",
+      "heat": 18.9
+    },
+    {
+      "title": "谷歌联合多家企业发布 Agentic Resource Discovery 规范，为 AI Agent 建立统一资源发现机制",
+      "link": "https://www.infoq.cn/article/9sEaQuLww0wAu016qH5R?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "lang": "zh",
-      "pubDate": "2026-07-22T16:45:24.000Z",
-      "summary": "点击查看原文>"
+      "pubDate": "2026-07-23T09:48:46.000Z",
+      "summary": "点击查看原文>",
+      "heat": 18.5
     },
     {
-      "title": "Here&#8217;s what Samsung&#8217;s smart glasses actually look like",
-      "link": "https://www.theverge.com/tech/969382/samsung-google-smart-glasses-gentle-monster-warby-parker",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T16:35:34.000Z",
-      "summary": "With a camera on every pair, Google’s and Samsung’s AI glasses face the same privacy problems as Meta’s. | Photo: Dominic Preston / The Verge Samsung has given us our first chance to check out its upc"
-    },
-    {
-      "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
-      "link": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T16:24:08.000Z",
-      "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch."
-    },
-    {
-      "title": "Substack’s new tool tells you who’s been writing their newsletters with AI",
-      "link": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T16:23:09.000Z",
-      "summary": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content."
-    },
-    {
-      "title": "OpenAI’s AI spending spree has ballooned to $750B",
-      "link": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T16:13:30.000Z",
-      "summary": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030."
-    },
-    {
-      "title": "AMD commits up to $5 billion to  Anthropic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T14:44:27.000Z",
-      "summary": "AMD says it's going to invest up to $5 billion in Anthropic, while helping to expand the AI company's computing power, according to an announcement on Wednesday. As part of the new partnership, Anthro"
-    },
-    {
-      "title": "Menlo Ventures’ Matt Murphy explains what AI startups founders must do differently",
-      "link": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T14:00:00.000Z",
-      "summary": "Anthropic leaped to a $47 billion revenue run rate by May, compared to $9 billion in 2025. It’s the kind of growth that Menlo Ventures’ Matt Murphy says he’s never seen in 25 years of investing, not i"
-    },
-    {
-      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
-      "link": "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T13:20:35.000Z",
-      "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari."
-    },
-    {
-      "title": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
-      "link": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T13:00:00.000Z",
-      "summary": "Passionfroot, a German startup building a marketplace connecting B2B creators with brands, has raised $15M in a Series A round led by Insight Partners."
-    },
-    {
-      "title": "The Download: NASA’s new space telescope and OpenAI’s autonomous hacker",
-      "link": "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "pubDate": "2026-07-22T12:10:00.000Z",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telescope could unv"
-    },
-    {
-      "title": "Meta made its own AI detection system. It should have just used Google’s",
-      "link": "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T11:00:00.000Z",
-      "summary": "Content Seal sounds a lot like a less accessible and reliable version of SynthID. | Image: Meta / The Verge IIn March, Meta's Oversight Board called on the company to \"meet its public commitments and "
-    },
-    {
-      "title": "Utility companies promise to spare us from AI’s energy bill",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T10:12:13.000Z",
-      "summary": "The pledge was introduced in March, and has done little to quell concerns so far. | Image: Cath Virginia / The Verge, Getty Images In the face of backlash to concerns the AI boom will increase consume"
-    },
-    {
-      "title": "29.98 万元起、800mm 涉水，泰钽 700 还想让 NOA 帮你越野",
-      "link": "https://www.ifanr.com/1672789?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
+      "title": "腾讯云发布首个“流程原生”研发智能体 CodeBuddy NPC",
+      "link": "https://www.infoq.cn/article/w6DHDb3QUYPLC1vaU8z1?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "lang": "zh",
-      "pubDate": "2026-07-22T10:08:37.000Z",
-      "summary": "NOA 向着山野进发。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
+      "pubDate": "2026-07-23T18:01:13.000Z",
+      "summary": "点击查看原文>",
+      "heat": 18.4
     },
     {
-      "title": "后驱纯电+五连杆+两个座位，smart #2 背负 fortwo 续作名号重返市场",
-      "link": "https://www.ifanr.com/1672776?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-22T10:02:30.000Z",
-      "summary": "最经典的 smart 回归。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
-    },
-    {
-      "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
-      "link": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T10:00:00.000Z",
-      "summary": "Glow is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises."
-    },
-    {
-      "title": "Parti：一个零门槛联机游戏平台，凭什么不需要服务器？",
-      "link": "https://sspai.com/post/112545",
+      "title": "派早报：三星发布多款折叠屏新品、索尼发布 FX5 电影摄影机等",
+      "link": "https://sspai.com/post/112647",
       "source": "少数派",
       "lang": "zh",
-      "pubDate": "2026-07-22T09:43:06.000Z",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文"
+      "pubDate": "2026-07-23T00:50:21.000Z",
+      "summary": "OpenAI 发布面向企业用户的 OpenAI Presence，耐克宣布重构大中华区市场生态等。查看全文",
+      "heat": 15.4
     },
     {
-      "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
-      "link": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "pubDate": "2026-07-22T09:00:00.000Z",
-      "summary": "When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will attempt one of astronomy’s most precise disappearing acts to date. The telescope will carry the first"
-    },
-    {
-      "title": "AI 圈今天最大的瓜：GPT-6 越狱攻击，被 GLM 5.2 揪出了",
-      "link": "https://www.ifanr.com/1672746?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "title": "早报｜12999起,首台安卓阔折叠发布/曝苹果MacBook将迎全线更新/小红书否认IPO相关传闻",
+      "link": "https://www.ifanr.com/1672820?utm_source=rss&utm_medium=rss&utm_campaign=",
       "source": "爱范儿",
       "lang": "zh",
-      "pubDate": "2026-07-22T07:06:04.000Z",
-      "summary": "「GPT-6」为了考试作弊，黑进了别人的服务器 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
-    },
-    {
-      "title": "滤镜背后的色彩科学：LUT 是什么？",
-      "link": "https://sspai.com/post/111550",
-      "source": "少数派",
-      "lang": "zh",
-      "pubDate": "2026-07-22T07:00:00.000Z",
-      "summary": "从风格滤镜，到电影中的专业调色，聊聊 LUT 所代表的色彩规则。查看全文"
-    },
-    {
-      "title": "角落新声｜我的上帝模式，一名设计师创作环境的演变",
-      "link": "https://sspai.com/post/112109",
-      "source": "少数派",
-      "lang": "zh",
-      "pubDate": "2026-07-22T02:04:29.000Z",
-      "summary": "声音只是其中一个切片。客观来看，它记录的是我的创作环境如何不断迭代；但从个人经历来看，它真正映照的是我对创作这件事的理解如何变化。查看全文"
+      "pubDate": "2026-07-23T00:15:27.000Z",
+      "summary": "· AMD 与 Anthropic 达成数百亿美元 AI 服务器合作 · 台积电拟于 2027 年上调芯片代工价格，最高涨幅 10% · Claude Cowork 可通过录屏学习并保存可复用 Skill #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 15.4
     },
     {
       "title": "刚刚，Gemini 3.6 Flash 正式发布，但网友笑得更大声了",
@@ -799,7 +88,818 @@
       "source": "爱范儿",
       "lang": "zh",
       "pubDate": "2026-07-22T01:43:00.000Z",
-      "summary": "说好的 3.5 Pro 呢？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
+      "summary": "说好的 3.5 Pro 呢？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 15.4
+    },
+    {
+      "title": "Linkerd 2.20 发布：智能流量管理升级，资源占用大幅降低",
+      "link": "https://www.infoq.cn/article/TJL8TIiuD6Cev0Ig0AAS?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T13:25:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 14.5
+    },
+    {
+      "title": "Meta made its own AI detection system. It should have just used Google’s",
+      "link": "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T11:00:00.000Z",
+      "summary": "Content Seal sounds a lot like a less accessible and reliable version of SynthID. | Image: Meta / The Verge IIn March, Meta's Oversight Board called on the company to \"meet its public commitments and ",
+      "heat": 14.4
+    },
+    {
+      "title": "不靠最强模型也能赢？谷歌正用一款“冷冻”芯片复制搜索时代的“全栈碾压”",
+      "link": "https://www.infoq.cn/article/QGd73qDEWeoy1HxshQMH?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-22T16:45:24.000Z",
+      "summary": "点击查看原文>",
+      "heat": 14.1
+    },
+    {
+      "title": "Parti：一个零门槛联机游戏平台，凭什么不需要服务器？",
+      "link": "https://sspai.com/post/112545",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-07-22T09:43:06.000Z",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "heat": 14
+    },
+    {
+      "title": "为什么决定法律 AI 成效的，是数据平台，而不是模型 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/PZ5Xe45iTQlOXtZveBKU?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T15:36:29.000Z",
+      "summary": "点击查看原文>",
+      "heat": 13.7
+    },
+    {
+      "title": "医疗与生命科学领导者必须回答的 10 个 Agentic AI 关键问题 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/06XxocxibFHWsL53PPFc?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T16:20:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 11.7
+    },
+    {
+      "title": "证监会：更大力度推动上市公司规范治理，持续释放并购重组活力",
+      "link": "https://36kr.com/newsflashes/3908188405044608?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:14:49.000Z",
+      "summary": "36氪获悉，中国证监会召开党的建设暨监管工作座谈会，会议强调，扶优限劣促进上市公司做优做强。进一步夯实财务造假综合惩防体系，更大力度推动上市公司规范治理，持续释放并购重组活力，推出更多典型案例。分层分类推动行业机构高质量发展。健全证券公司“1+N+X”监管制度体系，加快落实推动基金公司规范发展的一揽子措施，尽快出台期货公司监管办法，大力促进私募基金规范健康发展。防微杜渐守牢重点领域风险底线。坚决维",
+      "heat": 11.7
+    },
+    {
+      "title": "Here&#8217;s what Samsung&#8217;s smart glasses actually look like",
+      "link": "https://www.theverge.com/tech/969382/samsung-google-smart-glasses-gentle-monster-warby-parker",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T16:35:34.000Z",
+      "summary": "With a camera on every pair, Google’s and Samsung’s AI glasses face the same privacy problems as Meta’s. | Photo: Dominic Preston / The Verge Samsung has given us our first chance to check out its upc",
+      "heat": 11.7
+    },
+    {
+      "title": "阿里千问发布 Qwen-Image-3.0，文本输入长度提升4.5倍",
+      "link": "https://www.infoq.cn/article/jXQ5oQeOcEjLkuq2Qc0y?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-22T17:42:33.000Z",
+      "summary": "点击查看原文>",
+      "heat": 11.5
+    },
+    {
+      "title": "Google’s Gemini nears billion-user milestone",
+      "link": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T14:52:44.000Z",
+      "summary": "Gemini had over 750 million monthly users in February.",
+      "heat": 11.3
+    },
+    {
+      "title": "氪星晚报 ｜DeepSeek今年已增资65%；马斯克：FSD是拉动特斯拉汽车需求的核心驱动力",
+      "link": "https://36kr.com/p/3908051015488640?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T10:09:52.000Z",
+      "summary": "大公司： DeepSeek今年已增资65% 36氪获悉，据媒体报道，近日，DeepSeek创始人梁文锋一场4小时的投资人闭门会议实录在科技与创投圈刷屏，他明确表示“DeepSeek只有一条主线，即通往通用人工智能（AGI）”，相关话题引发关注。天眼查App显示，DeepSeek关联公司杭州深度求索成立于2023年7月，法定代表人为裴湉，经营范围含工程和技术研究和试验发展、软件开发、人工智能应用软件",
+      "heat": 11.3
+    },
+    {
+      "title": "不拼通用能力、聚焦端侧，腾讯副总裁林松涛：Marvis专注做好系统级操作",
+      "link": "https://36kr.com/p/3907676111983745?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T04:23:24.000Z",
+      "summary": "文｜王欣逸 编辑｜张雨忻 “技术突破决定AI能走多快，真正能否创造价值决定AI能走多远。”在今年的WAIC腾讯AI应用创新论坛上，���讯公司副总裁林松涛分享了这样一个观点。 同样是“Claw热”之后上线的产品，腾讯的三大Agent产品WorkBuddy、QClaw和Marvis迎来了各自不同的命运。 首先是WorkBuddy，林松涛在此次论坛上公开表示，WorkBuddy的DAU已稳居国内效率智",
+      "heat": 11
+    },
+    {
+      "title": "专访郭列：做出脸萌、FaceU、剪映等爆款后，他第一次阐释如何在AI时代做产品",
+      "link": "https://36kr.com/p/3907953777120385?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T08:16:42.000Z",
+      "summary": "文｜周鑫雨 编辑｜张雨忻 什么样画像的AI创业者会饱受瞩目？不同投资人心里或许有不同的答案，但其中一个答案一定是：剪映系。 陈冕，Lovart、LibTV等热门创作工具的缔造者；明超平，AI Coding社区YouWare的创始人，2025年一级市场最火的95后；闹闹，其打造的AI视频创作工具OiiOii，被高瓴、锦秋投资...... 他们履历的共同点是：曾在剪映、CapCut团队——参与过这两款",
+      "heat": 10.9
+    },
+    {
+      "title": "加速 AI Readiness：借助 Snowflake CoWork 从数据走向实时答案 ｜ Summit 2026",
+      "link": "https://www.infoq.cn/video/l6UhmOLGpL7Q4bHlsRXy?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-22T21:49:23.000Z",
+      "summary": "点击查看原文>",
+      "heat": 10.9
+    },
+    {
+      "title": "对话蚂蚁数科：打造商业智能体超级工厂，生态共建中国行业版Harness标准",
+      "link": "https://36kr.com/p/3907590205085056?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T02:09:19.000Z",
+      "summary": "7月17日，2026世界人工智能大会（WAIC）在上海开幕。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。蚂蚁数科副总裁、中国区业务发展部总经理孙磊在WAIC现场接受36氪「氪话未来」特邀专访，围绕商业智能体超级工厂、行业垂直大模型、AI工程化能力以及企业智能体落地等话题，分享了蚂蚁数科面向企业智能化升级的最新实践与思考。 本届WAIC以“智能",
+      "heat": 10.8
+    },
+    {
+      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+      "link": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T16:28:50.000Z",
+      "summary": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
+      "heat": 10.5
+    },
+    {
+      "title": "对话FutureTech张梦钊：从“一个人+一群Agent”到超级个体，AI正在重塑创业范式",
+      "link": "https://36kr.com/p/3907639172027522?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T02:57:46.000Z",
+      "summary": "7月17日，2026世界人工智能大会在上海开幕。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。FutureTech负责人张梦钊在WAIC现场接受36氪「氪话未来」特邀专访，围绕FutureTech平台定位、OPC独立先锋挑战赛、AI创业趋势以及初创企业商业化路径等话题，分享了FutureTech如何连接创业团队、产业资源与创新生态，探索AI时代",
+      "heat": 10.5
+    },
+    {
+      "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+      "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T19:11:46.000Z",
+      "summary": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Huggin",
+      "heat": 9
+    },
+    {
+      "title": "OpenAI’s AI spending spree has ballooned to $750B",
+      "link": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T16:13:30.000Z",
+      "summary": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030.",
+      "heat": 9
+    },
+    {
+      "title": "The Download: NASA’s new space telescope and OpenAI’s autonomous hacker",
+      "link": "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-07-22T12:10:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telescope could unv",
+      "heat": 9
+    },
+    {
+      "title": "The Download: energy transmission and US threats against Chinese AI",
+      "link": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-07-23T12:10:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The power line that could reshape New York’s grid is hitting s",
+      "heat": 7.8
+    },
+    {
+      "title": "36氪首发 | 同济博士做几何、物理AI重构设计制造，累计获超3亿元融资",
+      "link": "https://36kr.com/p/3907532622648453?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T01:08:03.000Z",
+      "summary": "图源/企业 本文约1400字，建议阅读3分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，工业AI设计研发解决方案供应商「设序科技」于近日正式完成B轮超亿元融资，累计获超3亿元融资，投资方包括深产投、合鼎共及老股东涌铧投资等。融资将用于市场开拓（含出海）及核心模型技术研发。 设序科技成立于2020年，旗下产品“则形AI”是基于自研工业世界模型与自然语言大模型封装的面向硬件工程的设计研发智能体平台，提供云架",
+      "heat": 7.8
+    },
+    {
+      "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
+      "link": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-07-22T09:00:00.000Z",
+      "summary": "When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will attempt one of astronomy’s most precise disappearing acts to date. The telescope will carry the first",
+      "heat": 7.8
+    },
+    {
+      "title": "AI 圈今天最大的瓜：GPT-6 越狱攻击，被 GLM 5.2 揪出了",
+      "link": "https://www.ifanr.com/1672746?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-22T07:06:04.000Z",
+      "summary": "「GPT-6」为了考试作弊，黑进了别人的服务器 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 7.8
+    },
+    {
+      "title": "COLMO发布一风口内机与图灵Pro全时三管制中央空调",
+      "link": "https://36kr.com/newsflashes/3907837666989192?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T13:00:00.000Z",
+      "summary": "7月23日，AI科技家电品牌COLMO举办图灵Pro新品发布会，推出行业首创一风口中央空调室内机、图灵Pro全时三管制中央空调。新品将出回检三口归一，实现单一线性槽道安装，释放层高与柜体空间；搭载3Hz超宽频压缩机与AI算法，实现全地域±0.2℃精准控温，搭配AI智慧屏，打造全屋智能空气中枢。",
+      "heat": 7.6
+    },
+    {
+      "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+      "link": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T11:00:00.000Z",
+      "summary": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
+      "heat": 7.4
+    },
+    {
+      "title": "从全球化组织到 AI-Native 团队：Snowflake 营销 AI 委员会的转型实践 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/HwODT4jsAeL4iOCUFHVV?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T10:00:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 7.4
+    },
+    {
+      "title": "Kimi 叫停新订阅后，如何用上 K3｜实测避坑",
+      "link": "https://www.ifanr.com/1672800?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T06:43:19.000Z",
+      "summary": "同一个模型，进入不同的壳，就不再是同一个「设计师」，这中间是 harness 的差异 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 7.4
+    },
+    {
+      "title": "驱动 Agentic Enterprise：让企业上下文转化为可治理的 Agentic 行动 ｜ 技术趋势",
+      "link": "https://www.infoq.cn/article/shzCr5FsOcHUyBc8CEsj?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-22T18:44:59.000Z",
+      "summary": "点击查看原文>",
+      "heat": 7.4
+    },
+    {
+      "title": "AMD commits up to $5 billion to  Anthropic",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T14:44:27.000Z",
+      "summary": "AMD says it's going to invest up to $5 billion in Anthropic, while helping to expand the AI company's computing power, according to an announcement on Wednesday. As part of the new partnership, Anthro",
+      "heat": 7.4
+    },
+    {
+      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "link": "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T13:20:35.000Z",
+      "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "heat": 7.4
+    },
+    {
+      "title": "滤镜背后的色彩科学：LUT 是什么？",
+      "link": "https://sspai.com/post/111550",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-07-22T07:00:00.000Z",
+      "summary": "从风格滤镜，到电影中的专业调色，聊聊 LUT 所代表的色彩规则。查看全文",
+      "heat": 7.4
+    },
+    {
+      "title": "硬氪首发 | 大疆系AI自然探索公司获五源、顺为投资，首创水下光学系统",
+      "link": "https://36kr.com/p/3906474040153220?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T02:30:00.000Z",
+      "summary": "硬氪获悉，水下AI自然探索科技公司Deeplore近日完成数千万元种子轮融资，由五源资本、顺为资本联合投资。资金将核心用于研发团队扩建与水下AI技术深耕，加速首款AI潜水面镜落地迭代，搭建水下自然探索智能平台的技术底座。 一群在消费电子行业征战十余年的大疆老兵，把目光从天空转向了深海。 Deeplore 2025年诞生于深圳，核心团队大多出自大疆，覆盖产品定义、硬核研发、全球商业全链路，是典型的“",
+      "heat": 7.1
+    },
+    {
+      "title": "Meta 开源 Brain2Qwerty v2：非侵入式脑机接口语句解码准确率达到 61%",
+      "link": "https://www.infoq.cn/article/39UvyRHmCOs2Emx9T8Hl?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T11:43:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 7
+    },
+    {
+      "title": "黑石集团依托人工智能投资利润大幅飙升",
+      "link": "https://36kr.com/newsflashes/3908211008050567?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:37:49.000Z",
+      "summary": "受益于布局人工智能产业建设带来的收益，黑石第二季度可分配收益大涨26%，达到19.8亿美元。黑石本轮盈利增长核心驱动力来自人工智能相关投资。这家顶级资管巨头第二季度利润大幅走高，公司在全美大范围人工智能基建赛道的多板块投资兑现收益，利好覆盖私募股权、私募信贷、不动产等全部核心业务板块。（新浪财经）",
+      "heat": 6.9
+    },
+    {
+      "title": "后驱纯电+五连杆+两个座位，smart #2 背负 fortwo 续作名号重返市场",
+      "link": "https://www.ifanr.com/1672776?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-22T10:02:30.000Z",
+      "summary": "最经典的 smart 回归。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 6.9
+    },
+    {
+      "title": "证监会：加强应对全球市场波动和风险跨境传导的政策储备 筑牢防范外部风险冲击的防波堤防浪堤",
+      "link": "https://36kr.com/newsflashes/3908187660735881?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:14:04.000Z",
+      "summary": "36氪获悉，中国证监会召开党的建设暨监管工作座谈会。会议强调，综合施策全力维护市场平稳运行，提升资本市场韧性。更加精准有效实施逆周期调节，推动中长期资金稳步提升入市规模和比例，加强应对全球市场波动和风险跨境传导的政策储备，筑牢防范外部风险冲击的防波堤防浪堤。",
+      "heat": 6.5
+    },
+    {
+      "title": "从入鸿蒙到 AI Native：系统与 AI 融合下的应用智能化跃迁｜AICon深圳",
+      "link": "https://www.infoq.cn/article/Ti4HDYkZAlbNmEFFYp24?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T10:00:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 6.2
+    },
+    {
+      "title": "圆桌访谈：AI 产业进入新阶段了吗？",
+      "link": "https://www.infoq.cn/video/7RkQ9IXvQpwoMCPj4YiQ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T20:00:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 3.9
+    },
+    {
+      "title": "热门中概股美股盘前涨跌不一，阿里巴巴跌超1%",
+      "link": "https://36kr.com/newsflashes/3908229388178564?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:56:31.000Z",
+      "summary": "36氪获悉，热门中概股美股盘前涨跌不一，截至发稿，理想汽车涨超1%，蔚来涨0.21%，百度涨0.16%，京东涨0.1%；阿里巴巴跌超1%，哔哩哔哩跌0.96%，网易跌0.42%，拼多多跌0.31%。",
+      "heat": 3.9
+    },
+    {
+      "title": "欧洲央行维持三大关键利率不变",
+      "link": "https://36kr.com/newsflashes/3908195803010176?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:22:21.000Z",
+      "summary": "7月23日，欧洲央行管理委员会决定维持三大关键利率不变，存款便利利率、主要再融资操作利率和边际贷款便利利率分别维持在2.25%、2.40%和2.65%。（界面）",
+      "heat": 3.9
+    },
+    {
+      "title": "“杀猪盘”逼出雷霆手段，美国SEC批准纳斯达克加速退市新规",
+      "link": "https://36kr.com/newsflashes/3908181359039625?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:20:40.000Z",
+      "summary": "美国SEC批准纳斯达克新规，若公司连续30个交易日上市证券市值低于500万美元，将立即暂停交易并启动退市程序，且听证申诉期间股票通常只能转入OTC市场交易。纳斯达克称，此举旨在降低微盘股被操纵和“拉高出货”骗局的风险。（新浪财经）",
+      "heat": 3.9
+    },
+    {
+      "title": "Mobileye宣布计划进行领导层过渡，沙舒亚拟卸任CEO一职",
+      "link": "https://36kr.com/newsflashes/3908154814846083?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T11:40:39.000Z",
+      "summary": "Mobileye 7月23日宣布，其创始人阿姆农·沙舒亚（Amnon Shashua）已向董事会表示，一旦继任者就任，他将辞去公司首席执行官一职。董事会将开展全面的首席执行官遴选流程以确定继任者。董事会已提议在新任首席执行官就职后，由沙舒亚出任公司董事长。（界面）",
+      "heat": 3.9
+    },
+    {
+      "title": "红板科技：拟投资不超过50亿元建设高阶mSAP高端精密电路板产业化项目",
+      "link": "https://36kr.com/newsflashes/3908149049332869?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T11:34:47.000Z",
+      "summary": "36氪获悉，红板科技公告，全资子公司赣州红板拟投资建设高阶mSAP高端精密电路板产业化项目，预计总投资不超过50亿元，资金来源为自有资金及自筹资金。项目旨在优化产品结构，提升公司在高端PCB领域的综合竞争力与盈利水平。项目建设期48个月，预计2027年1月开工。项目建成达产后，将主要生产高阶HDI和mSAP高端精密电路板，供应国内外高端电子领域优质头部客户。",
+      "heat": 3.9
+    },
+    {
+      "title": "苹果 Mac 将迎来全线换代，一种给人用，一种给 AI 用",
+      "link": "https://www.ifanr.com/1672867?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T09:52:40.000Z",
+      "summary": "你的换电脑动力是什么？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 3.9
+    },
+    {
+      "title": "揽胜首款 GT 即将问世，产品愈发激进的路虎，准备蚕食停滞的捷豹",
+      "link": "https://www.ifanr.com/1672886?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T09:49:40.000Z",
+      "summary": "路虎不再守 SUV 的边界，捷豹等不到独占的 GT。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 3.9
+    },
+    {
+      "title": "三步爆改旧鼠标，打造最好用的 AI 外挂｜AI 器物志",
+      "link": "https://www.ifanr.com/1672824?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T06:11:27.000Z",
+      "summary": "230 刀的 Codex 键盘很好，但不是每个人都需要。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 3.9
+    },
+    {
+      "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
+      "link": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T16:24:08.000Z",
+      "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
+      "heat": 3.9
+    },
+    {
+      "title": "Substack’s new tool tells you who’s been writing their newsletters with AI",
+      "link": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T16:23:09.000Z",
+      "summary": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
+      "heat": 3.9
+    },
+    {
+      "title": "Utility companies promise to spare us from AI’s energy bill",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T10:12:13.000Z",
+      "summary": "The pledge was introduced in March, and has done little to quell concerns so far. | Image: Cath Virginia / The Verge, Getty Images In the face of backlash to concerns the AI boom will increase consume",
+      "heat": 3.9
+    },
+    {
+      "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
+      "link": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T10:00:00.000Z",
+      "summary": "Glow is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises.",
+      "heat": 3.9
+    },
+    {
+      "title": "角落新声｜我的上帝模式，一名设计师创作环境的演变",
+      "link": "https://sspai.com/post/112109",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-07-22T02:04:29.000Z",
+      "summary": "声音只是其中一个切片。客观来看，它记录的是我的创作环境如何不断迭代；但从个人经历来看，它真正映照的是我对创作这件事的理解如何变化。查看全文",
+      "heat": 3.9
+    },
+    {
+      "title": "Agent 越能干，安全越难做？",
+      "link": "https://www.infoq.cn/video/G0R3FyRBpfeSsa2QqJIr?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T17:08:05.000Z",
+      "summary": "点击查看原文>",
+      "heat": 3.5
+    },
+    {
+      "title": "普冉股份：预计2026年上半年净利润同比增长1925.36%",
+      "link": "https://36kr.com/newsflashes/3908171048326532?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:04:10.000Z",
+      "summary": "36氪获悉，普冉股份公告，预计2026年半年度实现归属于母公司所有者的净利润约为8.25亿元，与上年同期（法定披露数据）相比，将增加7.84亿元左右，同比增加1925.36%左右。2026年上半年，受益于全球人工智能算力建设，存储芯片行业供给格局结构优化，通用存储芯片产品价格维持上涨态势，存储业务实现量价同步改善。同时公司持续落实“存储+”发展战略，MCU、Driver等模拟新产品逐步渗透工业控制",
+      "heat": 3.5
+    },
+    {
+      "title": "洛克希德·马丁公司上调2026全年销售额预期",
+      "link": "https://36kr.com/newsflashes/3908160078452097?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:00:55.000Z",
+      "summary": "7月23日，洛克希德·马丁公司公布第二季度财务业绩报告，公司第二季度销售额200.6亿美元，净利润18.3亿美元，每股收益7.94美元。报告显示，洛克希德·马丁公司将2026全年销售额预期上调至797.5-817.5亿美元，此前预期为775-800亿美元；将2026全年每股收益预期上调至29.95-30.65美元，此前预期为29.35-30.25美元。（界面）",
+      "heat": 3.5
+    },
+    {
+      "title": "谷歌：持有SpaceX股份价值为940亿美元，其中约800亿美元受短期禁售协议约束",
+      "link": "https://36kr.com/newsflashes/3908159043179908?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T11:44:57.000Z",
+      "summary": "谷歌表示，在SpaceX完成首次公开募股（IPO）后，其持有的SpaceX股份价值为940亿美元，其中约800亿美元部分受短期禁售协议约束。（财联社）",
+      "heat": 3.5
+    },
+    {
+      "title": "苹果全家桶「年年焕新」来了，到底划不划算？",
+      "link": "https://www.ifanr.com/1672909?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T10:30:21.000Z",
+      "summary": "苹果可能要改变大伙儿买苹果全家桶的方式了。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 3.5
+    },
+    {
+      "title": "网格智算：“不堆算力”的AI大脑如何填补林下场景空白 | 水下项目",
+      "link": "https://36kr.com/p/3908027308823684?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T10:01:57.000Z",
+      "summary": "从消费市场到工业赛道，一片“红海”的无人机市场早已挤满各路玩家，但仍有一块细分领域，即便行业头部厂商也鲜有布局——林下场景。 林下场景蕴藏的产业需求体量惊人：根据国家林草局数据，2025年我国森林蓄积量达209.88亿立方米，全国木材产量达1.4亿立方米；联合国粮农组织数据显示，全球圆木年采伐量约40亿立方米，这背后是伐区蓄积量核算、树木胸径测量等大量工作。 林下环境复杂，传统人工作业模式成本大、",
+      "heat": 3.5
+    },
+    {
+      "title": "36氪首发 | 前华尔街投资人下场造“手”，以“自研视触觉+软硬闭环”破解行业数据难题",
+      "link": "https://36kr.com/p/3907536767833473?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T01:12:15.000Z",
+      "summary": "图源/企业 本文约2100字，建议阅读5分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，机器人灵巧操作方案提供商拾玥科技（LumiBot）近日完成数千万元天使轮融资。本轮由某上市公司旗下基金领投。资金将主要用于团队扩张、产品迭代与小批量产线建设，以及灵巧操作数据采集与模型研发。 拾玥科技成立于2025年初，专注于为工业制造、精密装配等高精度场景提供灵巧操作解决方案。目前，公司已推出Lumi-Dex系列高",
+      "heat": 3.5
+    },
+    {
+      "title": "Google justifies its massive AI spending with a booming cloud business",
+      "link": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T22:01:52.000Z",
+      "summary": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits.",
+      "heat": 3.5
+    },
+    {
+      "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
+      "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T20:49:03.000Z",
+      "summary": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models.",
+      "heat": 3.5
+    },
+    {
+      "title": "美国上周首次申领失业救济人数为18.7万人，低于市场预期",
+      "link": "https://36kr.com/newsflashes/3908215196439688?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:42:05.000Z",
+      "summary": "美国上周首次申领失业救济人数为18.7万人，预估为21.1万人，前值为20.8万人。（界面）",
+      "heat": 3
+    },
+    {
+      "title": "证监会：落实落细投融资综合改革各项措施，更好发挥股票、基金、债券、期货市场功能",
+      "link": "https://36kr.com/newsflashes/3908187949159560?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:14:22.000Z",
+      "summary": "36氪获悉，中国证监会召开党的建设暨监管工作座谈会，会议强调，深化改革提升制度包容性适应性。落实落细投融资综合改革各项措施，更好发挥股票、基金、债券、期货市场功能。从严监管维护市场“三公”。坚持打大打恶打重点，提高监管执法质效，依法严查严处财务造假、内幕交易、操纵市场等违法违规行为，加强新型业务监管，推进人工智能在监管中的应用。",
+      "heat": 3
+    },
+    {
+      "title": "美国航空第���季度整后每股收益0.15美元，高于市场预期",
+      "link": "https://36kr.com/newsflashes/3908156160791684?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T11:53:02.000Z",
+      "summary": "美国航空第二季度营收167.35亿美元，高于市场预期的167.07亿美元；第二季度调整后每股收益0.15美元，高于市场预测的0.03美元。美国航空第三季度调整后每股收益预期为-0.7至-0.1美元，而市场的预测为0.28美元。美国航空第二季度营业利润率为2.7%。美国航空第二季度燃油费用增加超过22亿美元，同比增长83%。（财联社）",
+      "heat": 3
+    },
+    {
+      "title": "WAIC现场探展：从 Coding 到办公，AI 新物种出现了吗？",
+      "link": "https://www.infoq.cn/video/foIhBcWJok2LdIfZ2qjw?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T18:16:06.000Z",
+      "summary": "点击查看原文>",
+      "heat": 0
+    },
+    {
+      "title": "AI用23秒，学走了老师傅的判断",
+      "link": "https://www.infoq.cn/article/TWXI9ulbiPjRYmPFTGST?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T17:03:57.000Z",
+      "summary": "点击查看原文>",
+      "heat": 0
+    },
+    {
+      "title": "Nvidia is sending GPUs to the moon",
+      "link": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T15:00:00.000Z",
+      "summary": "If there's a place in the universe without GPUs, Nvidia is sending them there.",
+      "heat": 0
+    },
+    {
+      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+      "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T15:00:00.000Z",
+      "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+      "heat": 0
+    },
+    {
+      "title": "Lawmakers prepare bill requiring AI ‘kill switch’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T14:13:35.000Z",
+      "summary": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a r",
+      "heat": 0
+    },
+    {
+      "title": "美股大型科技股盘前普跌，特斯拉跌超7%",
+      "link": "https://36kr.com/newsflashes/3908227357922696?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:54:27.000Z",
+      "summary": "36氪获悉，美股大型科技股盘前普跌，截至发稿，特斯拉跌超7%，谷歌跌超5%，Meta、亚马逊跌超2%，英伟达跌超1%，苹果跌0.7%，微软跌0.65%。",
+      "heat": 0
+    },
+    {
+      "title": "航锦科技：拟挂牌转让中电华星51%股权",
+      "link": "https://36kr.com/newsflashes/3908204461446274?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:31:09.000Z",
+      "summary": "36氪获悉，航锦科技公告，全资子公司威科电子拟通过武汉光谷联合产权交易所以公开挂牌方式转让持有的深圳市中电华星电子技术有限公司（以下简称“中电华星”）51%股权。交易完成后，威科电子将不再持有中电华星股权，中电华星不再纳入公司合并报表范围。首次挂牌价格不低于4844.14万元。",
+      "heat": 0
+    },
+    {
+      "title": "澜起科技：拟以3亿元-6亿元回购A股股份",
+      "link": "https://36kr.com/newsflashes/3908179818173831?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:18:20.000Z",
+      "summary": "36氪获悉，澜起科技公告，公司拟以集中竞价交易方式回购A股股份，回购金额不低于3亿元（含），不超过6亿元（含），回购价格不超过332.90元/股（含），回购期限自董事会审议通过之日起3个月内，回购资金来源于公司自有资金，回购股份用于维护公司价值及股东权益。",
+      "heat": 0
+    },
+    {
+      "title": "中国证监会召开党的建设暨监管工作座谈会",
+      "link": "https://36kr.com/newsflashes/3908186378884487?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T12:12:46.000Z",
+      "summary": "36氪获悉，7月23日，中国证监会召开党的建设暨监管工作座谈会。会议强调，当前百年变局加速演进，地缘政治冲突持续，全球金融市场联动共振风险上升。同时，新一轮科技革命和产业变革加速突破，宏观政策面、基本面、资金面等方面的积极因素不断积聚，资本市场改革效应持续显现，市场整体具备较好的配置价值。必须坚定信心、保持定力，坚持稳中求进工作总基调，扎扎实实办好自己的事，更加注重把握好局部与全局、政策稳定性与灵",
+      "heat": 0
+    },
+    {
+      "title": "How AI helps scientists design the next generation of medicines",
+      "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-07-23T12:00:00.000Z",
+      "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most pos",
+      "heat": 0
+    },
+    {
+      "title": "The right-wing boomers protesting data centers have a lot in common with the left",
+      "link": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T12:00:00.000Z",
+      "summary": "A person holds signs during a nationwide protest against AI data center expansion outside Peace Hall in New Port Richey, Florida. | AFP via Getty Images On a gray, humid Saturday morning in central Fl",
+      "heat": 0
+    },
+    {
+      "title": "欧洲央行决议前油价飙升，德国国债收益率触及15年新高",
+      "link": "https://36kr.com/newsflashes/3908155587220617?f=rss",
+      "source": "36氪",
+      "lang": "zh",
+      "pubDate": "2026-07-23T11:47:27.000Z",
+      "summary": "德国国债收益率升至2011年以来最高水平，能源价格飙升及通胀预期加剧使市场围绕欧洲央行的加息押注升温。10年期德债收益率一度涨3个基点，至3.21%。交易员目前预计欧洲央行年底前将进行将近两次、每次25个基点的加息。（新浪财经）",
+      "heat": 0
+    },
+    {
+      "title": "First 超短片，把镜头对准了 AI 够不着的地方",
+      "link": "https://www.ifanr.com/1672900?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T10:32:34.000Z",
+      "summary": "如果一切皆可生成，影像的「真实」与「必要」又该被如何重新定义？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 0
+    },
+    {
+      "title": "新玩意 247｜少数派的编辑们最近买了啥？",
+      "link": "https://sspai.com/post/112668",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-07-23T09:38:21.000Z",
+      "summary": "关于栏目很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。@Lotta：海备思文件夹读 ...查看全文",
+      "heat": 0
+    },
+    {
+      "title": "30+ 家企业组团参展 WAIC，张江 AI 小镇藏不住了",
+      "link": "https://www.infoq.cn/article/cKrPV6EdBMEoOb2mBvju?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T09:00:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 0
+    },
+    {
+      "title": "The power line that could reshape New York’s grid is hitting snags",
+      "link": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-07-23T09:00:00.000Z",
+      "summary": "On July 3, as a heat wave swept the region, New York State’s grid imported 52 gigawatt-hours of electricity from Canada—enough to meet about 9% of its total electricity demand that day. Some of that p",
+      "heat": 0
+    },
+    {
+      "title": "小小云台，稳住「口袋电影机」：DJI Pocket 4P 漫谈",
+      "link": "https://sspai.com/post/112428",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-07-23T07:00:00.000Z",
+      "summary": "Pocket 一体式云台相机满是让人不容小觑的护城河与想象空间。查看全文",
+      "heat": 0
+    },
+    {
+      "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+      "link": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T06:09:13.000Z",
+      "summary": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
+      "heat": 0
+    },
+    {
+      "title": "让 Windows 顺眼又省心：我的新设备配置经验",
+      "link": "https://sspai.com/post/111300",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-07-23T02:57:30.000Z",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "heat": 0
+    },
+    {
+      "title": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
+      "link": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T23:47:54.000Z",
+      "summary": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily.",
+      "heat": 0
+    },
+    {
+      "title": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
+      "link": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T18:50:44.000Z",
+      "summary": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
+      "heat": 0
+    },
+    {
+      "title": "Yope raises $12.3M to build a private social network without algorithms or ads",
+      "link": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T18:13:58.000Z",
+      "summary": "Yope, a fast-growing social app focused on private groups of friends and family, has raised $12.3 million in seed funding. Instead of chasing creators and algorithmic feeds, the startup is betting tha",
+      "heat": 0
+    },
+    {
+      "title": "Monday.com lays off hundreds to focus on AI",
+      "link": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T17:54:14.000Z",
+      "summary": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform.",
+      "heat": 0
+    },
+    {
+      "title": "Menlo Ventures’ Matt Murphy explains what AI startups founders must do differently",
+      "link": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T14:00:00.000Z",
+      "summary": "Anthropic leaped to a $47 billion revenue run rate by May, compared to $9 billion in 2025. It’s the kind of growth that Menlo Ventures’ Matt Murphy says he’s never seen in 25 years of investing, not i",
+      "heat": 0
+    },
+    {
+      "title": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
+      "link": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T13:00:00.000Z",
+      "summary": "Passionfroot, a German startup building a marketplace connecting B2B creators with brands, has raised $15M in a Series A round led by Insight Partners.",
+      "heat": 0
+    },
+    {
+      "title": "29.98 万元起、800mm 涉水，泰钽 700 还想让 NOA 帮你越野",
+      "link": "https://www.ifanr.com/1672789?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-22T10:08:37.000Z",
+      "summary": "NOA 向着山野进发。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 0
     }
   ]
 }
