@@ -1,0 +1,92 @@
+---
+import Layout from '../layouts/Layout.astro';
+import newsData from '../data/news.json';
+
+interface NewsItem {
+  title: string;
+  link: string;
+  source: string;
+  lang: 'zh' | 'en';
+  pubDate: string;
+  summary: string;
+}
+
+const items = (newsData.items || []) as NewsItem[];
+
+function formatDate(iso: string) {
+  const d = new Date(iso);
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
+}
+
+function formatTime(iso: string) {
+  const d = new Date(iso);
+  return `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+}
+
+// 按日期分组
+const groups = new Map<string, NewsItem[]>();
+for (const item of items) {
+  const key = formatDate(item.pubDate);
+  if (!groups.has(key)) groups.set(key, []);
+  groups.get(key)!.push(item);
+}
+
+const sources = [...new Set(items.map((i) => i.source))];
+const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleString('zh-CN') : '';
+---
+<Layout title="AI 每日资讯">
+  {updatedAt && <p class="updated-at">最近更新：{updatedAt}</p>}
+
+  <div class="filters" id="filters">
+    <button class="active" data-filter="all">全部</button>
+    <button data-filter="zh">中文</button>
+    <button data-filter="en">英文</button>
+    {sources.map((s) => <button data-filter={`source:${s}`}>{s}</button>)}
+  </div>
+
+  {items.length === 0 && <p class="empty">暂无资讯，请稍后刷新。</p>}
+
+  {items.length > 0 && (
+    <ul class="news-list" id="news-list">
+      {[...groups.entries()].map(([date, list]) => (
+        <li>
+          <h3 class="date-group">{date}</h3>
+          <ul class="news-list">
+            {list.map((item) => (
+              <li class="news-card" data-lang={item.lang} data-source={item.source}>
+                <h2><a href={item.link} target="_blank" rel="noopener noreferrer">{item.title}</a></h2>
+                <div class="news-meta">
+                  <span class:list={['tag', { en: item.lang === 'en' }]}>{item.source}</span>
+                  <time datetime={item.pubDate}>{formatTime(item.pubDate)}</time>
+                </div>
+                {item.summary && <p class="news-summary">{item.summary}</p>}
+              </li>
+            ))}
+          </ul>
+        </li>
+      ))}
+    </ul>
+  )}
+
+  <script>
+    const buttons = document.querySelectorAll('#filters button');
+    const cards = document.querySelectorAll('.news-card');
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        buttons.forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        cards.forEach((card) => {
+          const el = card as HTMLElement;
+          let show = true;
+          if (filter === 'zh' || filter === 'en') show = el.dataset.lang === filter;
+          else if (filter && filter.startsWith('source:')) show = el.dataset.source === filter.slice(7);
+          el.style.display = show ? '' : 'none';
+        });
+      });
+    });
+  </script>
+</Layout>
