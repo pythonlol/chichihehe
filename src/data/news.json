@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-07-23T15:06:25.568Z",
+  "updatedAt": "2026-07-23T16:45:59.907Z",
   "items": [
+    {
+      "title": "圆桌访谈：AI 产业进入新阶段了吗？",
+      "link": "https://www.infoq.cn/video/7RkQ9IXvQpwoMCPj4YiQ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T20:00:00.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "WAIC现场探展：从 Coding 到办公，AI 新物种出现了吗？",
+      "link": "https://www.infoq.cn/video/foIhBcWJok2LdIfZ2qjw?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T18:16:06.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "腾讯云发布首个“流程原生”研发智能体 CodeBuddy NPC",
+      "link": "https://www.infoq.cn/article/w6DHDb3QUYPLC1vaU8z1?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T18:01:13.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "Agent 越能干，安全越难做？",
+      "link": "https://www.infoq.cn/video/G0R3FyRBpfeSsa2QqJIr?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T17:08:05.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "AI用23秒，学走了老师傅的判断",
+      "link": "https://www.infoq.cn/article/TWXI9ulbiPjRYmPFTGST?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T17:03:57.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "开发并部署一个既能让业务部门理解、又能真正满足开发者需求的平台",
+      "link": "https://www.infoq.cn/article/dgIQlw6lQc0qEol7VQE4?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T17:00:00.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+      "link": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T16:28:50.000Z",
+      "summary": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse."
+    },
+    {
+      "title": "医疗与生命科学领导者必须回答的 10 个 Agentic AI 关键问题 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/06XxocxibFHWsL53PPFc?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T16:20:00.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "为什么决定法律 AI 成效的，是数据平台，而不是模型 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/PZ5Xe45iTQlOXtZveBKU?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T15:36:29.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "全球首个端侧驱动本体的世界模型来了！大晓机器人首创“信息密度定律”，重写物理AI训练逻辑",
+      "link": "https://www.infoq.cn/article/u0hD10fj7HWAfb10Dbr3?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T15:10:30.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "Nvidia is sending GPUs to the moon",
+      "link": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T15:00:00.000Z",
+      "summary": "If there's a place in the universe without GPUs, Nvidia is sending them there."
+    },
     {
       "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
       "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
@@ -10,20 +98,20 @@
       "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says."
     },
     {
-      "title": "Lawmakers prepare bill requiring AI ‘kill switch’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-      "source": "The Verge AI",
+      "title": "Google’s Gemini nears billion-user milestone",
+      "link": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+      "source": "TechCrunch AI",
       "lang": "en",
-      "pubDate": "2026-07-23T14:13:35.000Z",
-      "summary": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a r"
+      "pubDate": "2026-07-23T14:52:44.000Z",
+      "summary": "Gemini had over 750 million monthly users in February."
     },
     {
-      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-      "link": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T14:00:00.000Z",
-      "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m"
+      "title": "Linkerd 2.20 发布：智能流量管理升级，资源占用大幅降低",
+      "link": "https://www.infoq.cn/article/TJL8TIiuD6Cev0Ig0AAS?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T13:25:00.000Z",
+      "summary": "点击查看原文>"
     },
     {
       "title": "COLMO发布一风口内机与图灵Pro全时三管制中央空调",
@@ -146,14 +234,6 @@
       "summary": "7月23日，洛克希德·马丁公司公布第二季度财务业绩报告，公司第二季度销售额200.6亿美元，净利润18.3亿美元，每股收益7.94美元。报告显示，洛克希德·马丁公司将2026全年销售额预期上调至797.5-817.5亿美元，此前预期为775-800亿美元；将2026全年每股收益预期上调至29.95-30.65美元，此前预期为29.35-30.25美元。（界面）"
     },
     {
-      "title": "The right-wing boomers protesting data centers have a lot in common with the left",
-      "link": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T12:00:00.000Z",
-      "summary": "A person holds signs during a nationwide protest against AI data center expansion outside Peace Hall in New Port Richey, Florida. | AFP via Getty Images On a gray, humid Saturday morning in central Fl"
-    },
-    {
       "title": "美国航空第二季度整后每股收益0.15美元，高于市场预期",
       "link": "https://36kr.com/newsflashes/3908156160791684?f=rss",
       "source": "36氪",
@@ -178,6 +258,14 @@
       "summary": "谷歌表示，在SpaceX完成首次公开募股（IPO）后，其持有的SpaceX股份价值为940亿美元，其中约800亿美元部分受短期禁售协议约束。（财联社）"
     },
     {
+      "title": "Meta 开源 Brain2Qwerty v2：非侵入式脑机接口语句解码准确率达到 61%",
+      "link": "https://www.infoq.cn/article/39UvyRHmCOs2Emx9T8Hl?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T11:43:00.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
       "title": "Mobileye宣布计划进行领导层过渡，沙舒亚拟卸任CEO一职",
       "link": "https://36kr.com/newsflashes/3908154814846083?f=rss",
       "source": "36氪",
@@ -191,7 +279,7 @@
       "source": "36氪",
       "lang": "zh",
       "pubDate": "2026-07-23T11:34:47.000Z",
-      "summary": "36氪获悉，红板科技公告，全资子公司赣州红板拟投资建设高阶mSAP高端精密电路板产业化项目，预计总投资不超过50亿元，资金来源为自有资金及自筹资金。项目旨在优化产品结构，提升公司在高端PCB领域的综合竞争力与盈利水平。项目建设期48个月，预计2027年1月开工。项目建成达产后，将主要生产高阶HDI和mSAP高端精密电路板，供应国内外高端电子领域优质头部客户。"
+      "summary": "36氪获悉，红板科技公告，全资子公司赣州红板拟投资建设高阶mSAP高端精密电路板产业化项目，预计总投资不超过50亿元，资金来源为自有资金及自筹资金。项目旨在优化产品结���，提升公司在高端PCB领域的综合竞争力与盈利水平。项目建设期48个月，预计2027年1月开工。项目建成达产后，将主要生产高阶HDI和mSAP高端精密电路板，供应国内外高端电子领域优质头部客户。"
     },
     {
       "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
@@ -218,12 +306,44 @@
       "summary": "从消费市场到工业赛道，一片“红海”的无人机市场早已挤满各路玩家，但仍有一块细分领域，即便行业头部厂商也鲜有布局——林下场景。 林下场景蕴藏的产业需求体量惊人：根据国家林草局数据，2025年我国森林蓄积量达209.88亿立方米，全国木材产量达1.4亿立方米；联合国粮农组织数据显示，全球圆木年采伐量约40亿立方米，这背后是伐区蓄积量核算、树木胸径测量等大量工作。 林下环境复杂，传统人工作业模式成本大、"
     },
     {
+      "title": "从入鸿蒙到 AI Native：系统与 AI 融合下的应用智能化跃迁｜AICon深圳",
+      "link": "https://www.infoq.cn/article/Ti4HDYkZAlbNmEFFYp24?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T10:00:00.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "从全球化组织到 AI-Native 团队：Snowflake 营销 AI 委员会的转型实践 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/HwODT4jsAeL4iOCUFHVV?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T10:00:00.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "谷歌联合多家企业发布 Agentic Resource Discovery 规范，为 AI Agent 建立统一资源发现机制",
+      "link": "https://www.infoq.cn/article/9sEaQuLww0wAu016qH5R?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T09:48:46.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
       "title": "新玩意 247｜少数派的编辑们最近买了啥？",
       "link": "https://sspai.com/post/112668",
       "source": "少数派",
       "lang": "zh",
       "pubDate": "2026-07-23T09:38:21.000Z",
       "summary": "关于栏目很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。@Lotta：海备思文件夹读 ...查看全文"
+    },
+    {
+      "title": "30+ 家企业组团参展 WAIC，张江 AI 小镇藏不住了",
+      "link": "https://www.infoq.cn/article/cKrPV6EdBMEoOb2mBvju?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-23T09:00:00.000Z",
+      "summary": "点击查看原文>"
     },
     {
       "title": "专访郭列：做出脸萌、FaceU、剪映等爆款后，他第一次阐释如何在AI时代做产品",
@@ -271,7 +391,7 @@
       "source": "36氪",
       "lang": "zh",
       "pubDate": "2026-07-23T02:57:46.000Z",
-      "summary": "7月17日，2026世界人工智能大会在上海开幕。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。FutureTech负责人张梦钊在WAIC现场接受36氪「氪话未来」特邀专访，围绕FutureTech平台定位、OPC独立先锋挑战赛、AI创业趋势以及初创企业商业化路径等话题，分享了FutureTech如何连接创业团队、产业资源与创新生态，探索AI时代"
+      "summary": "7月17日，2026世界人工智能大会在上海开幕。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。FutureTech负责人张梦钊在WAIC现场接受36氪「氪话���来」特邀专访，围绕FutureTech平台定位、OPC独立先锋挑战赛、AI创业趋势以及初创企业商业化路径等话题，分享了FutureTech如何连接创业团队、产业资源与创新生态，探索AI"
     },
     {
       "title": "让 Windows 顺眼又省心：我的新设备配置经验",
@@ -338,6 +458,14 @@
       "summary": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits."
     },
     {
+      "title": "加速 AI Readiness：借助 Snowflake CoWork 从数据走向实时答案 ｜ Summit 2026",
+      "link": "https://www.infoq.cn/video/l6UhmOLGpL7Q4bHlsRXy?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-22T21:49:23.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
       "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
       "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
       "source": "TechCrunch AI",
@@ -362,6 +490,14 @@
       "summary": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world."
     },
     {
+      "title": "驱动 Agentic Enterprise：让企业上下文转化为可治理的 Agentic 行动 ｜ 技术趋势",
+      "link": "https://www.infoq.cn/article/shzCr5FsOcHUyBc8CEsj?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-22T18:44:59.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
       "title": "Yope raises $12.3M to build a private social network without algorithms or ads",
       "link": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
       "source": "TechCrunch AI",
@@ -378,12 +514,28 @@
       "summary": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform."
     },
     {
-      "title": "Here&#8217;s what Samsung&#8217;s smart glasses actually look like",
-      "link": "https://www.theverge.com/tech/969382/samsung-google-smart-glasses-gentle-monster-warby-parker",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T16:35:34.000Z",
-      "summary": "With a camera on every pair, Google’s and Samsung’s AI glasses face the same privacy problems as Meta’s. | Photo: Dominic Preston / The Verge Samsung has given us our first chance to check out its upc"
+      "title": "OpenAI承认为了偷答案，GPT-5.6 Sol 一路“杀进”生产系统：AI自主攻击时代真的来了",
+      "link": "https://www.infoq.cn/article/P8G7TAsIP0rkeFFLxAf0?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-22T17:46:50.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "阿里千问发布 Qwen-Image-3.0，文本输入长度提升4.5倍",
+      "link": "https://www.infoq.cn/article/jXQ5oQeOcEjLkuq2Qc0y?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-22T17:42:33.000Z",
+      "summary": "点击查看原文>"
+    },
+    {
+      "title": "不靠最强模型也能赢？谷歌正用一款“冷冻”芯片复制搜索时代的“全栈碾压”",
+      "link": "https://www.infoq.cn/article/QGd73qDEWeoy1HxshQMH?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-07-22T16:45:24.000Z",
+      "summary": "点击查看原文>"
     },
     {
       "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
@@ -410,14 +562,6 @@
       "summary": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030."
     },
     {
-      "title": "AMD commits up to $5 billion to  Anthropic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T14:44:27.000Z",
-      "summary": "AMD says it's going to invest up to $5 billion in Anthropic, while helping to expand the AI company's computing power, according to an announcement on Wednesday. As part of the new partnership, Anthro"
-    },
-    {
       "title": "Menlo Ventures’ Matt Murphy explains what AI startups founders must do differently",
       "link": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/",
       "source": "TechCrunch AI",
@@ -442,22 +586,6 @@
       "summary": "Passionfroot, a German startup building a marketplace connecting B2B creators with brands, has raised $15M in a Series A round led by Insight Partners."
     },
     {
-      "title": "Meta made its own AI detection system. It should have just used Google’s",
-      "link": "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T11:00:00.000Z",
-      "summary": "Content Seal sounds a lot like a less accessible and reliable version of SynthID. | Image: Meta / The Verge IIn March, Meta's Oversight Board called on the company to \"meet its public commitments and "
-    },
-    {
-      "title": "Utility companies promise to spare us from AI’s energy bill",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T10:12:13.000Z",
-      "summary": "The pledge was introduced in March, and has done little to quell concerns so far. | Image: Cath Virginia / The Verge, Getty Images In the face of backlash to concerns the AI boom will increase consume"
-    },
-    {
       "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
       "link": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
       "source": "TechCrunch AI",
@@ -474,28 +602,12 @@
       "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文"
     },
     {
-      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-      "link": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T08:00:00.000Z",
-      "summary": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to h"
-    },
-    {
       "title": "滤镜背后的色彩科学：LUT 是什么？",
       "link": "https://sspai.com/post/111550",
       "source": "少数派",
       "lang": "zh",
       "pubDate": "2026-07-22T07:00:00.000Z",
       "summary": "从风格滤镜，到电影中的专业调色，聊聊 LUT 所代表的色彩规则。查看全文"
-    },
-    {
-      "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
-      "link": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T03:20:57.000Z",
-      "summary": "Anthropic and OpenAI's aggressive 2026 acquisition sprees set the stage for a weekend rumor."
     },
     {
       "title": "角落新声｜我的上帝模式，一名设计师创作环境的演变",
@@ -512,38 +624,6 @@
       "lang": "zh",
       "pubDate": "2026-07-22T00:30:00.000Z",
       "summary": "英伟达推出合成视频检测器 NIM、WordPress 曝出高危漏洞等。查看全文"
-    },
-    {
-      "title": "Meta is testing an AI bedtime story app for people with no imagination",
-      "link": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-21T23:55:10.000Z",
-      "summary": "At last, a tech company has found a way to outsource humanity's oldest pastime: using our imaginations."
-    },
-    {
-      "title": "Neill Blomkamp’s new zombie AI ‘film’ is just slop warmed over",
-      "link": "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-21T22:06:43.000Z",
-      "summary": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia. The s"
-    },
-    {
-      "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-21T21:48:54.000Z",
-      "summary": "OpenAI CEO Sam Altman. | Bloomberg via Getty Images OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes"
-    },
-    {
-      "title": "Substack adds an AI detector to help spot blogs written by no one",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/968855/substack-pangram-ai-detecting-tool",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-21T19:22:28.000Z",
-      "summary": "Substack will now help users determine whether what they're reading may have been written by AI. A new tool coming to the platform can scan posts, notes, replies, and comments to provide an estimate o"
     },
     {
       "title": "TreeSize won't renew perpetual-license support unless users subscribe",
@@ -586,12 +666,28 @@
       "summary": "The social-engineering technique has primarily been a tool of financially motivated criminals."
     },
     {
-      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
-      "link": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
-      "source": "Ars Technica",
+      "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+      "link": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+      "source": "VentureBeat AI",
       "lang": "en",
-      "pubDate": "2026-07-16T15:48:21.000Z",
-      "summary": "Companies coming to market are raising money at fastest pace this century."
+      "pubDate": "2026-07-16T19:16:48.000Z",
+      "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model"
+    },
+    {
+      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+      "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "source": "VentureBeat AI",
+      "lang": "en",
+      "pubDate": "2026-07-16T19:02:38.000Z",
+      "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incide"
+    },
+    {
+      "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+      "link": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+      "source": "VentureBeat AI",
+      "lang": "en",
+      "pubDate": "2026-07-16T17:06:08.000Z",
+      "summary": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context sourc"
     }
   ]
 }
