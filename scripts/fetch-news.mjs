@@ -13,9 +13,11 @@ const FEEDS = [
   { name: '少数派', url: 'https://sspai.com/feed', lang: 'zh' },
   { name: '36氪', url: 'https://36kr.com/feed', lang: 'zh' },
   { name: 'InfoQ 中文', url: 'https://www.infoq.cn/feed', lang: 'zh' },
+  { name: '爱范儿', url: 'https://www.ifanr.com/feed', lang: 'zh' },
   // 英文
   { name: 'TechCrunch AI', url: 'https://techcrunch.com/category/artificial-intelligence/feed/', lang: 'en' },
   { name: 'VentureBeat AI', url: 'https://venturebeat.com/category/ai/feed', lang: 'en' },
+  { name: 'MIT Technology Review', url: 'https://www.technologyreview.com/feed/', lang: 'en' },
   { name: 'The Verge AI', url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', lang: 'en' },
   { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', lang: 'en' },
 ];

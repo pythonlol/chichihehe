@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T16:45:59.907Z",
+  "updatedAt": "2026-07-23T16:48:55.828Z",
   "items": [
     {
       "title": "圆桌访谈：AI 产业进入新阶段了吗？",
@@ -104,6 +104,22 @@
       "lang": "en",
       "pubDate": "2026-07-23T14:52:44.000Z",
       "summary": "Gemini had over 750 million monthly users in February."
+    },
+    {
+      "title": "Lawmakers prepare bill requiring AI ‘kill switch’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T14:13:35.000Z",
+      "summary": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a r"
+    },
+    {
+      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
+      "link": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T14:00:00.000Z",
+      "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m"
     },
     {
       "title": "Linkerd 2.20 发布：智能流量管理升级，资源占用大幅降低",
@@ -215,7 +231,15 @@
       "source": "36氪",
       "lang": "zh",
       "pubDate": "2026-07-23T12:12:46.000Z",
-      "summary": "36氪获悉，7月23日，中国证监会召开党的建设暨监管工作座谈会。会议强调，当前百年变局加速演进，地缘政治冲突持续，全球金融市场联动共振风险上升。同时，新一轮科技革命和产业变革加速突破，宏观政策面、基本面、资金面等方面的积极因素不断积聚，资本市场改革效应持续显现，市场整体具备较好的配置价值。必须坚定信心、保持定力，坚持稳中求进工作总基调，扎扎实实办好自己的事，更加注重把握好局部与全局、政策稳定性与灵"
+      "summary": "36氪获悉，7月23日，中国证监会召开党的建设暨监管工作座谈会。会议强调，当前百年变局加速演进，地缘政治冲突持续，全球金融市场联动共振风险上升。同时，新一轮科技革命和产业变革加速突破，宏观政策面、基本面、资金面等方面的积极因素不断积聚，资本市场改革效应持续��现，市场整体具备较好的配置价值。必须坚定信心、保持定力，坚持稳中求进工作总基调，扎扎实实办好自己的事，更加注重把握好局部与全局、政策稳定性与"
+    },
+    {
+      "title": "The Download: energy transmission and US threats against Chinese AI",
+      "link": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-07-23T12:10:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The power line that could reshape New York’s grid is hitting s"
     },
     {
       "title": "普冉股份：预计2026年上半年净利润同比增长1925.36%",
@@ -232,6 +256,22 @@
       "lang": "zh",
       "pubDate": "2026-07-23T12:00:55.000Z",
       "summary": "7月23日，洛克希德·马丁公司公布第二季度财务业绩报告，公司第二季度销售额200.6亿美元，净利润18.3亿美元，每股收益7.94美元。报告显示，洛克希德·马丁公司将2026全年销售额预期上调至797.5-817.5亿美元，此前预期为775-800亿美元；将2026全年每股收益预期上调至29.95-30.65美元，此前预期为29.35-30.25美元。（界面）"
+    },
+    {
+      "title": "How AI helps scientists design the next generation of medicines",
+      "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-07-23T12:00:00.000Z",
+      "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most pos"
+    },
+    {
+      "title": "The right-wing boomers protesting data centers have a lot in common with the left",
+      "link": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-23T12:00:00.000Z",
+      "summary": "A person holds signs during a nationwide protest against AI data center expansion outside Peace Hall in New Port Richey, Florida. | AFP via Getty Images On a gray, humid Saturday morning in central Fl"
     },
     {
       "title": "美国航空第二季度整后每股收益0.15美元，高于市场预期",
@@ -279,7 +319,7 @@
       "source": "36氪",
       "lang": "zh",
       "pubDate": "2026-07-23T11:34:47.000Z",
-      "summary": "36氪获悉，红板科技公告，全资子公司赣州红板拟投资建设高阶mSAP高端精密电路板产业化项目，预计总投资不超过50亿元，资金来源为自有资金及自筹资金。项目旨在优化产品结���，提升公司在高端PCB领域的综合竞争力与盈利水平。项目建设期48个月，预计2027年1月开工。项目建成达产后，将主要生产高阶HDI和mSAP高端精密电路板，供应国内外高端电子领域优质头部客户。"
+      "summary": "36氪获悉，红板科技公告，全资子公司赣州红板拟投资建设高阶mSAP高端精密电路板产业化项目，预计总投资不超过50亿元，资金来源为自有资金及自筹资金。项目旨在优化产品结构，提升公司在高端PCB领域的综合竞争力与盈利水平。项目建设期48个月，预计2027年1月开工。项目建成达产后，将主要生产高阶HDI和mSAP高端精密电路板，供应国内外高端电子领域优质头部客户。"
     },
     {
       "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
@@ -288,6 +328,22 @@
       "lang": "en",
       "pubDate": "2026-07-23T11:00:00.000Z",
       "summary": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch."
+    },
+    {
+      "title": "First 超短片，把镜头对准了 AI 够不着的地方",
+      "link": "https://www.ifanr.com/1672900?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T10:32:34.000Z",
+      "summary": "如果一切皆可生成，影像的「真实」与「必要」又该被如何重新定义？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
+    },
+    {
+      "title": "苹果全家桶「年年焕新」来了，到底划不划算？",
+      "link": "https://www.ifanr.com/1672909?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T10:30:21.000Z",
+      "summary": "苹果可能要改变大伙儿买苹果全家桶的方式了。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
     },
     {
       "title": "氪星晚报 ｜DeepSeek今年已增资65%；马斯克：FSD是拉动特斯拉汽车需求的核心驱动力",
@@ -322,6 +378,22 @@
       "summary": "点击查看原文>"
     },
     {
+      "title": "苹果 Mac 将迎来全线换代，一种给人用，一种给 AI 用",
+      "link": "https://www.ifanr.com/1672867?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T09:52:40.000Z",
+      "summary": "你的换电脑动力是什么？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
+    },
+    {
+      "title": "揽胜首款 GT 即将问世，产品愈发激进的路虎，准备蚕食停滞的捷豹",
+      "link": "https://www.ifanr.com/1672886?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T09:49:40.000Z",
+      "summary": "路虎不再守 SUV 的边界，捷豹等不到独占的 GT。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
+    },
+    {
       "title": "谷歌联合多家企业发布 Agentic Resource Discovery 规范，为 AI Agent 建立统一资源发现机制",
       "link": "https://www.infoq.cn/article/9sEaQuLww0wAu016qH5R?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
@@ -344,6 +416,14 @@
       "lang": "zh",
       "pubDate": "2026-07-23T09:00:00.000Z",
       "summary": "点击查看原文>"
+    },
+    {
+      "title": "The power line that could reshape New York’s grid is hitting snags",
+      "link": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-07-23T09:00:00.000Z",
+      "summary": "On July 3, as a heat wave swept the region, New York State’s grid imported 52 gigawatt-hours of electricity from Canada—enough to meet about 9% of its total electricity demand that day. Some of that p"
     },
     {
       "title": "专访郭列：做出脸萌、FaceU、剪映等爆款后，他第一次阐释如何在AI时代做产品",
@@ -370,6 +450,22 @@
       "summary": "Pocket 一体式云台相机满是让人不容小觑的护城河与想象空间。查看全文"
     },
     {
+      "title": "Kimi 叫停新订阅后，如何用上 K3｜实测避坑",
+      "link": "https://www.ifanr.com/1672800?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T06:43:19.000Z",
+      "summary": "同一个模型，进入不同的壳，就不再是同一个「设计师」，这中间是 harness 的差异 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
+    },
+    {
+      "title": "三步爆改旧鼠标，打造最好用的 AI 外挂｜AI 器物志",
+      "link": "https://www.ifanr.com/1672824?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T06:11:27.000Z",
+      "summary": "230 刀的 Codex 键盘很好，但不是每个人都需要。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
+    },
+    {
       "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
       "link": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
       "source": "TechCrunch AI",
@@ -391,7 +487,7 @@
       "source": "36氪",
       "lang": "zh",
       "pubDate": "2026-07-23T02:57:46.000Z",
-      "summary": "7月17日，2026世界人工智能大会在上海开幕。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。FutureTech负责人张梦钊在WAIC现场接受36氪「氪话���来」特邀专访，围绕FutureTech平台定位、OPC独立先锋挑战赛、AI创业趋势以及初创企业商业化路径等话题，分享了FutureTech如何连接创业团队、产业资源与创新生态，探索AI"
+      "summary": "7月17日，2026世界人工智能大会在上海开幕。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。FutureTech负责人张梦钊在WAIC现场接受36氪「氪话未来」特邀专访，围绕FutureTech平台定位、OPC独立先锋挑战赛、AI创业趋势以及初创企业商业化路径等话题，分享了FutureTech如何连接创业团队、产业资源与创新生态，探索AI时代"
     },
     {
       "title": "让 Windows 顺眼又省心：我的新设备配置经验",
@@ -440,6 +536,14 @@
       "lang": "zh",
       "pubDate": "2026-07-23T00:50:21.000Z",
       "summary": "OpenAI 发布面向企业用户的 OpenAI Presence，耐克宣布重构大中华区市场生态等。查看全文"
+    },
+    {
+      "title": "早报｜12999起,首台安卓阔折叠发布/曝苹果MacBook将迎全线更新/小红书否认IPO相关传闻",
+      "link": "https://www.ifanr.com/1672820?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-23T00:15:27.000Z",
+      "summary": "· AMD 与 Anthropic 达成数百亿美元 AI 服务器合作 · 台积电拟于 2027 年上调芯片代工价格，最高涨幅 10% · Claude Cowork 可通过录屏学习并保存可复用 Skill #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
     },
     {
       "title": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
@@ -538,6 +642,14 @@
       "summary": "点击查看原文>"
     },
     {
+      "title": "Here&#8217;s what Samsung&#8217;s smart glasses actually look like",
+      "link": "https://www.theverge.com/tech/969382/samsung-google-smart-glasses-gentle-monster-warby-parker",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T16:35:34.000Z",
+      "summary": "With a camera on every pair, Google’s and Samsung’s AI glasses face the same privacy problems as Meta’s. | Photo: Dominic Preston / The Verge Samsung has given us our first chance to check out its upc"
+    },
+    {
       "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
       "link": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
       "source": "TechCrunch AI",
@@ -560,6 +672,14 @@
       "lang": "en",
       "pubDate": "2026-07-22T16:13:30.000Z",
       "summary": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030."
+    },
+    {
+      "title": "AMD commits up to $5 billion to  Anthropic",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T14:44:27.000Z",
+      "summary": "AMD says it's going to invest up to $5 billion in Anthropic, while helping to expand the AI company's computing power, according to an announcement on Wednesday. As part of the new partnership, Anthro"
     },
     {
       "title": "Menlo Ventures’ Matt Murphy explains what AI startups founders must do differently",
@@ -586,6 +706,46 @@
       "summary": "Passionfroot, a German startup building a marketplace connecting B2B creators with brands, has raised $15M in a Series A round led by Insight Partners."
     },
     {
+      "title": "The Download: NASA’s new space telescope and OpenAI’s autonomous hacker",
+      "link": "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-07-22T12:10:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telescope could unv"
+    },
+    {
+      "title": "Meta made its own AI detection system. It should have just used Google’s",
+      "link": "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T11:00:00.000Z",
+      "summary": "Content Seal sounds a lot like a less accessible and reliable version of SynthID. | Image: Meta / The Verge IIn March, Meta's Oversight Board called on the company to \"meet its public commitments and "
+    },
+    {
+      "title": "Utility companies promise to spare us from AI’s energy bill",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-07-22T10:12:13.000Z",
+      "summary": "The pledge was introduced in March, and has done little to quell concerns so far. | Image: Cath Virginia / The Verge, Getty Images In the face of backlash to concerns the AI boom will increase consume"
+    },
+    {
+      "title": "29.98 万元起、800mm 涉水，泰钽 700 还想让 NOA 帮你越野",
+      "link": "https://www.ifanr.com/1672789?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-22T10:08:37.000Z",
+      "summary": "NOA 向着山野进发。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
+    },
+    {
+      "title": "后驱纯电+五连杆+两个座位，smart #2 背负 fortwo 续作名号重返市场",
+      "link": "https://www.ifanr.com/1672776?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-22T10:02:30.000Z",
+      "summary": "最经典的 smart 回归。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
+    },
+    {
       "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
       "link": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
       "source": "TechCrunch AI",
@@ -600,6 +760,22 @@
       "lang": "zh",
       "pubDate": "2026-07-22T09:43:06.000Z",
       "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文"
+    },
+    {
+      "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
+      "link": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-07-22T09:00:00.000Z",
+      "summary": "When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will attempt one of astronomy’s most precise disappearing acts to date. The telescope will carry the first"
+    },
+    {
+      "title": "AI 圈今天最大的瓜：GPT-6 越狱攻击，被 GLM 5.2 揪出了",
+      "link": "https://www.ifanr.com/1672746?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-07-22T07:06:04.000Z",
+      "summary": "「GPT-6」为了考试作弊，黑进了别人的服务器 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
     },
     {
       "title": "滤镜背后的色彩科学：LUT 是什么？",
@@ -618,76 +794,12 @@
       "summary": "声音只是其中一个切片。客观来看，它记录的是我的创作环境如何不断迭代；但从个人经历来看，它真正映照的是我对创作这件事的理解如何变化。查看全文"
     },
     {
-      "title": "派早报：Google 推出 Gemini 3.6 Flash、Unity 7 引擎发布等",
-      "link": "https://sspai.com/post/112597",
-      "source": "少数派",
+      "title": "刚刚，Gemini 3.6 Flash 正式发布，但网友笑得更大声了",
+      "link": "https://www.ifanr.com/1672647?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
       "lang": "zh",
-      "pubDate": "2026-07-22T00:30:00.000Z",
-      "summary": "英伟达推出合成视频检测器 NIM、WordPress 曝出高危漏洞等。查看全文"
-    },
-    {
-      "title": "TreeSize won't renew perpetual-license support unless users subscribe",
-      "link": "https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe/",
-      "source": "Ars Technica",
-      "lang": "en",
-      "pubDate": "2026-07-21T15:18:23.000Z",
-      "summary": "\"Current economic conditions\" have shifted TreeSize's business model."
-    },
-    {
-      "title": "社区速递 150｜派友热议磁吸配件、拯救呼吸通气鼻贴与国产三折叠自行车",
-      "link": "https://sspai.com/post/112582",
-      "source": "少数派",
-      "lang": "zh",
-      "pubDate": "2026-07-21T09:00:00.000Z",
-      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文"
-    },
-    {
-      "title": "装上 Fedora 的 Surface Pro：一台老设备的新可能",
-      "link": "https://sspai.com/post/112200",
-      "source": "少数派",
-      "lang": "zh",
-      "pubDate": "2026-07-21T07:00:00.000Z",
-      "summary": "给 Surface Pro 5 安装上仍在积极更新的 Linux 发行版，它会成为一台更可用的设备吗？查看全文"
-    },
-    {
-      "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
-      "link": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
-      "source": "Ars Technica",
-      "lang": "en",
-      "pubDate": "2026-07-16T22:02:31.000Z",
-      "summary": "Resellers threatened to ditch HP printing supplies for counterfeits."
-    },
-    {
-      "title": "Now, even Russia's most elite hackers are using Clickfix to infect devices",
-      "link": "https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/",
-      "source": "Ars Technica",
-      "lang": "en",
-      "pubDate": "2026-07-16T19:28:33.000Z",
-      "summary": "The social-engineering technique has primarily been a tool of financially motivated criminals."
-    },
-    {
-      "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
-      "link": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
-      "source": "VentureBeat AI",
-      "lang": "en",
-      "pubDate": "2026-07-16T19:16:48.000Z",
-      "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model"
-    },
-    {
-      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
-      "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-      "source": "VentureBeat AI",
-      "lang": "en",
-      "pubDate": "2026-07-16T19:02:38.000Z",
-      "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incide"
-    },
-    {
-      "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
-      "link": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
-      "source": "VentureBeat AI",
-      "lang": "en",
-      "pubDate": "2026-07-16T17:06:08.000Z",
-      "summary": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context sourc"
+      "pubDate": "2026-07-22T01:43:00.000Z",
+      "summary": "说好的 3.5 Pro 呢？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
     }
   ]
 }
