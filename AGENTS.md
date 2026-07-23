@@ -42,3 +42,10 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 - `npm run dev` / `npm run build` / `npm run preview`
 
 注意：机器之心 RSS（jiqizhixin.com/rss）已失效返回 HTML，勿再加回。
+
+## 部署状态（2026-07-23）
+
+- 仓库 `pythonlol/chichihehe`（公开），线上地址：https://pythonlol.github.io/chichihehe/
+- GitHub Pages 已开启（workflow 模式），推送 main 或每天 UTC 0 点自动构建部署
+- **本机网络阻断 github.com**（api.github.com 和 codeload 可达）：普通 `git push` 不可用，需用 `.tmp/push-via-api.mjs` 走 Git Data API 推送（以远端 head 为父提交，本地与远端 commit sha 可能不一致，属正常现象）
+- 个人 Token 需同时具备 `repo` + `workflow` 权限，否则无法推送 `.github/workflows/` 下的文件
