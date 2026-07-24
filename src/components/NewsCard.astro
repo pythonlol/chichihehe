@@ -1,0 +1,41 @@
+---
+interface NewsItem {
+  title: string;
+  link: string;
+  source: string;
+  lang: 'zh' | 'en';
+  pubDate: string;
+  summary: string;
+  heat: number;
+  tags?: string[];
+  companies?: string[];
+  titleZh?: string;
+  summaryZh?: string;
+}
+
+interface Props {
+  item: NewsItem;
+  daily?: boolean;
+}
+
+const { item, daily = false } = Astro.props;
+
+function formatDateTime(iso: string) {
+  const d = new Date(iso);
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  const hh = String(d.getHours()).padStart(2, '0');
+  const mm = String(d.getMinutes()).padStart(2, '0');
+  return `${m}-${day} ${hh}:${mm}`;
+}
+---
+<li class="news-card" data-lang={item.lang} data-source={item.source} data-tags={(item.tags || []).join('|')} data-daily={daily ? '1' : undefined}>
+  <h2><a href={item.link} target="_blank" rel="noopener noreferrer" title={item.titleZh ? item.title : undefined}>{item.titleZh || item.title}</a></h2>
+  <div class="news-meta">
+    <span class:list={['tag', { en: item.lang === 'en' }]}>{item.source}</span>
+    {(item.tags || []).map((t) => <span class="tag cat">{t}</span>)}
+    {item.heat >= 8 && <span class="heat">🔥 热度 {item.heat}</span>}
+    <time datetime={item.pubDate}>{formatDateTime(item.pubDate)}</time>
+  </div>
+  {(item.summaryZh || item.summary) && <p class="news-summary">{item.summaryZh || item.summary}</p>}
+</li>

@@ -14,6 +14,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <title>{title}</title>
+    <script is:inline>
+      // 首屏前应用已保存的主题，避免闪烁；默认暗色
+      document.documentElement.dataset.theme = localStorage.getItem('theme') || 'dark';
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -22,6 +26,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <nav>
           <a href={base || '/'}>首页</a>
           <a href={`${base}/about`}>关于</a>
+          <a href={`${base}/feedback`}>反馈</a>
         </nav>
       </div>
     </header>
@@ -33,5 +38,22 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <p>本站聚合公开 RSS 资讯，内容版权归原作者所有，点击标题跳转原文。</p>
       </div>
     </footer>
+
+    <div class="theme-switcher" id="theme-switcher">
+      <button data-theme-btn="light">亮色</button>
+      <button data-theme-btn="dark">暗色</button>
+      <button data-theme-btn="eye">护眼</button>
+    </div>
+    <script>
+      const switcher = document.getElementById('theme-switcher');
+      const btns = switcher.querySelectorAll('button');
+      function applyTheme(theme) {
+        document.documentElement.dataset.theme = theme;
+        localStorage.setItem('theme', theme);
+        btns.forEach((b) => b.classList.toggle('active', b.dataset.themeBtn === theme));
+      }
+      btns.forEach((b) => b.addEventListener('click', () => applyTheme(b.dataset.themeBtn)));
+      applyTheme(localStorage.getItem('theme') || 'dark');
+    </script>
   </body>
 </html>

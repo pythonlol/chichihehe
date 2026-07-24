@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// TODO: 替换为你自己的 Formspree 表单地址（formspree.io 免费注册，创建表单后获得）
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+---
+<Layout title="反馈建议" description="向我们反馈建议">
+  <h1 class="page-title">想说点什么</h1>
+  <p class="page-desc">无论是内容建议、功能想法还是问题反馈，都欢迎告诉我们。</p>
+
+  <form id="feedback-form" class="feedback-form">
+    <label>
+      想说点什么
+      <textarea name="message" rows="6" required placeholder="写下你的建议或想法..."></textarea>
+    </label>
+    <label>
+      邮箱地址 <span class="optional">（方便联络，可选）</span>
+      <input type="email" name="email" placeholder="you@example.com" />
+    </label>
+    <button type="submit">提交反馈</button>
+    <p class="feedback-status" id="feedback-status" role="status"></p>
+  </form>
+
+  <script define:vars={{ FORMSPREE_ENDPOINT }}>
+    const form = document.getElementById('feedback-form');
+    const status = document.getElementById('feedback-status');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector("button[type='submit']");
+      const message = form.message.value.trim();
+      const email = form.email.value.trim();
+      if (!message) return;
+      btn.disabled = true;
+      status.className = 'feedback-status';
+      status.textContent = '提交中...';
+      try {
+        const res = await fetch(FORMSPREE_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify({ message, email }),
+        });
+        if (res.ok) {
+          status.classList.add('ok');
+          status.textContent = '提交成功，感谢你的反馈！';
+          form.reset();
+        } else {
+          throw new Error('HTTP ' + res.status);
+        }
+      } catch (err) {
+        status.classList.add('err');
+        status.textContent = '提交失败，请稍后重试。';
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  </script>
+</Layout>

@@ -1,6 +1,8 @@
 // 抓取各 RSS 源的 AI 资讯，输出 src/data/news.json
 // 用法：node scripts/fetch-news.mjs
 import Parser from 'rss-parser';
+import { categorize, detectCompanies } from './categorize.mjs';
+import { translateEnglishItems } from './translate.mjs';
 import { writeFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
@@ -111,9 +113,14 @@ items.forEach((item, i) => {
     if (ns >= 2) s += (ns - 1) * Math.log(N / df.get(x));
   }
   item.heat = Math.round(s * 10) / 10;
+  item.tags = categorize(item);
+  item.companies = detectCompanies(item);
 });
 // 热度降序，热度相同按时间降序
 items.sort((a, b) => b.heat - a.heat || Date.parse(b.pubDate) - Date.parse(a.pubDate));
+
+// 英文资讯翻译为中文（titleZh / summaryZh），需 DASHSCOPE_API_KEY，无 key 时保留原文
+await translateEnglishItems(items);
 
 await mkdir(dirname(OUT), { recursive: true });
 await writeFile(OUT, JSON.stringify({ updatedAt: new Date().toISOString(), items }, null, 2), 'utf8');

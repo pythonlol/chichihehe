@@ -32,6 +32,8 @@ jobs:
 
       - name: 抓取最新资讯
         run: node scripts/fetch-news.mjs
+        env:
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
 
       - run: npm run build
 

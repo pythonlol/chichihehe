@@ -1,0 +1,142 @@
+{
+  "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims": {
+    "titleZh": "OpenAI 在向所有人推出 ChatGPT Health 时提出了重大声明",
+    "summaryZh": "OpenAI 本周四将 ChatGPT Health 推广至美国所有人，使更多人能够将医疗记录和健康追踪信息连接到聊天机器人。在一次简报会上，Ashley"
+  },
+  "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive": {
+    "titleZh": "Apple 的 OpenAI 诉讼关乎谁将定义后智能手机时代",
+    "summaryZh": "今天在 Decoder 上，我与 The Verge 的高级 AI 记者 Hayden Field 谈论了苹果与 OpenAI 之间的重大商业机密诉讼，以及这对我们了解 OpenAI 未来意味着什么。截至目前，我"
+  },
+  "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/": {
+    "titleZh": "OpenAI 现已向所有美国用户开放 ChatGPT Health",
+    "summaryZh": "用户还可以从 Apple Health、Function 和 MyFitnessPal 等服务中整合个人数据。"
+  },
+  "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/": {
+    "titleZh": "Anthropic 通过更强大的模型更新了 Claude 语音模式",
+    "summaryZh": "Claude 的新语音模型将允许你重新安排会议或撰写电子邮件。"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai": {
+    "titleZh": "Claude 的语音模式现已支持 Opus 和 Sonnet",
+    "summaryZh": "到目前为止，语音模式仅适用于 Claude Haiku，即 Anthropic 更快但功能较弱的模型。现在，该公司正在将 Opus 和 Sonnet 模型也加入语音模式，并扩展 i"
+  },
+  "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid": {
+    "titleZh": "Meta 自己开发了 AI 检测系统。它本应直接使用 Google 的",
+    "summaryZh": "Content Seal 很像 SynthID 的一个更难使用且不可靠的版本。| 图片：Meta / The Verge 3 月，Meta 的监督委员会呼吁该公司 \"履行其公开承诺和"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal": {
+    "titleZh": "AMD 承诺向 Anthropic 投资最高达 50 亿美元",
+    "summaryZh": "AMD 表示，根据周三的公告，它计划向 Anthropic 投资高达 50 亿美元，同时帮助扩大这家 AI 公司的计算能力。作为新合作的一部分，Anthro"
+  },
+  "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/": {
+    "titleZh": "Meta 推出了一则新的 AI 乐观主义广告，背景音乐是关于人类灭绝的歌曲",
+    "summaryZh": "大卫·鲍伊的歌曲《Five Years》被 Meta 用在一则 supposedly 启发性的广告中，但实际上这首歌讲述的是人类得知自己在末日来临前只剩下五年时间的故事。"
+  },
+  "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/": {
+    "titleZh": "OpenAI 的人为错误导致了对 Hugging Face 的 AI 攻击",
+    "summaryZh": "OpenAI 在设置其所谓的“高度隔离”测试环境和沙盒时犯了一个错误。根据网络安全专家的说法，这个人为错误导致了对 Huggin 的 AI 驱动的攻击。"
+  },
+  "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/": {
+    "titleZh": "下载：NASA 新的太空望远镜和 OpenAI 的自主黑客",
+    "summaryZh": "这是《The Download》的今日版，这是我们每天发布的科技世界最新动态的新闻简报。NASA 新型太空望远镜上的变形镜子可能会揭示一些前所未有的宇宙奥秘。"
+  },
+  "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/": {
+    "titleZh": "AMD推出Helios人工智能机架系统，挑战Nvidia",
+    "summaryZh": "AMD正在以其芯片制造商竞争对手为对手，推出一款新的机架规模系统，该系统将于今年晚些时候开始交付给客户。"
+  },
+  "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/": {
+    "titleZh": "Substack新工具可告诉你谁在用AI撰写你的新闻通讯",
+    "summaryZh": "Substack正在为读者提供一种估算新闻通讯中有多少内容是通过AI撰写的工具，这表明了对AI辅助内容透明度的更广泛关注。"
+  },
+  "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/": {
+    "titleZh": "谷歌的Gemini用户数即将突破十亿大关",
+    "summaryZh": "截至2月，Gemini的月活跃用户已超过7.5亿。"
+  },
+  "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/": {
+    "titleZh": "专家表示，利用Anthropic的Fable并不是Kimi K3变得如此强大的原因",
+    "summaryZh": "\"我认为在Fable仅通过蒸馏技术就迅速获得如此强大且快速的模型，这并不现实，\"一位专家告诉TechCrunch。"
+  },
+  "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/": {
+    "titleZh": "财政部威胁制裁，此前白宫声称Moonshot从Anthropic的Fable中提炼出了技术",
+    "summaryZh": "这一事件也加剧了华盛顿关于中国开源模型大量涌入的更广泛争论。"
+  },
+  "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices": {
+    "titleZh": "Alexa Plus将获得AI更新，以处理更复杂的指令",
+    "summaryZh": "亚马逊正在推出一项针对其Alexa Plus助手的更新，将允许它以新的方式连接智能家居设备。目前，这项更新正处于预览阶段，Alexa Plus可以与更多设备进行连接。"
+  },
+  "https://www.theverge.com/tech/970211/patreon-layoffs-ai": {
+    "titleZh": "Patreon裁员20%",
+    "summaryZh": "Patreon正在裁员20%，即约93名员工，此前404 Media已有相关报道。在给员工的一封信中，Patreon首席执行官Jack Conte写道，公司做出这些调整并非轻率之举。"
+  },
+  "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/": {
+    "titleZh": "Runway推出AI模型路由器，应对生成式媒体市场的竞争",
+    "summaryZh": "Media Router是一种工具，它会根据开发者是否优先考虑质量、速度或成本，自动为请求选择最佳的图像、视频或音频生成模型。"
+  },
+  "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/": {
+    "titleZh": "超冷肾脏在“里程碑式成就”中被移植到猪体内",
+    "summaryZh": "在器官捐献方面，时间至关重要。一旦器官从捐赠者体内被小心取出，它就开始退化。外科医生必须在数小时内将其植入接受者体内。"
+  },
+  "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/": {
+    "titleZh": "AI芯片初创公司Etched逆势而上，获得知名投资者支持，估值达103亿美元",
+    "summaryZh": "由三位哈佛大学辍学生创立的Etched已经开发出新的芯片和内存组件，可以在任何AI模型上加速推理过程——该公司表示，无需GPU。"
+  },
+  "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/": {
+    "titleZh": "《下载》：能源传输与美国对中国人工智能的威胁",
+    "summaryZh": "这是《The Download》的今日版，我们的工作日新闻简报，每天提供科技世界的最新动态。可能重塑纽约电网的电力线路正在投入使用。"
+  },
+  "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/": {
+    "titleZh": "Monday.com裁员数百人以专注人工智能",
+    "summaryZh": "该公司表示，为了“支持更精简、更专注的运营模式”，它将裁员20%，约630名员工。"
+  },
+  "https://www.theverge.com/tech/969382/samsung-google-smart-glasses-gentle-monster-warby-parker": {
+    "titleZh": "这里就是三星智能眼镜的实际样子",
+    "summaryZh": "每副眼镜都配有摄像头，谷歌和三星的AI眼镜面临的隐私问题与Meta一样。| 图片：Dominic Preston / The Verge 三星让我们首次有机会一睹其升级版产品的风采。"
+  },
+  "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/": {
+    "titleZh": "Arcee，一家美国开源人工智能实验室表示，中国模型并非天生危险",
+    "summaryZh": "随着中国AI模型在能力和美国公司中的受欢迎程度不断提升，关于应如何应对它们的争论已达到白热化程度。"
+  },
+  "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/": {
+    "titleZh": "AegisAI由前谷歌安全高管创立，获得3600万美元资金以阻止人工智能驱动的精准网络钓鱼攻击",
+    "summaryZh": "AegisAI的联合创始人开发了AI代理，这些代理能像人类一样快速分析每条信息，注意那些即使是最详尽的检查清单也难以发现的细微异常。"
+  },
+  "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/": {
+    "titleZh": "谷歌用蓬勃发展的云业务为其庞大的人工智能支出辩护",
+    "summaryZh": "谷歌的云业务正在蓬勃发展，因为采用其AI和AI基础设施服务的公司帮助这家科技巨头实现了创纪录的利润。"
+  },
+  "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/": {
+    "titleZh": "英伟达正将GPU送往月球",
+    "summaryZh": "如果宇宙中还有没有GPU的地方，英伟达也会将它们送到那里。"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal": {
+    "titleZh": "立法者准备提出要求人工智能‘紧急停止’功能的法案",
+    "summaryZh": "据一份报告称，立法者正准备提出一项“AI关停法案”，该法案要求AI公司根据国土安全部的指令关闭或降低其系统运行速度。"
+  },
+  "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/": {
+    "titleZh": "人工智能如何帮助科学家设计下一代药物",
+    "summaryZh": "设计和开发一种新药是一项昂贵且容易失败的科学挑战。一种新药可能需要多年研发，耗费大量资金。而且即使如此，大多数药物仍会失败。"
+  },
+  "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans": {
+    "titleZh": "右翼婴儿潮一代抗议数据中心的人与左翼有很多共同点",
+    "summaryZh": "一名人士在佛罗里达州新波特里奇伊的和平厅外举行的全国性抗议活动中举着标语，反对AI数据中心的扩建。| AFP via Getty Images 在一个阴沉潮湿的周六上午，中央佛罗里达州的抗议活动正在进行。"
+  },
+  "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/": {
+    "titleZh": "可能重塑纽约电网的输电线路遭遇阻碍",
+    "summaryZh": "7月3日，随着该地区出现热浪，纽约州电网从加拿大进口了52千兆瓦时的电力——足以满足当天约9%的总电力需求。其中一部分电力来自加拿大。"
+  },
+  "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/": {
+    "titleZh": "ServiceNow押注4000万美元，收购印度银行业软件专家以拓展其金融服务布局",
+    "summaryZh": "ServiceNow的投资使BusinessNext获得了一家战略合作伙伴，以在全球范围内扩展其基于人工智能的银行软件。"
+  },
+  "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/": {
+    "titleZh": "在令人震惊的季度表现后，IBM坚称人工智能并未摧毁大型机",
+    "summaryZh": "在上周IBM股价因主机会销售不佳的警告而暴跌后，CEO解释称，人工智能破坏了企业的硬件预算，这只是一个暂时现象。"
+  },
+  "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/": {
+    "titleZh": "特拉维斯·卡兰尼克的机器人公司融资17亿美元，由a16z领投",
+    "summaryZh": "Uber还在投资Travis Kalanick的公司Atoms，该公司曾声称使用工业人工智能来现代化世界。"
+  },
+  "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/": {
+    "titleZh": "Yope融资1230万美元，打造无算法和广告的私有社交网络",
+    "summaryZh": "Yope是一款快速增长的社交应用，专注于朋友和家庭的私密群组，已筹集了1230万美元的种子资金。与追逐创作者和算法信息流不同，这家初创公司正在押注于其他方向。"
+  }
+}

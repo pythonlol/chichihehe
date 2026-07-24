@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import NewsCard from '../components/NewsCard.astro';
 import newsData from '../data/news.json';
+import { TAGS } from '../../scripts/categorize.mjs';
 
 interface NewsItem {
   title: string;
@@ -10,64 +12,100 @@ interface NewsItem {
   pubDate: string;
   summary: string;
   heat: number;
+  tags?: string[];
+  companies?: string[];
+  titleZh?: string;
+  summaryZh?: string;
 }
 
 // 数据已由抓取脚本按热度降序排好
 const items = (newsData.items || []) as NewsItem[];
 
-function formatDateTime(iso: string) {
+// 每日 AI 日报：数据中最新一天（本地时区）热度最高的 5 条
+function localDay(iso: string) {
   const d = new Date(iso);
-  const m = String(d.getMonth() + 1).padStart(2, '0');
-  const day = String(d.getDate()).padStart(2, '0');
-  const hh = String(d.getHours()).padStart(2, '0');
-  const mm = String(d.getMinutes()).padStart(2, '0');
-  return `${m}-${day} ${hh}:${mm}`;
+  return `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
 }
+const latestDay = items.length ? localDay(items.map((i) => i.pubDate).sort().reverse()[0]) : '';
+const dailyLinks = new Set(
+  items.filter((i) => localDay(i.pubDate) === latestDay).slice(0, 5).map((i) => i.link)
+);
 
-const sources = [...new Set(items.map((i) => i.source))];
+// AI 公司动态：按公司分组，组内按时间降序，组间按最新一条的时间降序
+const companyMap = new Map<string, NewsItem[]>();
+for (const item of items) {
+  for (const c of item.companies || []) {
+    if (!companyMap.has(c)) companyMap.set(c, []);
+    companyMap.get(c)!.push(item);
+  }
+}
+const companyGroups = [...companyMap.entries()]
+  .map(([name, list]) => ({
+    name,
+    list: [...list].sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate)),
+  }))
+  .sort((a, b) => Date.parse(b.list[0].pubDate) - Date.parse(a.list[0].pubDate));
+
 const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleString('zh-CN') : '';
 ---
 <Layout title="AI 每日资讯">
-  {updatedAt && <p class="updated-at">最近更新：{updatedAt} · 按热度排序（热点实体被多家媒体提及则热度更高）</p>}
+  {updatedAt && <p class="updated-at">最近更新：{updatedAt} · 按热度排序 · 英文资讯已自动翻译（悬停标题查看原文）</p>}
 
   <div class="filters" id="filters">
     <button class="active" data-filter="all">全部</button>
-    <button data-filter="zh">中文</button>
-    <button data-filter="en">英文</button>
-    {sources.map((s) => <button data-filter={`source:${s}`}>{s}</button>)}
+    <button data-filter="daily">AI 日报</button>
+    <button data-filter="company">AI 公司动态</button>
+    {TAGS.map((t) => <button data-filter={`tag:${t}`}>{t}</button>)}
   </div>
 
   {items.length === 0 && <p class="empty">暂无资讯，请稍后刷新。</p>}
 
   {items.length > 0 && (
     <ul class="news-list" id="news-list">
-      {items.map((item) => (
-        <li class="news-card" data-lang={item.lang} data-source={item.source}>
-          <h2><a href={item.link} target="_blank" rel="noopener noreferrer">{item.title}</a></h2>
-          <div class="news-meta">
-            <span class:list={['tag', { en: item.lang === 'en' }]}>{item.source}</span>
-            {item.heat >= 8 && <span class="heat">🔥 热度 {item.heat}</span>}
-            <time datetime={item.pubDate}>{formatDateTime(item.pubDate)}</time>
-          </div>
-          {item.summary && <p class="news-summary">{item.summary}</p>}
-        </li>
-      ))}
+      {items.map((item) => <NewsCard item={item} daily={dailyLinks.has(item.link)} />)}
     </ul>
   )}
 
+  <div id="company-view" style="display:none">
+    {companyGroups.length === 0 && <p class="empty">暂无公司相关资讯。</p>}
+    {companyGroups.map(({ name, list }) => (
+      <details class="company-block">
+        <summary>
+          <span class="company-name">{name}</span>
+          <span class="company-count">{list.length} 条动态</span>
+          <span class="company-latest">{list[0].titleZh || list[0].title}</span>
+        </summary>
+        <ul class="news-list">
+          {list.map((item) => <NewsCard item={item} />)}
+        </ul>
+      </details>
+    ))}
+  </div>
+
   <script>
     const buttons = document.querySelectorAll('#filters button');
-    const cards = document.querySelectorAll('.news-card');
+    const cards = document.querySelectorAll('#news-list .news-card');
+    const newsList = document.getElementById('news-list') as HTMLElement;
+    const companyView = document.getElementById('company-view') as HTMLElement;
     buttons.forEach((btn) => {
       btn.addEventListener('click', () => {
         buttons.forEach((b) => b.classList.remove('active'));
         btn.classList.add('active');
         const filter = btn.dataset.filter;
+        if (filter === 'company') {
+          newsList.style.display = 'none';
+          companyView.style.display = '';
+          return;
+        }
+        companyView.style.display = 'none';
+        newsList.style.display = '';
         cards.forEach((card) => {
           const el = card as HTMLElement;
           let show = true;
-          if (filter === 'zh' || filter === 'en') show = el.dataset.lang === filter;
-          else if (filter && filter.startsWith('source:')) show = el.dataset.source === filter.slice(7);
+          if (filter === 'daily') show = el.dataset.daily === '1';
+          else if (filter && filter.startsWith('tag:')) {
+            show = (el.dataset.tags || '').split('|').includes(filter.slice(4));
+          }
           el.style.display = show ? '' : 'none';
         });
       });
