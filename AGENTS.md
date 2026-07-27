@@ -30,15 +30,12 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 
 结构：
 
-- `scripts/fetch-news.mjs` — 抓取 RSS（36氪、少数派、InfoQ 中文、爱范儿、TechCrunch AI、VentureBeat AI、MIT Technology Review、The Verge AI、Ars Technica），输出 `src/data/news.json`（保留近 7 天、最多 100 条，按热度降序）
-- `scripts/categorize.mjs` — 关键词内容分类，给每条资讯打 0~2 个内容标签（大模型、智能体、芯片算力、机器人、自动驾驶、政策监管、AI 安全、商业融资、开源、AI 应用，兜底 AI 动态），导出 `TAGS` 供首页筛选栏使用；另导出 `detectCompanies` 识别知名 AI 公司（OpenAI、Anthropic、Google、Meta、阿里、字节、DeepSeek 等 20 家），供「AI 公司动态」主题筛选
-- `scripts/translate.mjs` — 英文资讯翻译为中文（titleZh/summaryZh），走阿里百炼 DashScope OpenAI 兼容接口（qwen-turbo，批量 10 条/次），需环境变量 `DASHSCOPE_API_KEY`，未设置则跳过保留英文；结果缓存 `src/data/translation-cache.json`（随仓库提交，按 link 去重，只翻新增）
-- `src/pages/index.astro` — 首页，新闻卡片 + 筛选栏：全部 / AI 日报（数据中最新一天热度 Top 5）/ AI 公司动态（按公司分组的可展开视图：summary 显示公司名、动态数、最新一条标题，点开 `<details>` 看该公司全部动态，组内按时间降序）/ 各内容标签；翻译条目悬停标题可见英文原文
-- `src/components/NewsCard.astro` — 新闻卡片组件（来源、内容标签、热度、时间、摘要），主列表与公司分组共用
+- `scripts/fetch-news.mjs` — 抓取 RSS（36氪、少数派、TechCrunch AI、The Verge AI、Ars Technica），输出 `src/data/news.json`（保留近 7 天、最多 100 条）
+- `src/pages/index.astro` — 首页，按日期分组的新闻卡片 + 来源/语言筛选
 - `src/pages/about.astro` — 关于页（含政策背景）
-- `src/pages/feedback.astro` — 反馈页（标题「想说点什么」，字段：建议内容 + 可选邮箱），AJAX 提交到 Formspree，endpoint 常量 `FORMSPREE_ENDPOINT` 需替换为实际表单地址
-- `src/layouts/Layout.astro`、`src/styles/global.css` — 布局与全局样式（经 Astro 内联打包）；主题切换：左下角浮动切换器（亮色/暗色/护眼），`data-theme` 挂在 `<html>` 上，localStorage 持久化，`<head>` 内联脚本防闪烁；主题变量见 global.css `:root[data-theme=...]`
-- `.github/workflows/daily-update.yml` — 每天 UTC 0 点抓取并部署到 GitHub Pages；抓取步骤读取 `secrets.DASHSCOPE_API_KEY`（需在仓库 Settings → Secrets 配置，否则新增英文资讯不翻译）
+- `src/pages/security.astro` — 安全与治理页（政策第 7 条：运行时治理、分级监管、任务轨迹）
+- `src/layouts/Layout.astro`、`src/styles/global.css` — 布局与全局样式（经 Astro 内联打包）
+- `.github/workflows/daily-update.yml` — 每天 UTC 0 点抓取并部署到 GitHub Pages
 
 常用命令：
 
@@ -59,6 +56,9 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 - 服务器：阿里云 ECS 华南2（河源），Alibaba Cloud Linux 3，公网 IP `47.120.70.114`，网站根路径直接访问：http://47.120.70.114
 - 项目位置 `/opt/ai-news`，Node.js 在 `/usr/local/nodejs`，Nginx 站点配置 `/etc/nginx/conf.d/ai-news.conf`（默认 server 块已在 nginx.conf 中注释，备份 nginx.conf.bak）
 - 每日更新：cron `0 8 * * *` 执行 `/opt/ai-news/update.sh`（ASTRO_BASE=/ 构建到根路径），日志 `/var/log/ai-news-update.log`
-- 域名 `chichihehe.cc`（含 www）已预置在 Nginx `server_name`（default_server，IP 访问不受影响）；备案期间不可用域名访问境内服务器，备案通过后需在 DNS 加 A 记录指向 47.120.70.114，再配 Let's Encrypt HTTPS
+- 域名 `chichihehe.cc`（含 www）已完成备案（2026-07-27，备案号 `鄂ICP备2026038748号`，已悬挂在全站页脚并链接至 beian.miit.gov.cn），DNS A 记录（@ 和 www）指向 47.120.70.114，线上地址：https://chichihehe.cc
+- 注意：本机执行 `ASTRO_BASE=/ npm run build` 等带 `/` 开头参数的命令前，必须先 `export MSYS_NO_PATHCONV=1`，否则 `/` 会被 MSYS 转成 `C:/Program Files/Git`，污染构建产物
+- HTTPS 已上线（2026-07-27）：Let's Encrypt 证书，`certbot --nginx` 申请并自动改写 Nginx 配置（443 SSL + 80 跳转 301），覆盖 chichihehe.cc + www.chichihehe.cc，2026-10-25 到期，certbot 定时任务自动续期
+- 注意：ECS 安全组入方向需放行 TCP 443（HTTPS 不通时先查安全组，再查服务器防火墙）
 - 构建用 `ASTRO_BASE=/` 覆盖 base；GitHub Pages 仍用 `/chichihehe`（两处部署互不影响）
 - 本机 SSH 工具：`.tmp/deploy/ssh.mjs`（执行远端命令）、`.tmp/deploy/upload.mjs`（上传文件），凭据在 `.tmp/deploy/config.json`（.tmp 已 gitignore）；Git Bash 中调用时必须 `export MSYS_NO_PATHCONV=1`，否则 `/opt/...` 参数会被转成 Windows 路径
