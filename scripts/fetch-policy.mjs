@@ -1,10 +1,11 @@
-// 抓取北上广深四市政府 + 武汉市经信局 + 工信部官网的 AI 相关最新通知通告，输出 src/data/policy.json
+// 抓取工信部 + 北上广深汉五市经信局/工信局（委）官网的 AI 相关最新通知通告，输出 src/data/policy.json
 // 用法：node scripts/fetch-policy.mjs
-// 说明：六个来源均无 RSS，分别走 JSON 搜索接口（工信部、广东统一搜索）或静态列表页解析（北京、上海、武汉）；
+// 说明：六个来源均无 RSS，工信部走站内搜索 JSON 接口，其余五局均为静态列表页解析；
 //       单个来源失败不影响其他来源，最终合并去重后按时间倒序取前 MAX_ITEMS 条。
 import { writeFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import https from 'node:https';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dirname, '..', 'src', 'data', 'policy.json');
@@ -62,6 +63,42 @@ function dateOnlyToIso(s) {
   return new Date(`${String(s).slice(0, 10)}T00:00:00+08:00`).toISOString();
 }
 
+// 深圳市工信局官网的 TLS 协商会让 undici(fetch) 报 bad ecpoint（疑似国密/非常规曲线），
+// 改用 https 模块并限定 P-256 曲线 + RSA 密钥交换绕过；带一次重试
+async function fetchTextSz(url, tries = 2) {
+  let lastErr;
+  for (let i = 0; i < tries; i++) {
+    try {
+      return await new Promise((resolve, reject) => {
+        const req = https.get(
+          url,
+          {
+            headers: { 'User-Agent': UA },
+            ecdhCurve: 'prime256v1',
+            ciphers: 'ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:RSA+AES128:RSA+AES256',
+            timeout: 20000,
+          },
+          (res) => {
+            if (res.statusCode !== 200) {
+              res.resume();
+              reject(new Error(`HTTP ${res.statusCode}`));
+              return;
+            }
+            const chunks = [];
+            res.on('data', (c) => chunks.push(c));
+            res.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
+          }
+        );
+        req.on('timeout', () => req.destroy(new Error('timeout')));
+        req.on('error', reject);
+      });
+    } catch (err) {
+      lastErr = err;
+    }
+  }
+  throw lastErr;
+}
+
 // —— 工业和信息化部：站内搜索 JSON 接口（按相关度排序，客户端再按时间排序去重）——
 async function fetchMiit() {
   const items = [];
@@ -87,50 +124,63 @@ async function fetchMiit() {
   return items;
 }
 
-// —— 北京市政府：政策文件列表页为单页全量静态 HTML（近千条，日期倒序）——
+// —— 北京市经信局：政策文件栏目静态列表（AI 密度高；通知公告栏目多为专精特新/小巨人，不抓）——
 async function fetchBeijing() {
-  const BASE = 'https://www.beijing.gov.cn/zhengce/zhengcefagui/';
-  const res = await fetchRes(BASE);
-  const html = await res.text();
-  const re =
-    /<a href="(\.\/\d{6}\/t\d{8}_\d+\.html)"[^>]*title="([^"]+)"[^>]*>[\s\S]*?<\/a>\s*<span>(\d{4}-\d{2}-\d{2})<\/span>/g;
+  const BASE = 'https://jxj.beijing.gov.cn/zwgk/2024zcwj/';
   const items = [];
-  let m;
-  while ((m = re.exec(html))) {
-    const title = clean(m[2]);
-    if (!AI_RE.test(title)) continue;
-    items.push({
-      title,
-      link: new URL(m[1], BASE).href,
-      source: '北京市政府',
-      pubDate: dateOnlyToIso(m[3]),
-      summary: '',
-    });
+  for (const page of ['', 'index_1.html', 'index_2.html']) {
+    try {
+      const res = await fetchRes(new URL(page, BASE).href);
+      const html = await res.text();
+      // 注意：日期 span 内（含方括号前后）有大量空白，正则要容忍
+      const re =
+        /<li><a href="(\.\/\d{6}\/t\d{8}_\d+\.html)"[^>]*title="([^"]+)"[^>]*>[\s\S]*?<\/a>\s*<span class="date">\s*\[\s*(\d{4}-\d{2}-\d{2})\s*\]\s*<\/span><\/li>/g;
+      let m;
+      while ((m = re.exec(html))) {
+        const title = clean(m[2]);
+        if (!AI_RE.test(title)) continue;
+        items.push({
+          title,
+          link: new URL(m[1], BASE).href,
+          source: '北京市经信局',
+          pubDate: dateOnlyToIso(m[3]),
+          summary: '',
+        });
+      }
+    } catch (err) {
+      console.warn(`[warn] 北京市经信局 列表页 ${page || 'index.html'} 抓取失败: ${err.message}`);
+    }
   }
   return items;
 }
 
-// —— 上海市政府：近期信息公开静态列表页（条目少，AI 命中经常为 0，属正常）——
+// —— 上海市经信委：公示公告静态列表（每页 10 条，分页从 index_2.html 开始；列表自带摘要）——
 async function fetchShanghai() {
-  const res = await fetchRes('https://www.shanghai.gov.cn/nw12344/index.html');
-  const html = await res.text();
-  // 每条出现两次（带/不带日期 span），按 href 去重；日期从 URL 路径提取
-  const re = /<a href="(\/nw12344\/(\d{4})(\d{2})(\d{2})\/[0-9a-z]+\.html)"[^>]*title="([^"]+)"/g;
-  const seen = new Set();
+  const BASE = 'https://sheitc.sh.gov.cn/gg/';
   const items = [];
-  let m;
-  while ((m = re.exec(html))) {
-    if (seen.has(m[1])) continue;
-    seen.add(m[1]);
-    const title = clean(m[5]);
-    if (!AI_RE.test(title)) continue;
-    items.push({
-      title,
-      link: `https://www.shanghai.gov.cn${m[1]}`,
-      source: '上海市政府',
-      pubDate: dateOnlyToIso(`${m[2]}-${m[3]}-${m[4]}`),
-      summary: '',
-    });
+  for (const page of ['index.html', 'index_2.html', 'index_3.html', 'index_4.html', 'index_5.html']) {
+    try {
+      const res = await fetchRes(new URL(page, BASE).href);
+      const html = await res.text();
+      const re =
+        /<a href="(\/gg\/\d{8}\/[0-9a-f]+\.html)" title="([^"]+)">([\s\S]*?)<span>(\d{4}-\d{2}-\d{2})<\/span>/g;
+      let m;
+      while ((m = re.exec(html))) {
+        const title = clean(m[2]);
+        if (!title || !AI_RE.test(title)) continue;
+        // 块内 <p> 是正文开头，直接当摘要
+        const summary = clean(m[3].match(/<p>([\s\S]*?)<\/p>/)?.[1] || '').slice(0, 200);
+        items.push({
+          title,
+          link: `https://sheitc.sh.gov.cn${m[1]}`,
+          source: '上海市经信委',
+          pubDate: dateOnlyToIso(m[4]),
+          summary,
+        });
+      }
+    } catch (err) {
+      console.warn(`[warn] 上海市经信委 列表页 ${page} 抓取失败: ${err.message}`);
+    }
   }
   return items;
 }
@@ -168,54 +218,60 @@ async function fetchWuhan() {
   return items;
 }
 
-// —— 广东统一搜索接口（广州 site_id=200001，深圳 site_id=755001）——
-// 两步：先 GET 搜索页拿 cookie + CSRF token，再 form-urlencoded POST 查询（JSON body 会被静默忽略）
-async function fetchGd(siteId, sourceName) {
+// —— 广州市工信局：通知公告静态列表（标题在链接文本里，链接已是绝对地址；分页从 index_2 开始）——
+async function fetchGuangzhou() {
+  const BASE = 'https://gxj.gz.gov.cn/yw/tzgg/';
   const items = [];
-  for (const q of ['人工智能', '智能体']) {
+  for (const page of ['index.html', 'index_2.html', 'index_3.html']) {
     try {
-      const page = await fetchRes(
-        `https://search.gd.gov.cn/search/all/${siteId}?keywords=${encodeURIComponent(q)}`
-      );
-      const cookies = (page.headers.getSetCookie?.() || [])
-        .map((c) => c.split(';')[0])
-        .join('; ');
-      const html = await page.text();
-      const token = html.match(/var _CSRF = '([^']+)'/)?.[1];
-      if (!token) {
-        console.warn(`[warn] ${sourceName} 未获取到 CSRF token，跳过关键词「${q}」`);
-        continue;
-      }
-      const res = await fetchRes('https://search.gd.gov.cn/api/search/all', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-          'X-CSRF-TOKEN': token,
-          Referer: `https://search.gd.gov.cn/search/all/${siteId}`,
-          ...(cookies ? { Cookie: cookies } : {}),
-        },
-        body: new URLSearchParams({ keywords: q, site_id: siteId, page: '1', sort: 'time' }),
-      });
-      const json = JSON.parse(await res.text());
-      const news = json?.data?.news;
-      // total 异常大（百万级）说明关键词被静默忽略、返回的是全站结果，视为失败
-      if (!news || Number(news.total) > 100000) {
-        console.warn(`[warn] ${sourceName} 关键词「${q}」返回异常（total=${news?.total}），跳过`);
-        continue;
-      }
-      for (const r of news.list || []) {
-        const title = clean(r.title);
-        if (!title || !r.url || !r.pub_time || !AI_RE.test(title)) continue;
+      const res = await fetchRes(new URL(page, BASE).href);
+      const html = await res.text();
+      const re =
+        /<a href="(https:\/\/gxj\.gz\.gov\.cn\/yw\/tzgg\/content\/post_\d+\.html)"[^>]*>([^<]{4,80})<\/a>\s*<span class="pubDate">(\d{4}-\d{2}-\d{2})<\/span>/g;
+      let m;
+      while ((m = re.exec(html))) {
+        const title = clean(m[2]);
+        if (!title || !AI_RE.test(title)) continue;
         items.push({
           title,
-          link: r.url,
-          source: sourceName,
-          pubDate: dateOnlyToIso(r.pub_time),
-          summary: clean(r.content || r.abstract || '').slice(0, 200),
+          link: m[1],
+          source: '广州市工信局',
+          pubDate: dateOnlyToIso(m[3]),
+          summary: '',
         });
       }
     } catch (err) {
-      console.warn(`[warn] ${sourceName} 关键词「${q}」抓取失败: ${err.message}`);
+      console.warn(`[warn] 广州市工信局 列表页 ${page} 抓取失败: ${err.message}`);
+    }
+  }
+  return items;
+}
+
+// —— 深圳市工信局：通知公告静态列表（服务端渲染，无市政府站的 JS 渲染坑；分页从 index_2 开始）——
+async function fetchShenzhen() {
+  const BASE = 'https://gxj.sz.gov.cn/xxgk/xxgkml/qt/tzgg/';
+  const items = [];
+  for (const page of ['', 'index_2.html', 'index_3.html']) {
+    try {
+      // 该站 TLS 与 undici 不兼容，走专用通道
+      const html = await fetchTextSz(new URL(page, BASE).href);
+      // 链接文本带 <em> 序号，标题取 title 属性
+      const re =
+        /<div class="ListconC">\s*<span>(\d{4}-\d{2}-\d{2})<\/span><a href="(https:\/\/gxj\.sz\.gov\.cn\/[^"]*post_\d+\.html)"[^>]*title="([^"]+)"/g;
+      let m;
+      while ((m = re.exec(html))) {
+        const title = clean(m[3]);
+        if (!title || !AI_RE.test(title)) continue;
+        items.push({
+          title,
+          link: m[2],
+          source: '深圳市工信局',
+          pubDate: dateOnlyToIso(m[1]),
+          summary: '',
+        });
+      }
+    } catch (err) {
+      console.warn(`[warn] 深圳市工信局 列表页 ${page || 'index.html'} 抓取失败: ${err.message}`);
     }
   }
   return items;
@@ -223,11 +279,11 @@ async function fetchGd(siteId, sourceName) {
 
 const SOURCES = [
   ['工业和信息化部', fetchMiit],
-  ['北京市政府', fetchBeijing],
-  ['上海市政府', fetchShanghai],
+  ['北京市经信局', fetchBeijing],
+  ['上海市经信委', fetchShanghai],
+  ['广州市工信局', fetchGuangzhou],
+  ['深圳市工信局', fetchShenzhen],
   ['武汉市经信局', fetchWuhan],
-  ['广州市政府', () => fetchGd('200001', '广州市政府')],
-  ['深圳市政府', () => fetchGd('755001', '深圳市政府')],
 ];
 
 const results = await Promise.all(
