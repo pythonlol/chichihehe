@@ -72,9 +72,9 @@ const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleStri
 
   <div class="filters" id="filters">
     <button class="active" data-filter="all">全部</button>
+    {policyItems.length > 0 && <button data-filter="tag:最新资讯">最新资讯</button>}
     <button data-filter="daily">AI 日报</button>
     <button data-filter="company">AI 公司动态</button>
-    {policyItems.length > 0 && <button data-filter="tag:最新资讯">最新资讯</button>}
     {TAGS.map((t) => <button data-filter={`tag:${t}`}>{t}</button>)}
   </div>
 
