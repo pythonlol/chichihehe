@@ -1,142 +1,166 @@
 {
-  "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims": {
-    "titleZh": "OpenAI 在向所有人推出 ChatGPT Health 时提出了重大声明",
-    "summaryZh": "OpenAI 本周四将 ChatGPT Health 推广至美国所有人，使更多人能够将医疗记录和健康追踪信息连接到聊天机器人。在一次简报会上，Ashley"
+  "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/": {
+    "titleZh": "计划中的亚马逊数据中心可能成为美国最大的气候污染者",
+    "summaryZh": "AI 已经对亚马逊的碳排放产生了重大影响，该公司报告称去年的碳排放量上升了 16%——这对一家承诺在 2040 年前消除碳排放的公司来说是错误的方向。"
   },
-  "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive": {
-    "titleZh": "Apple 的 OpenAI 诉讼关乎谁将定义后智能手机时代",
-    "summaryZh": "今天在 Decoder 上，我与 The Verge 的高级 AI 记者 Hayden Field 谈论了苹果与 OpenAI 之间的重大商业机密诉讼，以及这对我们了解 OpenAI 未来意味着什么。截至目前，我"
+  "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/": {
+    "titleZh": "《下载》：谷歌的人工智能重组与Meta的失控模型",
+    "summaryZh": "这是《The Download》的今日版，这是我们每天发布的科技新闻简报。谷歌的 AI 帝国正在被重塑，以下是发生了哪些变化。"
   },
-  "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/": {
-    "titleZh": "OpenAI 现已向所有美国用户开放 ChatGPT Health",
-    "summaryZh": "用户还可以从 Apple Health、Function 和 MyFitnessPal 等服务中整合个人数据。"
+  "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/": {
+    "titleZh": "Meta的新Glimmer AI模型揭示了扎克伯格个人智能愿景",
+    "summaryZh": "Meta 的新开放权重 Muse Glimmer 模型展示了马克·扎克伯格的个人超级智能愿景，以及 AI 用户可以拥有和访问之间的新兴分歧。"
   },
-  "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/": {
-    "titleZh": "Anthropic 通过更强大的模型更新了 Claude 语音模式",
-    "summaryZh": "Claude 的新语音模型将允许你重新安排会议或撰写电子邮件。"
+  "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant": {
+    "titleZh": "亚马逊的一个数据中心可能是全国污染最严重的发电厂",
+    "summaryZh": "为了为其新的德克萨斯州西部数据中心供电，亚马逊正在投资建设一座新电厂，据《The》报道，这可能是美国最大的单一温室气体生产者之一。"
   },
-  "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai": {
-    "titleZh": "Claude 的语音模式现已支持 Opus 和 Sonnet",
-    "summaryZh": "到目前为止，语音模式仅适用于 Claude Haiku，即 Anthropic 更快但功能较弱的模型。现在，该公司正在将 Opus 和 Sonnet 模型也加入语音模式，并扩展 i"
+  "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/": {
+    "titleZh": "马克·扎克伯格的人工智能宣言正是人们不喜欢人工智能的原因",
+    "summaryZh": "周一，马克·扎克伯格发布了一篇长达 6500 字的宣言，关于个人 AI，主要讨论了 Meta AI 正在构建的“个人超级智能”系统的可能性。"
   },
-  "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid": {
-    "titleZh": "Meta 自己开发了 AI 检测系统。它本应直接使用 Google 的",
-    "summaryZh": "Content Seal 很像 SynthID 的一个更难使用且不可靠的版本。| 图片：Meta / The Verge 3 月，Meta 的监督委员会呼吁该公司 \"履行其公开承诺和"
+  "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/": {
+    "titleZh": "随着人工智能驱动的攻击增多，OpenAI推出新的网络模型",
+    "summaryZh": "OpenAI 正在扩大其 AI 网络安全防御计划 Daybreak，并推出一款新的经过网络安全训练的 AI 模型。"
   },
-  "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal": {
-    "titleZh": "AMD 承诺向 Anthropic 投资最高达 50 亿美元",
-    "summaryZh": "AMD 表示，根据周三的公告，它计划向 Anthropic 投资高达 50 亿美元，同时帮助扩大这家 AI 公司的计算能力。作为新合作的一部分，Anthro"
+  "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/": {
+    "titleZh": "科技行业热议：Claude代理入侵健身房事件",
+    "summaryZh": "一个 OpenClaw 代理入侵了一家健身房的预约系统，将它的真人老板提升到了课程的等待名单上。而科技行业注意到了这一点。"
   },
-  "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/": {
-    "titleZh": "Meta 推出了一则新的 AI 乐观主义广告，背景音乐是关于人类灭绝的歌曲",
-    "summaryZh": "大卫·鲍伊的歌曲《Five Years》被 Meta 用在一则 supposedly 启发性的广告中，但实际上这首歌讲述的是人类得知自己在末日来临前只剩下五年时间的故事。"
+  "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/": {
+    "titleZh": "OpenAI表示因安全问题放缓了Astra模型的开发",
+    "summaryZh": "OpenAI 表示，这款仍在开发中的模型已经达到了其“关键网络安全阈值”，这意味着它可以独立识别并针对传统上安全性较高的目标发起网络攻击。"
   },
-  "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/": {
-    "titleZh": "OpenAI 的人为错误导致了对 Hugging Face 的 AI 攻击",
-    "summaryZh": "OpenAI 在设置其所谓的“高度隔离”测试环境和沙盒时犯了一个错误。根据网络安全专家的说法，这个人为错误导致了对 Huggin 的 AI 驱动的攻击。"
+  "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities": {
+    "titleZh": "OpenAI暂停了一个新模型的开发，因其据称过于强大",
+    "summaryZh": "OpenAI 表示，由于其尚未达到公司正在制定的新安全标准，它已暂停了开发中 AI 模型 Astra 的“内部活动”。这一声明是在近期一系列事件之后发布的。"
   },
-  "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/": {
-    "titleZh": "下载：NASA 新的太空望远镜和 OpenAI 的自主黑客",
-    "summaryZh": "这是《The Download》的今日版，这是我们每天发布的科技世界最新动态的新闻简报。NASA 新型太空望远镜上的变形镜子可能会揭示一些前所未有的宇宙奥秘。"
+  "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble": {
+    "titleZh": "从马克·扎克伯格庞大的人工智能宣言中得出的四个要点",
+    "summaryZh": "Meta 首席执行官马克·扎克伯格对人类与人工智能共存的理想化未来有很多想法——他最新的文章长达 6500 多字，探讨了这一问题。"
   },
-  "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/": {
-    "titleZh": "AMD推出Helios人工智能机架系统，挑战Nvidia",
-    "summaryZh": "AMD正在以其芯片制造商竞争对手为对手，推出一款新的机架规模系统，该系统将于今年晚些时候开始交付给客户。"
+  "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/": {
+    "titleZh": "下载：用于科学的AI代理，以及“审查工业复合体”",
+    "summaryZh": "这是《The Download》的今日版，我们的每日新闻简报，提供科技世界每日的最新动态。人工智能用于科学需要推理，而不仅仅是数据——埃里克·施密特，"
   },
-  "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/": {
-    "titleZh": "Substack新工具可告诉你谁在用AI撰写你的新闻通讯",
-    "summaryZh": "Substack正在为读者提供一种估算新闻通讯中有多少内容是通过AI撰写的工具，这表明了对AI辅助内容透明度的更广泛关注。"
+  "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/": {
+    "titleZh": "科学领域的AI需要推理能力，而不仅仅是数据",
+    "summaryZh": "每隔几十年，就会有人宣布科学已经走到尽头。1903年，著名物理学家阿尔伯特·米歇尔森曾写道：“物理科学的事实已经全部被发现。”在20世纪80年代，"
   },
-  "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/": {
-    "titleZh": "谷歌的Gemini用户数即将突破十亿大关",
-    "summaryZh": "截至2月，Gemini的月活跃用户已超过7.5亿。"
+  "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast": {
+    "titleZh": "谷歌AI重组背后的原因是什么",
+    "summaryZh": "本周，谷歌AI团队的一些知名人物获得了新的职位。在某些情况下，包括传奇谷歌员工杰夫·迪恩在内，这些职位已不再属于谷歌。鉴于谷歌的模型似乎在"
   },
-  "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/": {
-    "titleZh": "专家表示，利用Anthropic的Fable并不是Kimi K3变得如此强大的原因",
-    "summaryZh": "\"我认为在Fable仅通过蒸馏技术就迅速获得如此强大且快速的模型，这并不现实，\"一位专家告诉TechCrunch。"
+  "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/": {
+    "titleZh": "Anthropic现在默认开启Claude Code的自动模式",
+    "summaryZh": "使用Claude Code进行编程将很快需要更少的人类监督。"
   },
-  "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/": {
-    "titleZh": "财政部威胁制裁，此前白宫声称Moonshot从Anthropic的Fable中提炼出了技术",
-    "summaryZh": "这一事件也加剧了华盛顿关于中国开源模型大量涌入的更广泛争论。"
+  "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/": {
+    "titleZh": "据报道，OpenAI已完成70亿美元的员工收购要约",
+    "summaryZh": "旧金山的房地产市场再次陷入困境。"
   },
-  "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices": {
-    "titleZh": "Alexa Plus将获得AI更新，以处理更复杂的指令",
-    "summaryZh": "亚马逊正在推出一项针对其Alexa Plus助手的更新，将允许它以新的方式连接智能家居设备。目前，这项更新正处于预览阶段，Alexa Plus可以与更多设备进行连接。"
+  "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/": {
+    "titleZh": "OpenAI收购演示初创公司NextSlide",
+    "summaryZh": "创始人艾哈迈德·贝什里将该初创公司的产品描述为“一种可以将提示、笔记、文件或研究转化为精美的可编辑演示文稿的工具”。"
   },
-  "https://www.theverge.com/tech/970211/patreon-layoffs-ai": {
-    "titleZh": "Patreon裁员20%",
-    "summaryZh": "Patreon正在裁员20%，即约93名员工，此前404 Media已有相关报道。在给员工的一封信中，Patreon首席执行官Jack Conte写道，公司做出这些调整并非轻率之举。"
+  "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/": {
+    "titleZh": "据报道，OpenAI的新AI智能音箱售价将在300至400美元之间",
+    "summaryZh": "关于OpenAI神秘新AI设备的更多细节显示，它看起来像是一款价格昂贵的智能音箱。"
   },
-  "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/": {
-    "titleZh": "Runway推出AI模型路由器，应对生成式媒体市场的竞争",
-    "summaryZh": "Media Router是一种工具，它会根据开发者是否优先考虑质量、速度或成本，自动为请求选择最佳的图像、视频或音频生成模型。"
+  "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app": {
+    "titleZh": "福特的新AI助手可检查您的油量和轮胎压力",
+    "summaryZh": "福特正在推出一款新的AI驱动的助手，可以回答有关你的福特或林肯汽车的问题，例如你下一次公路旅行需要多少燃油，或者你的卡车能否拖动那辆汽车。"
   },
-  "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/": {
-    "titleZh": "超冷肾脏在“里程碑式成就”中被移植到猪体内",
-    "summaryZh": "在器官捐献方面，时间至关重要。一旦器官从捐赠者体内被小心取出，它就开始退化。外科医生必须在数小时内将其植入接受者体内。"
+  "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/": {
+    "titleZh": "Cloudflare推出Kitesurf，一款专为AI代理设计的浏览器",
+    "summaryZh": "Kitesurf是一个专为AI代理而非人类设计的云托管浏览器。它在常见自动化任务中使用的计算资源比Chromium更少，帮助开发者构建基于浏览器的AI代理更高效。"
   },
-  "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/": {
-    "titleZh": "AI芯片初创公司Etched逆势而上，获得知名投资者支持，估值达103亿美元",
-    "summaryZh": "由三位哈佛大学辍学生创立的Etched已经开发出新的芯片和内存组件，可以在任何AI模型上加速推理过程——该公司表示，无需GPU。"
+  "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/": {
+    "titleZh": "成千上万的服务器可能因利用有缺陷的主板控制器而被植入后门",
+    "summaryZh": "全球最大制造商的基板管理控制器存在严重的安全问题。"
   },
-  "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/": {
-    "titleZh": "《下载》：能源传输与美国对中国人工智能的威胁",
-    "summaryZh": "这是《The Download》的今日版，我们的工作日新闻简报，每天提供科技世界的最新动态。可能重塑纽约电网的电力线路正在投入使用。"
+  "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/": {
+    "titleZh": "NASA的新暗能量太空望远镜还能探测致命小行星",
+    "summaryZh": "8月底，美国国家航空航天局（NASA）计划从佛罗里达州肯尼迪航天中心发射南希·格雷斯·罗曼空间望远镜。其目标是帮助我们更好地理解宇宙的运作方式，从“胶水”般的暗物质到其他现象。"
   },
-  "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/": {
-    "titleZh": "Monday.com裁员数百人以专注人工智能",
-    "summaryZh": "该公司表示，为了“支持更精简、更专注的运营模式”，它将裁员20%，约630名员工。"
+  "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision": {
+    "titleZh": "马克·扎克伯格不懂如何生活",
+    "summaryZh": "最近，我一起攀岩的人告诉我，他用人工智能为自己制作了一张励志海报，并挂在卧室墙上：一只熊正在峡谷上走钢丝，手里拿着一个杯子。"
   },
-  "https://www.theverge.com/tech/969382/samsung-google-smart-glasses-gentle-monster-warby-parker": {
-    "titleZh": "这里就是三星智能眼镜的实际样子",
-    "summaryZh": "每副眼镜都配有摄像头，谷歌和三星的AI眼镜面临的隐私问题与Meta一样。| 图片：Dominic Preston / The Verge 三星让我们首次有机会一睹其升级版产品的风采。"
+  "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/": {
+    "titleZh": "新墨西哥州法院命令Meta为儿童安全案件额外支付5.67亿美元",
+    "summaryZh": "在此次事件中，Meta的罚款总额已达到9.42亿美元。"
   },
-  "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/": {
-    "titleZh": "Arcee，一家美国开源人工智能实验室表示，中国模型并非天生危险",
-    "summaryZh": "随着中国AI模型在能力和美国公司中的受欢迎程度不断提升，关于应如何应对它们的争论已达到白热化程度。"
+  "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio": {
+    "titleZh": "当耳机变成人工智能时，Bose会怎样？",
+    "summaryZh": "今天，我与Bose的首席执行官莉拉·斯奈德进行交谈。你一定知道Bose——它是消费科技领域最著名的品牌之一。该公司60年前开始销售音响产品。"
   },
-  "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/": {
-    "titleZh": "AegisAI由前谷歌安全高管创立，获得3600万美元资金以阻止人工智能驱动的精准网络钓鱼攻击",
-    "summaryZh": "AegisAI的联合创始人开发了AI代理，这些代理能像人类一样快速分析每条信息，注意那些即使是最详尽的检查清单也难以发现的细微异常。"
+  "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel": {
+    "titleZh": "观看Roku的人工智能频道就像从食槽里进食",
+    "summaryZh": "免费广告支持流媒体电视（FAST）频道的吸引力一直在于它们让观众更容易（重新）发现经典电影和电视剧。但Roku在FAST领域的最新实验却引发了争议。"
   },
-  "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/": {
-    "titleZh": "谷歌用蓬勃发展的云业务为其庞大的人工智能支出辩护",
-    "summaryZh": "谷歌的云业务正在蓬勃发展，因为采用其AI和AI基础设施服务的公司帮助这家科技巨头实现了创纪录的利润。"
+  "https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/": {
+    "titleZh": "下载：NASA的新望远镜与中国科技进口限制",
+    "summaryZh": "这是《The Download》今日版，我们的工作日新闻简报，每天为你提供科技世界的最新动态。NASA的新暗能量空间望远镜还能探测到致命的小行星。"
   },
-  "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/": {
-    "titleZh": "英伟达正将GPU送往月球",
-    "summaryZh": "如果宇宙中还有没有GPU的地方，英伟达也会将它们送到那里。"
+  "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/": {
+    "titleZh": "历史学家吉尔·莱波尔称硅谷误解了科幻小说并损害了民主",
+    "summaryZh": "在《Equity》最新一集中，我们采访了吉尔·莱波尔，探讨“机器治理”以及为什么埃隆·马斯克是个糟糕的科幻小说读者。"
   },
-  "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal": {
-    "titleZh": "立法者准备提出要求人工智能‘紧急停止’功能的法案",
-    "summaryZh": "据一份报告称，立法者正准备提出一项“AI关停法案”，该法案要求AI公司根据国土安全部的指令关闭或降低其系统运行速度。"
+  "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/": {
+    "titleZh": "人工智能教授正在协商学术研究的新现实",
+    "summaryZh": "这篇报道最初发表于《The Algorithm》，我们的每周AI新闻简报。要第一时间收到类似的故事，请在这里注册。上周，我前往旧金山以南30英里的酒店。"
   },
-  "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/": {
-    "titleZh": "人工智能如何帮助科学家设计下一代药物",
-    "summaryZh": "设计和开发一种新药是一项昂贵且容易失败的科学挑战。一种新药可能需要多年研发，耗费大量资金。而且即使如此，大多数药物仍会失败。"
+  "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/": {
+    "titleZh": "发现材料公司正在与人工智能玩打地鼠游戏以寻找更冷的芯片",
+    "summaryZh": "发现材料公司筹集了900万美元，用于资助寻找更多新型材料，以制造更高效的芯片。"
   },
-  "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans": {
-    "titleZh": "右翼婴儿潮一代抗议数据中心的人与左翼有很多共同点",
-    "summaryZh": "一名人士在佛罗里达州新波特里奇伊的和平厅外举行的全国性抗议活动中举着标语，反对AI数据中心的扩建。| AFP via Getty Images 在一个阴沉潮湿的周六上午，中央佛罗里达州的抗议活动正在进行。"
+  "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/": {
+    "titleZh": "这些初创公司正在追逐大模型（LLM）的下一个热点",
+    "summaryZh": "MIT Technology Review的《What’s Next》系列横跨各行业、趋势和技术，带你率先了解未来。你可以在此阅读其余内容。早在2017年夏天，我们就曾讨论过相关话题。"
   },
-  "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/": {
-    "titleZh": "可能重塑纽约电网的输电线路遭遇阻碍",
-    "summaryZh": "7月3日，随着该地区出现热浪，纽约州电网从加拿大进口了52千兆瓦时的电力——足以满足当天约9%的总电力需求。其中一部分电力来自加拿大。"
+  "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/": {
+    "titleZh": "备受争议的对冲基金Situational Awareness向芯片初创公司Source Foundry投资4亿美元",
+    "summaryZh": "这家专注于人工智能的对冲基金仍在下大赌注。"
   },
-  "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/": {
-    "titleZh": "ServiceNow押注4000万美元，收购印度银行业软件专家以拓展其金融服务布局",
-    "summaryZh": "ServiceNow的投资使BusinessNext获得了一家战略合作伙伴，以在全球范围内扩展其基于人工智能的银行软件。"
+  "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/": {
+    "titleZh": "AI安全测试正成为安全风险",
+    "summaryZh": "人工智能代理正在逃出网络安全测试环境，进入现实世界系统，这引发了关于安全基础设施、行业标准和监管能否跟上技术发展速度的疑问。"
   },
-  "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/": {
-    "titleZh": "在令人震惊的季度表现后，IBM坚称人工智能并未摧毁大型机",
-    "summaryZh": "在上周IBM股价因主机会销售不佳的警告而暴跌后，CEO解释称，人工智能破坏了企业的硬件预算，这只是一个暂时现象。"
+  "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion": {
+    "titleZh": "AI检测器正在创造新的不信任时代",
+    "summaryZh": "这是《Stepback》，一份每周新闻简报，解读科技界的一个关键故事。如需了解有关人工智能如何改变我们日常生活的更多新闻，请关注艾玛·罗思。《Stepback》将出现在我们的订阅中。"
   },
-  "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/": {
-    "titleZh": "特拉维斯·卡兰尼克的机器人公司融资17亿美元，由a16z领投",
-    "summaryZh": "Uber还在投资Travis Kalanick的公司Atoms，该公司曾声称使用工业人工智能来现代化世界。"
+  "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/": {
+    "titleZh": "在几个月内花费数百万美元用于AI后，Rippling开发出了一款员工投资回报工具",
+    "summaryZh": "在经历了自身AI使用警钟后，Rippling本周推出了AI支出控制台，这是一款追踪个人和团队员工AI支出的产品。"
   },
-  "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/": {
-    "titleZh": "Yope融资1230万美元，打造无算法和广告的私有社交网络",
-    "summaryZh": "Yope是一款快速增长的社交应用，专注于朋友和家庭的私密群组，已筹集了1230万美元的种子资金。与追逐创作者和算法信息流不同，这家初创公司正在押注于其他方向。"
+  "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo": {
+    "titleZh": "Fenix Flexin甚至不再否认使用AI制作‘Rubberz’",
+    "summaryZh": "那张封面艺术几乎肯定是AI创作的。 | 图片：Fenix Flexin 花了这么久，但如今洛杉矶说唱歌手Fenix Flexin似乎承认他为80年代合成器流行风格歌曲《Rubberz》使用了AI。"
+  },
+  "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/": {
+    "titleZh": "Airbnb表示AI正在帮助其更快地推出新功能，同时测试一项新的搜索功能",
+    "summaryZh": "Airbnb将推出一项新的AI驱动的搜索体验，并附带一个切换按钮。"
+  },
+  "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/": {
+    "titleZh": "《下载》：一种审查制度阴谋论和由AI制造的第一个病毒",
+    "summaryZh": "这是《下载》今日版，这是我们每天的新闻简报，提供科技世界每日动态。一些关于广泛审查网络的想法从在线论坛转移到了现实。"
+  },
+  "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/": {
+    "titleZh": "Jill Lepore谈‘人工国家’以及为什么硅谷领导人是糟糕的科幻小说读者",
+    "summaryZh": "历史学家吉尔·莱波尔提出了一个理论，解释为什么科技公司经常用高调的语言描述他们的产品——几乎就像他们在建立一个新的政府。无论你想到的是推特还是其他平台，"
+  },
+  "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/": {
+    "titleZh": "关于广泛审查网络的想法如何从网络边缘进入特朗普政策",
+    "summaryZh": "本文由Type Investigations制作，并得到Wayne Barrett项目的资助。2025年4月的一天，美国国务院一家小型办公室的员工收到了"
+  },
+  "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/": {
+    "titleZh": "ChatGPT为免费用户带来无限文本聊天",
+    "summaryZh": "OpenAI表示，ChatGPT免费版和Go用户也将获得一个新按钮，用于处理复杂查询。"
+  },
+  "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/": {
+    "titleZh": "谜题角落",
+    "summaryZh": "准备好迎接新的谜题了吗？点击这里查看由 Michael S. Branicky, ScD ’95 领衔的 2026 年 9/10 月谜题角，这是谜题角谜题小组（简称 PC2）带来的内容，还包括"
   }
 }

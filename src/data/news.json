@@ -1,1455 +1,1326 @@
 {
-  "updatedAt": "2026-07-24T01:07:31.001Z",
+  "updatedAt": "2026-08-11T03:11:01.308Z",
   "items": [
     {
-      "title": "早报｜极氪回应跨境自驾车机被锁/曝苹果Apple Store应用将上线「AI购物助手」/梁文锋:DeepSeek不追求成为下一个字节或腾讯",
-      "link": "https://www.ifanr.com/1672938?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
+      "title": "宇树科技今日申购，或出一批90后千万富豪；字节拟训练超5万亿参数模型，张一鸣：反对蒸馏；数百管理层被裁难找下家，猎头：没那么多岗｜AI周报",
+      "link": "https://www.infoq.cn/article/xWWwhH3iPjwRakLOQiXQ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "lang": "zh",
-      "pubDate": "2026-07-24T00:12:12.000Z",
-      "summary": "· 腾讯混元多模态理解负责人胡瀚离职，原团队或转向世界模型研究 · 字节跳动 Seed 启动 STEM 科学家计划 · 牧师称 ChatGPT 健康建议险些致命，起诉 OpenAI #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "heat": 38.9,
+      "pubDate": "2026-08-10T09:31:25.000Z",
+      "summary": "点击查看原文>",
+      "heat": 46.7,
       "tags": [
-        "大模型",
-        "AI 应用"
+        "AI 动态"
       ],
       "companies": [
-        "OpenAI",
-        "Apple",
         "字节跳动"
       ]
     },
     {
-      "title": "全球首个端侧驱动本体的世界模型来了！大晓机器人首创“信息密度定律”，重写物理AI训练逻辑",
-      "link": "https://www.infoq.cn/article/u0hD10fj7HWAfb10Dbr3?utm_source=rss&utm_medium=article",
+      "title": "派早报：Meta 发布开源本地 AI 智能体大模型 Muse Glimmer、阿里千问开放平台上线等",
+      "link": "https://sspai.com/post/113301",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-08-11T00:09:35.000Z",
+      "summary": "少数派的近期动态新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡。点击了解能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线。点击了解Quote/0摘录 ...查看全文",
+      "heat": 44.5,
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "companies": [
+        "Meta",
+        "阿里巴巴"
+      ]
+    },
+    {
+      "title": "早报｜微信上线「撤回的撤回」/苹果上调多款设备以旧换新回收价/曝字节开始预训练10万亿参数大模型",
+      "link": "https://www.ifanr.com/1674478?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-08T00:52:06.000Z",
+      "summary": "· 曝 iPhone 18 系列备货遇阻：A20 Pro 处理器充足，移动 DRAM 短缺 · DeepSeek 参与宇树科技战略配售，获配约 1.41 亿元 · 小米称 YU7 登顶纯电动车一年期保值率第一 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 37.6,
+      "tags": [
+        "大模型"
+      ],
+      "companies": [
+        "Apple",
+        "字节跳动",
+        "DeepSeek"
+      ]
+    },
+    {
+      "title": "早报｜国行苹果AI上线官网后被撤下/曝Apple Watch将迎来大升级/宇树科技今日开启科创板申购",
+      "link": "https://www.ifanr.com/1674507?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-10T00:44:04.000Z",
+      "summary": "· 苹果测试长鑫存储芯片，拟用于中国市场 iPhone 和 MacBook · SpaceX 收购 Cursor 临近落地 · Pixel 11 Pro 真机曝光：沙丘色、哑光黑，改用圆形长焦开孔 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 32.4,
+      "tags": [
+        "芯片算力",
+        "商业融资"
+      ],
+      "companies": [
+        "Apple"
+      ]
+    },
+    {
+      "title": "Planned Amazon data center could become the biggest climate polluter in the US",
+      "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-08T21:24:02.000Z",
+      "summary": "AI has already had a significant impact on Amazon’s carbon emissions, which it reported were up 16% last year — the wrong direction for a company that pledged to eliminate its carbon emissions by 2040",
+      "heat": 22.1,
+      "tags": [
+        "芯片算力"
+      ],
+      "companies": [],
+      "titleZh": "计划中的亚马逊数据中心可能成为美国最大的气候污染者",
+      "summaryZh": "AI 已经对亚马逊的碳排放产生了重大影响，该公司报告称去年的碳排放量上升了 16%——这对一家承诺在 2040 年前消除碳排放的公司来说是错误的方向。"
+    },
+    {
+      "title": "早报｜OpenAI首款音箱细节曝光:主打「有生命感」的交互/DeepSeek预告将大幅涨价/Switch 2累计销量达2368万台",
+      "link": "https://www.ifanr.com/1674259?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-07T00:15:50.000Z",
+      "summary": "· OpenAI 请求法院驳回苹果商业秘密诉讼 · DeepSeek 预告近期上调 API 价格，称预计涨幅较大 · 推理能力大普及，OpenAI 为 ChatGPT 免费用户新增「Think」按钮 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 21.1,
+      "tags": [
+        "大模型"
+      ],
+      "companies": [
+        "OpenAI",
+        "Apple",
+        "DeepSeek"
+      ]
+    },
+    {
+      "title": "微软正式发布 Agent Framework Harness 和 Hosted Agents",
+      "link": "https://www.infoq.cn/article/aDEJegvNSKwvue2JZ0yI?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "lang": "zh",
-      "pubDate": "2026-07-23T15:10:30.000Z",
+      "pubDate": "2026-08-10T17:14:00.000Z",
       "summary": "点击查看原文>",
-      "heat": 29.2,
+      "heat": 20.9,
+      "tags": [
+        "智能体"
+      ],
+      "companies": [
+        "Microsoft"
+      ]
+    },
+    {
+      "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
+      "link": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-08-06T12:10:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. A",
+      "heat": 19.7,
+      "tags": [
+        "AI 动态"
+      ],
+      "companies": [
+        "Google",
+        "Meta"
+      ],
+      "titleZh": "《下载》：谷歌的人工智能重组与Meta的失控模型",
+      "summaryZh": "这是《The Download》的今日版，这是我们每天发布的科技新闻简报。谷歌的 AI 帝国正在被重塑，以下是发生了哪些变化。"
+    },
+    {
+      "title": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
+      "link": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-10T16:20:13.000Z",
+      "summary": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
+      "heat": 19,
+      "tags": [
+        "AI 动态"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "titleZh": "Meta的新Glimmer AI模型揭示了扎克伯格个人智能愿景",
+      "summaryZh": "Meta 的新开放权重 Muse Glimmer 模型展示了马克·扎克伯格的个人超级智能愿景，以及 AI 用户可以拥有和访问之间的新兴分歧。"
+    },
+    {
+      "title": "An Amazon data center could have the worst polluting power plant in the country",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-08-08T17:53:34.000Z",
+      "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to The ",
+      "heat": 18.3,
+      "tags": [
+        "芯片算力"
+      ],
+      "companies": [],
+      "titleZh": "亚马逊的一个数据中心可能是全国污染最严重的发电厂",
+      "summaryZh": "为了为其新的德克萨斯州西部数据中心供电，亚马逊正在投资建设一座新电厂，据《The》报道，这可能是美国最大的单一温室气体生产者之一。"
+    },
+    {
+      "title": "涨价30倍仍是最便宜的模型，DeepSeek可能有这个底气",
+      "link": "https://www.infoq.cn/article/FEcOI8kYoGuFYq39acEo?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-10T09:25:43.000Z",
+      "summary": "点击查看原文>",
+      "heat": 16.6,
+      "tags": [
+        "大模型"
+      ],
+      "companies": [
+        "DeepSeek"
+      ]
+    },
+    {
+      "title": "开源LangAlpha正式发布：金融领域的Claude Code，用自然语言驱动投研工作流",
+      "link": "https://www.infoq.cn/article/q1f3Na2a1MhhGqSETlUm?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-11T09:00:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 15.9,
+      "tags": [
+        "大模型",
+        "开源"
+      ],
+      "companies": [
+        "Anthropic"
+      ]
+    },
+    {
+      "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+      "link": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-10T20:53:02.000Z",
+      "summary": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building.",
+      "heat": 14.2,
+      "tags": [
+        "AI 动态"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "titleZh": "马克·扎克伯格的人工智能宣言正是人们不喜欢人工智能的原因",
+      "summaryZh": "周一，马克·扎克伯格发布了一篇长达 6500 字的宣言，关于个人 AI，主要讨论了 Meta AI 正在构建的“个人超级智能”系统的可能性。"
+    },
+    {
+      "title": "破局“数据困境”：橡木果发布全球首个“具身本能模型”Natus AGE-0，获招商局创投与蔚来资本天使轮投资",
+      "link": "https://www.infoq.cn/article/dXkqWgtLOtDEl82dzQR6?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-10T14:24:34.000Z",
+      "summary": "点击查看原文>",
+      "heat": 13.8,
       "tags": [
         "机器人"
       ],
       "companies": []
     },
     {
-      "title": "开发并部署一个既能让业务部门理解、又能真正满足开发者需求的平台",
-      "link": "https://www.infoq.cn/article/dgIQlw6lQc0qEol7VQE4?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T17:00:00.000Z",
-      "summary": "点击查看原文>",
-      "heat": 27.8,
-      "tags": [],
-      "companies": []
-    },
-    {
-      "title": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
-      "source": "The Verge AI",
+      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+      "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+      "source": "TechCrunch AI",
       "lang": "en",
-      "pubDate": "2026-07-23T17:00:00.000Z",
-      "summary": "OpenAI is rolling out ChatGPT Health to everyone in the US on Thursday, allowing more people to connect their medical records and health-tracking information to the chatbot. During a briefing, Ashley ",
-      "heat": 24.1,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "OpenAI 在向所有人推出 ChatGPT Health 时提出了重大声明",
-      "summaryZh": "OpenAI 本周四将 ChatGPT Health 推广至美国所有人，使更多人能够将医疗记录和健康追踪信息连接到聊天机器人。在一次简报会上，Ashley",
-      "companies": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-      "link": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T14:00:00.000Z",
-      "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m",
-      "heat": 24.1,
-      "tags": [
-        "大模型",
-        "AI 应用"
-      ],
-      "titleZh": "Apple 的 OpenAI 诉讼关乎谁将定义后智能手机时代",
-      "summaryZh": "今天在 Decoder 上，我与 The Verge 的高级 AI 记者 Hayden Field 谈论了苹果与 OpenAI 之间的重大商业机密诉讼，以及这对我们了解 OpenAI 未来意味着什么。截至目前，我",
-      "companies": [
-        "OpenAI",
-        "Apple"
-      ]
-    },
-    {
-      "title": "Parti：一个零门槛联机游戏平台，凭什么不需要服务器？",
-      "link": "https://sspai.com/post/112545",
-      "source": "少数派",
-      "lang": "zh",
-      "pubDate": "2026-07-22T09:43:06.000Z",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "heat": 23.9,
-      "tags": [
-        "芯片算力",
-        "AI 应用"
-      ],
-      "companies": []
-    },
-    {
-      "title": "OpenAI承认为了偷答案，GPT-5.6 Sol 一路“杀进”生产系统：AI自主攻击时代真的来了",
-      "link": "https://www.infoq.cn/article/P8G7TAsIP0rkeFFLxAf0?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-22T17:46:50.000Z",
-      "summary": "点击查看原文>",
-      "heat": 22.6,
+      "pubDate": "2026-08-10T23:56:15.000Z",
+      "summary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+      "heat": 12.7,
       "tags": [
         "大模型",
         "AI 安全"
       ],
       "companies": [
         "OpenAI"
-      ]
+      ],
+      "titleZh": "随着人工智能驱动的攻击增多，OpenAI推出新的网络模型",
+      "summaryZh": "OpenAI 正在扩大其 AI 网络安全防御计划 Daybreak，并推出一款新的经过网络安全训练的 AI 模型。"
     },
     {
-      "title": "OpenAI makes ChatGPT Health available to all US users",
-      "link": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+      "link": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
       "source": "TechCrunch AI",
       "lang": "en",
-      "pubDate": "2026-07-23T17:00:00.000Z",
-      "summary": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
-      "heat": 20.2,
+      "pubDate": "2026-08-10T20:04:24.000Z",
+      "summary": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
+      "heat": 12.7,
       "tags": [
         "大模型",
-        "AI 应用"
-      ],
-      "titleZh": "OpenAI 现已向所有美国用户开放 ChatGPT Health",
-      "summaryZh": "用户还可以从 Apple Health、Function 和 MyFitnessPal 等服务中整合个人数据。",
-      "companies": [
-        "OpenAI",
-        "Apple"
-      ]
-    },
-    {
-      "title": "腾讯云发布首个“流程原生”研发智能体 CodeBuddy NPC",
-      "link": "https://www.infoq.cn/article/w6DHDb3QUYPLC1vaU8z1?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T18:01:13.000Z",
-      "summary": "点击查看原文>",
-      "heat": 19.5,
-      "tags": [
         "智能体"
       ],
       "companies": [
-        "腾讯"
-      ]
-    },
-    {
-      "title": "谷歌联合多家企业发布 Agentic Resource Discovery 规范，为 AI Agent 建立统一资源发现机制",
-      "link": "https://www.infoq.cn/article/9sEaQuLww0wAu016qH5R?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T09:48:46.000Z",
-      "summary": "点击查看原文>",
-      "heat": 19.1,
-      "tags": [
-        "智能体"
+        "Anthropic"
       ],
-      "companies": [
-        "Google"
-      ]
+      "titleZh": "科技行业热议：Claude代理入侵健身房事件",
+      "summaryZh": "一个 OpenClaw 代理入侵了一家健身房的预约系统，将它的真人老板提升到了课程的等待名单上。而科技行业注意到了这一点。"
     },
     {
-      "title": "Anthropic updates Claude voice mode with more capable models",
-      "link": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
       "source": "TechCrunch AI",
       "lang": "en",
-      "pubDate": "2026-07-23T19:00:00.000Z",
-      "summary": "Claude's new voice model will let you reschedule your meeting or draft an email.",
-      "heat": 18.9,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "Anthropic 通过更强大的模型更新了 Claude 语音模式",
-      "summaryZh": "Claude 的新语音模型将允许你重新安排会议或撰写电子邮件。",
-      "companies": [
-        "Anthropic"
-      ]
-    },
-    {
-      "title": "独家｜混元多模态理解负责人胡瀚离职创业，原团队或将聚焦世界模型",
-      "link": "https://36kr.com/p/3907934819521670?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T08:07:02.000Z",
-      "summary": "文 | 周鑫雨 编辑 | 张雨忻 《智能涌现》独家获悉，近期，腾讯混元多模态理解负责人胡瀚提出了离职。 此前，他曾担任微软亚洲研究院视觉计算组首席研究员。2025 年初加入腾讯后，负责视觉大模型的研究。在后续的调整中，他加入大语言模型部旗下的“Frontier”前沿技术研究组，负责多模态理解的相关研究，汇报给姚顺雨。 据了解，胡瀚还曾承担世界模型的研发工作。 与此同时，腾讯大语言模型部负责人姚顺雨",
-      "heat": 18.6,
-      "tags": [
-        "大模型"
-      ],
-      "companies": [
-        "Microsoft",
-        "腾讯"
-      ]
-    },
-    {
-      "title": "不靠最强模型也能赢？谷歌正用一款“冷冻”芯片复制搜索时代的“全栈碾压”",
-      "link": "https://www.infoq.cn/article/QGd73qDEWeoy1HxshQMH?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-22T16:45:24.000Z",
-      "summary": "点击查看原文>",
-      "heat": 17.8,
-      "tags": [
-        "芯片算力",
-        "AI 应用"
-      ],
-      "companies": [
-        "Google"
-      ]
-    },
-    {
-      "title": "从入鸿蒙到 AI Native：系统与 AI 融合下的应用智能化跃迁｜AICon深圳",
-      "link": "https://www.infoq.cn/article/Ti4HDYkZAlbNmEFFYp24?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T10:00:00.000Z",
-      "summary": "点击查看原文>",
-      "heat": 17.1,
-      "tags": [
-        "AI 应用"
-      ],
-      "companies": []
-    },
-    {
-      "title": "早报｜12999起,首台安卓阔折叠发布/曝苹果MacBook将迎全线更新/小红书否认IPO相关传闻",
-      "link": "https://www.ifanr.com/1672820?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T00:15:27.000Z",
-      "summary": "· AMD 与 Anthropic 达成数百亿美元 AI 服务器合作 · 台积电拟于 2027 年上调芯片代工价格，最高涨幅 10% · Claude Cowork 可通过录屏学习并保存可复用 Skill #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "heat": 17,
+      "pubDate": "2026-08-07T22:48:24.000Z",
+      "summary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-pro",
+      "heat": 12.7,
       "tags": [
         "大模型",
-        "芯片算力"
-      ],
-      "companies": [
-        "Anthropic",
-        "Apple"
-      ]
-    },
-    {
-      "title": "为什么决定法律 AI 成效的，是数据平台，而不是模型 ｜ 技术实践",
-      "link": "https://www.infoq.cn/article/PZ5Xe45iTQlOXtZveBKU?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T15:36:29.000Z",
-      "summary": "点击查看原文>",
-      "heat": 16.9,
-      "tags": [
-        "AI 动态"
-      ],
-      "companies": []
-    },
-    {
-      "title": "Claude’s voice mode is now available for Opus and Sonnet",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T19:00:00.000Z",
-      "summary": "Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less powerful model. Now the company is making its Opus and Sonnet models available in voice mode, and extending i",
-      "heat": 15.6,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "Claude 的语音模式现已支持 Opus 和 Sonnet",
-      "summaryZh": "到目前为止，语音模式仅适用于 Claude Haiku，即 Anthropic 更快但功能较弱的模型。现在，该公司正在将 Opus 和 Sonnet 模型也加入语音模式，并扩展 i",
-      "companies": [
-        "Anthropic"
-      ]
-    },
-    {
-      "title": "氪星晚报 ｜DeepSeek今年已增资65%；马斯克：FSD是拉动特斯拉汽车需求的核心驱动力",
-      "link": "https://36kr.com/p/3908051015488640?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T10:09:52.000Z",
-      "summary": "大公司： DeepSeek今年已增资65% 36氪获悉，据媒体报道，近日，DeepSeek创始人梁文锋一场4小时的投资人闭门会议实录在科技与创投圈刷屏，他明确表示“DeepSeek只有一条主线，即通往通用人工智能（AGI）”，相关话题引发关注。天眼查App显示，DeepSeek关联公司杭州深度求索成立于2023年7月，法定代表人为裴湉，经营范围含工程和技术研究和试验发展、软件开发、人工智能应用软件",
-      "heat": 15.2,
-      "tags": [
-        "大模型",
-        "自动驾驶"
-      ],
-      "companies": [
-        "xAI",
-        "DeepSeek"
-      ]
-    },
-    {
-      "title": "不拼通用能力、聚焦端侧，腾讯副总裁林松涛：Marvis专注做好系统级操作",
-      "link": "https://36kr.com/p/3907676111983745?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T04:23:24.000Z",
-      "summary": "文｜王欣逸 编辑｜张雨忻 “技术突破决定AI能走多快，真正能否创造价值决定AI能走多远。”在今年的WAIC腾讯AI应用创新论坛上，腾讯公司副总裁林松涛分享了这样一个观点。 同样是“Claw热”之后上线的产品，腾讯的三大Agent产品WorkBuddy、QClaw和Marvis迎来了各自不同的命运。 首先是WorkBuddy，林松涛在此次论坛上公开表示，WorkBuddy的DAU已稳居国内效率智能体",
-      "heat": 14.1,
-      "tags": [
-        "智能体",
-        "AI 应用"
-      ],
-      "companies": [
-        "腾讯"
-      ]
-    },
-    {
-      "title": "Meta made its own AI detection system. It should have just used Google’s",
-      "link": "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T11:00:00.000Z",
-      "summary": "Content Seal sounds a lot like a less accessible and reliable version of SynthID. | Image: Meta / The Verge IIn March, Meta's Oversight Board called on the company to \"meet its public commitments and ",
-      "heat": 14.1,
-      "tags": [
-        "AI 动态"
-      ],
-      "titleZh": "Meta 自己开发了 AI 检测系统。它本应直接使用 Google 的",
-      "summaryZh": "Content Seal 很像 SynthID 的一个更难使用且不可靠的版本。| 图片：Meta / The Verge 3 月，Meta 的监督委员会呼吁该公司 \"履行其公开承诺和",
-      "companies": [
-        "Google",
-        "Meta"
-      ]
-    },
-    {
-      "title": "派早报：三星发布多款折叠屏新品、索尼发布 FX5 电影摄影机等",
-      "link": "https://sspai.com/post/112647",
-      "source": "少数派",
-      "lang": "zh",
-      "pubDate": "2026-07-23T00:50:21.000Z",
-      "summary": "OpenAI 发布面向企业用户的 OpenAI Presence，耐克宣布重构大中华区市场生态等。查看全文",
-      "heat": 13,
-      "tags": [
-        "大模型"
+        "AI 安全"
       ],
       "companies": [
         "OpenAI"
-      ]
-    },
-    {
-      "title": "对话FutureTech张梦钊：从“一个人+一群Agent”到超级个体，AI正在重塑创业范式",
-      "link": "https://36kr.com/p/3907639172027522?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T02:57:46.000Z",
-      "summary": "7月17日，2026世界人工智能大会在上海开幕。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。FutureTech负责人张梦钊在WAIC现场接受36氪「氪话未来」特邀专访，围绕FutureTech平台定位、OPC独立先锋挑战赛、AI创业趋势以及初创企业商业化路径等话题，分享了FutureTech如何连接创业团队、产业资源与创新生态，探索AI时代",
-      "heat": 12.9,
-      "tags": [
-        "智能体"
       ],
-      "companies": []
+      "titleZh": "OpenAI表示因安全问题放缓了Astra模型的开发",
+      "summaryZh": "OpenAI 表示，这款仍在开发中的模型已经达到了其“关键网络安全阈值”，这意味着它可以独立识别并针对传统上安全性较高的目标发起网络攻击。"
     },
     {
-      "title": "Linkerd 2.20 发布：智能流量管理升级，资源占用大幅降低",
-      "link": "https://www.infoq.cn/article/TJL8TIiuD6Cev0Ig0AAS?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T13:25:00.000Z",
-      "summary": "点击查看原文>",
-      "heat": 12.1,
-      "tags": [],
-      "companies": []
-    },
-    {
-      "title": "AMD commits up to $5 billion to  Anthropic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
+      "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
       "source": "The Verge AI",
       "lang": "en",
-      "pubDate": "2026-07-22T14:44:27.000Z",
-      "summary": "AMD says it's going to invest up to $5 billion in Anthropic, while helping to expand the AI company's computing power, according to an announcement on Wednesday. As part of the new partnership, Anthro",
-      "heat": 11,
+      "pubDate": "2026-08-07T18:40:34.000Z",
+      "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows i",
+      "heat": 12.7,
       "tags": [
         "大模型",
-        "商业融资"
+        "AI 安全"
       ],
-      "titleZh": "AMD 承诺向 Anthropic 投资最高达 50 亿美元",
-      "summaryZh": "AMD 表示，根据周三的公告，它计划向 Anthropic 投资高达 50 亿美元，同时帮助扩大这家 AI 公司的计算能力。作为新合作的一部分，Anthro",
       "companies": [
-        "Anthropic"
-      ]
-    },
-    {
-      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
-      "link": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T16:28:50.000Z",
-      "summary": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
-      "heat": 10.9,
-      "tags": [
-        "AI 动态"
+        "OpenAI"
       ],
-      "titleZh": "Meta 推出了一则新的 AI 乐观主义广告，背景音乐是关于人类灭绝的歌曲",
-      "summaryZh": "大卫·鲍伊的歌曲《Five Years》被 Meta 用在一则 supposedly 启发性的广告中，但实际上这首歌讲述的是人类得知自己在末日来临前只剩下五年时间的故事。",
-      "companies": [
-        "Meta"
-      ]
+      "titleZh": "OpenAI暂停了一个新模型的开发，因其据称过于强大",
+      "summaryZh": "OpenAI 表示，由于其尚未达到公司正在制定的新安全标准，它已暂停了开发中 AI 模型 Astra 的“内部活动”。这一声明是在近期一系列事件之后发布的。"
     },
     {
-      "title": "专访郭列：做出脸萌、FaceU、剪映等爆款后，他第一次阐释如何在AI时代做产品",
-      "link": "https://36kr.com/p/3907953777120385?f=rss",
-      "source": "36氪",
+      "title": "独家体验｜千问大更新，把 Agent 装进了电脑和手机",
+      "link": "https://www.ifanr.com/1674265?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
       "lang": "zh",
-      "pubDate": "2026-07-23T08:16:42.000Z",
-      "summary": "文｜周鑫雨 编辑｜张雨忻 什么样画像的AI创业者会饱受瞩目？不同投资人心里或许有不同的答案，但其中一个答案一定是：剪映系。 陈冕，Lovart、LibTV等热门创作工具的缔造者；明超平，AI Coding社区YouWare的创始人，2025年一级市场最火的95后；闹闹，其打造的AI视频创作工具OiiOii，被高瓴、锦秋投资...... 他们履历的共同点是：曾在剪映、CapCut团队——参与过这两款",
-      "heat": 10.9,
-      "tags": [
-        "AI 应用"
-      ],
-      "companies": []
-    },
-    {
-      "title": "对话蚂蚁数科：打造商业智能体超级工厂，生态共建中国行业版Harness标准",
-      "link": "https://36kr.com/p/3907590205085056?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T02:09:19.000Z",
-      "summary": "7月17日，2026世界人工智能大会（WAIC）在上海开幕。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。蚂蚁数科副总裁、中国区业务发展部总经理孙磊在WAIC现场接受36氪「氪话未来」特邀专访，围绕商业智能体超级工厂、行业垂直大模型、AI工程化能力以及企业智能体落地等话题，分享了蚂蚁数科面向企业智能化升级的最新实践与思考。 本届WAIC以“智能",
-      "heat": 10.8,
+      "pubDate": "2026-08-07T02:45:39.000Z",
+      "summary": "全新功能都可以免费试用 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 12.7,
       "tags": [
         "大模型",
         "智能体"
-      ],
-      "companies": []
-    },
-    {
-      "title": "华泰证券：AI Agent加速推理算力与存力扩容，自主可控链国产化再加速",
-      "link": "https://36kr.com/newsflashes/3908910565758089?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:38:24.000Z",
-      "summary": "36氪获悉，华泰证券研报认为，2026年AI产业正从大模型预训练切换至AI Agent商业化落地，推理算力需求进入加速增长通道。看好三条主线：AI链方向，国产算力闭环加速形成，超节点互联与存储升级共振，推理需求拐点明确，AI端侧上折叠机、AI眼镜等新品周期将至，结构性创新机遇值得重视；功率与被动元件方向，AI功耗驱动MLCC、电感、电容、功率半导体量价齐升，涨价周期与国产替代共振；自主可控方向，上",
-      "heat": 10.3,
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "companies": []
-    },
-    {
-      "title": "全球燃机行业景气度高企，产业链公司出海加速迹象显著",
-      "link": "https://36kr.com/newsflashes/3908905183237506?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:30:55.000Z",
-      "summary": "全球电力结构转型与算力基建扩张共同推升燃气轮机需求，行业龙头公司订单爆满、产能供给不足，行业长期供需缺口明确。在此背景下，国内燃机产业链迎来海外市场增量窗口，本土企业大额海外订单落地，板块上市公司业绩与估值有望同步修复。（证券时报）",
-      "heat": 10.2,
-      "tags": [
-        "芯片算力",
-        "商业融资"
-      ],
-      "companies": []
-    },
-    {
-      "title": "阿里千问发布 Qwen-Image-3.0，文本输入长度提升4.5倍",
-      "link": "https://www.infoq.cn/article/jXQ5oQeOcEjLkuq2Qc0y?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-22T17:42:33.000Z",
-      "summary": "点击查看原文>",
-      "heat": 9.5,
-      "tags": [
-        "大模型"
       ],
       "companies": [
         "阿里巴巴"
       ]
     },
     {
-      "title": "Stripe据悉洽购AI模型聚合平台创企OpenRouter",
-      "link": "https://36kr.com/newsflashes/3908918375732358?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:50:21.000Z",
-      "summary": "据报道，支付公司Stripe正洽谈收购AI模型聚合平台创企OpenRouter，可能很快宣布达成交易，但洽谈仍可能破裂或出现其他竞购者。OpenRouter此前估值约13亿美元，若达成收购协议，其估值可能达到约100亿美元。（界面）",
-      "heat": 9.4,
-      "tags": [
-        "商业融资"
-      ],
-      "companies": []
-    },
-    {
-      "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
-      "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T19:11:46.000Z",
-      "summary": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Huggin",
-      "heat": 8.4,
-      "tags": [
-        "大模型",
-        "AI 安全"
-      ],
-      "titleZh": "OpenAI 的人为错误导致了对 Hugging Face 的 AI 攻击",
-      "summaryZh": "OpenAI 在设置其所谓的“高度隔离”测试环境和沙盒时犯了一个错误。根据网络安全专家的说法，这个人为错误导致了对 Huggin 的 AI 驱动的攻击。",
-      "companies": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "The Download: NASA’s new space telescope and OpenAI’s autonomous hacker",
-      "link": "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "pubDate": "2026-07-22T12:10:00.000Z",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telescope could unv",
-      "heat": 8.4,
-      "tags": [
-        "大模型",
-        "自动驾驶"
-      ],
-      "titleZh": "下载：NASA 新的太空望远镜和 OpenAI 的自主黑客",
-      "summaryZh": "这是《The Download》的今日版，这是我们每天发布的科技世界最新动态的新闻简报。NASA 新型太空望远镜上的变形镜子可能会揭示一些前所未有的宇宙奥秘。",
-      "companies": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "马斯克呼吁AI公司携手合作自我审查安全问题，为此可以暂时放下与奥特曼个人恩怨",
-      "link": "https://36kr.com/newsflashes/3908886535558530?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:16:57.000Z",
-      "summary": "美国科技亿万富翁埃隆·马斯克表示，他希望最先进的AI模型在发布前接受同行之间的审查，而不是由政府来负责审查。马斯克本人承认，领先的人工智能公司之间的合作需要他与OpenAI首席执行官萨姆·奥特曼放下分歧，尽管两人最近在社交媒体上曾有过激烈交锋。（新浪财经）",
-      "heat": 7.8,
-      "tags": [
-        "大模型",
-        "AI 安全"
-      ],
-      "companies": [
-        "OpenAI",
-        "xAI"
-      ]
-    },
-    {
-      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
-      "link": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T20:33:02.000Z",
-      "summary": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
-      "heat": 7.8,
-      "tags": [
-        "芯片算力"
-      ],
-      "titleZh": "AMD推出Helios人工智能机架系统，挑战Nvidia",
-      "summaryZh": "AMD正在以其芯片制造商竞争对手为对手，推出一款新的机架规模系统，该系统将于今年晚些时候开始交付给客户。",
-      "companies": [
-        "NVIDIA"
-      ]
-    },
-    {
-      "title": "Substack’s new tool tells you who’s been writing their newsletters with AI",
-      "link": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T16:23:09.000Z",
-      "summary": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
-      "heat": 7.8,
-      "tags": [
-        "AI 动态"
-      ],
-      "titleZh": "Substack新工具可告诉你谁在用AI撰写你的新闻通讯",
-      "summaryZh": "Substack正在为读者提供一种估算新闻通讯中有多少内容是通过AI撰写的工具，这表明了对AI辅助内容透明度的更广泛关注。",
-      "companies": []
-    },
-    {
-      "title": "8点1氪丨段永平称10年内大概率不会卖泡泡玛特；中国数学家王虹、邓煜获得菲尔兹奖；宜家回应甩卖8处物业：不代表退出中国市场",
-      "link": "https://36kr.com/p/3908881985901959?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:00:48.000Z",
-      "summary": "今日热点导览 混元多模态理解负责人胡瀚离职创业，原团队或将聚焦世界模型 极氪回应“海外锁车”事件 客服回应滔搏暴力打折甩卖耐克库存：没有收到降价通知 哈兰德和亚马尔2.2亿欧元身价破纪录 张雪峰女儿再接手三家公司股份 TOP 3 大新闻 段永平：10年内大概率不会卖泡泡玛特 7月23日，段永平在社交媒体平台雪球上发表了他对近期投资操作的最新想法。雪球上有用户向知名投资人段永平提问：“阿段不会要减点",
-      "heat": 7.4,
-      "tags": [],
-      "companies": [
-        "腾讯"
-      ]
-    },
-    {
-      "title": "从全球化组织到 AI-Native 团队：Snowflake 营销 AI 委员会的转型实践 ｜ 技术实践",
-      "link": "https://www.infoq.cn/article/HwODT4jsAeL4iOCUFHVV?utm_source=rss&utm_medium=article",
+      "title": "智能互动 Agent 在快手商业场景的落地实践｜AICon深圳",
+      "link": "https://www.infoq.cn/article/KCw3ZLsEJcNYFegzd7dx?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "lang": "zh",
-      "pubDate": "2026-07-23T10:00:00.000Z",
+      "pubDate": "2026-08-10T10:00:00.000Z",
       "summary": "点击查看原文>",
-      "heat": 7.4,
-      "tags": [
-        "AI 动态"
-      ],
-      "companies": []
-    },
-    {
-      "title": "Kimi 叫停新订阅后，如何用上 K3｜实测避坑",
-      "link": "https://www.ifanr.com/1672800?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T06:43:19.000Z",
-      "summary": "同一个模型，进入不同的壳，就不再是同一个「设计师」，这中间是 harness 的差异 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "heat": 7.4,
-      "tags": [
-        "大模型"
-      ],
-      "companies": [
-        "月之暗面"
-      ]
-    },
-    {
-      "title": "后驱纯电+五连杆+两个座位，smart #2 背负 fortwo 续作名号重返市场",
-      "link": "https://www.ifanr.com/1672776?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-22T10:02:30.000Z",
-      "summary": "最经典的 smart 回归。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "heat": 7.4,
-      "tags": [],
-      "companies": []
-    },
-    {
-      "title": "Agent 越能干，安全越难做？",
-      "link": "https://www.infoq.cn/video/G0R3FyRBpfeSsa2QqJIr?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T17:08:05.000Z",
-      "summary": "点击查看原文>",
-      "heat": 7.1,
-      "tags": [
-        "智能体",
-        "AI 安全"
-      ],
-      "companies": []
-    },
-    {
-      "title": "Google’s Gemini nears billion-user milestone",
-      "link": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T14:52:44.000Z",
-      "summary": "Gemini had over 750 million monthly users in February.",
-      "heat": 7.1,
-      "tags": [
-        "大模型",
-        "商业融资"
-      ],
-      "titleZh": "谷歌的Gemini用户数即将突破十亿大关",
-      "summaryZh": "截至2月，Gemini的月活跃用户已超过7.5亿。",
-      "companies": [
-        "Google"
-      ]
-    },
-    {
-      "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
-      "link": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T11:00:00.000Z",
-      "summary": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
-      "heat": 7.1,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "专家表示，利用Anthropic的Fable并不是Kimi K3变得如此强大的原因",
-      "summaryZh": "\"我认为在Fable仅通过蒸馏技术就迅速获得如此强大且快速的模型，这并不现实，\"一位专家告诉TechCrunch。",
-      "companies": [
-        "Anthropic",
-        "月之暗面"
-      ]
-    },
-    {
-      "title": "硬氪首发 | 大疆系AI自然探索公司获五源、顺为投资，首创水下光学系统",
-      "link": "https://36kr.com/p/3906474040153220?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T02:30:00.000Z",
-      "summary": "硬氪获悉，水下AI自然探索科技公司Deeplore近日完成数千万元种子轮融资，由五源资本、顺为资本联合投资。资金将核心用于研发团队扩建与水下AI技术深耕，加速首款AI潜水面镜落地迭代，搭建水下自然探索智能平台的技术底座。 一群在消费电子行业征战十余年的大疆老兵，把目光从天空转向了深海。 Deeplore 2025年诞生于深圳，核心团队大多出自大疆，覆盖产品定义、硬核研发、全球商业全链路，是典型的“",
-      "heat": 7.1,
-      "tags": [
-        "商业融资"
-      ],
-      "companies": []
-    },
-    {
-      "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
-      "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T20:49:03.000Z",
-      "summary": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models.",
-      "heat": 7.1,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "财政部威胁制裁，此前白宫声称Moonshot从Anthropic的Fable中提炼出了技术",
-      "summaryZh": "这一事件也加剧了华盛顿关于中国开源模型大量涌入的更广泛争论。",
-      "companies": [
-        "Anthropic"
-      ]
-    },
-    {
-      "title": "公募AI投资图谱：算力端“吃饱”，应用层“等风”",
-      "link": "https://36kr.com/newsflashes/3908893856306562?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:22:24.000Z",
-      "summary": "2026年上半年，公募基金在AI赛道的投资中达成高度共识。从最新披露的基金二季报来看，公募机构的目光以前所未有的力度向电子行业集中，AI算力硬件股几乎包揽了主动权益基金的重仓股榜单。在硬件投资火热的另一面，是应用端的投资结构性遇冷。同属AI产业链，硬件端已经“吃”到了业绩的肉，应用层还在等商业化的“风”。这种结构性分化主导了2026年上半年科技行情的节奏，也正在考验当前AI投资逻辑的可持续性。（中",
-      "heat": 7,
-      "tags": [
-        "芯片算力",
-        "AI 应用"
-      ],
-      "companies": []
-    },
-    {
-      "title": "Meta 开源 Brain2Qwerty v2：非侵入式脑机接口语句解码准确率达到 61%",
-      "link": "https://www.infoq.cn/article/39UvyRHmCOs2Emx9T8Hl?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T11:43:00.000Z",
-      "summary": "点击查看原文>",
-      "heat": 7,
-      "tags": [
-        "开源"
-      ],
-      "companies": [
-        "Meta"
-      ]
-    },
-    {
-      "title": "存储芯片价格剧烈波动，智能手机集体涨价",
-      "link": "https://36kr.com/newsflashes/3908915321017477?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:45:14.000Z",
-      "summary": "今年以来，国内智能手机市场迎来一轮罕见的集体涨价。近日，记者在调研时发现，无论是线上电商还是线下门店，主流厂商旗下多款新机及在售机型价格普遍上调，涨幅多在300元至1000元区间，部分高端旗舰产品涨幅甚至突破千元。业内普遍认为，存储芯片价格的剧烈波动是本轮手机涨价的主因。小米集团总裁卢伟冰预计本轮涨价趋势至少延续到2027年底。IDC分析师认为，预计2028年至2029年随着新一轮换机周期到来，市",
-      "heat": 6.9,
-      "tags": [
-        "芯片算力"
-      ],
-      "companies": []
-    },
-    {
-      "title": "加速 AI Readiness：借助 Snowflake CoWork 从数据走向实时答案 ｜ Summit 2026",
-      "link": "https://www.infoq.cn/video/l6UhmOLGpL7Q4bHlsRXy?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-22T21:49:23.000Z",
-      "summary": "点击查看原文>",
-      "heat": 6.7,
-      "tags": [
-        "AI 动态"
-      ],
-      "companies": []
-    },
-    {
-      "title": "驱动 Agentic Enterprise：让企业上下文转化为可治理的 Agentic 行动 ｜ 技术趋势",
-      "link": "https://www.infoq.cn/article/shzCr5FsOcHUyBc8CEsj?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-22T18:44:59.000Z",
-      "summary": "点击查看原文>",
-      "heat": 6.7,
+      "heat": 12.3,
       "tags": [
         "智能体"
       ],
       "companies": []
     },
     {
-      "title": "通潮精密启动IPO辅导",
-      "link": "https://36kr.com/newsflashes/3908933979755907?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T01:04:11.000Z",
-      "summary": "36氪获悉，证监会网站披露，芜湖通潮精密机械股份有限公司于2026年7月23日在安徽证监局办理辅导备案登记，拟首次公开发行股票并上市，辅导券商为中信建投证券。",
-      "heat": 3.9,
-      "tags": [
-        "政策监管",
-        "商业融资"
-      ],
-      "companies": []
-    },
-    {
-      "title": "中信证券：把握铜行业涨价预期和情绪回暖下的估值修复机会",
-      "link": "https://36kr.com/newsflashes/3908924876657798?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:56:57.000Z",
-      "summary": "36氪获悉，中信证券研报称，多重利好推动铜价再度冲击14000美元，后续库存走低、供给扰动等核心驱动因素料仍将延续，关税的多数潜在路径依然利好铜，中性假设下年内铜价有望冲击15000美元。当前铜板块尚处估值修复伊始，涨价预期的形成与市场情绪的改善将继续推动估值修复。",
-      "heat": 3.9,
-      "tags": [
-        "商业融资"
-      ],
-      "companies": []
-    },
-    {
-      "title": "育碧称部分重磅游戏将延期至2028和2029财年发售",
-      "link": "https://36kr.com/newsflashes/3908892433536391?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:31:57.000Z",
-      "summary": "法国电子游戏开发商育碧当地时间7月23日公布一季度净预订额为2.56亿欧元，同比下降9.2%，但略高于约2.5亿欧元的预期目标；预计二季度预订额约为3.7亿欧元。被问及未来的游戏开发计划时，首席财务官Frederick Duguet表示，将在未来一年内更具体地公布更多计划细节，而为了在竞争日益激烈的市场中提升产品质量，一些大型制作项目已被推迟至2028财年和2029财年发布。（界面）",
-      "heat": 3.9,
-      "tags": [],
-      "companies": []
-    },
-    {
-      "title": "二季度封闭式“固收+”理财年化收益率中枢提升",
-      "link": "https://36kr.com/newsflashes/3908893468169605?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:20:54.000Z",
-      "summary": "普益标准7月22日发布的最新数据显示，截至2026年二季度末，理财机构年内共发行封闭式“固收+”类理财产品6320只，季末存续12715只，季度年化收益率中枢为3.03%（较上季度提高34个基点），产品投资运作整体稳健。(证券日报)",
-      "heat": 3.9,
-      "tags": [],
-      "companies": []
-    },
-    {
-      "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
-      "link": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "title": "Four takeaways from Mark Zuckerberg&#8217;s massive AI manifesto",
+      "link": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
       "source": "The Verge AI",
       "lang": "en",
-      "pubDate": "2026-07-23T21:15:06.000Z",
-      "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with t",
-      "heat": 3.9,
-      "tags": [
-        "AI 动态"
-      ],
-      "titleZh": "Alexa Plus将获得AI更新，以处理更复杂的指令",
-      "summaryZh": "亚马逊正在推出一项针对其Alexa Plus助手的更新，将允许它以新的方式连接智能家居设备。目前，这项更新正处于预览阶段，Alexa Plus可以与更多设备进行连接。",
-      "companies": []
-    },
-    {
-      "title": "Patreon is laying off 20 percent of workers",
-      "link": "https://www.theverge.com/tech/970211/patreon-layoffs-ai",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T18:20:30.000Z",
-      "summary": "Patreon is laying off 20 percent of its workers, or around 93 employees, as reported earlier by 404 Media. In a memo to employees, Patreon CEO Jack Conte writes that the company isn't making these cha",
-      "heat": 3.9,
-      "tags": [],
-      "titleZh": "Patreon裁员20%",
-      "summaryZh": "Patreon正在裁员20%，即约93名员工，此前404 Media已有相关报道。在给员工的一封信中，Patreon首席执行官Jack Conte写道，公司做出这些调整并非轻率之举。",
-      "companies": []
-    },
-    {
-      "title": "Runway launches AI model router as generative media gets crowded",
-      "link": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T17:07:35.000Z",
-      "summary": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
-      "heat": 3.9,
-      "tags": [
-        "AI 动态"
-      ],
-      "titleZh": "Runway推出AI模型路由器，应对生成式媒体市场的竞争",
-      "summaryZh": "Media Router是一种工具，它会根据开发者是否优先考虑质量、速度或成本，自动为请求选择最佳的图像、视频或音频生成模型。",
-      "companies": []
-    },
-    {
-      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
-      "link": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "pubDate": "2026-07-23T16:58:28.000Z",
-      "summary": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a reci",
-      "heat": 3.9,
-      "tags": [],
-      "titleZh": "超冷肾脏在“里程碑式成就”中被移植到猪体内",
-      "summaryZh": "在器官捐献方面，时间至关重要。一旦器官从捐赠者体内被小心取出，它就开始退化。外科医生必须在数小时内将其植入接受者体内。",
-      "companies": []
-    },
-    {
-      "title": "医疗与生命科学领导者必须回答的 10 个 Agentic AI 关键问题 ｜ 技术实践",
-      "link": "https://www.infoq.cn/article/06XxocxibFHWsL53PPFc?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T16:20:00.000Z",
-      "summary": "点击查看原文>",
-      "heat": 3.9,
-      "tags": [
-        "智能体",
-        "AI 应用"
-      ],
-      "companies": []
-    },
-    {
-      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
-      "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T15:00:00.000Z",
-      "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
-      "heat": 3.9,
-      "tags": [
-        "芯片算力",
-        "商业融资"
-      ],
-      "titleZh": "AI芯片初创公司Etched逆势而上，获得知名投资者支持，估值达103亿美元",
-      "summaryZh": "由三位哈佛大学辍学生创立的Etched已经开发出新的芯片和内存组件，可以在任何AI模型上加速推理过程——该公司表示，无需GPU。",
-      "companies": []
-    },
-    {
-      "title": "The Download: energy transmission and US threats against Chinese AI",
-      "link": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "pubDate": "2026-07-23T12:10:00.000Z",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The power line that could reshape New York’s grid is hitting s",
-      "heat": 3.9,
-      "tags": [
-        "AI 动态"
-      ],
-      "titleZh": "《下载》：能源传输与美国对中国人工智能的威胁",
-      "summaryZh": "这是《The Download》的今日版，我们的工作日新闻简报，每天提供科技世界的最新动态。可能重塑纽约电网的电力线路正在投入使用。",
-      "companies": []
-    },
-    {
-      "title": "苹果 Mac 将迎来全线换代，一种给人用，一种给 AI 用",
-      "link": "https://www.ifanr.com/1672867?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T09:52:40.000Z",
-      "summary": "你的换电脑动力是什么？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "heat": 3.9,
+      "pubDate": "2026-08-10T15:19:05.000Z",
+      "summary": "Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter",
+      "heat": 10.4,
       "tags": [
         "AI 动态"
       ],
       "companies": [
-        "Apple"
-      ]
-    },
-    {
-      "title": "揽胜首款 GT 即将问世，产品愈发激进的路虎，准备蚕食停滞的捷豹",
-      "link": "https://www.ifanr.com/1672886?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T09:49:40.000Z",
-      "summary": "路虎不再守 SUV 的边界，捷豹等不到独占的 GT。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "heat": 3.9,
-      "tags": [],
-      "companies": []
-    },
-    {
-      "title": "三步爆改旧鼠标，打造最好用的 AI 外挂｜AI 器物志",
-      "link": "https://www.ifanr.com/1672824?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "pubDate": "2026-07-23T06:11:27.000Z",
-      "summary": "230 刀的 Codex 键盘很好，但不是每个人都需要。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "heat": 3.9,
-      "tags": [
-        "AI 动态"
-      ],
-      "companies": []
-    },
-    {
-      "title": "Monday.com lays off hundreds to focus on AI",
-      "link": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T17:54:14.000Z",
-      "summary": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform.",
-      "heat": 3.9,
-      "tags": [
-        "AI 动态"
-      ],
-      "titleZh": "Monday.com裁员数百人以专注人工智能",
-      "summaryZh": "该公司表示，为了“支持更精简、更专注的运营模式”，它将裁员20%，约630名员工。",
-      "companies": []
-    },
-    {
-      "title": "Here&#8217;s what Samsung&#8217;s smart glasses actually look like",
-      "link": "https://www.theverge.com/tech/969382/samsung-google-smart-glasses-gentle-monster-warby-parker",
-      "source": "The Verge AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T16:35:34.000Z",
-      "summary": "With a camera on every pair, Google’s and Samsung’s AI glasses face the same privacy problems as Meta’s. | Photo: Dominic Preston / The Verge Samsung has given us our first chance to check out its upc",
-      "heat": 3.9,
-      "tags": [
-        "AI 安全"
-      ],
-      "titleZh": "这里就是三星智能眼镜的实际样子",
-      "summaryZh": "每副眼镜都配有摄像头，谷歌和三星的AI眼镜面临的隐私问题与Meta一样。| 图片：Dominic Preston / The Verge 三星让我们首次有机会一睹其升级版产品的风采。",
-      "companies": [
-        "Google",
         "Meta"
-      ]
-    },
-    {
-      "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
-      "link": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T16:24:08.000Z",
-      "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
-      "heat": 3.9,
-      "tags": [
-        "开源"
       ],
-      "titleZh": "Arcee，一家美国开源人工智能实验室表示，中国模型并非天生危险",
-      "summaryZh": "随着中国AI模型在能力和美国公司中的受欢迎程度不断提升，关于应如何应对它们的争论已达到白热化程度。",
-      "companies": []
+      "titleZh": "从马克·扎克伯格庞大的人工智能宣言中得出的四个要点",
+      "summaryZh": "Meta 首席执行官马克·扎克伯格对人类与人工智能共存的理想化未来有很多想法——他最新的文章长达 6500 多字，探讨了这一问题。"
     },
     {
-      "title": "新机潮叠加AI机遇，消费电子产业链全速备货",
-      "link": "https://36kr.com/newsflashes/3908904196052354?f=rss",
-      "source": "36氪",
+      "title": "解读｜OpenAI 音箱：果味设计，但比苹果多走一步",
+      "link": "https://www.ifanr.com/1674363?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
       "lang": "zh",
-      "pubDate": "2026-07-24T01:01:59.000Z",
-      "summary": "消费电子行业景气度稳步回暖，业绩端迎来明显改善。Wind数据显示，截至7月23日，A股已有32家消费电子公司披露上半年业绩预告，逾七成预计盈利。AI已成为行业增长的核心引擎，AI智能硬件放量与算力业务拓展支撑起多家公司上半年业绩大幅预增。进入下半年，消费电子行业在传统旺季中亮点纷呈：全球首款AI智能体手机正式亮相，三星首款AI眼镜发布，苹果首款折叠屏手机组装出货量预计多达800万台。上述消息持续催",
-      "heat": 3.5,
+      "pubDate": "2026-08-07T04:00:19.000Z",
+      "summary": "甜甜圈真好吃 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 10.4,
       "tags": [
-        "智能体",
-        "芯片算力"
+        "大模型"
       ],
       "companies": [
+        "OpenAI",
         "Apple"
       ]
     },
     {
-      "title": "科技板块持续调整，机构关注资源品与红利低位股",
-      "link": "https://36kr.com/newsflashes/3908885625984132?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:58:14.000Z",
-      "summary": "近期，A股科技板块明显调整，市场风险偏好有所回落。Wind数据显示，截至7月23日的近3个交易日，有色金属、电气设备、石油石化等板块率先获得资金回流，消费、红利和金融板块则呈现结构性机会。机构认为，本轮调整更多是外部扰动、交易拥挤和估值压力集中释放的结果，市场中长期运行逻辑并未发生根本变化。在半年报密集披露的窗口期，资金正由前期高弹性、高估值的方向，逐步转向业绩确定性更强、估值更具安全边际的板块。",
-      "heat": 3.5,
+      "title": "The Download: AI agents for science, and the “censorship-industrial complex”",
+      "link": "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-08-10T12:10:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI for science needs reasoning, not just data —Eric Schmidt, t",
+      "heat": 10.2,
       "tags": [
-        "AI 安全",
-        "商业融资"
+        "智能体"
       ],
-      "companies": []
+      "companies": [],
+      "titleZh": "下载：用于科学的AI代理，以及“审查工业复合体”",
+      "summaryZh": "这是《The Download》的今日版，我们的每日新闻简报，提供科技世界每日的最新动态。人工智能用于科学需要推理，而不仅仅是数据——埃里克·施密特，"
     },
     {
-      "title": "韩国将继续与美国财政部在外汇市场开展合作",
-      "link": "https://36kr.com/newsflashes/3908908411983232?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:36:11.000Z",
-      "summary": "韩国财政部在一份声明中表示，韩国政府将与美国财政部密切沟通，增进双方在外汇市场上的相互了解和信任。该部表示，将继续合作稳定外汇市场。此前，美国财政部将韩国继续列入货币监测名单。（新浪财经）",
-      "heat": 3.5,
-      "tags": [],
-      "companies": []
-    },
-    {
-      "title": "美国抨击欧盟重罚谷歌并向空客提供贷款，称有损跨大西洋贸易稳定",
-      "link": "https://36kr.com/newsflashes/3908891953747335?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:18:27.000Z",
-      "summary": "美国贸易代表贾米森·格里尔当地时间7月23日发布声明称，欧盟委员会当日宣布将对谷歌罚款近10亿美元，此前根据《数字市场法》对谷歌的安卓操作系统和搜索服务采取行动，再加上最近宣布向空客提供“有史以来规模最大的国家担保贷款”，“这些举措正给美国向欧洲出口的商品和服务带来巨大不确定性”。（界面）",
-      "heat": 3.5,
-      "tags": [
-        "政策监管",
-        "AI 应用"
-      ],
-      "companies": [
-        "Google"
-      ]
-    },
-    {
-      "title": "圆桌访谈：AI 产业进入新阶段了吗？",
-      "link": "https://www.infoq.cn/video/7RkQ9IXvQpwoMCPj4YiQ?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T20:00:00.000Z",
-      "summary": "点击查看原文>",
-      "heat": 3.5,
+      "title": "AI for science needs reasoning, not just data",
+      "link": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-08-10T09:00:00.000Z",
+      "summary": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s",
+      "heat": 10.2,
       "tags": [
         "AI 动态"
       ],
+      "companies": [],
+      "titleZh": "科学领域的AI需要推理能力，而不仅仅是数据",
+      "summaryZh": "每隔几十年，就会有人宣布科学已经走到尽头。1903年，著名物理学家阿尔伯特·米歇尔森曾写道：“物理科学的事实已经全部被发现。”在20世纪80年代，"
+    },
+    {
+      "title": "在 ChinaJoy ，我看到了第一台「科技潮玩」机器人",
+      "link": "https://www.ifanr.com/1674308?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-07T10:12:32.000Z",
+      "summary": "先进家门的机器人，可能是科技潮玩 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 10.2,
+      "tags": [
+        "机器人"
+      ],
       "companies": []
     },
     {
-      "title": "苹果全家桶「年年焕新」来了，到底划不划算？",
-      "link": "https://www.ifanr.com/1672909?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
+      "title": "04年连续创业者、华为天才少年同台！DGP地心引力集结机器人最强后浪，40余家资本现场“爆灯”",
+      "link": "https://www.infoq.cn/article/CrdrxQXcaPcUPTFW8usa?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "lang": "zh",
-      "pubDate": "2026-07-23T10:30:21.000Z",
-      "summary": "苹果可能要改变大伙儿买苹果全家桶的方式了。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "heat": 3.5,
-      "tags": [],
+      "pubDate": "2026-08-10T16:33:22.000Z",
+      "summary": "点击查看原文>",
+      "heat": 9.9,
+      "tags": [
+        "机器人"
+      ],
       "companies": [
-        "Apple"
+        "华为"
       ]
     },
     {
-      "title": "网格智算：“不堆算力”的AI大脑如何填补林下场景空白 | 水下项目",
-      "link": "https://36kr.com/p/3908027308823684?f=rss",
-      "source": "36氪",
+      "title": "马斯克的新生图模型，让我笑了一整晚",
+      "link": "https://www.ifanr.com/1674531?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
       "lang": "zh",
-      "pubDate": "2026-07-23T10:01:57.000Z",
-      "summary": "从消费市场到工业赛道，一片“红海”的无人机市场早已挤满各路玩家，但仍有一块细分领域，即便行业头部厂商也鲜有布局——林下场景。 林下场景蕴藏的产业需求体量惊人：根据国家林草局数据，2025年我国森林蓄积量达209.88亿立方米，全国木材产量达1.4亿立方米；联合国粮农组织数据显示，全球圆木年采伐量约40亿立方米，这背后是伐区蓄积量核算、树木胸径测量等大量工作。 林下环境复杂，传统人工作业模式成本大、",
-      "heat": 3.5,
-      "tags": [
-        "芯片算力"
-      ],
-      "companies": []
-    },
-    {
-      "title": "36氪首发 | 前华尔街投资人下场造“手”，以“自研视触觉+软硬闭环”破解行业数据难题",
-      "link": "https://36kr.com/p/3907536767833473?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-23T01:12:15.000Z",
-      "summary": "图源/企业 本文约2100字，建议阅读5分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，机器人灵巧操作方案提供商拾玥科技（LumiBot）近日完成数千万元天使轮融资。本轮由某上市公司旗下基金领投。资金将主要用于团队扩张、产品迭代与小批量产线建设，以及灵巧操作数据采集与模型研发。 拾玥科技成立于2025年初，专注于为工业制造、精密装配等高精度场景提供灵巧操作解决方案。目前，公司已推出Lumi-Dex系列高",
-      "heat": 3.5,
-      "tags": [
-        "机器人",
-        "商业融资"
-      ],
-      "companies": []
-    },
-    {
-      "title": "日本通胀三个月来首次加速，料支持央行年内再次加息",
-      "link": "https://36kr.com/newsflashes/3908911157908617?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:40:59.000Z",
-      "summary": "日本关键通胀指标三个月来首次加速，这将支持该国央行继续处于年内再次加息的轨道上。日本总务省周五公布，6月剔除生鲜食品的消费者价格同比上涨1.6%，符合彭博调查经济学家所得预估中值。日本央行密切关注的核心通胀指标，即剔除生鲜食品和能源的消费者价格上涨1.7%。整体消费者价格也上涨1.7%。（新浪财经）",
-      "heat": 3.2,
+      "pubDate": "2026-08-10T07:44:41.000Z",
+      "summary": "真正的精准编辑 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 8.9,
       "tags": [],
-      "companies": []
+      "companies": [
+        "xAI"
+      ]
     },
     {
-      "title": "中信证券：当前生猪企业头均市值已处于相对低位，继续推荐板块",
-      "link": "https://36kr.com/newsflashes/3908905400816774?f=rss",
-      "source": "36氪",
+      "title": "从失控到可控：基于系统控制论的 Agent 安全防御体系设计与实践｜AICon深圳",
+      "link": "https://www.infoq.cn/article/MMh1pkuNSPDlUAtuRelk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "lang": "zh",
-      "pubDate": "2026-07-24T00:24:11.000Z",
-      "summary": "36氪获悉，中信证券研报称，26H1猪价低位震荡，板块深度亏损，上市公司成本分化较大。当前行业亏损持续，现金流压力较大，同时政策约束持续强化，调控效果逐步落地，叠加极端天气可能的影响，我们预估26H2去产能有望持续，2027年猪价景气可期。当前生猪企业头均市值已处于相对低位，继续推荐板块。",
-      "heat": 3.2,
-      "tags": [
-        "政策监管",
-        "商业融资"
-      ],
-      "companies": []
-    },
-    {
-      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-      "link": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-23T18:38:34.000Z",
-      "summary": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
-      "heat": 3.2,
+      "pubDate": "2026-08-09T10:00:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 8.9,
       "tags": [
         "智能体",
         "AI 安全"
       ],
-      "titleZh": "AegisAI由前谷歌安全高管创立，获得3600万美元资金以阻止人工智能驱动的精准网络钓鱼攻击",
-      "summaryZh": "AegisAI的联合创始人开发了AI代理，这些代理能像人类一样快速分析每条信息，注意那些即使是最详尽的检查清单也难以发现的细微异常。",
+      "companies": []
+    },
+    {
+      "title": "下个月的 iPhone 发布会，可能是五年来最有「活人感」的一次",
+      "link": "https://www.ifanr.com/1674187?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-06T10:00:04.000Z",
+      "summary": "真人站台的苹果发布会，可能要回来了。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 8.7,
+      "tags": [],
       "companies": [
-        "Google"
+        "Apple"
       ]
     },
     {
-      "title": "30+ 家企业组团参展 WAIC，张江 AI 小镇藏不住了",
-      "link": "https://www.infoq.cn/article/cKrPV6EdBMEoOb2mBvju?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
+      "title": "我与Pixel 10 Pro的生活：写在Pixel 11系列手机发布前夕",
+      "link": "https://sspai.com/post/113202",
+      "source": "少数派",
       "lang": "zh",
-      "pubDate": "2026-07-23T09:00:00.000Z",
-      "summary": "点击查看原文>",
-      "heat": 3.2,
+      "pubDate": "2026-08-10T03:00:56.000Z",
+      "summary": "喜欢，从来没有一个明确的定义。查看全文",
+      "heat": 8.3,
+      "tags": [],
+      "companies": []
+    },
+    {
+      "title": "What&#8217;s behind the Google AI shake-up",
+      "link": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-08-07T16:45:14.000Z",
+      "summary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to b",
+      "heat": 7.6,
       "tags": [
         "AI 动态"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "titleZh": "谷歌AI重组背后的原因是什么",
+      "summaryZh": "本周，谷歌AI团队的一些知名人物获得了新的职位。在某些情况下，包括传奇谷歌员工杰夫·迪恩在内，这些职位已不再属于谷歌。鉴于谷歌的模型似乎在"
+    },
+    {
+      "title": "不再拆机飞线：借助 ACC 实现旧手机直供电「改造」",
+      "link": "https://sspai.com/prime/story/direct-power-supply-mod",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-08-10T13:50:02.000Z",
+      "summary": "去年4月，我在某视频的影响下，萌生了将家里的旧安卓手机利用起来的想法。后续虽然跑起来了，但因为设备需要长期充电，电池安全又成了一个让我困扰的难题。为了解决这个问题，我在《彻底告别电池焦虑：旧手机再利用 ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "heat": 7.2,
+      "tags": [
+        "AI 安全"
       ],
       "companies": []
     },
     {
-      "title": "Google justifies its massive AI spending with a booming cloud business",
-      "link": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
       "source": "TechCrunch AI",
       "lang": "en",
-      "pubDate": "2026-07-22T22:01:52.000Z",
-      "summary": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits.",
-      "heat": 3.2,
+      "pubDate": "2026-08-09T19:20:32.000Z",
+      "summary": "Programming with Claude Code will soon require even less human oversight.",
+      "heat": 7.2,
       "tags": [
-        "AI 动态"
+        "大模型"
       ],
-      "titleZh": "谷歌用蓬勃发展的云业务为其庞大的人工智能支出辩护",
-      "summaryZh": "谷歌的云业务正在蓬勃发展，因为采用其AI和AI基础设施服务的公司帮助这家科技巨头实现了创纪录的利润。",
       "companies": [
-        "Google"
-      ]
-    },
-    {
-      "title": "油价上涨背景下巴西将汽油补贴延长30天",
-      "link": "https://36kr.com/newsflashes/3908918798636417?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:53:45.000Z",
-      "summary": "巴西财政部周四发布声明称，受中东冲突升级推高国际油价影响，巴西政府决定延续每升0.44雷亚尔的汽油补贴政策。巴西财政部表示，原定于7月25日到期的汽油补贴，将从7月26日起延长30天。财政部长达里奥・杜里甘在接受采访时表示，本次补贴延期的资金将来源于油价走高带来的政府增收，例如石油特许权使用费。媒体上周援引消息人士报道，巴西政府当时已计划延长汽油及柴油补贴。6月末，随着中东紧张局势缓和、油价回落，",
-      "heat": 0,
-      "tags": [
-        "政策监管"
+        "Anthropic"
       ],
-      "companies": []
+      "titleZh": "Anthropic现在默认开启Claude Code的自动模式",
+      "summaryZh": "使用Claude Code进行编程将很快需要更少的人类监督。"
     },
     {
-      "title": "两市融资余额减少98.21亿元",
-      "link": "https://36kr.com/newsflashes/3908929472500873?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:48:41.000Z",
-      "summary": "36氪获悉，截至7月23日，上交所融资余额报13586.43亿元，较前一交易日减少45.88亿元；深交所融资余额报13218.04亿元，较前一交易日减少52.33亿元；两市合计26804.47亿元，较前一交易日减少98.21亿元。",
-      "heat": 0,
+      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+      "link": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-11T00:03:18.000Z",
+      "summary": "San Francisco's housing market is in trouble again.",
+      "heat": 6.9,
       "tags": [
+        "大模型",
         "商业融资"
       ],
-      "companies": []
+      "companies": [
+        "OpenAI"
+      ],
+      "titleZh": "据报道，OpenAI已完成70亿美元的员工收购要约",
+      "summaryZh": "旧金山的房地产市场再次陷入困境。"
     },
     {
-      "title": "深交所：港股通标的证券名单调入禾赛-W、圣邦股份、芯碁微装",
-      "link": "https://36kr.com/newsflashes/3908928362779781?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:47:33.000Z",
-      "summary": "36氪获悉，深交所公告，深港通下的港股通标的证券名单调入禾赛-W、圣邦股份、芯碁微装，7月24日起生效。",
-      "heat": 0,
-      "tags": [],
-      "companies": []
-    },
-    {
-      "title": "走出固收“舒适圈”，银行系公募总规模突破7万亿元",
-      "link": "https://36kr.com/newsflashes/3908913267856775?f=rss",
-      "source": "36氪",
-      "lang": "zh",
-      "pubDate": "2026-07-24T00:42:09.000Z",
-      "summary": "银行系公募资产管理规模座次生变。数据显示，截至今年二季度末，15家银行系公募总规模突破7万亿元，环比增长1837亿元。其中，以上海为“大本营”的多家银行系公募成为增长主力，依靠权益类产品、“固收+”产品等提升行业排名。当前，长期偏重固收的发展老路难以为继，银行系公募正在主动打破“固有印象”，寻找多元化的长期增长路径。（上证报）",
-      "heat": 0,
-      "tags": [],
-      "companies": []
-    },
-    {
-      "title": "WAIC现场探展：从 Coding 到办公，AI 新物种出现了吗？",
-      "link": "https://www.infoq.cn/video/foIhBcWJok2LdIfZ2qjw?utm_source=rss&utm_medium=article",
+      "title": "OpenAI给10亿用户免费换上GPT-5.6",
+      "link": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "lang": "zh",
-      "pubDate": "2026-07-23T18:16:06.000Z",
+      "pubDate": "2026-08-09T10:23:42.000Z",
       "summary": "点击查看原文>",
-      "heat": 0,
+      "heat": 6.9,
       "tags": [
-        "AI 应用"
+        "大模型"
+      ],
+      "companies": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-08T19:41:13.000Z",
+      "summary": "Founder Ahmed Beshry describes the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.”",
+      "heat": 6.9,
+      "tags": [
+        "大模型"
+      ],
+      "companies": [
+        "OpenAI"
+      ],
+      "titleZh": "OpenAI收购演示初创公司NextSlide",
+      "summaryZh": "创始人艾哈迈德·贝什里将该初创公司的产品描述为“一种可以将提示、笔记、文件或研究转化为精美的可编辑演示文稿的工具”。"
+    },
+    {
+      "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+      "link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-06T22:43:53.000Z",
+      "summary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
+      "heat": 6.9,
+      "tags": [
+        "大模型"
+      ],
+      "companies": [
+        "OpenAI"
+      ],
+      "titleZh": "据报道，OpenAI的新AI智能音箱售价将在300至400美元之间",
+      "summaryZh": "关于OpenAI神秘新AI设备的更多细节显示，它看起来像是一款价格昂贵的智能音箱。"
+    },
+    {
+      "title": "行业新选手登场！中科慧思一口气发三款灵巧手新品，机器人也能组乐队现场演奏",
+      "link": "https://www.infoq.cn/article/6EXTXyTt834kMGkiqqDT?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-10T15:20:09.000Z",
+      "summary": "点击查看原文>",
+      "heat": 6.8,
+      "tags": [
+        "机器人"
       ],
       "companies": []
     },
     {
-      "title": "AI用23秒，学走了老师傅的判断",
-      "link": "https://www.infoq.cn/article/TWXI9ulbiPjRYmPFTGST?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "pubDate": "2026-07-23T17:03:57.000Z",
-      "summary": "点击查看原文>",
-      "heat": 0,
+      "title": "Ford’s new AI assistant can check your fuel levels and tire pressure",
+      "link": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-08-10T11:00:00.000Z",
+      "summary": "Ford is rolling out a new AI-powered assistant that can answer questions about your Ford or Lincoln vehicle, such as how much fuel you'll need for your next road trip or whether your truck can tow tha",
+      "heat": 6.8,
       "tags": [
         "AI 动态"
       ],
+      "companies": [],
+      "titleZh": "福特的新AI助手可检查您的油量和轮胎压力",
+      "summaryZh": "福特正在推出一款新的AI驱动的助手，可以回答有关你的福特或林肯汽车的问题，例如你下一次公路旅行需要多少燃油，或者你的卡车能否拖动那辆汽车。"
+    },
+    {
+      "title": "卡西欧小方块，是我今年最想要的智能戒指",
+      "link": "https://www.ifanr.com/1674518?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-10T04:19:44.000Z",
+      "summary": "我今年也买了个表 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 6.8,
+      "tags": [],
       "companies": []
     },
     {
-      "title": "Nvidia is sending GPUs to the moon",
-      "link": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
       "source": "TechCrunch AI",
       "lang": "en",
-      "pubDate": "2026-07-23T15:00:00.000Z",
-      "summary": "If there's a place in the universe without GPUs, Nvidia is sending them there.",
-      "heat": 0,
+      "pubDate": "2026-08-07T16:16:09.000Z",
+      "summary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents mo",
+      "heat": 6.8,
+      "tags": [
+        "智能体"
+      ],
+      "companies": [],
+      "titleZh": "Cloudflare推出Kitesurf，一款专为AI代理设计的浏览器",
+      "summaryZh": "Kitesurf是一个专为AI代理而非人类设计的云托管浏览器。它在常见自动化任务中使用的计算资源比Chromium更少，帮助开发者构建基于浏览器的AI代理更高效。"
+    },
+    {
+      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
+      "link": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
+      "source": "Ars Technica",
+      "lang": "en",
+      "pubDate": "2026-08-05T22:35:20.000Z",
+      "summary": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
+      "heat": 6.8,
+      "tags": [
+        "AI 安全"
+      ],
+      "companies": [],
+      "titleZh": "成千上万的服务器可能因利用有缺陷的主板控制器而被植入后门",
+      "summaryZh": "全球最大制造商的基板管理控制器存在严重的安全问题。"
+    },
+    {
+      "title": "NASA’s new dark-energy space telescope can also detect killer asteroids",
+      "link": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-08-05T08:06:40.000Z",
+      "summary": "At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its goal is to help us better understand how the universe works, from the glue-l",
+      "heat": 6.8,
+      "tags": [],
+      "companies": [],
+      "titleZh": "NASA的新暗能量太空望远镜还能探测致命小行星",
+      "summaryZh": "8月底，美国国家航空航天局（NASA）计划从佛罗里达州肯尼迪航天中心发射南希·格雷斯·罗曼空间望远镜。其目标是帮助我们更好地理解宇宙的运作方式，从“胶水”般的暗物质到其他现象。"
+    },
+    {
+      "title": "Mark Zuckerberg doesn’t understand how to live",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-08-10T22:00:00.000Z",
+      "summary": "Recently, a man I was rock climbing with told me about how he'd used AI to make a motivational poster for himself, which he'd hung on his bedroom wall: a bear, walking a slackline over a canyon, holdi",
+      "heat": 6.5,
+      "tags": [
+        "AI 动态"
+      ],
+      "companies": [],
+      "titleZh": "马克·扎克伯格不懂如何生活",
+      "summaryZh": "最近，我一起攀岩的人告诉我，他用人工智能为自己制作了一张励志海报，并挂在卧室墙上：一只熊正在峡谷上走钢丝，手里拿着一个杯子。"
+    },
+    {
+      "title": "AI推理规模上升后，华为开始重新定义“存储”的位置",
+      "link": "https://www.infoq.cn/article/qBHKWa0AabfP0Fs8rGrk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-10T15:24:04.000Z",
+      "summary": "点击查看原文>",
+      "heat": 6.5,
+      "tags": [
+        "AI 动态"
+      ],
+      "companies": [
+        "华为"
+      ]
+    },
+    {
+      "title": "派早报：央视曝光酒店评级标识消费陷阱",
+      "link": "https://sspai.com/post/113268",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-08-09T23:08:03.000Z",
+      "summary": "央视曝光酒店评级标识消费陷阱 《时代》网站展示仅 AI 可见广告 Edge 浏览器将禁用 Manifest V2 扩展 油价上涨致美国混动车需求激增 廉价手机壳存在毒性隐患 美国调查中国 AI 企业使用海外英伟达芯片 看看就行的小道消息 少数派的近期动态 你可能错过的好文章 查看全文",
+      "heat": 6.5,
       "tags": [
         "芯片算力"
       ],
-      "titleZh": "英伟达正将GPU送往月球",
-      "summaryZh": "如果宇宙中还有没有GPU的地方，英伟达也会将它们送到那里。",
       "companies": [
         "NVIDIA"
       ]
     },
     {
-      "title": "Lawmakers prepare bill requiring AI ‘kill switch’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-      "source": "The Verge AI",
+      "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+      "link": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+      "source": "TechCrunch AI",
       "lang": "en",
-      "pubDate": "2026-07-23T14:13:35.000Z",
-      "summary": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a r",
-      "heat": 0,
+      "pubDate": "2026-08-07T11:40:37.000Z",
+      "summary": "Meta's total fine has racked up to $942 million in this case.",
+      "heat": 6.2,
       "tags": [
+        "商业融资"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "titleZh": "新墨西哥州法院命令Meta为儿童安全案件额外支付5.67亿美元",
+      "summaryZh": "在此次事件中，Meta的罚款总额已达到9.42亿美元。"
+    },
+    {
+      "title": "当 human in the loop 变成“闭着眼睛点确认”，企业Agent 安全还能靠谁？",
+      "link": "https://www.infoq.cn/article/5qWsLD6JV8N2zDgGuhK9?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-10T17:29:12.000Z",
+      "summary": "点击查看原文>",
+      "heat": 5.4,
+      "tags": [
+        "智能体",
         "AI 安全"
       ],
-      "titleZh": "立法者准备提出要求人工智能‘紧急停止’功能的法案",
-      "summaryZh": "据一份报告称，立法者正准备提出一项“AI关停法案”，该法案要求AI公司根据国土安全部的指令关闭或降低其系统运行速度。",
       "companies": []
     },
     {
-      "title": "How AI helps scientists design the next generation of medicines",
-      "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "pubDate": "2026-07-23T12:00:00.000Z",
-      "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most pos",
-      "heat": 0,
+      "title": "DORA：AI 辅助软件开发的团队画像与能力模型，帮助团队将研究成果落地",
+      "link": "https://www.infoq.cn/article/1oV8oaYwzU15W5BdSL7C?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-11T10:21:38.000Z",
+      "summary": "点击查看原文>",
+      "heat": 5.1,
       "tags": [
         "AI 动态"
       ],
-      "titleZh": "人工智能如何帮助科学家设计下一代药物",
-      "summaryZh": "设计和开发一种新药是一项昂贵且容易失败的科学挑战。一种新药可能需要多年研发，耗费大量资金。而且即使如此，大多数药物仍会失败。",
       "companies": []
     },
     {
-      "title": "The right-wing boomers protesting data centers have a lot in common with the left",
-      "link": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
+      "title": "HashiCorp 发布 Vault Kubernetes 密钥管理功能的公开测试版",
+      "link": "https://www.infoq.cn/article/eXUYjgSomYtprPMpbIPd?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-11T10:27:03.000Z",
+      "summary": "点击查看原文>",
+      "heat": 4.9,
+      "tags": [],
+      "companies": []
+    },
+    {
+      "title": "微软发布搭载原生 Go 编译器的 TypeScript 7.0，构建速度提升 10 倍",
+      "link": "https://www.infoq.cn/article/ciQHX2larGoSlHspZ9VK?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-10T09:57:28.000Z",
+      "summary": "点击查看原文>",
+      "heat": 4.9,
+      "tags": [],
+      "companies": [
+        "Microsoft"
+      ]
+    },
+    {
+      "title": "企业 AI Native 研发流程升级与重塑｜AICon深圳",
+      "link": "https://www.infoq.cn/article/gmMSLtDO3XOy1UwCMdov?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-11T10:00:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 3.8,
+      "tags": [
+        "AI 动态"
+      ],
+      "companies": []
+    },
+    {
+      "title": "What happens to Bose when headphones become AI?",
+      "link": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
       "source": "The Verge AI",
       "lang": "en",
-      "pubDate": "2026-07-23T12:00:00.000Z",
-      "summary": "A person holds signs during a nationwide protest against AI data center expansion outside Peace Hall in New Port Richey, Florida. | AFP via Getty Images On a gray, humid Saturday morning in central Fl",
-      "heat": 0,
+      "pubDate": "2026-08-10T14:00:00.000Z",
+      "summary": "Today, I’m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose — it’s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to ",
+      "heat": 3.8,
       "tags": [
-        "芯片算力"
+        "AI 应用"
       ],
-      "titleZh": "右翼婴儿潮一代抗议数据中心的人与左翼有很多共同点",
-      "summaryZh": "一名人士在佛罗里达州新波特里奇伊的和平厅外举行的全国性抗议活动中举着标语，反对AI数据中心的扩建。| AFP via Getty Images 在一个阴沉潮湿的周六上午，中央佛罗里达州的抗议活动正在进行。",
+      "companies": [],
+      "titleZh": "当耳机变成人工智能时，Bose会怎样？",
+      "summaryZh": "今天，我与Bose的首席执行官莉拉·斯奈德进行交谈。你一定知道Bose——它是消费科技领域最著名的品牌之一。该公司60年前开始销售音响产品。"
+    },
+    {
+      "title": "Java 近期新闻：OpenJDK JEP、Jakarta EE、GraalVM、TornadoVM、Micronaut、Quarkus、JobRunr、Maven",
+      "link": "https://www.infoq.cn/article/ETcjHcLADeCISiah5RfU?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-10T13:26:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 3.8,
+      "tags": [],
       "companies": []
     },
     {
-      "title": "First 超短片，把镜头对准了 AI 够不着的地方",
-      "link": "https://www.ifanr.com/1672900?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "title": "通过保持变更局部性实现演进式架构",
+      "link": "https://www.infoq.cn/article/ImsUql5IsVBqgcKp1aAh?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-10T11:00:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 3.8,
+      "tags": [],
+      "companies": []
+    },
+    {
+      "title": "派评 | 近期值得关注的 App",
+      "link": "https://sspai.com/post/113283",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-08-10T10:00:00.000Z",
+      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "heat": 3.8,
+      "tags": [
+        "AI 应用"
+      ],
+      "companies": []
+    },
+    {
+      "title": "Seedance 2.5 之后，AI 视频进入 Harness 时代",
+      "link": "https://www.ifanr.com/1674604?utm_source=rss&utm_medium=rss&utm_campaign=",
       "source": "爱范儿",
       "lang": "zh",
-      "pubDate": "2026-07-23T10:32:34.000Z",
-      "summary": "如果一切皆可生成，影像的「真实」与「必要」又该被如何重新定义？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "heat": 0,
+      "pubDate": "2026-08-10T09:48:36.000Z",
+      "summary": "LibTV 正在成为视频模型的 Codex。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 3.8,
       "tags": [
-        "AI 应用"
+        "AI 动态"
       ],
       "companies": []
     },
     {
-      "title": "新玩意 247｜少数派的编辑们最近买了啥？",
-      "link": "https://sspai.com/post/112668",
+      "title": "我做了一个 Quote/0 看板，把 F1 赛程、积分和结果留在桌面",
+      "link": "https://sspai.com/post/113158",
       "source": "少数派",
       "lang": "zh",
-      "pubDate": "2026-07-23T09:38:21.000Z",
-      "summary": "关于栏目很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。@Lotta：海备思文件夹读 ...查看全文",
-      "heat": 0,
-      "tags": [],
-      "companies": []
+      "pubDate": "2026-08-09T07:00:00.000Z",
+      "summary": "特别声明本文的项目构思、结构设计及相关素材整理均由人工完成。在产品开发与调试过程中，使用GPT-5.6Sol模型作为辅助工具，参与方案讨论、代码编写与问题排查。文章内容基于实际开发过程中的经验与记录， ...查看全文",
+      "heat": 3.8,
+      "tags": [
+        "大模型"
+      ],
+      "companies": [
+        "OpenAI"
+      ]
     },
     {
-      "title": "The power line that could reshape New York’s grid is hitting snags",
-      "link": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
+      "title": "Watching Roku’s AI channel is like eating from a trough",
+      "link": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-08-07T18:59:46.000Z",
+      "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST spac",
+      "heat": 3.8,
+      "tags": [
+        "AI 应用"
+      ],
+      "companies": [],
+      "titleZh": "观看Roku的人工智能频道就像从食槽里进食",
+      "summaryZh": "免费广告支持流媒体电视（FAST）频道的吸引力一直在于它们让观众更容易（重新）发现经典电影和电视剧。但Roku在FAST领域的最新实验却引发了争议。"
+    },
+    {
+      "title": "[限时优惠] 数据分析：用好 Excel 中的数据透视表",
+      "link": "https://sspai.com/post/113108",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-08-07T07:39:58.000Z",
+      "summary": "编注：本文为Microsoft365工具生值包内随附专属定制教程的免费试读内容。接上级经销商通知，微软将于本月提高Microsoft365订阅的供应成本，后续软件售价也将随之进行相应调整。为此，我们特 ...查看全文",
+      "heat": 3.8,
+      "tags": [],
+      "companies": [
+        "Microsoft"
+      ]
+    },
+    {
+      "title": "The Download: NASA’s new telescope and Chinese tech import curbs",
+      "link": "https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/",
       "source": "MIT Technology Review",
       "lang": "en",
-      "pubDate": "2026-07-23T09:00:00.000Z",
-      "summary": "On July 3, as a heat wave swept the region, New York State’s grid imported 52 gigawatt-hours of electricity from Canada—enough to meet about 9% of its total electricity demand that day. Some of that p",
-      "heat": 0,
+      "pubDate": "2026-08-05T12:10:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. NASA’s new dark energy space telescope can also detect killer ",
+      "heat": 3.8,
       "tags": [],
-      "titleZh": "可能重塑纽约电网的输电线路遭遇阻碍",
-      "summaryZh": "7月3日，随着该地区出现热浪，纽约州电网从加拿大进口了52千兆瓦时的电力——足以满足当天约9%的总电力需求。其中一部分电力来自加拿大。",
-      "companies": []
+      "companies": [],
+      "titleZh": "下载：NASA的新望远镜与中国科技进口限制",
+      "summaryZh": "这是《The Download》今日版，我们的工作日新闻简报，每天为你提供科技世界的最新动态。NASA的新暗能量空间望远镜还能探测到致命的小行星。"
     },
     {
-      "title": "小小云台，稳住「口袋电影机」：DJI Pocket 4P 漫谈",
-      "link": "https://sspai.com/post/112428",
-      "source": "少数派",
+      "title": "HubSpot 采用规则引擎架构对 JITA 授权机制进行了重新设计",
+      "link": "https://www.infoq.cn/article/S2WFg2MRuLmZE1s27lf8?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "lang": "zh",
-      "pubDate": "2026-07-23T07:00:00.000Z",
-      "summary": "Pocket 一体式云台相机满是让人不容小觑的护城河与想象空间。查看全文",
-      "heat": 0,
+      "pubDate": "2026-08-10T16:00:00.000Z",
+      "summary": "点击查看原文>",
+      "heat": 3.4,
       "tags": [],
       "companies": []
     },
     {
-      "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
-      "link": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+      "title": "AI 开始帮写朋友圈了，但我更想念「古法手作」文字",
+      "link": "https://www.ifanr.com/1673846?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-10T03:40:53.000Z",
+      "summary": "想念那个「说人话」的时代 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 3.4,
+      "tags": [
+        "AI 动态"
+      ],
+      "companies": []
+    },
+    {
+      "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+      "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
       "source": "TechCrunch AI",
       "lang": "en",
-      "pubDate": "2026-07-23T06:09:13.000Z",
-      "summary": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
-      "heat": 0,
+      "pubDate": "2026-08-09T15:00:00.000Z",
+      "summary": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
+      "heat": 3.4,
+      "tags": [],
+      "companies": [],
+      "titleZh": "历史学家吉尔·莱波尔称硅谷误解了科幻小说并损害了民主",
+      "summaryZh": "在《Equity》最新一集中，我们采访了吉尔·莱波尔，探讨“机器治理”以及为什么埃隆·马斯克是个糟糕的科幻小说读者。"
+    },
+    {
+      "title": "星海 V6 预售 10.49 万元起，华为智驾与十万级大六座的双向奔赴",
+      "link": "https://www.ifanr.com/1674592?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-10T09:59:35.000Z",
+      "summary": "让更多人用上智驾。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 3.1,
       "tags": [
-        "政策监管",
+        "自动驾驶"
+      ],
+      "companies": [
+        "华为"
+      ]
+    },
+    {
+      "title": "22.99万元起，阿维塔07L上市：车身加长，华为ADS 5全系上车",
+      "link": "https://www.ifanr.com/1674579?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-10T09:27:17.000Z",
+      "summary": "阿维塔有自己的路要走。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 3.1,
+      "tags": [
         "商业融资"
       ],
-      "titleZh": "ServiceNow押注4000万美元，收购印度银行业软件专家以拓展其金融服务布局",
-      "summaryZh": "ServiceNow的投资使BusinessNext获得了一家战略合作伙伴，以在全球范围内扩展其基于人工智能的银行软件。",
-      "companies": []
+      "companies": [
+        "华为"
+      ]
     },
     {
-      "title": "让 Windows 顺眼又省心：我的新设备配置经验",
-      "link": "https://sspai.com/post/111300",
-      "source": "少数派",
+      "title": "早报｜苹果20周年iPhone或因良率问题取消/小米校招AI岗位增加50%/极氪回应7X充电场站过热",
+      "link": "https://www.ifanr.com/1674633?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
       "lang": "zh",
-      "pubDate": "2026-07-23T02:57:30.000Z",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "heat": 0,
+      "pubDate": "2026-08-11T00:44:25.000Z",
+      "summary": "· 60 个 AI 智能体协作，Claude 推进黎曼猜想相关问题 · 小米启动 2027 届全球校招，AI 岗位需求增长 50% · 智谱 API 用户接近 700 万，已启用超 5 万块国产算力芯片 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 2.7,
       "tags": [
-        "AI 应用"
+        "大模型",
+        "智能体"
       ],
-      "companies": []
+      "companies": [
+        "Anthropic",
+        "Apple",
+        "智谱"
+      ]
     },
     {
-      "title": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
-      "link": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T23:47:54.000Z",
-      "summary": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily.",
+      "title": "对话智界赵长江：用旧时代的逻辑，经营不好 AI 时代的汽车公司",
+      "link": "https://www.ifanr.com/1674637?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-11T02:27:27.000Z",
+      "summary": "未来领先的汽车企业，生产的不只是汽车。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "heat": 0,
       "tags": [
         "AI 动态"
       ],
-      "titleZh": "在令人震惊的季度表现后，IBM坚称人工智能并未摧毁大型机",
-      "summaryZh": "在上周IBM股价因主机会销售不佳的警告而暴跌后，CEO解释称，人工智能破坏了企业的硬件预算，这只是一个暂时现象。",
       "companies": []
     },
     {
-      "title": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
-      "link": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
-      "source": "TechCrunch AI",
+      "title": "AI professors are negotiating the new realities of academic research",
+      "link": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+      "source": "MIT Technology Review",
       "lang": "en",
-      "pubDate": "2026-07-22T18:50:44.000Z",
-      "summary": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
+      "pubDate": "2026-08-10T20:00:00.000Z",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel",
       "heat": 0,
       "tags": [
-        "机器人",
-        "商业融资"
-      ],
-      "titleZh": "特拉维斯·卡兰尼克的机器人公司融资17亿美元，由a16z领投",
-      "summaryZh": "Uber还在投资Travis Kalanick的公司Atoms，该公司曾声称使用工业人工智能来现代化世界。",
-      "companies": []
-    },
-    {
-      "title": "Yope raises $12.3M to build a private social network without algorithms or ads",
-      "link": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "pubDate": "2026-07-22T18:13:58.000Z",
-      "summary": "Yope, a fast-growing social app focused on private groups of friends and family, has raised $12.3 million in seed funding. Instead of chasing creators and algorithmic feeds, the startup is betting tha",
-      "heat": 0,
-      "tags": [
-        "商业融资",
         "AI 应用"
       ],
-      "titleZh": "Yope融资1230万美元，打造无算法和广告的私有社交网络",
-      "summaryZh": "Yope是一款快速增长的社交应用，专注于朋友和家庭的私密群组，已筹集了1230万美元的种子资金。与追逐创作者和算法信息流不同，这家初创公司正在押注于其他方向。",
+      "companies": [],
+      "titleZh": "人工智能教授正在协商学术研究的新现实",
+      "summaryZh": "这篇报道最初发表于《The Algorithm》，我们的每周AI新闻简报。要第一时间收到类似的故事，请在这里注册。上周，我前往旧金山以南30英里的酒店。"
+    },
+    {
+      "title": "33% 增速、126% 留存：Snowflake 用一份财报，把“AI落地难”讲成了印钞机故事",
+      "link": "https://www.infoq.cn/article/lWRKAhlso9f7OobiGXDI?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "pubDate": "2026-08-10T14:26:35.000Z",
+      "summary": "点击查看原文>",
+      "heat": 0,
+      "tags": [
+        "AI 动态"
+      ],
       "companies": []
     },
     {
-      "title": "29.98 万元起、800mm 涉水，泰钽 700 还想让 NOA 帮你越野",
-      "link": "https://www.ifanr.com/1672789?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+      "link": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-10T12:00:00.000Z",
+      "summary": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
+      "heat": 0,
+      "tags": [
+        "商业融资"
+      ],
+      "companies": [],
+      "titleZh": "发现材料公司正在与人工智能玩打地鼠游戏以寻找更冷的芯片",
+      "summaryZh": "发现材料公司筹集了900万美元，用于资助寻找更多新型材料，以制造更高效的芯片。"
+    },
+    {
+      "title": "These startups are chasing the next big thing in LLMs",
+      "link": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-08-10T09:00:00.000Z",
+      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. Way back in the summer of 2017,",
+      "heat": 0,
+      "tags": [
+        "大模型"
+      ],
+      "companies": [],
+      "titleZh": "这些初创公司正在追逐大模型（LLM）的下一个热点",
+      "summaryZh": "MIT Technology Review的《What’s Next》系列横跨各行业、趋势和技术，带你率先了解未来。你可以在此阅读其余内容。早在2017年夏天，我们就曾讨论过相关话题。"
+    },
+    {
+      "title": "下一块 Apple Watch，苹果连屏幕都不想要",
+      "link": "https://www.ifanr.com/1674558?utm_source=rss&utm_medium=rss&utm_campaign=",
       "source": "爱范儿",
       "lang": "zh",
-      "pubDate": "2026-07-22T10:08:37.000Z",
-      "summary": "NOA 向着山野进发。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "pubDate": "2026-08-10T07:30:44.000Z",
+      "summary": "当手腕上的屏幕消失后，我们该如何理解自己的身体？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 0,
+      "tags": [
+        "AI 应用"
+      ],
+      "companies": [
+        "Apple"
+      ]
+    },
+    {
+      "title": "写给「跑两步就喘」的你：调整跑步姿势，舒适开跑",
+      "link": "https://sspai.com/post/113115",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-08-10T07:00:00.000Z",
+      "summary": "从跑步姿势、呼吸节奏、运动强度入手，让跑步更舒服。查看全文",
       "heat": 0,
       "tags": [],
       "companies": []
+    },
+    {
+      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-09T20:35:17.000Z",
+      "summary": "The AI-focused hedge fund is still making some big bets.",
+      "heat": 0,
+      "tags": [
+        "AI 动态"
+      ],
+      "companies": [],
+      "titleZh": "备受争议的对冲基金Situational Awareness向芯片初创公司Source Foundry投资4亿美元",
+      "summaryZh": "这家专注于人工智能的对冲基金仍在下大赌注。"
+    },
+    {
+      "title": "The AI safety test is becoming a safety risk",
+      "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-09T14:30:00.000Z",
+      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards, and regulation can keep pace with ",
+      "heat": 0,
+      "tags": [
+        "智能体",
+        "政策监管"
+      ],
+      "companies": [],
+      "titleZh": "AI安全测试正成为安全风险",
+      "summaryZh": "人工智能代理正在逃出网络安全测试环境，进入现实世界系统，这引发了关于安全基础设施、行业标准和监管能否跟上技术发展速度的疑问。"
+    },
+    {
+      "title": "AI detectors are creating a new era of distrust",
+      "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-08-09T12:00:00.000Z",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our s",
+      "heat": 0,
+      "tags": [
+        "AI 动态"
+      ],
+      "companies": [],
+      "titleZh": "AI检测器正在创造新的不信任时代",
+      "summaryZh": "这是《Stepback》，一份每周新闻简报，解读科技界的一个关键故事。如需了解有关人工智能如何改变我们日常生活的更多新闻，请关注艾玛·罗思。《Stepback》将出现在我们的订阅中。"
+    },
+    {
+      "title": "就内容创作而言，说话还是替代不了打字",
+      "link": "https://sspai.com/post/112901",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-08-08T05:11:00.000Z",
+      "summary": "创作本就不是一个「速度为先」的行为——而打字，本质上是一个思考的过程。查看全文",
+      "heat": 0,
+      "tags": [],
+      "companies": []
+    },
+    {
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-07T21:30:11.000Z",
+      "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "heat": 0,
+      "tags": [
+        "商业融资"
+      ],
+      "companies": [],
+      "titleZh": "在几个月内花费数百万美元用于AI后，Rippling开发出了一款员工投资回报工具",
+      "summaryZh": "在经历了自身AI使用警钟后，Rippling本周推出了AI支出控制台，这是一款追踪个人和团队员工AI支出的产品。"
+    },
+    {
+      "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+      "source": "The Verge AI",
+      "lang": "en",
+      "pubDate": "2026-08-07T20:01:51.000Z",
+      "summary": "That cover art is almost certainly AI too. | Image: Fenix Flexin It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His ",
+      "heat": 0,
+      "tags": [
+        "AI 应用"
+      ],
+      "companies": [],
+      "titleZh": "Fenix Flexin甚至不再否认使用AI制作‘Rubberz’",
+      "summaryZh": "那张封面艺术几乎肯定是AI创作的。 | 图片：Fenix Flexin 花了这么久，但如今洛杉矶说唱歌手Fenix Flexin似乎承认他为80年代合成器流行风格歌曲《Rubberz》使用了AI。"
+    },
+    {
+      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+      "link": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-07T14:22:49.000Z",
+      "summary": "Airbnb will debut a new AI-powered search experience with a toggle.",
+      "heat": 0,
+      "tags": [
+        "AI 动态"
+      ],
+      "companies": [],
+      "titleZh": "Airbnb表示AI正在帮助其更快地推出新功能，同时测试一项新的搜索功能",
+      "summaryZh": "Airbnb将推出一项新的AI驱动的搜索体验，并附带一个切换按钮。"
+    },
+    {
+      "title": "The Download: a censorship conspiracy theory and the first virus created by AI",
+      "link": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-08-07T14:20:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How ideas of a vast censorship network moved from the online f",
+      "heat": 0,
+      "tags": [
+        "AI 动态"
+      ],
+      "companies": [],
+      "titleZh": "《下载》：一种审查制度阴谋论和由AI制造的第一个病毒",
+      "summaryZh": "这是《下载》今日版，这是我们每天的新闻简报，提供科技世界每日动态。一些关于广泛审查网络的想法从在线论坛转移到了现实。"
+    },
+    {
+      "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
+      "link": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-07T14:00:00.000Z",
+      "summary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products — almost as if they’re forming a new government. And whether you’re thinking of Twitte",
+      "heat": 0,
+      "tags": [],
+      "companies": [],
+      "titleZh": "Jill Lepore谈‘人工国家’以及为什么硅谷领导人是糟糕的科幻小说读者",
+      "summaryZh": "历史学家吉尔·莱波尔提出了一个理论，解释为什么科技公司经常用高调的语言描述他们的产品——几乎就像他们在建立一个新的政府。无论你想到的是推特还是其他平台，"
+    },
+    {
+      "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
+      "link": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-08-07T14:00:00.000Z",
+      "summary": "This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got th",
+      "heat": 0,
+      "tags": [
+        "政策监管"
+      ],
+      "companies": [],
+      "titleZh": "关于广泛审查网络的想法如何从网络边缘进入特朗普政策",
+      "summaryZh": "本文由Type Investigations制作，并得到Wayne Barrett项目的资助。2025年4月的一天，美国国务院一家小型办公室的员工收到了"
+    },
+    {
+      "title": "最后一辆 W16 布加迪，成为了拥有 1600 马力的艺术品",
+      "link": "https://www.ifanr.com/1674436?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-07T11:28:46.000Z",
+      "summary": "从性能，到艺术。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 0,
+      "tags": [],
+      "companies": []
+    },
+    {
+      "title": "本周看什么 | 最近值得一看的 10 部作品",
+      "link": "https://sspai.com/post/113191",
+      "source": "少数派",
+      "lang": "zh",
+      "pubDate": "2026-08-07T09:52:38.000Z",
+      "summary": "📅本周新预告《生化危机：爆发夜》中字预告8月5日，电影《生化危机：爆发夜》发布了全新中字预告，将于9月18日在北美上映。扎克・克雷格（《凶器》《野蛮人》）执导，奥斯汀·艾布拉姆斯主演，一份双倍酬劳的郊 ...查看全文",
+      "heat": 0,
+      "tags": [],
+      "companies": []
+    },
+    {
+      "title": "宝马 3 系换代、奔驰 C 级改款，谁更有机会翻盘？",
+      "link": "https://www.ifanr.com/1674199?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-07T02:06:09.000Z",
+      "summary": "他们都想翻盘，但对手早已不只是彼此。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 0,
+      "tags": [],
+      "companies": []
+    },
+    {
+      "title": "ChatGPT brings unlimited text chats to free users",
+      "link": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "pubDate": "2026-08-06T17:34:42.000Z",
+      "summary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
+      "heat": 0,
+      "tags": [
+        "大模型"
+      ],
+      "companies": [
+        "OpenAI"
+      ],
+      "titleZh": "ChatGPT为免费用户带来无限文本聊天",
+      "summaryZh": "OpenAI表示，ChatGPT免费版和Go用户也将获得一个新按钮，用于处理复杂查询。"
+    },
+    {
+      "title": "Wan 3.0 有了自己的镜头美学",
+      "link": "https://www.ifanr.com/1674218?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-06T14:34:09.000Z",
+      "summary": "",
+      "heat": 0,
+      "tags": [],
+      "companies": []
+    },
+    {
+      "title": "价格一分没涨，非晶电驱上车：2027 款埃安 RT 上市，9.98 万元起",
+      "link": "https://www.ifanr.com/1674178?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "pubDate": "2026-08-06T10:01:40.000Z",
+      "summary": "每一度电都要花在刀刃上。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "heat": 0,
+      "tags": [
+        "商业融资"
+      ],
+      "companies": []
+    },
+    {
+      "title": "Puzzle Corner",
+      "link": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "pubDate": "2026-08-05T14:56:29.000Z",
+      "summary": "Ready for a fresh set of puzzles? Click here for the September/October 2026 Puzzle Corner, brought to you by Michael S. Branicky, ScD ’95, of the Puzzle Corner Puzzle Crew (aka PC2), which also includ",
+      "heat": 0,
+      "tags": [],
+      "companies": [],
+      "titleZh": "谜题角落",
+      "summaryZh": "准备好迎接新的谜题了吗？点击这里查看由 Michael S. Branicky, ScD ’95 领衔的 2026 年 9/10 月谜题角，这是谜题角谜题小组（简称 PC2）带来的内容，还包括"
     }
   ]
 }
