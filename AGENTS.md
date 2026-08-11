@@ -53,14 +53,14 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 
 - 仓库 `pythonlol/chichihehe`（公开），线上地址：https://pythonlol.github.io/chichihehe/
 - GitHub Pages 已开启（workflow 模式），推送 main 或每天 UTC 0 点自动构建部署
-- **本机网络阻断 github.com**（api.github.com 和 codeload 可达）：普通 `git push` 不可用，需用 `.tmp/push-via-api.mjs` 走 Git Data API 推送（以远端 head 为父提交，本地与远端 commit sha 可能不一致，属正常现象）
+- 本机网络阻断 github.com，但 `.git/config` 已配 `url."https://ghfast.top/https://github.com/".insteadOf` 代理且 Windows 凭据管理器存有 ghfast.top 的 Token（2026-08-11 起普通 `git push` 可直接用）；**不要**再用 API 方式基于陈旧本地状态构造提交——2026-07-27 的 API 推送曾覆盖丢失主题切换等改动（已修复）
 - 个人 Token 需同时具备 `repo` + `workflow` 权限，否则无法推送 `.github/workflows/` 下的文件
 
 ## 阿里云服务器部署（2026-07-24）
 
 - 服务器：阿里云 ECS 华南2（河源），Alibaba Cloud Linux 3，公网 IP `47.120.70.114`，网站根路径直接访问：http://47.120.70.114
 - 项目位置 `/opt/ai-news`，Node.js 在 `/usr/local/nodejs`，Nginx 站点配置 `/etc/nginx/conf.d/ai-news.conf`（默认 server 块已在 nginx.conf 中注释，备份 nginx.conf.bak）
-- 每日更新：cron `0 8 * * *` 执行 `/opt/ai-news/update.sh`（ASTRO_BASE=/ 构建到根路径），日志 `/var/log/ai-news-update.log`
+- 每日更新：cron `0 8 * * *` 执行 `/opt/ai-news/update.sh`（依次跑 fetch-news.mjs + fetch-policy.mjs，ASTRO_BASE=/ 构建到根路径），日志 `/var/log/ai-news-update.log`；服务器无 git，文件靠 upload.mjs 上传同步
 - 域名 `chichihehe.cc`（含 www）已完成备案（2026-07-27，备案号 `鄂ICP备2026038748号`，已悬挂在全站页脚并链接至 beian.miit.gov.cn），DNS A 记录（@ 和 www）指向 47.120.70.114，线上地址：https://chichihehe.cc
 - 注意：本机执行 `ASTRO_BASE=/ npm run build` 等带 `/` 开头参数的命令前，必须先 `export MSYS_NO_PATHCONV=1`，否则 `/` 会被 MSYS 转成 `C:/Program Files/Git`，污染构建产物
 - HTTPS 已上线（2026-07-27）：Let's Encrypt 证书，`certbot --nginx` 申请并自动改写 Nginx 配置（443 SSL + 80 跳转 301），覆盖 chichihehe.cc + www.chichihehe.cc，2026-10-25 到期，certbot 定时任务自动续期
