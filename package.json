@@ -7,7 +7,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "fetch": "node scripts/fetch-news.mjs"
+    "fetch": "node scripts/fetch-news.mjs && node scripts/fetch-policy.mjs",
+    "fetch:news": "node scripts/fetch-news.mjs",
+    "fetch:policy": "node scripts/fetch-policy.mjs"
   },
   "dependencies": {
     "astro": "^5.0.0",

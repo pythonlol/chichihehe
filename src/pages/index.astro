@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import NewsCard from '../components/NewsCard.astro';
 import newsData from '../data/news.json';
+import policyData from '../data/policy.json';
 import { TAGS } from '../../scripts/categorize.mjs';
 
 interface NewsItem {
@@ -18,22 +19,40 @@ interface NewsItem {
   summaryZh?: string;
 }
 
-// 数据已由抓取脚本按热度降序排好
-const items = (newsData.items || []) as NewsItem[];
+// RSS 资讯，数据已由抓取脚本按热度降序排好
+const rssItems = (newsData.items || []) as NewsItem[];
 
-// 每日 AI 日报：数据中最新一天（本地时区）热度最高的 5 条
+// 政策通知（北上广深 + 工信部，fetch-policy.mjs 输出，按时间倒序最新 5 条）
+// 统一打上「最新资讯」标签，热度计 0 排在「全部」列表末尾
+interface PolicyItem {
+  title: string;
+  link: string;
+  source: string;
+  pubDate: string;
+  summary: string;
+}
+const policyItems: NewsItem[] = ((policyData.items || []) as PolicyItem[]).map((p) => ({
+  ...p,
+  lang: 'zh',
+  heat: 0,
+  tags: ['最新资讯'],
+}));
+
+const items = [...rssItems, ...policyItems];
+
+// 每日 AI 日报：RSS 资讯中最新一天（本地时区）热度最高的 5 条（不含政策通知）
 function localDay(iso: string) {
   const d = new Date(iso);
   return `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
 }
-const latestDay = items.length ? localDay(items.map((i) => i.pubDate).sort().reverse()[0]) : '';
+const latestDay = rssItems.length ? localDay(rssItems.map((i) => i.pubDate).sort().reverse()[0]) : '';
 const dailyLinks = new Set(
-  items.filter((i) => localDay(i.pubDate) === latestDay).slice(0, 5).map((i) => i.link)
+  rssItems.filter((i) => localDay(i.pubDate) === latestDay).slice(0, 5).map((i) => i.link)
 );
 
-// AI 公司动态：按公司分组，组内按时间降序，组间按最新一条的时间降序
+// AI 公司动态：按公司分组，组内按时间降序，组间按最新一条的时间降序（不含政策通知）
 const companyMap = new Map<string, NewsItem[]>();
-for (const item of items) {
+for (const item of rssItems) {
   for (const c of item.companies || []) {
     if (!companyMap.has(c)) companyMap.set(c, []);
     companyMap.get(c)!.push(item);
@@ -55,6 +74,7 @@ const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleStri
     <button class="active" data-filter="all">全部</button>
     <button data-filter="daily">AI 日报</button>
     <button data-filter="company">AI 公司动态</button>
+    {policyItems.length > 0 && <button data-filter="tag:最新资讯">最新资讯</button>}
     {TAGS.map((t) => <button data-filter={`tag:${t}`}>{t}</button>)}
   </div>
 

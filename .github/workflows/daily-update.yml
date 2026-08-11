@@ -35,6 +35,9 @@ jobs:
         env:
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
 
+      - name: 抓取政策通知（北上广深 + 工信部）
+        run: node scripts/fetch-policy.mjs
+
       - run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
