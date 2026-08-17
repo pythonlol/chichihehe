@@ -31,7 +31,7 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 结构：
 
 - `scripts/fetch-news.mjs` — 抓取 RSS（36氪、少数派、InfoQ 中文、爱范儿、TechCrunch AI、VentureBeat AI、MIT Technology Review、The Verge AI、Ars Technica），输出 `src/data/news.json`（保留近 7 天、最多 100 条，按热度降序）
-- `scripts/categorize.mjs` — 关键词内容分类，给每条资讯打 0~2 个内容标签（大模型、智能体、芯片算力、机器人、自动驾驶、政策监管、AI 安全、商业融资、开源、AI 应用，兜底 AI 动态），导出 `TAGS` 供首页筛选栏使用；另导出 `detectCompanies` 识别知名 AI 公司（OpenAI、Anthropic、Google、Meta、阿里、字节、DeepSeek 等 20 家），供「AI 公司动态」主题筛选
+- `scripts/categorize.mjs` — 关键词内容分类，给每条资讯打 0~2 个内容标签（大模型〔含开源〕、智能体、芯片算力、具身智能〔机器人+自动驾驶〕、政策与安全、商业融资，兜底 AI 动态〔含 AI 应用〕；2026-08-17 由 11 个标签合并而来），导出 `TAGS` 供首页筛选栏使用；另导出 `detectCompanies` 识别知名 AI 公司（OpenAI、Anthropic、Google、Meta、阿里、字节、DeepSeek 等 20 家），供「AI 公司动态」主题筛选
 - `scripts/translate.mjs` — 英文资讯翻译为中文（titleZh/summaryZh），走阿里百炼 DashScope OpenAI 兼容接口（qwen-turbo，批量 10 条/次），需环境变量 `DASHSCOPE_API_KEY`，未设置则跳过保留英文；结果缓存 `src/data/translation-cache.json`（随仓库提交，按 link 去重，只翻新增）
 - `scripts/fetch-policy.mjs` — 抓取工信部 + 北上广深汉五市经信局/工信局（委）官网的 AI 相关最新通知通告（六源均无 RSS：工信部走站内搜索 JSON 接口，五局均解析静态列表页；深圳市工信局 TLS 与 undici 不兼容，走 https 模块限定 P-256 曲线 + RSA 密钥交换的专用通道），按标题关键词（人工智能/智能体/大模型/算力/机器人等）过滤，合并去重按时间倒序取最新 5 条，输出 `src/data/policy.json`（随仓库提交）；单源失败不影响其他源
 - `src/pages/index.astro` — 首页，新闻卡片 + 筛选栏：全部 / 最新资讯（policy.json 政策通知，统一打「最新资讯」标签、热度计 0 排在全部列表末尾）/ AI 日报（RSS 资讯中最新一天热度 Top 5）/ AI 公司动态（按公司分组的可展开视图：summary 显示公司名、动态数、最新一条标题，点开 `<details>` 看该公司全部动态，组内按时间降序）/ 各内容标签；翻译条目悬停标题可见英文原文

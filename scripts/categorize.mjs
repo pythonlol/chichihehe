@@ -1,17 +1,15 @@
 // 内容分类：按关键词给资讯打标签，供 fetch-news.mjs 使用
 // 命中标题或摘要即计入，每条最多返回 2 个标签
+// 2026-08-17 标签合并：开源并入大模型、机器人+自动驾驶并为具身智能、政策监管+AI 安全并为政策与安全、AI 应用并入兜底 AI 动态
 
 const RULES = [
-  ['大模型', ['大模型', '语言模型', 'llm', 'gpt', 'claude', 'gemini', 'qwen', '通义', '千问', 'deepseek', 'kimi', '文心', 'llama', 'mistral', 'grok', 'openai', 'anthropic', '推理模型']],
+  ['大模型', ['大模型', '语言模型', 'llm', 'gpt', 'claude', 'gemini', 'qwen', '通义', '千问', 'deepseek', 'kimi', '文心', 'llama', 'mistral', 'grok', 'openai', 'anthropic', '推理模型', '开源', 'open-source', 'open source', 'github', 'hugging face', 'huggingface']],
   ['智能体', ['智能体', 'agent', 'agentic', 'manus', 'copilot', 'autopilot', '自主任务']],
   ['芯片算力', ['芯片', '算力', 'gpu', 'nvidia', '英伟达', '昇腾', '台积电', 'tsmc', 'h100', 'h20', '数据中心', 'data center', '服务器', '推理卡']],
-  ['机器人', ['机器人', 'robot', '具身', 'humanoid', '人形']],
-  ['自动驾驶', ['自动驾驶', '智驾', 'self-driving', 'autonomous', 'waymo', 'fsd', 'robotaxi', '无人驾驶']],
-  ['政策监管', ['政策', '监管', '法案', '禁令', 'regulation', 'policy', 'ban', '白宫', '欧盟', '出口管制', '备案', '合规', '制裁']],
-  ['AI 安全', ['安全', '隐私', 'security', 'privacy', '漏洞', '攻击', '越狱', 'jailbreak', '泄露', '对齐', 'alignment']],
+  ['具身智能', ['机器人', 'robot', '具身', 'humanoid', '人形', '自动驾驶', '智驾', 'self-driving', 'autonomous', 'waymo', 'fsd', 'robotaxi', '无人驾驶']],
+  ['政策与安全', ['政策', '监管', '法案', '禁令', 'regulation', 'policy', 'ban', '白宫', '欧盟', '出口管制', '备案', '合规', '制裁', '安全', '隐私', 'security', 'privacy', '漏洞', '攻击', '越狱', 'jailbreak', '泄露', '对齐', 'alignment']],
   ['商业融资', ['融资', '上市', 'ipo', '收购', '估值', '营收', 'funding', 'raises', 'billion', 'million', 'acquisition', 'investor', '股价', '市值']],
-  ['开源', ['开源', 'open-source', 'open source', 'github', 'hugging face', 'huggingface']],
-  ['AI 应用', ['应用', '助手', '生成', '视频生成', '图像', '绘画', '音乐', '编程', 'coding', '搜索', '办公', '教育', '医疗', '问诊', '写作', '翻译', 'app']],
+  ['AI 动态', ['应用', '助手', '生成', '视频生成', '图像', '绘画', '音乐', '编程', 'coding', '搜索', '办公', '教育', '医疗', '问诊', '写作', '翻译', 'app']],
 ];
 
 // 知名 AI 公司识别：主题筛选「AI 公司动态」使用
@@ -56,8 +54,8 @@ export function detectCompanies(item) {
   return found;
 }
 
-// 筛选栏展示用：所有内容标签（含兜底），按定义顺序
-export const TAGS = [...RULES.map(([tag]) => tag), 'AI 动态'];
+// 筛选栏展示用：所有内容标签，按定义顺序（AI 动态兜底在末尾）
+export const TAGS = RULES.map(([tag]) => tag);
 
 /**
  * @param {{title: string, summary?: string}} item
