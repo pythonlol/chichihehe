@@ -70,12 +70,12 @@ const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleStri
 <Layout title="AI 每日资讯">
   {updatedAt && <p class="updated-at">最近更新：{updatedAt} · 按热度排序 · 英文资讯已自动翻译（悬停标题查看原文）</p>}
 
-  <div class="filters" id="filters">
-    <button class="active" data-filter="all">全部</button>
-    {policyItems.length > 0 && <button data-filter="tag:最新资讯">最新资讯</button>}
-    <button data-filter="daily">AI 日报</button>
-    <button data-filter="company">AI 公司动态</button>
-    {TAGS.map((t) => <button data-filter={`tag:${t}`}>{t}</button>)}
+  <div class="filters" id="filters" role="group" aria-label="内容筛选">
+    <button class="active" data-filter="all" aria-pressed="true">全部</button>
+    {policyItems.length > 0 && <button data-filter="tag:最新资讯" aria-pressed="false">最新资讯</button>}
+    <button data-filter="daily" aria-pressed="false">AI 日报</button>
+    <button data-filter="company" aria-pressed="false">AI 公司动态</button>
+    {TAGS.map((t) => <button data-filter={`tag:${t}`} aria-pressed="false">{t}</button>)}
   </div>
 
   {items.length === 0 && <p class="empty">暂无资讯，请稍后刷新。</p>}
@@ -85,6 +85,8 @@ const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleStri
       {items.map((item) => <NewsCard item={item} daily={dailyLinks.has(item.link)} />)}
     </ul>
   )}
+
+  <p class="empty" id="filter-empty" style="display:none">该筛选下暂无资讯，换个标签试试。</p>
 
   <div id="company-view" style="display:none">
     {companyGroups.length === 0 && <p class="empty">暂无公司相关资讯。</p>}
@@ -107,28 +109,51 @@ const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleStri
     const cards = document.querySelectorAll('#news-list .news-card');
     const newsList = document.getElementById('news-list') as HTMLElement;
     const companyView = document.getElementById('company-view') as HTMLElement;
-    buttons.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        buttons.forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
-        const filter = btn.dataset.filter;
-        if (filter === 'company') {
-          newsList.style.display = 'none';
-          companyView.style.display = '';
-          return;
-        }
+    const filterEmpty = document.getElementById('filter-empty') as HTMLElement;
+
+    function applyFilter(filter: string, updateHash = true) {
+      buttons.forEach((b) => {
+        const active = (b as HTMLElement).dataset.filter === filter;
+        b.classList.toggle('active', active);
+        b.setAttribute('aria-pressed', String(active));
+      });
+      if (filter === 'company') {
+        newsList.style.display = 'none';
+        filterEmpty.style.display = 'none';
+        companyView.style.display = '';
+      } else {
         companyView.style.display = 'none';
         newsList.style.display = '';
+        let visible = 0;
         cards.forEach((card) => {
           const el = card as HTMLElement;
           let show = true;
           if (filter === 'daily') show = el.dataset.daily === '1';
-          else if (filter && filter.startsWith('tag:')) {
+          else if (filter.startsWith('tag:')) {
             show = (el.dataset.tags || '').split('|').includes(filter.slice(4));
           }
           el.style.display = show ? '' : 'none';
+          if (show) visible++;
         });
-      });
+        filterEmpty.style.display = visible === 0 ? '' : 'none';
+      }
+      // 筛选状态写入 URL hash，支持分享链接与浏览器前进后退
+      if (updateHash) {
+        const hash = filter === 'all' ? '#' : `#${encodeURIComponent(filter)}`;
+        if (location.hash !== hash) location.hash = hash;
+      }
+    }
+
+    buttons.forEach((btn) =>
+      btn.addEventListener('click', () => applyFilter((btn as HTMLElement).dataset.filter || 'all'))
+    );
+
+    const knownFilters = [...buttons].map((b) => (b as HTMLElement).dataset.filter || '');
+    window.addEventListener('hashchange', () => {
+      const f = decodeURIComponent(location.hash.slice(1));
+      if (knownFilters.includes(f)) applyFilter(f, false);
     });
+    const initial = decodeURIComponent(location.hash.slice(1));
+    if (knownFilters.includes(initial)) applyFilter(initial, false);
   </script>
 </Layout>

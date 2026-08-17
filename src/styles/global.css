@@ -16,6 +16,7 @@
   --header-bg: rgba(10, 14, 26, 0.8);
   --chip-bg: rgba(17, 24, 39, 0.6);
   --active-text: #0a0e1a;
+  --daily: #fbbf24;
 }
 
 /* 亮色模式 */
@@ -31,6 +32,7 @@
   --header-bg: rgba(255, 255, 255, 0.88);
   --chip-bg: rgba(255, 255, 255, 0.85);
   --active-text: #ffffff;
+  --daily: #b45309;
 }
 
 /* 护眼模式（豆沙绿） */
@@ -46,6 +48,7 @@
   --header-bg: rgba(238, 245, 232, 0.9);
   --chip-bg: rgba(250, 252, 246, 0.75);
   --active-text: #ffffff;
+  --daily: #9a6700;
 }
 
 body {
@@ -227,6 +230,14 @@ main.container {
   border-color: rgba(167, 139, 250, 0.25);
 }
 
+/* AI 日报徽章（金色，各主题用 --daily 保证可读性） */
+.tag.daily-badge {
+  background: rgba(251, 191, 36, 0.12);
+  color: var(--daily);
+  border-color: rgba(251, 191, 36, 0.35);
+  font-weight: 600;
+}
+
 .heat {
   display: inline-block;
   border-radius: 4px;
@@ -298,6 +309,47 @@ main.container {
 }
 
 @media (max-width: 600px) {
+  body {
+    /* iOS Safari 下 fixed 背景会引起滚动卡顿，小屏改回随文档滚动 */
+    background-attachment: scroll;
+  }
+
+  /* 头部：logo 与导航自动换行，导航项收紧 */
+  .header-inner {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+    row-gap: 6px;
+  }
+
+  .header-inner nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+  }
+
+  nav a {
+    margin-left: 0;
+  }
+
+  /* 筛选栏：单行横向滑动，不折行；负边距让滚动内容贴到屏幕边缘 */
+  .filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin: 0 -20px 24px;
+    padding: 0 20px 6px;
+  }
+
+  .filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filters button {
+    flex: none;
+  }
+
   .news-card {
     padding: 14px 16px;
   }
