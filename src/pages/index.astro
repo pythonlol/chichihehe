@@ -45,7 +45,12 @@ function localDay(iso: string) {
   const d = new Date(iso);
   return `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
 }
-const latestDay = rssItems.length ? localDay(rssItems.map((i) => i.pubDate).sort().reverse()[0]) : '';
+const latestPubIso = rssItems.length ? rssItems.map((i) => i.pubDate).sort().reverse()[0] : '';
+const latestPub = latestPubIso ? new Date(latestPubIso) : null;
+const latestDay = latestPub ? localDay(latestPubIso) : '';
+const dailyDateText = latestPub
+  ? `${latestPub.getFullYear()}年${latestPub.getMonth() + 1}月${latestPub.getDate()}日`
+  : '';
 const dailyLinks = new Set(
   rssItems.filter((i) => localDay(i.pubDate) === latestDay).slice(0, 5).map((i) => i.link)
 );
@@ -64,11 +69,8 @@ const companyGroups = [...companyMap.entries()]
     list: [...list].sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate)),
   }))
   .sort((a, b) => Date.parse(b.list[0].pubDate) - Date.parse(a.list[0].pubDate));
-
-const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleString('zh-CN') : '';
 ---
 <Layout title="AI 每日资讯">
-  {updatedAt && <p class="updated-at">最近更新：{updatedAt} · 按热度排序 · 英文资讯已自动翻译（悬停标题查看原文）</p>}
 
   <div class="filters" id="filters" role="group" aria-label="内容筛选">
     <button class="active" data-filter="all" aria-pressed="true">全部</button>
@@ -79,6 +81,10 @@ const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleStri
   </div>
 
   {items.length === 0 && <p class="empty">暂无资讯，请稍后刷新。</p>}
+
+  {dailyLinks.size > 0 && (
+    <h2 class="date-group" id="daily-date" style="display:none">AI 日报 · {dailyDateText}</h2>
+  )}
 
   {items.length > 0 && (
     <ul class="news-list" id="news-list">
@@ -110,6 +116,7 @@ const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleStri
     const newsList = document.getElementById('news-list') as HTMLElement;
     const companyView = document.getElementById('company-view') as HTMLElement;
     const filterEmpty = document.getElementById('filter-empty') as HTMLElement;
+    const dailyDate = document.getElementById('daily-date');
 
     function applyFilter(filter: string, updateHash = true) {
       buttons.forEach((b) => {
@@ -117,6 +124,7 @@ const updatedAt = newsData.updatedAt ? new Date(newsData.updatedAt).toLocaleStri
         b.classList.toggle('active', active);
         b.setAttribute('aria-pressed', String(active));
       });
+      if (dailyDate) dailyDate.style.display = filter === 'daily' ? '' : 'none';
       if (filter === 'company') {
         newsList.style.display = 'none';
         filterEmpty.style.display = 'none';

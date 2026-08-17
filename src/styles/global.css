@@ -259,12 +259,6 @@ main.container {
   padding: 60px 0;
 }
 
-.updated-at {
-  font-size: 13px;
-  color: var(--muted);
-  margin-bottom: 16px;
-}
-
 /* 关于页 */
 .prose h1 {
   background: linear-gradient(90deg, var(--accent), var(--accent2));
