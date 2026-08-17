@@ -65,6 +65,7 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 - 域名 `chichihehe.cc`（含 www）已完成备案（2026-07-27，备案号 `鄂ICP备2026038748号`，已悬挂在全站页脚并链接至 beian.miit.gov.cn），DNS A 记录（@ 和 www）指向 47.120.70.114，线上地址：https://chichihehe.cc
 - 注意：本机执行 `ASTRO_BASE=/ npm run build` 等带 `/` 开头参数的命令前，必须先 `export MSYS_NO_PATHCONV=1`，否则 `/` 会被 MSYS 转成 `C:/Program Files/Git`，污染构建产物
 - HTTPS 已上线（2026-07-27）：Let's Encrypt 证书，`certbot --nginx` 申请并自动改写 Nginx 配置（443 SSL + 80 跳转 301），覆盖 chichihehe.cc + www.chichihehe.cc，2026-10-25 到期，certbot 定时任务自动续期
+- 安全加固（2026-08-17）：`ai-news.conf` server 级 add_header 六项安全响应头（HSTS/CSP/nosniff/Referrer-Policy/X-Frame-Options/Permissions-Policy；CSP 含 `'unsafe-inline'`，因站点脚本样式经 Astro 内联打包，另白名单 formspree.io 供反馈表单）、两 server 块 `server_tokens off`、站点级 gzip（nginx.conf 全局未开 gzip）、`location ^~ /_astro/` 30d 长缓存（^~ 优先于扩展名正则）；改前备份 `/etc/nginx/conf.d/ai-news.conf.bak-20260817`。注意 server 级安全头会连带作用于 `/game/` 别名站点（已确认其无外域资源加载）
 - 注意：ECS 安全组入方向需放行 TCP 443（HTTPS 不通时先查安全组，再查服务器防火墙）
 - 构建用 `ASTRO_BASE=/` 覆盖 base；GitHub Pages 仍用 `/chichihehe`（两处部署互不影响）
 - 本机 SSH 工具：`.tmp/deploy/ssh.mjs`（执行远端命令）、`.tmp/deploy/upload.mjs`（上传文件），凭据在 `.tmp/deploy/config.json`（.tmp 已 gitignore）；Git Bash 中调用时必须 `export MSYS_NO_PATHCONV=1`，否则 `/opt/...` 参数会被转成 Windows 路径
