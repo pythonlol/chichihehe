@@ -163,6 +163,30 @@ main.container {
   background: linear-gradient(90deg, var(--border), transparent);
 }
 
+/* 第一个日期分组顶部不需要大间距 */
+.day-group:first-child .date-group {
+  margin-top: 0;
+}
+
+/* 展开/收起折叠区按钮 */
+.expand-toggle {
+  display: block;
+  margin: 8px auto 16px;
+  padding: 6px 20px;
+  border: 1px solid var(--border);
+  background: var(--chip-bg);
+  color: var(--muted);
+  border-radius: 999px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.expand-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* 新闻卡片 */
 .news-list {
   list-style: none;

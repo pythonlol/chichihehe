@@ -16,17 +16,17 @@ interface NewsItem {
 interface Props {
   item: NewsItem;
   daily?: boolean;
+  compact?: boolean;
 }
 
-const { item, daily = false } = Astro.props;
+const { item, daily = false, compact = false } = Astro.props;
 
-function formatDateTime(iso: string) {
+function formatDateTime(iso: string, compact = false) {
   const d = new Date(iso);
-  const m = String(d.getMonth() + 1).padStart(2, '0');
-  const day = String(d.getDate()).padStart(2, '0');
   const hh = String(d.getHours()).padStart(2, '0');
   const mm = String(d.getMinutes()).padStart(2, '0');
-  return `${m}-${day} ${hh}:${mm}`;
+  if (compact) return `${hh}:${mm}`;
+  return `${d.getMonth() + 1}月${d.getDate()}日 ${hh}:${mm}`;
 }
 ---
 <li class="news-card" data-lang={item.lang} data-source={item.source} data-tags={(item.tags || []).join('|')} data-daily={daily ? '1' : undefined}>
@@ -36,7 +36,7 @@ function formatDateTime(iso: string) {
     <span class:list={['tag', { en: item.lang === 'en' }]}>{item.source}</span>
     {(item.tags || []).map((t) => <span class="tag cat">{t}</span>)}
     {item.heat >= 8 && <span class="heat">🔥 热度 {item.heat}</span>}
-    <time datetime={item.pubDate}>{formatDateTime(item.pubDate)}</time>
+    <time datetime={item.pubDate}>{formatDateTime(item.pubDate, compact)}</time>
   </div>
   {(item.summaryZh || item.summary) && <p class="news-summary">{item.summaryZh || item.summary}</p>}
 </li>
