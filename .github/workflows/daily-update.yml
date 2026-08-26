@@ -38,6 +38,9 @@ jobs:
       - name: 抓取政策通知（北上广深 + 工信部）
         run: node scripts/fetch-policy.mjs
 
+      - name: 抓取模型排行榜（LiveBench）
+        run: node scripts/fetch-leaderboard.mjs
+
       - run: npm run build
 
       - uses: actions/upload-pages-artifact@v3

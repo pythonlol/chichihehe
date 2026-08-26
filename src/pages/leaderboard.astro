@@ -1,0 +1,173 @@
+---
+import Layout from '../layouts/Layout.astro';
+import leaderboardData from '../data/leaderboard.json';
+
+const { version, updatedAt, categories, models, source } = leaderboardData;
+const categoryNames = Object.keys(categories);
+const updatedDate = new Date(updatedAt).toLocaleDateString('zh-CN', {
+  year: 'numeric', month: 'long', day: 'numeric',
+});
+
+function scoreClass(score: number | null) {
+  if (score === null) return 'score-na';
+  if (score >= 80) return 'score-high';
+  if (score >= 65) return 'score-mid';
+  return 'score-low';
+}
+
+const medals = ['🥇', '🥈', '🥉'];
+---
+<Layout title="AI 模型排行榜" description="LiveBench Global Average 排行榜">
+  <h1 class="page-title">AI 模型排行榜</h1>
+  <p class="page-desc">
+    数据来源 <a href={source} target="_blank" rel="noopener noreferrer">LiveBench</a>
+    · 版本 {version} · 更新于 {updatedDate} · 共 {models.length} 个模型
+  </p>
+
+  <div class="lb-wrap">
+    <table class="lb-table">
+      <thead>
+        <tr>
+          <th class="th-rank">#</th>
+          <th class="th-model">模型</th>
+          <th class="th-avg">Global Average</th>
+          {categoryNames.map((cat) => <th>{cat}</th>)}
+        </tr>
+      </thead>
+      <tbody>
+        {models.map((m, i) => (
+          <tr class={i < 3 ? 'top-row' : ''}>
+            <td class="td-rank">
+              {i < 3 ? <span class="medal">{medals[i]}</span> : i + 1}
+            </td>
+            <td class="td-model">{m.model}</td>
+            <td class={`td-avg ${scoreClass(m.globalAverage)}`}>{m.globalAverage.toFixed(2)}</td>
+            {categoryNames.map((cat) => {
+              const s = m.categories[cat];
+              return <td class={scoreClass(s)}>{s !== null ? s.toFixed(2) : '—'}</td>;
+            })}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <style>
+    .lb-wrap {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--card);
+    }
+
+    .lb-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      min-width: 860px;
+    }
+
+    .lb-table th {
+      padding: 12px 10px;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      border-bottom: 2px solid var(--border);
+      white-space: nowrap;
+      position: sticky;
+      top: 0;
+      background: var(--card);
+      z-index: 1;
+    }
+
+    .lb-table th.th-rank {
+      width: 48px;
+      text-align: center;
+    }
+
+    .lb-table th.th-model {
+      text-align: left;
+      min-width: 200px;
+    }
+
+    .lb-table th.th-avg {
+      min-width: 110px;
+    }
+
+    .lb-table td {
+      padding: 10px 10px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.1s ease;
+    }
+
+    .lb-table tbody tr:hover td {
+      background: rgba(34, 211, 238, 0.05);
+    }
+
+    .lb-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .lb-table .top-row td {
+      background: rgba(251, 191, 36, 0.06);
+    }
+
+    .td-rank {
+      font-weight: 700;
+      color: var(--muted);
+    }
+
+    .medal {
+      font-size: 18px;
+    }
+
+    .td-model {
+      text-align: left;
+      font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+      font-size: 13px;
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .td-avg {
+      font-weight: 700;
+      font-size: 15px;
+    }
+
+    .score-high {
+      color: #34d399;
+    }
+
+    .score-mid {
+      color: var(--accent);
+    }
+
+    .score-low {
+      color: var(--muted);
+    }
+
+    .score-na {
+      color: var(--muted);
+      opacity: 0.5;
+    }
+
+    @media (max-width: 600px) {
+      .lb-table {
+        font-size: 12px;
+      }
+      .lb-table th,
+      .lb-table td {
+        padding: 8px 6px;
+      }
+      .td-model {
+        font-size: 11px;
+        max-width: 160px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  </style>
+</Layout>

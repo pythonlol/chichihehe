@@ -1,0 +1,644 @@
+{
+  "updatedAt": "2026-08-24T09:44:38.820Z",
+  "version": "2026-06-25",
+  "source": "https://livebench.ai",
+  "categories": {
+    "Reasoning": [
+      "theory_of_mind",
+      "zebra_puzzle",
+      "spatial",
+      "logic_with_navigation"
+    ],
+    "Coding": [
+      "code_generation",
+      "code_completion"
+    ],
+    "Agentic Coding": [
+      "javascript",
+      "typescript",
+      "python"
+    ],
+    "Mathematics": [
+      "AMPS_Hard",
+      "integrals_with_game",
+      "math_comp",
+      "olympiad"
+    ],
+    "Data Analysis": [
+      "consecutive_events",
+      "tablejoin",
+      "tablereformat"
+    ],
+    "Language": [
+      "connections",
+      "plot_unscrambling",
+      "typos"
+    ],
+    "IF": [
+      "paraphrase",
+      "simplify",
+      "story_generation",
+      "summarize"
+    ]
+  },
+  "models": [
+    {
+      "model": "claude-fable-5-max-effort",
+      "globalAverage": 82.97,
+      "categories": {
+        "Reasoning": 89.65,
+        "Coding": 85.99,
+        "Agentic Coding": 62.17,
+        "Mathematics": 95.99,
+        "Data Analysis": 80.54,
+        "Language": 90.68,
+        "IF": 75.77
+      }
+    },
+    {
+      "model": "gpt-5.6-sol-max",
+      "globalAverage": 81.05,
+      "categories": {
+        "Reasoning": 91.65,
+        "Coding": 83.94,
+        "Agentic Coding": 56.21,
+        "Mathematics": 96.2,
+        "Data Analysis": 79.84,
+        "Language": 87.68,
+        "IF": 71.85
+      }
+    },
+    {
+      "model": "gpt-5.5-xhigh",
+      "globalAverage": 80.19,
+      "categories": {
+        "Reasoning": 89.65,
+        "Coding": 82.15,
+        "Agentic Coding": 53.99,
+        "Mathematics": 95.86,
+        "Data Analysis": 81.58,
+        "Language": 87.36,
+        "IF": 70.73
+      }
+    },
+    {
+      "model": "claude-opus-5-max-effort",
+      "globalAverage": 80.09,
+      "categories": {
+        "Reasoning": 91.21,
+        "Coding": 81.45,
+        "Agentic Coding": 65.2,
+        "Mathematics": 95.73,
+        "Data Analysis": 74.55,
+        "Language": 88.69,
+        "IF": 63.77
+      }
+    },
+    {
+      "model": "smaug-agentic",
+      "globalAverage": 79.51,
+      "categories": {
+        "Reasoning": 90.27,
+        "Coding": 82.47,
+        "Agentic Coding": 64.65,
+        "Mathematics": 83.92,
+        "Data Analysis": 79.9,
+        "Language": 84.36,
+        "IF": 70.99
+      }
+    },
+    {
+      "model": "kimi-k3",
+      "globalAverage": 79.19,
+      "categories": {
+        "Reasoning": 90.67,
+        "Coding": 81.45,
+        "Agentic Coding": 62.17,
+        "Mathematics": 84.44,
+        "Data Analysis": 78.73,
+        "Language": 85.53,
+        "IF": 71.36
+      }
+    },
+    {
+      "model": "gemini-3.7-flash-high",
+      "globalAverage": 78.83,
+      "categories": {
+        "Reasoning": 87.8,
+        "Coding": 78.89,
+        "Agentic Coding": 58.28,
+        "Mathematics": 93.47,
+        "Data Analysis": 67.96,
+        "Language": 85.46,
+        "IF": 79.93
+      }
+    },
+    {
+      "model": "qwen3.8-max",
+      "globalAverage": 78.46,
+      "categories": {
+        "Reasoning": 88.21,
+        "Coding": 72.87,
+        "Agentic Coding": 64.65,
+        "Mathematics": 91.31,
+        "Data Analysis": 78.41,
+        "Language": 79.69,
+        "IF": 74.08
+      }
+    },
+    {
+      "model": "grok-4.6",
+      "globalAverage": 78.04,
+      "categories": {
+        "Reasoning": 90.51,
+        "Coding": 76.78,
+        "Agentic Coding": 57.02,
+        "Mathematics": 92.57,
+        "Data Analysis": 73.86,
+        "Language": 83.7,
+        "IF": 71.87
+      }
+    },
+    {
+      "model": "gpt-5.4-xhigh",
+      "globalAverage": 77.97,
+      "categories": {
+        "Reasoning": 88.12,
+        "Coding": 77.54,
+        "Agentic Coding": 53.84,
+        "Mathematics": 94.15,
+        "Data Analysis": 79.31,
+        "Language": 82.63,
+        "IF": 70.22
+      }
+    },
+    {
+      "model": "muse-spark-1.2-xhigh",
+      "globalAverage": 77.95,
+      "categories": {
+        "Reasoning": 90,
+        "Coding": 77.54,
+        "Agentic Coding": 57.58,
+        "Mathematics": 91.2,
+        "Data Analysis": 76.46,
+        "Language": 78.57,
+        "IF": 74.33
+      }
+    },
+    {
+      "model": "gpt-5.6-terra-max",
+      "globalAverage": 77.94,
+      "categories": {
+        "Reasoning": 90.63,
+        "Coding": 78.25,
+        "Agentic Coding": 54.95,
+        "Mathematics": 94.91,
+        "Data Analysis": 79.31,
+        "Language": 82.89,
+        "IF": 64.62
+      }
+    },
+    {
+      "model": "deepseek-v4-pro-0813",
+      "globalAverage": 77.44,
+      "categories": {
+        "Reasoning": 85.84,
+        "Coding": 77.16,
+        "Agentic Coding": 54.95,
+        "Mathematics": 95.09,
+        "Data Analysis": 79.24,
+        "Language": 82.07,
+        "IF": 67.7
+      }
+    },
+    {
+      "model": "gemini-3.1-pro-preview-high",
+      "globalAverage": 76.95,
+      "categories": {
+        "Reasoning": 84,
+        "Coding": 76.45,
+        "Agentic Coding": 44.14,
+        "Mathematics": 91.04,
+        "Data Analysis": 78.54,
+        "Language": 85.38,
+        "IF": 79.1
+      }
+    },
+    {
+      "model": "deepseek-v4-flash-vision-exp",
+      "globalAverage": 76.76,
+      "categories": {
+        "Reasoning": 85.4,
+        "Coding": 68.2,
+        "Agentic Coding": 65.1,
+        "Mathematics": 87.81,
+        "Data Analysis": 79.48,
+        "Language": 80.36,
+        "IF": 70.96
+      }
+    },
+    {
+      "model": "claude-opus-4-7-xhigh-effort",
+      "globalAverage": 76.53,
+      "categories": {
+        "Reasoning": 87.19,
+        "Coding": 82.09,
+        "Agentic Coding": 50.66,
+        "Mathematics": 92.85,
+        "Data Analysis": 78.26,
+        "Language": 77.91,
+        "IF": 66.74
+      }
+    },
+    {
+      "model": "claude-opus-4-8-max-effort",
+      "globalAverage": 76.22,
+      "categories": {
+        "Reasoning": 89.19,
+        "Coding": 81.83,
+        "Agentic Coding": 50.51,
+        "Mathematics": 94.32,
+        "Data Analysis": 66.03,
+        "Language": 79.66,
+        "IF": 72.03
+      }
+    },
+    {
+      "model": "claude-sonnet-5-xhigh-effort",
+      "globalAverage": 76.04,
+      "categories": {
+        "Reasoning": 88.69,
+        "Coding": 80.68,
+        "Agentic Coding": 59.39,
+        "Mathematics": 92.94,
+        "Data Analysis": 71.74,
+        "Language": 74.97,
+        "IF": 63.86
+      }
+    },
+    {
+      "model": "grok-4.5",
+      "globalAverage": 75.77,
+      "categories": {
+        "Reasoning": 87.17,
+        "Coding": 68.59,
+        "Agentic Coding": 56.46,
+        "Mathematics": 90.82,
+        "Data Analysis": 73.04,
+        "Language": 82.8,
+        "IF": 71.53
+      }
+    },
+    {
+      "model": "muse-spark-1.1-xhigh",
+      "globalAverage": 75.3,
+      "categories": {
+        "Reasoning": 87.73,
+        "Coding": 77.16,
+        "Agentic Coding": 58.54,
+        "Mathematics": 87.14,
+        "Data Analysis": 72.55,
+        "Language": 74.34,
+        "IF": 69.64
+      }
+    },
+    {
+      "model": "qwen3.8-27b",
+      "globalAverage": 75.27,
+      "categories": {
+        "Reasoning": 80.03,
+        "Coding": 75.69,
+        "Agentic Coding": 61.36,
+        "Mathematics": 86.21,
+        "Data Analysis": 76.59,
+        "Language": 74.35,
+        "IF": 72.66
+      }
+    },
+    {
+      "model": "gemini-3.5-flash-high",
+      "globalAverage": 74.64,
+      "categories": {
+        "Reasoning": 82,
+        "Coding": 78.18,
+        "Agentic Coding": 48.99,
+        "Mathematics": 88.24,
+        "Data Analysis": 64.86,
+        "Language": 84.58,
+        "IF": 75.6
+      }
+    },
+    {
+      "model": "gpt-5.2-2025-12-11-high",
+      "globalAverage": 74.63,
+      "categories": {
+        "Reasoning": 83.21,
+        "Coding": 76.07,
+        "Agentic Coding": 50.25,
+        "Mathematics": 93.17,
+        "Data Analysis": 78.16,
+        "Language": 79.81,
+        "IF": 61.77
+      }
+    },
+    {
+      "model": "claude-opus-4-6-thinking-auto-high-effort",
+      "globalAverage": 74.52,
+      "categories": {
+        "Reasoning": 88.67,
+        "Coding": 78.18,
+        "Agentic Coding": 48.99,
+        "Mathematics": 89.32,
+        "Data Analysis": 69.89,
+        "Language": 83.27,
+        "IF": 63.31
+      }
+    },
+    {
+      "model": "deepseek-v4-flash-0731",
+      "globalAverage": 74.17,
+      "categories": {
+        "Reasoning": 86.63,
+        "Coding": 74.98,
+        "Agentic Coding": 46.77,
+        "Mathematics": 86.79,
+        "Data Analysis": 79.33,
+        "Language": 79.18,
+        "IF": 65.52
+      }
+    },
+    {
+      "model": "gpt-5.2-codex",
+      "globalAverage": 73.97,
+      "categories": {
+        "Reasoning": 77.71,
+        "Coding": 83.62,
+        "Agentic Coding": 49.39,
+        "Mathematics": 88.77,
+        "Data Analysis": 78.2,
+        "Language": 73.68,
+        "IF": 66.45
+      }
+    },
+    {
+      "model": "gemini-3.6-flash-high",
+      "globalAverage": 73.59,
+      "categories": {
+        "Reasoning": 85.15,
+        "Coding": 77.86,
+        "Agentic Coding": 43.43,
+        "Mathematics": 86.4,
+        "Data Analysis": 63,
+        "Language": 83.9,
+        "IF": 75.37
+      }
+    },
+    {
+      "model": "gpt-5.6-luna-max",
+      "globalAverage": 73.56,
+      "categories": {
+        "Reasoning": 85.64,
+        "Coding": 82.92,
+        "Agentic Coding": 48.43,
+        "Mathematics": 87.2,
+        "Data Analysis": 78.03,
+        "Language": 72.57,
+        "IF": 60.12
+      }
+    },
+    {
+      "model": "glm-5.2",
+      "globalAverage": 73.16,
+      "categories": {
+        "Reasoning": 78.63,
+        "Coding": 79.65,
+        "Agentic Coding": 51.77,
+        "Mathematics": 89.78,
+        "Data Analysis": 73.74,
+        "Language": 76.24,
+        "IF": 62.29
+      }
+    },
+    {
+      "model": "qwen3.7-max",
+      "globalAverage": 73.14,
+      "categories": {
+        "Reasoning": 83.34,
+        "Coding": 74.22,
+        "Agentic Coding": 43.59,
+        "Mathematics": 85.25,
+        "Data Analysis": 71.79,
+        "Language": 79.74,
+        "IF": 74.04
+      }
+    },
+    {
+      "model": "claude-sonnet-4-6-thinking-auto-medium-effort",
+      "globalAverage": 72.99,
+      "categories": {
+        "Reasoning": 84.77,
+        "Coding": 79.27,
+        "Agentic Coding": 42.63,
+        "Mathematics": 86.99,
+        "Data Analysis": 77.95,
+        "Language": 76.1,
+        "IF": 63.22
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101-thinking-64k-high-effort",
+      "globalAverage": 72.58,
+      "categories": {
+        "Reasoning": 80.09,
+        "Coding": 79.65,
+        "Agentic Coding": 39.7,
+        "Mathematics": 90.39,
+        "Data Analysis": 74.44,
+        "Language": 81.26,
+        "IF": 62.55
+      }
+    },
+    {
+      "model": "inkling-xhigh",
+      "globalAverage": 71.92,
+      "categories": {
+        "Reasoning": 78.35,
+        "Coding": 71.02,
+        "Agentic Coding": 49.39,
+        "Mathematics": 88.36,
+        "Data Analysis": 72.78,
+        "Language": 73.46,
+        "IF": 70.1
+      }
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "globalAverage": 71.57,
+      "categories": {
+        "Reasoning": 82.69,
+        "Coding": 69.99,
+        "Agentic Coding": 42.63,
+        "Mathematics": 90.68,
+        "Data Analysis": 74.54,
+        "Language": 78.13,
+        "IF": 62.35
+      }
+    },
+    {
+      "model": "kimi-k2.6-thinking",
+      "globalAverage": 70.54,
+      "categories": {
+        "Reasoning": 79.38,
+        "Coding": 78.57,
+        "Agentic Coding": 46.92,
+        "Mathematics": 84.28,
+        "Data Analysis": 65.13,
+        "Language": 75.14,
+        "IF": 64.36
+      }
+    },
+    {
+      "model": "gpt-5.4-nano-xhigh",
+      "globalAverage": 69.58,
+      "categories": {
+        "Reasoning": 81.1,
+        "Coding": 70.84,
+        "Agentic Coding": 46.77,
+        "Mathematics": 90.98,
+        "Data Analysis": 67.64,
+        "Language": 62.51,
+        "IF": 67.2
+      }
+    },
+    {
+      "model": "ox-alpha-max",
+      "globalAverage": 69.24,
+      "categories": {
+        "Reasoning": 76.59,
+        "Coding": 75.75,
+        "Agentic Coding": 52.63,
+        "Mathematics": 77.53,
+        "Data Analysis": 75.77,
+        "Language": 66.14,
+        "IF": 60.25
+      }
+    },
+    {
+      "model": "qwen3.6-plus",
+      "globalAverage": 68.9,
+      "categories": {
+        "Reasoning": 75.83,
+        "Coding": 78.18,
+        "Agentic Coding": 41.36,
+        "Mathematics": 83.72,
+        "Data Analysis": 69.91,
+        "Language": 74.99,
+        "IF": 58.34
+      }
+    },
+    {
+      "model": "kimi-k2.7-code",
+      "globalAverage": 68.41,
+      "categories": {
+        "Reasoning": 82.81,
+        "Coding": 73.96,
+        "Agentic Coding": 45.66,
+        "Mathematics": 79.6,
+        "Data Analysis": 62.66,
+        "Language": 77.91,
+        "IF": 56.29
+      }
+    },
+    {
+      "model": "grok-build-0.1",
+      "globalAverage": 67.78,
+      "categories": {
+        "Reasoning": 76.37,
+        "Coding": 65.39,
+        "Agentic Coding": 45.81,
+        "Mathematics": 78.43,
+        "Data Analysis": 70.79,
+        "Language": 72.46,
+        "IF": 65.22
+      }
+    },
+    {
+      "model": "minimax-m3",
+      "globalAverage": 67.26,
+      "categories": {
+        "Reasoning": 74.48,
+        "Coding": 68.2,
+        "Agentic Coding": 40.66,
+        "Mathematics": 76.95,
+        "Data Analysis": 76.17,
+        "Language": 76.84,
+        "IF": 57.51
+      }
+    },
+    {
+      "model": "gpt-5.4-mini-xhigh",
+      "globalAverage": 66.37,
+      "categories": {
+        "Reasoning": 71.32,
+        "Coding": 71.62,
+        "Agentic Coding": 41.67,
+        "Mathematics": 78.46,
+        "Data Analysis": 70.79,
+        "Language": 70.95,
+        "IF": 59.8
+      }
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "globalAverage": 65.48,
+      "categories": {
+        "Reasoning": 70.58,
+        "Coding": 69.23,
+        "Agentic Coding": 37.63,
+        "Mathematics": 79.65,
+        "Data Analysis": 68.02,
+        "Language": 70.12,
+        "IF": 63.14
+      }
+    },
+    {
+      "model": "qwen3.6-27b",
+      "globalAverage": 64.03,
+      "categories": {
+        "Reasoning": 70.28,
+        "Coding": 71.79,
+        "Agentic Coding": 39.29,
+        "Mathematics": 79.87,
+        "Data Analysis": 70.43,
+        "Language": 63.3,
+        "IF": 53.23
+      }
+    },
+    {
+      "model": "gemini-3.5-flash-lite-high",
+      "globalAverage": 63.94,
+      "categories": {
+        "Reasoning": 60.19,
+        "Coding": 76.07,
+        "Agentic Coding": 45.25,
+        "Mathematics": 73.74,
+        "Data Analysis": 53.25,
+        "Language": 71.82,
+        "IF": 67.24
+      }
+    },
+    {
+      "model": "grok-4.3",
+      "globalAverage": 62.25,
+      "categories": {
+        "Reasoning": 70.82,
+        "Coding": 69.93,
+        "Agentic Coding": 18.54,
+        "Mathematics": 84.34,
+        "Data Analysis": 55.77,
+        "Language": 73.58,
+        "IF": 62.75
+      }
+    }
+  ]
+}
