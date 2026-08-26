@@ -1,7 +1,7 @@
-// 抓取工信部 + 北上广深汉五市经信局/工信局（委）官网的 AI 相关最新通知通告，输出 src/data/policy.json
+// 抓取工信部 + 北上广深汉杭六市经信局/工信局（委）官网的 AI 相关最新通知通告，输出 src/data/policy.json
 // 用法：node scripts/fetch-policy.mjs
-// 说明：六个来源均无 RSS，工信部走站内搜索 JSON 接口，其余五局均为静态列表页解析；
-//       单个来源失败不影响其他来源，最终合并去重后按时间倒序取前 MAX_ITEMS 条。
+// 说明：七个来源均无 RSS，工信部走站内搜索 JSON 接口，杭州走 JCMS 信息公开 API，
+//       其余五局均为静态列表页解析；单个来源失败不影响其他来源，最终合并去重后按时间倒序取前 MAX_ITEMS 条。
 import { writeFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
@@ -15,6 +15,8 @@ const UA =
 const MAX_ITEMS = 5;
 // AI 主题过滤：命中标题即算相关
 const AI_RE = /人工智能|智能体|大模型|算力|机器人|具身|\bAI\b/i;
+// 杭州源额外覆盖"数据"主题（用户要求：人工智能、智能体、数据三个方面）
+const HANGZHOU_RE = /人工智能|智能体|大模型|算力|机器人|具身|数据|\bAI\b/i;
 // 搜索类接口使用的查询词
 const SEARCH_KWS = ['人工智能', '智能体', '大模型'];
 
@@ -277,6 +279,65 @@ async function fetchShenzhen() {
   return items;
 }
 
+// —— 杭州市经信局（市数字经济局）：JCMS 信息公开 API，通知文件分类（paramJson 取 50 条）——
+// 站点列表页为 JS 动态渲染，通过 /api-gateway/.../build/unit 接口 + paramJson 获取文章列表
+// JCMS 截断长标题（38 字符 + "..."），对截断的条目补抓文章页 <title> 获取完整标题后再做关键词过滤
+async function fetchHangzhou() {
+  const BASE = 'https://jxj.hangzhou.gov.cn';
+  const API = `${BASE}/api-gateway/jpaas-publish-server/front/page/build/unit`;
+  const search = { xxgkId: 'F001-F001', xxgkType: 'xxgk_combination', nodeId: '', className: '通知文件' };
+  const paramJson = JSON.stringify({ pageNo: 1, pageSize: 50, search: JSON.stringify(search) });
+  const params = new URLSearchParams({
+    parseType: 'bulidstatic', webId: '3244', tplSetId: '1Wkcctwzk5hpZjJRpT79X',
+    pageType: 'column', tagId: '子栏目', editType: 'null', pageId: '1229252271', paramJson,
+  });
+  const res = await fetchRes(`${API}?${params}`, {
+    headers: { Referer: `${BASE}/col/col1229252271/index.html` },
+  });
+  const json = JSON.parse(await res.text());
+  const html = json?.data?.html || '';
+  // 解析列表项（title 属性可能被 JCMS 截断到 38 字符）
+  const raw = [];
+  const re = /<a class="fl" href="([^"]+)"[^>]*title="([^"]+)"[\s\S]*?<span class="fr">(\d{4}-\d{2}-\d{2})<\/span>/g;
+  let m;
+  while ((m = re.exec(html))) {
+    const link = m[1].startsWith('http') ? m[1] : new URL(m[1], BASE).href;
+    raw.push({ title: clean(m[2]), link, date: m[3] });
+  }
+  // JCMS 截断长标题（38 字符 + "..."），补抓文章页 <title> 获取完整标题
+  const truncated = raw.filter((r) => r.title.endsWith('...'));
+  for (let i = 0; i < truncated.length; i += 10) {
+    await Promise.all(
+      truncated.slice(i, i + 10).map(async (r) => {
+        try {
+          const pageRes = await fetchRes(r.link);
+          const pageHtml = await pageRes.text();
+          const tm = pageHtml.match(/<title>([^<]+)<\/title>/i);
+          if (tm) {
+            const full = clean(tm[1]);
+            if (full) r.title = full;
+          }
+        } catch {
+          // 抓取失败则保留截断标题
+        }
+      })
+    );
+  }
+  // 用完整标题过滤
+  const items = [];
+  for (const r of raw) {
+    if (!r.title || !HANGZHOU_RE.test(r.title)) continue;
+    items.push({
+      title: r.title,
+      link: r.link,
+      source: '杭州市经信局',
+      pubDate: dateOnlyToIso(r.date),
+      summary: '',
+    });
+  }
+  return items;
+}
+
 const SOURCES = [
   ['工业和信息化部', fetchMiit],
   ['北京市经信局', fetchBeijing],
@@ -284,6 +345,7 @@ const SOURCES = [
   ['广州市工信局', fetchGuangzhou],
   ['深圳市工信局', fetchShenzhen],
   ['武汉市经信局', fetchWuhan],
+  ['杭州市经信局', fetchHangzhou],
 ];
 
 const results = await Promise.all(
