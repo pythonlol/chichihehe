@@ -38,7 +38,6 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 - `src/pages/index.astro` — 首页，新闻卡片 + 筛选栏：全部 / 最新资讯（policy.json 政策通知，统一打「最新资讯」标签、热度计 0 排在全部列表末尾）/ AI 日报（RSS 资讯中最新一天热度 Top 5）/ AI 公司动态（按公司分组的可展开视图：summary 显示公司名、动态数、最新一条标题，点开 `<details>` 看该公司全部动态，组内按时间降序）/ 各内容标签；翻译条目悬停标题可见英文原文
 - `src/components/NewsCard.astro` — 新闻卡片组件（来源、内容标签、热度、时间、摘要），主列表与公司分组共用
 - `src/pages/about.astro` — 关于页（含政策背景）
-- `src/pages/security.astro` — 安全与治理页（政策第 7 条：运行时治理、分级监管、任务轨迹）
 - `src/pages/feedback.astro` — 反馈页（标题「想说点什么」，字段：建议内容 + 可选邮箱），AJAX 提交到 Formspree，endpoint 常量 `FORMSPREE_ENDPOINT` 需替换为实际表单地址
 - `src/pages/leaderboard.astro` — AI 模型排行榜页（LiveBench Global Average），表格展示各模型全局平均分和各分类得分，前三名奖牌 🥇🥈🥉，分数按区间着色（≥80 绿/≥65 青/<65 灰），横向滚动适配移动端
 - `src/layouts/Layout.astro`、`src/styles/global.css` — 布局与全局样式（经 Astro 内联打包）；主题切换：左下角浮动切换器（亮色/暗色/护眼），`data-theme` 挂在 `<html>` 上，localStorage 持久化，`<head>` 内联脚本防闪烁；主题变量见 global.css `:root[data-theme=...]`
