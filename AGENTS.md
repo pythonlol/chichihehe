@@ -34,17 +34,19 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 - `scripts/categorize.mjs` — 关键词内容分类，给每条资讯打 0~2 个内容标签（大模型〔含开源〕、智能体、芯片算力、具身智能〔机器人+自动驾驶〕、政策与安全、商业融资，兜底 AI 动态〔含 AI 应用〕；2026-08-17 由 11 个标签合并而来），导出 `TAGS` 供首页筛选栏使用；另导出 `detectCompanies` 识别知名 AI 公司（OpenAI、Anthropic、Google、Meta、阿里、字节、DeepSeek 等 20 家），供「AI 公司动态」主题筛选
 - `scripts/translate.mjs` — 英文资讯翻译为中文（titleZh/summaryZh），走阿里百炼 DashScope OpenAI 兼容接口（qwen-turbo，批量 10 条/次），需环境变量 `DASHSCOPE_API_KEY`，未设置则跳过保留英文；结果缓存 `src/data/translation-cache.json`（随仓库提交，按 link 去重，只翻新增）
 - `scripts/fetch-policy.mjs` — 抓取工信部 + 北上广深汉五市经信局/工信局（委）官网的 AI 相关最新通知通告（六源均无 RSS：工信部走站内搜索 JSON 接口，五局均解析静态列表页；深圳市工信局 TLS 与 undici 不兼容，走 https 模块限定 P-256 曲线 + RSA 密钥交换的专用通道），按标题关键词（人工智能/智能体/大模型/算力/机器人等）过滤，合并去重按时间倒序取最新 5 条，输出 `src/data/policy.json`（随仓库提交）；单源失败不影响其他源
+- `scripts/fetch-leaderboard.mjs` — 抓取 LiveBench 排行榜数据（Global Average），从 livebench.ai 按已知版本日期倒序尝试获取最新版本的 table CSV + categories JSON，计算各分类平均分和全局平均分，输出 `src/data/leaderboard.json`（随仓库提交）；新版本发布后需在脚本内 `VERSIONS` 数组追加日期
 - `src/pages/index.astro` — 首页，新闻卡片 + 筛选栏：全部 / 最新资讯（policy.json 政策通知，统一打「最新资讯」标签、热度计 0 排在全部列表末尾）/ AI 日报（RSS 资讯中最新一天热度 Top 5）/ AI 公司动态（按公司分组的可展开视图：summary 显示公司名、动态数、最新一条标题，点开 `<details>` 看该公司全部动态，组内按时间降序）/ 各内容标签；翻译条目悬停标题可见英文原文
 - `src/components/NewsCard.astro` — 新闻卡片组件（来源、内容标签、热度、时间、摘要），主列表与公司分组共用
 - `src/pages/about.astro` — 关于页（含政策背景）
 - `src/pages/security.astro` — 安全与治理页（政策第 7 条：运行时治理、分级监管、任务轨迹）
 - `src/pages/feedback.astro` — 反馈页（标题「想说点什么」，字段：建议内容 + 可选邮箱），AJAX 提交到 Formspree，endpoint 常量 `FORMSPREE_ENDPOINT` 需替换为实际表单地址
+- `src/pages/leaderboard.astro` — AI 模型排行榜页（LiveBench Global Average），表格展示各模型全局平均分和各分类得分，前三名奖牌 🥇🥈🥉，分数按区间着色（≥80 绿/≥65 青/<65 灰），横向滚动适配移动端
 - `src/layouts/Layout.astro`、`src/styles/global.css` — 布局与全局样式（经 Astro 内联打包）；主题切换：左下角浮动切换器（亮色/暗色/护眼），`data-theme` 挂在 `<html>` 上，localStorage 持久化，`<head>` 内联脚本防闪烁；主题变量见 global.css `:root[data-theme=...]`
-- `.github/workflows/daily-update.yml` — 每天 UTC 0 点抓取并部署到 GitHub Pages；依次跑 fetch-news.mjs（读取 `secrets.DASHSCOPE_API_KEY`，需在仓库 Settings → Secrets 配置，否则新增英文资讯不翻译）和 fetch-policy.mjs（政策通知，无需密钥）
+- `.github/workflows/daily-update.yml` — 每天 UTC 0 点抓取并部署到 GitHub Pages；依次跑 fetch-news.mjs（读取 `secrets.DASHSCOPE_API_KEY`，需在仓库 Settings → Secrets 配置，否则新增英文资讯不翻译）、fetch-policy.mjs（政策通知，无需密钥）和 fetch-leaderboard.mjs（LiveBench 排行榜，无需密钥）
 
 常用命令：
 
-- `npm run fetch` — 手动抓取最新资讯（RSS 资讯 + 政策通知；单独跑用 `npm run fetch:news` / `npm run fetch:policy`）
+- `npm run fetch` — 手动抓取最新资讯（RSS 资讯 + 政策通知 + 模型排行榜；单独跑用 `npm run fetch:news` / `npm run fetch:policy` / `npm run fetch:leaderboard`）
 - `npm run dev` / `npm run build` / `npm run preview`
 
 注意：机器之心 RSS（jiqizhixin.com/rss）已失效返回 HTML，勿再加回。
@@ -61,7 +63,7 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 
 - 服务器：阿里云 ECS 华南2（河源），Alibaba Cloud Linux 3，公网 IP `47.120.70.114`，网站根路径直接访问：http://47.120.70.114
 - 项目位置 `/opt/ai-news`，Node.js 在 `/usr/local/nodejs`，Nginx 站点配置 `/etc/nginx/conf.d/ai-news.conf`（默认 server 块已在 nginx.conf 中注释，备份 nginx.conf.bak），站点 root 直接指向 `/opt/ai-news/dist`（无需拷贝产物）
-- 每日更新：cron `0 8 * * *` 执行 `/opt/ai-news/update.sh`（先加载 `/opt/ai-news/.env` 里的 `DASHSCOPE_API_KEY`——2026-08-11 起，英文资讯翻译靠它，缺了会全站英文原文；再依次跑 fetch-news.mjs + fetch-policy.mjs，ASTRO_BASE=/ 构建），日志 `/var/log/ai-news-update.log`；服务器无 git，文件靠 upload.mjs 上传同步
+- 每日更新：cron `0 8 * * *` 执行 `/opt/ai-news/update.sh`（先加载 `/opt/ai-news/.env` 里的 `DASHSCOPE_API_KEY`——2026-08-11 起，英文资讯翻译靠它，缺了会全站英文原文；再依次跑 fetch-news.mjs + fetch-policy.mjs + fetch-leaderboard.mjs，ASTRO_BASE=/ 构建），日志 `/var/log/ai-news-update.log`；服务器无 git，文件靠 upload.mjs 上传同步
 - 域名 `chichihehe.cc`（含 www）已完成备案（2026-07-27，备案号 `鄂ICP备2026038748号`，已悬挂在全站页脚并链接至 beian.miit.gov.cn），DNS A 记录（@ 和 www）指向 47.120.70.114，线上地址：https://chichihehe.cc
 - 注意：本机执行 `ASTRO_BASE=/ npm run build` 等带 `/` 开头参数的命令前，必须先 `export MSYS_NO_PATHCONV=1`，否则 `/` 会被 MSYS 转成 `C:/Program Files/Git`，污染构建产物
 - HTTPS 已上线（2026-07-27）：Let's Encrypt 证书，`certbot --nginx` 申请并自动改写 Nginx 配置（443 SSL + 80 跳转 301），覆盖 chichihehe.cc + www.chichihehe.cc，2026-10-25 到期，certbot 定时任务自动续期
