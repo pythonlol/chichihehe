@@ -2,57 +2,152 @@
 import Layout from '../layouts/Layout.astro';
 import leaderboardData from '../data/leaderboard.json';
 
-const { version, updatedAt, categories, models, source } = leaderboardData;
-const categoryNames = Object.keys(categories);
+const { updatedAt, leaderboards } = leaderboardData;
 const updatedDate = new Date(updatedAt).toLocaleDateString('zh-CN', {
   year: 'numeric', month: 'long', day: 'numeric',
 });
 
-function scoreClass(score: number | null) {
-  if (score === null) return 'score-na';
-  if (score >= 80) return 'score-high';
-  if (score >= 65) return 'score-mid';
+const medals = ['🥇', '🥈', '🥉'];
+
+function scoreClass(score: number | null, thresholds: [number, number] = [80, 65]) {
+  if (score === null || score === undefined) return 'score-na';
+  if (score >= thresholds[0]) return 'score-high';
+  if (score >= thresholds[1]) return 'score-mid';
   return 'score-low';
 }
-
-const medals = ['🥇', '🥈', '🥉'];
 ---
-<Layout title="AI 模型排行榜" description="LiveBench Global Average 排行榜">
+<Layout title="AI 模型排行榜" description="LiveBench / Aider / Artificial Analysis 多维度 AI 模型排行榜">
   <h1 class="page-title">AI 模型排行榜</h1>
-  <p class="page-desc">
-    数据来源 <a href={source} target="_blank" rel="noopener noreferrer">LiveBench</a>
-    · 版本 {version} · 更新于 {updatedDate} · 共 {models.length} 个模型
-  </p>
+  <p class="page-desc">数据更新于 {updatedDate} · 共 {leaderboards.length} 个排行榜</p>
 
-  <div class="lb-wrap">
-    <table class="lb-table">
-      <thead>
-        <tr>
-          <th class="th-rank">#</th>
-          <th class="th-model">模型</th>
-          <th class="th-avg">Global Average</th>
-          {categoryNames.map((cat) => <th>{cat}</th>)}
-        </tr>
-      </thead>
-      <tbody>
-        {models.map((m, i) => (
-          <tr class={i < 3 ? 'top-row' : ''}>
-            <td class="td-rank">
-              {i < 3 ? <span class="medal">{medals[i]}</span> : i + 1}
-            </td>
-            <td class="td-model">{m.model}</td>
-            <td class={`td-avg ${scoreClass(m.globalAverage)}`}>{m.globalAverage.toFixed(2)}</td>
-            {categoryNames.map((cat) => {
-              const s = m.categories[cat];
-              return <td class={scoreClass(s)}>{s !== null ? s.toFixed(2) : '—'}</td>;
-            })}
-          </tr>
-        ))}
-      </tbody>
-    </table>
+  <div class="lb-tabs">
+    {leaderboards.map((lb, i) => (
+      <button class={`lb-tab${i === 0 ? ' active' : ''}`} data-lb={lb.id}>
+        {lb.name}
+      </button>
+    ))}
   </div>
 
+  {leaderboards.map((lb, i) => {
+    const isLiveBench = lb.id === 'livebench';
+    const categoryNames = lb.categories ? Object.keys(lb.categories) : [];
+    const topN = lb.models.slice(0, 50);
+    return (
+      <div class={`lb-panel${i === 0 ? ' show' : ''}`} data-panel={lb.id}>
+        <p class="lb-meta">
+          {lb.desc} · 来源 <a href={lb.source} target="_blank" rel="noopener noreferrer">{lb.name}</a>
+          {lb.version ? ` · 版本 ${lb.version}` : ''} · {lb.models.length} 个模型
+        </p>
+        <div class="lb-wrap">
+          <table class="lb-table">
+            <thead>
+              <tr>
+                <th class="th-rank">#</th>
+                <th class="th-model">模型</th>
+                {isLiveBench ? (
+                  <>
+                    <th class="th-avg">Global Average</th>
+                    {categoryNames.map((cat) => <th>{cat}</th>)}
+                  </>
+                ) : (
+                  <>
+                    <th class="th-avg">{lb.id === 'aider' ? 'Pass Rate %' : 'Score'}</th>
+                    {lb.id === 'aider' && <th>Cost</th>}
+                  </>
+                )}
+              </tr>
+            </thead>
+            <tbody>
+              {topN.map((m, j) => (
+                <tr class={j < 3 ? 'top-row' : ''}>
+                  <td class="td-rank">
+                    {j < 3 ? <span class="medal">{medals[j]}</span> : j + 1}
+                  </td>
+                  <td class="td-model">{m.model}</td>
+                  {isLiveBench ? (
+                    <>
+                      <td class={`td-avg ${scoreClass(m.globalAverage)}`}>{m.globalAverage.toFixed(2)}</td>
+                      {categoryNames.map((cat) => {
+                        const s = m.categories[cat];
+                        return <td class={scoreClass(s)}>{s !== null ? s.toFixed(2) : '—'}</td>;
+                      })}
+                    </>
+                  ) : (
+                    <>
+                      <td class={`td-avg ${scoreClass(m.score, [70, 50])}`}>{m.score.toFixed(1)}</td>
+                      {lb.id === 'aider' && <td>{m.cost || '—'}</td>}
+                    </>
+                  )}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    );
+  })}
+
+  <script is:inline>
+    document.querySelectorAll('.lb-tab').forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const id = tab.dataset.lb;
+        document.querySelectorAll('.lb-tab').forEach((t) => t.classList.remove('active'));
+        document.querySelectorAll('.lb-panel').forEach((p) => p.classList.remove('show'));
+        tab.classList.add('active');
+        document.querySelector(`.lb-panel[data-panel="${id}"]`)?.classList.add('show');
+      });
+    });
+  </script>
+
   <style>
+    .lb-tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+
+    .lb-tab {
+      padding: 8px 18px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--card);
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .lb-tab:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+
+    .lb-tab.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .lb-panel {
+      display: none;
+    }
+
+    .lb-panel.show {
+      display: block;
+    }
+
+    .lb-meta {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .lb-meta a {
+      color: var(--accent);
+    }
+
     .lb-wrap {
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
@@ -65,7 +160,7 @@ const medals = ['🥇', '🥈', '🥉'];
       width: 100%;
       border-collapse: collapse;
       font-size: 14px;
-      min-width: 860px;
+      min-width: 600px;
     }
 
     .lb-table th {
@@ -82,19 +177,9 @@ const medals = ['🥇', '🥈', '🥉'];
       z-index: 1;
     }
 
-    .lb-table th.th-rank {
-      width: 48px;
-      text-align: center;
-    }
-
-    .lb-table th.th-model {
-      text-align: left;
-      min-width: 200px;
-    }
-
-    .lb-table th.th-avg {
-      min-width: 110px;
-    }
+    .lb-table th.th-rank { width: 48px; text-align: center; }
+    .lb-table th.th-model { text-align: left; min-width: 200px; }
+    .lb-table th.th-avg { min-width: 100px; }
 
     .lb-table td {
       padding: 10px 10px;
@@ -137,37 +222,21 @@ const medals = ['🥇', '🥈', '🥉'];
       font-size: 15px;
     }
 
-    .score-high {
-      color: #34d399;
-    }
-
-    .score-mid {
-      color: var(--accent);
-    }
-
-    .score-low {
-      color: var(--muted);
-    }
-
-    .score-na {
-      color: var(--muted);
-      opacity: 0.5;
-    }
+    .score-high { color: #34d399; }
+    .score-mid { color: var(--accent); }
+    .score-low { color: var(--muted); }
+    .score-na { color: var(--muted); opacity: 0.5; }
 
     @media (max-width: 600px) {
-      .lb-table {
-        font-size: 12px;
-      }
-      .lb-table th,
-      .lb-table td {
-        padding: 8px 6px;
-      }
+      .lb-table { font-size: 12px; }
+      .lb-table th, .lb-table td { padding: 8px 6px; }
       .td-model {
         font-size: 11px;
         max-width: 160px;
         overflow: hidden;
         text-overflow: ellipsis;
       }
+      .lb-tab { padding: 6px 12px; font-size: 12px; }
     }
   </style>
 </Layout>
