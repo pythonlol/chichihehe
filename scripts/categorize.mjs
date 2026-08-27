@@ -57,6 +57,35 @@ export function detectCompanies(item) {
 // 筛选栏展示用：所有内容标签，按定义顺序（AI 动态兜底在末尾）
 export const TAGS = RULES.map(([tag]) => tag);
 
+// AI 相关性判定：用于可信媒体源的 AI 关键词筛选
+// 只保留能可靠指示 AI 内容的关键词，排除"应用""助手"等过于宽泛的词
+const AI_KEYWORDS = [
+  // English
+  'artificial intelligence', 'machine learning', 'deep learning',
+  'neural network', 'llm', 'gpt', 'chatgpt', 'claude', 'gemini',
+  'openai', 'anthropic', 'deepmind', 'transformer', 'diffusion',
+  'generative ai', 'genai', 'agentic', 'fine-tun', 'fine-tune',
+  'rag', 'embedding', 'inference', 'foundation model',
+  'large language model', 'multimodal', 'text-to-image', 'text-to-video',
+  'robot', 'autonomous', 'self-driving', 'waymo', 'robotaxi',
+  'nvidia', 'gpu', 'data center',
+  // Chinese
+  '人工智能', '智能体', '大模型', '机器学习', '深度学习', '神经网络',
+  '生成式', '微调', '算力', '智驾', '自动驾驶', '人形机器人', '具身',
+  '通用人工智能', '开源模型', '推理模型', '芯片', '英伟达', '数据中心',
+];
+
+/**
+ * 判断资讯是否与 AI 相关（用于可信媒体源的内容筛选）
+ * @param {{title: string, summary?: string}} item
+ * @returns {boolean}
+ */
+export function isAIRelated(item) {
+  const text = `${item.title || ''} ${item.summary || ''}`.toLowerCase();
+  if (/\bai\b/.test(text)) return true;
+  return AI_KEYWORDS.some((k) => text.includes(k));
+}
+
 /**
  * @param {{title: string, summary?: string}} item
  * @returns {string[]} 0~2 个内容标签

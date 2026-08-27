@@ -10,10 +10,13 @@ import Layout from '../layouts/Layout.astro';
     </p>
 
     <h2>内容来源</h2>
+    <p>采用三层白名单机制，从源头控制信息质量：</p>
     <ul>
-      <li>中文：36氪、少数派、InfoQ 中文、爱范儿</li>
-      <li>英文：TechCrunch AI、VentureBeat AI、The Verge AI、Ars Technica、MIT Technology Review</li>
+      <li><strong>核心源</strong>（直接采）：OpenAI、Google DeepMind、arXiv、NVIDIA AI Blog 等官方博客与学术源</li>
+      <li><strong>可信媒体</strong>（AI 关键词筛选）：量子位、InfoQ 中文、TechCrunch AI、VentureBeat AI、MIT Technology Review、The Verge AI、Ars Technica、Wired</li>
+      <li><strong>聚合 / 自媒体</strong>（不采）：标题党与洗稿重灾区，默认排除</li>
     </ul>
+    <p>同一事件被多源报道时，按关键词指纹聚类去重，只保留最权威（优先核心源）且最早的一条。</p>
 
     <h2>创建背景</h2>
     <p>
