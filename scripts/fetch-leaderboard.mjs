@@ -83,40 +83,7 @@ async function fetchLiveBench() {
   }
 }
 
-// ========== 2. Aider 代码编辑排行榜 ==========
-async function fetchAider() {
-  try {
-    console.log('  抓取 Aider 排行榜...');
-    const html = await fetchText('https://aider.chat/docs/leaderboards/', 45000);
-    // 解析 HTML 表格行：<tr> 中的 <td> 单元格
-    const trMatch = html.match(/<tr[\s\S]*?<\/tr>/gi) || [];
-    const models = [];
-    for (const tr of trMatch) {
-      const tds = tr.match(/<td[\s\S]*?<\/td>/gi) || [];
-      if (tds.length < 3) continue; // 跳过表头和详情行
-      // Aider 表格列：td[0]=展开箭头 ▶, td[1]=模型名, td[2]=通过率%, td[3]=费用
-      const model = stripTags(tds[1]);
-      const scoreText = stripTags(tds[2]);
-      if (!model || !scoreText.includes('%')) continue;
-      const score = parseFloat(scoreText) || 0;
-      const cost = tds.length > 3 ? stripTags(tds[3]) : '';
-      if (model.length > 2 && score > 0) {
-        models.push({ model, score, cost });
-      }
-    }
-    models.sort((a, b) => b.score - a.score);
-    console.log(`  ✓ Aider: ${models.length} 个模型`);
-    return {
-      id: 'aider', name: 'Aider 代码编辑', desc: '代码编辑能力（pass rate 2）',
-      source: 'https://aider.chat/docs/leaderboards/', models,
-    };
-  } catch (e) {
-    console.warn(`  ✗ Aider 抓取失败: ${e.message}`);
-    return null;
-  }
-}
-
-// ========== 3. Artificial Analysis 智能指数 ==========
+// ========== 2. Artificial Analysis 智能指数 ==========
 async function fetchArtificialAnalysis() {
   try {
     console.log('  抓取 Artificial Analysis 排行榜...');
@@ -192,7 +159,7 @@ async function main() {
   const leaderboards = [];
 
   // 1. LiveBench
-  console.log('[1/3] LiveBench');
+  console.log('[1/2] LiveBench');
   try {
     const lb = await fetchLiveBench();
     console.log(`  共 ${lb.models.length} 个模型，前 3 名:`);
@@ -202,13 +169,8 @@ async function main() {
     console.error(`  LiveBench 失败: ${e.message}`);
   }
 
-  // 2. Aider
-  console.log('\n[2/3] Aider 代码编辑');
-  const aider = await fetchAider();
-  if (aider) leaderboards.push(aider);
-
-  // 3. Artificial Analysis
-  console.log('\n[3/3] Artificial Analysis');
+  // 2. Artificial Analysis
+  console.log('\n[2/2] Artificial Analysis');
   const aa = await fetchArtificialAnalysis();
   if (aa) leaderboards.push(aa);
 
