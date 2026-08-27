@@ -1,6 +1,40 @@
 {
-  "updatedAt": "2026-08-27T02:11:45.587Z",
+  "updatedAt": "2026-08-27T06:36:18.886Z",
   "items": [
+    {
+      "title": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
+      "link": "https://www.infoq.cn/article/QEG6h1VpkiaFYUL1jUyc?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-27T10:28:42.000Z",
+      "summary": "8 月 26 日晚，千问办公首发上线刚刚发布的 Qwen3.8-Flash 模型，同时推出标准模式。即日起，所有用户可通过全新的标准模式体验 Qwen3.8-Flash。基于最新的模型，用户可以用更少的积分消耗、更快的 Token 吞吐速度完成任务。未来，千问办公的模型供给将只有标准和高级两种模式，95%的日常任务通过千问办公标准模式即可完成，仅 5%的复杂任务需要使用高级模式。 用户体验的提升来",
+      "companies": [
+        "阿里巴巴"
+      ],
+      "heat": 83.7,
+      "tags": [
+        "大模型",
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
+      "link": "https://www.qbitai.com/2026/08/480001.html",
+      "source": "量子位",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-27T01:45:08.000Z",
+      "summary": "8月26日晚，千问办公首发上线刚刚发布的Qwen3.8-Flash模型，同时推出标准模式。",
+      "companies": [
+        "阿里巴巴"
+      ],
+      "heat": 83.7,
+      "tags": [
+        "大模型",
+        "AI 动态"
+      ]
+    },
     {
       "title": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
       "link": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
@@ -8,15 +42,15 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-26T19:16:42.000Z",
-      "summary": "OpenAI承认对AI代理失控负有责任",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
+      "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
       "companies": [
         "OpenAI"
       ],
-      "heat": 36.7,
+      "heat": 38.8,
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
       "titleZh": "我们对 OpenAI 在 Hugging Face 黑客事件中仍不了解的事情",
       "summaryZh": "OpenAI承认对AI代理失控负有责任"
     },
@@ -27,15 +61,15 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-26T19:00:00.000Z",
-      "summary": "OpenAI报告称其AI代理曾入侵Hugging Face。",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 4,
+      "summary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. T",
       "companies": [
         "OpenAI"
       ],
-      "heat": 35.3,
+      "heat": 37.9,
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
       "titleZh": "揭秘 OpenAI 代理为何入侵 Hugging Face 的内情",
       "summaryZh": "OpenAI报告称其AI代理曾入侵Hugging Face。"
     },
@@ -46,17 +80,15 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-25T09:15:03.000Z",
-      "summary": "OpenAI因Hugging Face黑客事件被阿拉巴马州总检察长调查。",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
+      "summary": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked anoth",
       "companies": [
         "OpenAI"
       ],
-      "heat": 33.4,
-      "titleZh": "阿拉巴马州总检察长因 Hugging Face 黑客事件传唤 OpenAI",
-      "summaryZh": "OpenAI因Hugging Face黑客事件被阿拉巴马州总检察长调查。"
+      "heat": 35.4,
+      "tags": [
+        "大模型",
+        "智能体"
+      ]
     },
     {
       "title": "OpenAI releases its official report on the Hugging Face breach",
@@ -65,17 +97,34 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-26T19:05:22.000Z",
-      "summary": "OpenAI发布Hugging Face漏洞报告。",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
+      "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
       "companies": [
         "OpenAI"
       ],
-      "heat": 29.6,
+      "heat": 31.5,
+      "tags": [
+        "大模型",
+        "政策与安全"
+      ],
       "titleZh": "OpenAI 发布关于 Hugging Face 数据泄露的官方报告",
       "summaryZh": "OpenAI发布Hugging Face漏洞报告。"
+    },
+    {
+      "title": "神秘“牛来”大模型上线即登顶 背后厂商至今未揭晓",
+      "link": "http://www.techweb.com.cn/internet/2026-08-24/2978492.shtml",
+      "source": "TechWeb",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-24T06:52:11.000Z",
+      "summary": "【TechWeb】8月24日消息，近日，一款代号为Ox Alpha的匿名AI模型在OpenRouter悄然上线，短时间内调用量迅速攀升，成功冲至平台榜首，并刷新了该平台的单日模型用量纪录。 因其代号“Ox”意为公牛，加上近期一部名为《牛来》的抽象电影走红网络，国内网友便为其取了接地气的昵称——“牛来”大模型。 OpenRouter最新数据显示，仅Hermes Agent、Claude Code等前",
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 29.8,
+      "tags": [
+        "大模型",
+        "智能体"
+      ]
     },
     {
       "title": "The Hugging Face incident and the road ahead",
@@ -88,7 +137,7 @@
       "companies": [
         "OpenAI"
       ],
-      "heat": 26.3,
+      "heat": 26,
       "tags": [
         "大模型",
         "政策与安全"
@@ -97,76 +146,21 @@
       "summaryZh": "OpenAI分享了关于Hugging Face安全事件的发现，以及我们为加强AI模型安全、监控和对齐所采取的措施。"
     },
     {
-      "title": "Bill Gates wants to see a robot tax and ‘Human Reserved’ jobs to mitigate harms from AI",
-      "link": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
+      "title": "Nvidia closes in on Hugging Face acquisition",
+      "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
       "source": "TechCrunch AI",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-08-26T14:37:01.000Z",
-      "summary": "Bill Gates提出机器人税和人类保留岗位建议。",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 22.2,
-      "titleZh": "比尔·盖茨希望看到机器人税和‘人类专属’工作以缓解人工智能带来的危害",
-      "summaryZh": "比尔·盖茨提出机器人税和人类保留岗位的建议。"
-    },
-    {
-      "title": "Spirit Airlines Wants to Sell Its Data to Google. Former Flight Attendants Are Freaked Out",
-      "link": "https://www.wired.com/story/spirit-airlines-wants-to-sell-its-data-to-google-former-flight-attendants-are-freaked-out/",
-      "source": "Wired",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-25T09:15:00.000Z",
-      "summary": "航空公司被曝出售员工数据用于AI，引发担忧。",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
+      "pubDate": "2026-08-27T06:32:51.000Z",
+      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
       "companies": [
-        "Google"
+        "NVIDIA"
       ],
-      "heat": 22.2,
-      "titleZh": "精神航空想将其数据卖给谷歌，前空乘人员感到震惊",
-      "summaryZh": "航空公司被曝出售员工数据用于AI，引发担忧。"
-    },
-    {
-      "title": "The Humanoids at China’s Robot Games Were Faster Than Usain Bolt—but I’m More Impressed by Their Tweezer Mastery",
-      "link": "https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/",
-      "source": "Wired",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T18:15:00.000Z",
-      "summary": "中国机器人比赛展示人类机器人高超技能",
+      "heat": 25.6,
       "tags": [
-        "具身智能"
-      ],
-      "llmScore": 2,
-      "companies": [],
-      "heat": 21.2,
-      "titleZh": "中国机器人比赛中的人形机器人速度超过了尤塞恩·博尔特，但我更佩服它们使用镊子的技巧",
-      "summaryZh": "中国机器人比赛展示人类与机器人的高超技能"
-    },
-    {
-      "title": "OpenAI’s rogue AI model incident was worse than we thought",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T21:36:06.000Z",
-      "summary": "OpenAI报告称其未发布模型曾突破限制并自主入侵其他系统。",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 17.9,
-      "titleZh": "OpenAI 的违规 AI 模型事件比我们想象的更严重",
-      "summaryZh": "OpenAI报告称其未发布的模型曾突破限制并自主入侵其他系统。"
+        "大模型",
+        "芯片算力"
+      ]
     },
     {
       "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
@@ -175,17 +169,145 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-25T14:00:00.000Z",
-      "summary": "OpenAI宣布新AI芯片Jalapeño能提供更快的AI响应速度。",
-      "tags": [
-        "芯片算力"
-      ],
-      "llmScore": 4,
+      "summary": "OpenAI says its new AI chip, Jalapeño, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with report",
       "companies": [
         "OpenAI"
       ],
-      "heat": 17.9,
+      "heat": 24.5,
+      "tags": [
+        "大模型"
+      ],
       "titleZh": "OpenAI 表示其 Jalapeño 芯片能提供比竞争对手更快的 AI 响应",
       "summaryZh": "OpenAI宣布新AI芯片Jalapeño能提供更快的AI响应速度。"
+    },
+    {
+      "title": "神秘「牛来」模型果然是智谱！GLM首个原生多模态，还用的国产卡",
+      "link": "https://www.qbitai.com/2026/08/479919.html",
+      "source": "量子位",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T16:48:12.000Z",
+      "summary": "量子位 | 公众号 QbitAI 终于，这几天在网上炒得沸沸扬扬的 神秘 模型 「牛来」 （Ox Alpha），真身曝光了！ 是 智谱 刚刚发布即 开源 的 GLM-5.3 Flash ，还是5系列里 首个 原生多模态的那种。 「牛来」在火的这几天里啊，其实已经有不少人用Ox Alpha这个版本在实测了。 其中玩儿得比较多的，便是手搓一个 SpaceX Raptor猛禽发动机3D交互网页 。 例如",
+      "companies": [
+        "智谱"
+      ],
+      "heat": 23.7,
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "title": "Bill Gates wants to see a robot tax and ‘Human Reserved’ jobs to mitigate harms from AI",
+      "link": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T14:37:01.000Z",
+      "summary": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
+      "companies": [],
+      "heat": 23.4,
+      "tags": [
+        "具身智能"
+      ],
+      "titleZh": "比尔·盖茨希望看到机器人税和‘人类专属’工作以缓解人工智能带来的危害",
+      "summaryZh": "比尔·盖茨提出机器人税和人类保留岗位的建议。"
+    },
+    {
+      "title": "OpenAI’s rogue AI model incident was worse than we thought",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T21:36:06.000Z",
+      "summary": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get acc",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 23.1,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "OpenAI 的违规 AI 模型事件比我们想象的更严重",
+      "summaryZh": "OpenAI报告称其未发布的模型曾突破限制并自主入侵其他系统。"
+    },
+    {
+      "title": "ARR 超 8 亿美元，B 端收入占比升至 80%！MiniMax 第二份财报：增长与商业化来到验证时刻",
+      "link": "https://www.infoq.cn/article/OtZAGeLtUBgd9UzkO7eC?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-27T10:27:18.000Z",
+      "summary": "AI摘要 MiniMax 2026年中期财报显示商业化重心已转向B端：To B业务收入同比增长703%，占总收入63%，ARR达8亿美元且B端贡献超80%。 To B收入增速显著高于C端，开放平台成核心增长引擎；ARR指标反映商业化加速，但非会计确认收入；收入结构从AI原生产品主导转向企业服务主导。 适合AI平台架构师、SaaS产品负责人、企业AI采购决策者阅读 8 月 26 日晚，MiniMax",
+      "companies": [
+        "MiniMax"
+      ],
+      "heat": 22.4,
+      "tags": [
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "The Humanoids at China’s Robot Games Were Faster Than Usain Bolt—but I’m More Impressed by Their Tweezer Mastery",
+      "link": "https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T18:15:00.000Z",
+      "summary": "Beijing’s endlessly delightful Robot Games featured tons of impressive stunts. But the most mind-blowing tricks challenged the humanoid’s brain, not its brawn.",
+      "companies": [],
+      "heat": 21.1,
+      "tags": [
+        "具身智能"
+      ],
+      "titleZh": "中国机器人比赛中的人形机器人速度超过了尤塞恩·博尔特，但我更佩服它们使用镊子的技巧",
+      "summaryZh": "中国机器人比赛展示人类与机器人的高超技能"
+    },
+    {
+      "title": "终于来了！DeepSeek多模态视觉模型API全面开放",
+      "link": "http://www.techweb.com.cn/it/2026-08-21/2978436.shtml",
+      "source": "TechWeb",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-21T09:53:44.000Z",
+      "summary": "【TechWeb】8月21日消息，刚刚，DeepSeek官方正式宣布，全新的多模态视觉理解模型DeepSeek-V4-Flash-Vision-Exp上线DeepSeek API平台。这意味着，在纯文本模型V4-Flash奠定行业标杆之后，DeepSeek终于补齐了“视觉理解”这块重要拼图，向开发者正式开放了多模态API能力。 DeepSeek强调，作为一款“实验性模型”，DeepSeek-V4-",
+      "companies": [
+        "DeepSeek"
+      ],
+      "heat": 20.7,
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "title": "Spirit Airlines Wants to Sell Its Data to Google. Former Flight Attendants Are Freaked Out",
+      "link": "https://www.wired.com/story/spirit-airlines-wants-to-sell-its-data-to-google-former-flight-attendants-are-freaked-out/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-25T09:15:00.000Z",
+      "summary": "“It never crossed my mind that they would be so bold as to sell our private data for AI,” says one former Spirit Airlines flight attendant.",
+      "companies": [
+        "Google"
+      ],
+      "heat": 19.9,
+      "tags": [
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
+      "link": "https://www.qbitai.com/2026/08/480005.html",
+      "source": "量子位",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-27T02:46:35.000Z",
+      "summary": "西门子Xcelerator与普通软件货架最本质的区别。货架解决的是「把产品卖出去」，西门子Xcelerator要解决的是「让产品在真实工业场景中持续生长」。",
+      "companies": [],
+      "heat": 19.8,
+      "tags": [
+        "大模型",
+        "智能体"
+      ]
     },
     {
       "title": "Robot brain builders are pushing out of their GPT-2 era",
@@ -194,15 +316,15 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-26T13:30:00.000Z",
-      "summary": "机器人脑开发者进入GPT-2时代之后。",
-      "tags": [
-        "具身智能"
-      ],
-      "llmScore": 2,
+      "summary": "Robot bodies are waiting for their AI brains to catch up.",
       "companies": [
         "OpenAI"
       ],
-      "heat": 17.1,
+      "heat": 17.7,
+      "tags": [
+        "大模型",
+        "具身智能"
+      ],
       "titleZh": "机器人脑构建者正走出他们的GPT-2时代",
       "summaryZh": "机器人脑开发者进入GPT-2时代之后。"
     },
@@ -213,13 +335,12 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-26T07:01:00.000Z",
-      "summary": "比尔·盖茨认为已越过AI危险阈值，但未提出解决方案。",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
+      "summary": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The",
       "companies": [],
-      "heat": 15.9,
+      "heat": 16.5,
+      "tags": [
+        "AI 动态"
+      ],
       "titleZh": "比尔·盖茨表示我们已经度过了AI的危险阈值。现在该怎么办？",
       "summaryZh": "比尔·盖茨认为已越过AI危险阈值，但未提出解决方案。"
     },
@@ -230,50 +351,63 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-26T11:07:40.000Z",
-      "summary": "比尔·盖茨公开表达对AI的担忧，呼吁更多关注。",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
+      "summary": "Bill Gates, chair of the Gates Foundation, speaks during a 2024 conference. | Bloomberg via Getty Images Bill Gates has been reflecting a lot on AI lately, and the process has triggered a stark awaken",
       "companies": [],
-      "heat": 15.5,
+      "heat": 16.1,
+      "tags": [
+        "AI 动态"
+      ],
       "titleZh": "比尔·盖茨对AI深感担忧，他不再保持沉默",
       "summaryZh": "比尔·盖茨公开表达对AI的担忧，呼吁更多关注。"
     },
     {
-      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-      "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-      "source": "Ars Technica",
-      "lang": "en",
+      "title": "535B 大模型“直播”训练三个月：代码、数据、Loss全公开，吴恩达公开力挺",
+      "link": "https://www.infoq.cn/article/y7KTOS9YbBz0OcoyiweQ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-20T13:00:35.000Z",
-      "summary": "Grok存在数据泄露风险",
+      "pubDate": "2026-08-26T14:51:50.000Z",
+      "summary": "AI摘要 Marin 535B-A23B 是斯坦福CRFM主导的开放基础模型项目，训练尚未完成即全量公开训练曲线、数据配方与系统配置。模型总参数5350亿，计划处理18.75万亿Token，运行于11套GB200 NVL72集群，总计算量达2.7×10²⁴ FLOPs。 开放训练过程早于模型收敛，强调可复现性与协作式开发；明确划分预训练（80%）与中期训练（20%）阶段；依托学术-社区联合机制，发",
+      "companies": [],
+      "heat": 16,
       "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "xAI"
-      ],
-      "heat": 13.6,
-      "titleZh": "当恶意指令被加密时，Grok会泄露用户数据",
-      "summaryZh": "Grok存在数据泄露风险"
+        "大模型"
+      ]
     },
     {
-      "title": "ADE: Agentic Data Evolution Framework for Human-Centered Objectives",
-      "link": "https://arxiv.org/abs/2608.23719",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23719v1 Announce Type: new Abstract: Aligning large language models to human-centered objectives is difficult when targets are non-executable and context-dependent, limiting reliable verifi",
-      "companies": [],
-      "heat": 13.2,
-      "tags": [
-        "智能体"
+      "title": "英伟达公布 Vera Rubin 最新进展：推理、网络和定制芯片全面升级",
+      "link": "https://www.infoq.cn/article/3F8I0zcLfC5wcENtLASD?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T17:44:28.000Z",
+      "summary": "AI摘要 英伟达在Hot Chips 2024发布AI工厂基础设施新进展：Groq 3 LPX量产并专注低延迟Token生成，Spectrum-X支持51.2万GPU集群扩展，NVLink Fusion整合XPU/CPU进机架体系。 Groq 3 LPX专为交互式AI推理优化，显著降低多步任务的端到端延迟；Spectrum-X多平面架构取消L3网络依赖；Scale-In由BlueField-4+D",
+      "companies": [
+        "NVIDIA"
       ],
-      "titleZh": "ADE：面向以人为本目标的代理数据进化框架",
-      "summaryZh": "arXiv:2608.23719v1 Announce Type: new Abstract: 将大型语言模型与以人类为中心的目标对齐在目标不可执行且依赖上下文时非常困难，这限制了可靠验证的可能性"
+      "heat": 15.4,
+      "tags": [
+        "芯片算力",
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "深度绑定阿里云！MiniMax大幅上修算力采购上限至5亿美元",
+      "link": "http://www.techweb.com.cn/it/2026-08-27/2978567.shtml",
+      "source": "TechWeb",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-27T01:57:34.000Z",
+      "summary": "【TechWeb】8月27日消息，AI大模型公司MiniMax（股份代号：0100）交出了首份中期成绩单。截至2026年6月30日止六个月，MiniMax公司录得总收入1.17亿美元，同比增长283.1%，这一数字已超越2025年全年总收入。在收入狂飙的同时，MiniMax公司经调整净亏损也扩大至2.93亿美元，反映出AI赛道高昂的研发与基础设施投入成本。 此外，MiniMax公司近期大幅上调了与",
+      "companies": [
+        "阿里巴巴",
+        "MiniMax"
+      ],
+      "heat": 14.6,
+      "tags": [
+        "大模型",
+        "芯片算力"
+      ]
     },
     {
       "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
@@ -282,125 +416,16 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-26T21:25:27.000Z",
-      "summary": "Meta尝试用AI代理替代员工引发问题",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 3,
+      "summary": "Report shows Meta's challenges replacing people with AI agents.",
       "companies": [
         "Meta"
       ],
-      "heat": 13.1,
+      "heat": 14.1,
+      "tags": [
+        "智能体"
+      ],
       "titleZh": "旨在取代Meta员工的AI代理做出了“大规模、破坏性行动”",
       "summaryZh": "Meta尝试用AI代理替代员工引发问题"
-    },
-    {
-      "title": "Google’s new AI transcription edits out your &#8216;ums&#8217; and &#8216;ahs&#8217;",
-      "link": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T17:00:00.000Z",
-      "summary": "Google推出新AI语音转录功能，支持85种语言和专业术语识别。",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "Google"
-      ],
-      "heat": 12.8,
-      "titleZh": "谷歌新AI语音转录功能会删除你的‘嗯’和‘啊’",
-      "summaryZh": "Google推出新AI语音转录功能，支持85种语言和专业术语识别。"
-    },
-    {
-      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
-      "link": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T12:10:00.000Z",
-      "summary": "MIT发布《The Download》特别版，关注儿童与AI问题。",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 2,
-      "companies": [],
-      "heat": 12.2,
-      "titleZh": "《下载》：儿童问题来了，比尔·盖茨透露了他的AI担忧",
-      "summaryZh": "MIT发布《The Download》特别版，关注儿童与AI问题。"
-    },
-    {
-      "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
-      "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T00:24:57.000Z",
-      "summary": "AgentCore推出持久计算，支持多个AI智能体共用EC2。",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 11.2,
-      "titleZh": "病毒式AI初创公司Instinct以25亿美元估值筹集了3.5亿美元",
-      "summaryZh": "AgentCore推出持久计算，支持多个AI智能体共用EC2。"
-    },
-    {
-      "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
-      "link": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T21:40:53.000Z",
-      "summary": "Nvidia预计季度营收将达1080亿美元，成为百亿美元级公司。",
-      "tags": [
-        "商业融资"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 10.8,
-      "titleZh": "Nvidia即将成为每季度营收达百亿美元的公司",
-      "summaryZh": "Nvidia预计季度营收将达1080亿美元，成为百亿美元级公司。"
-    },
-    {
-      "title": "It’s Greg Brockman’s OpenAI now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-20T15:45:55.000Z",
-      "summary": "OpenAI新任CEO上任",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 10.8,
-      "titleZh": "这是格雷格·布罗克曼的OpenAI",
-      "summaryZh": "OpenAI新任CEO上任"
-    },
-    {
-      "title": "AI models flub these intelligence tests. Can you fare any better?",
-      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T09:00:00.000Z",
-      "summary": "AI模型在智力测试中表现不佳，人类可能更优。",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 10.4,
-      "titleZh": "AI模型在这些智力测试中表现不佳，你做得会更好吗？",
-      "summaryZh": "AI模型在智力测试中表现不佳，人类可能更优。"
     },
     {
       "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
@@ -409,70 +434,81 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-26T19:37:34.000Z",
-      "summary": "Gemini面临品牌认知挑战。",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 2,
+      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
       "companies": [
         "Google"
       ],
-      "heat": 9.8,
+      "heat": 14.1,
+      "tags": [
+        "大模型",
+        "AI 动态"
+      ],
       "titleZh": "Google的Gemini存在品牌问题，其他AI也一样",
       "summaryZh": "Gemini面临品牌认知挑战。"
     },
     {
-      "title": "Radar makes podcasts searchable — and usable by AI agents",
-      "link": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
-      "source": "TechCrunch AI",
+      "title": "The Imperfective Paradox Is Not Necessarily in Large Language Models: A Benchmark Failure Before a Model Failure",
+      "link": "https://arxiv.org/abs/2608.25005",
+      "source": "arXiv cs.CL",
       "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T15:47:28.000Z",
-      "summary": "Radar使播客可被AI代理使用。",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 3,
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.25005v1 Announce Type: new Abstract: The imperfective paradox provides a useful test of compositional semantic analysis. Recent work constructs an NLI benchmark and reports that models freq",
       "companies": [],
-      "heat": 9.4,
-      "titleZh": "Radar让播客可搜索，并可用于AI代理",
-      "summaryZh": "Radar使播客可被AI代理使用。"
+      "heat": 13.7,
+      "tags": []
     },
     {
-      "title": "Arga Labs is building a better way to train enterprise AI agents",
-      "link": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
-      "source": "TechCrunch AI",
+      "title": "AI models flub these intelligence tests. Can you fare any better?",
+      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+      "source": "MIT Technology Review",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-08-26T12:55:28.000Z",
-      "summary": "Arga Labs获得1000万美元种子轮融资，专注于企业AI代理训练。",
+      "pubDate": "2026-08-26T09:00:00.000Z",
+      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have adva",
+      "companies": [],
+      "heat": 13.7,
+      "tags": [
+        "AI 动态"
+      ],
+      "titleZh": "AI模型在这些智力测试中表现不佳，你做得会更好吗？",
+      "summaryZh": "AI模型在智力测试中表现不佳，人类可能更优。"
+    },
+    {
+      "title": "It’s Greg Brockman’s OpenAI now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-20T15:45:55.000Z",
+      "summary": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced wides",
+      "companies": [
+        "OpenAI",
+        "Apple"
+      ],
+      "heat": 13.3,
+      "tags": [
+        "大模型",
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "Google’s new AI transcription edits out your &#8216;ums&#8217; and &#8216;ahs&#8217;",
+      "link": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T17:00:00.000Z",
+      "summary": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini famil",
+      "companies": [
+        "Google"
+      ],
+      "heat": 13.2,
       "tags": [
         "大模型"
       ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 9.4,
-      "titleZh": "Arga Labs正在打造一种更好的企业AI代理训练方式",
-      "summaryZh": "Arga Labs获得1000万美元种子轮融资，专注于企业AI代理训练。"
-    },
-    {
-      "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
-      "link": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T15:00:00.000Z",
-      "summary": "Perceptron将视觉AI引入工厂。",
-      "tags": [
-        "具身智能"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "Meta"
-      ],
-      "heat": 7.5,
-      "titleZh": "前Meta科学家希望将视觉AI带到工厂车间",
-      "summaryZh": "Perceptron将视觉AI引入工厂。"
+      "titleZh": "谷歌新AI语音转录功能会删除你的‘嗯’和‘啊’",
+      "summaryZh": "Google推出新AI语音转录功能，支持85种语言和专业术语识别。"
     },
     {
       "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
@@ -481,161 +517,14 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-26T14:19:29.000Z",
-      "summary": "Z.ai确认开发Ox Alpha模型并计划公开权重。",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 4,
+      "summary": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
       "companies": [],
-      "heat": 7.5,
+      "heat": 13.2,
+      "tags": [
+        "AI 动态"
+      ],
       "titleZh": "令人意外：Z.ai是神秘Ox Alpha模型背后的AI实验室",
       "summaryZh": "Z.ai确认开发Ox Alpha模型并计划公开权重。"
-    },
-    {
-      "title": "技术革命：为 Agentic AI 时代做好准备 | 技术趋势",
-      "link": "https://www.infoq.cn/article/8ouuK09WuWA7Up35W9vb?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T10:20:43.000Z",
-      "summary": "Agentic AI推动企业级应用转向自主决策主体。",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 7.5
-    },
-    {
-      "title": "Learning never stops: How AI makes learning continuous",
-      "link": "https://openai.com/index/learning-never-stops",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T10:00:00.000Z",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 7.5,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "学习永无止境：AI如何让学习持续进行",
-      "summaryZh": "OpenAI的新报告探讨了学生和教育工作者如何使用ChatGPT使学习更加持续，并提供超越课堂的支持。"
-    },
-    {
-      "title": "Taming Visual Neglect: A Variational Information Bottleneck Framework for Adaptive Attention in Multimodal In-Context Learning",
-      "link": "https://arxiv.org/abs/2608.23570",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23570v1 Announce Type: new Abstract: Large vision-language models exhibit strong in-context learning (ICL) capabilities, yet when and why visual context helps multimodal ICL remains poorly ",
-      "companies": [],
-      "heat": 7.5,
-      "tags": [],
-      "titleZh": "应对视觉忽视：多模态上下文学习中自适应注意力的变分信息瓶颈框架",
-      "summaryZh": "arXiv:2608.23570v1 宣布类型：new；摘要：大型视觉语言模型表现出强大的上下文学习（ICL）能力，但视觉上下文何时以及为何有助于多模态ICL仍不清楚"
-    },
-    {
-      "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-21T21:25:50.000Z",
-      "summary": "LinkedIn的AI垃圾内容举报按钮已被超过100万人使用。",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 2,
-      "companies": [],
-      "heat": 7.5,
-      "titleZh": "超过100万人点击了LinkedIn的AI垃圾按钮",
-      "summaryZh": "LinkedIn的AI垃圾内容举报按钮已被超过100万人使用。"
-    },
-    {
-      "title": "How do we explain OpenAI’s executive exodus?",
-      "link": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T19:34:04.000Z",
-      "summary": "OpenAI高管离职引发讨论。",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 2,
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 7.1,
-      "titleZh": "如何解释OpenAI高管的离职潮？",
-      "summaryZh": "OpenAI高管离职引发讨论。"
-    },
-    {
-      "title": "小宇宙推出《AI趋势报告》：AI创作、AI办公、协作型AI等成讨论新趋势",
-      "link": "https://www.qbitai.com/2026/08/479811.html",
-      "source": "量子位",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T10:17:15.000Z",
-      "summary": "AI内容创作和办公成为新趋势。",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 7.1
-    },
-    {
-      "title": "The Limits of Automatic Evaluation of Creativity in Large Language Models",
-      "link": "https://arxiv.org/abs/2608.23705",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23705v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly capable of generating text that challenges human performance in domains requiring creativity, yet evaluati",
-      "companies": [],
-      "heat": 7.1,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "大型语言模型中创造力自动评估的局限性",
-      "summaryZh": "arXiv:2608.23705v1 宣布类型：新 Abstract: 大型语言模型（LLMs）在生成文本方面的能力日益增强，足以在需要创造力的领域挑战人类表现，但评估方法仍存在挑战。"
-    },
-    {
-      "title": "Does Episodic Memory Help Close the Lexical Frequency Gap in Sensitivity to Syntactic Contrasts? A Test Using Retrieval-Augmented Language Models",
-      "link": "https://arxiv.org/abs/2608.23851",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23851v1 Announce Type: new Abstract: Grammatical knowledge and how it is empirically tested are typically considered robust to the frequency of the lexical items in the expressions. However",
-      "companies": [],
-      "heat": 7.1,
-      "tags": [],
-      "titleZh": "情景记忆是否有助于缩小对句法对比敏感度的词汇频率差距？一项使用检索增强型语言模型的测试",
-      "summaryZh": "arXiv:2608.23851v1 宣布类型：新 Abstract: 语法知识及其经验性测试通常被认为对表达中词汇项的频率具有鲁棒性。然而"
-    },
-    {
-      "title": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
-      "link": "https://www.infoq.cn/article/a2Y7bOxLHZfCVWtKhAtQ?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-25T09:00:00.000Z",
-      "summary": "Amazon扩大Nvidia芯片采购，需求激增。",
-      "tags": [
-        "商业融资"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "xAI",
-        "NVIDIA"
-      ],
-      "heat": 7.1
     },
     {
       "title": "The full stack behind abundant intelligence",
@@ -648,27 +537,158 @@
       "companies": [
         "OpenAI"
       ],
-      "heat": 7.1,
+      "heat": 13.2,
       "tags": [
         "大模型"
-      ],
-      "titleZh": "丰富智能背后的全栈技术",
-      "summaryZh": "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品方面的进步如何协同作用，以更大的规模和更低的成本提供更有用的智能。"
+      ]
     },
     {
-      "title": "535B 大模型“直播”训练三个月：代码、数据、Loss全公开，吴恩达公开力挺",
-      "link": "https://www.infoq.cn/article/y7KTOS9YbBz0OcoyiweQ?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
+      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
+      "link": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T12:10:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids’ use o",
+      "companies": [],
+      "heat": 12.7,
+      "tags": [
+        "AI 动态"
+      ],
+      "titleZh": "《下载》：儿童问题来了，比尔·盖茨透露了他的AI担忧",
+      "summaryZh": "MIT发布《The Download》特别版，关注儿童与AI问题。"
+    },
+    {
+      "title": "宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底",
+      "link": "https://www.qbitai.com/2026/08/479634.html",
+      "source": "量子位",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-26T14:51:50.000Z",
-      "summary": "535B大模型训练过程全公开，吴恩达力挺。",
+      "pubDate": "2026-08-26T05:52:06.000Z",
+      "summary": "量子位 | 公众号 QbitAI 现在的具身智能公司，把Demo演示片拍得像广告一样精良和夸张，但一刀未剪的真实视频，你看过吗？ 前几天，有业内朋友给我发来一条10分钟的Demo，全程一镜到底，无剪辑，无场外遥控，无人工指令，甚至有些粗糙，但呈现的内容却让我直接瘫坐，心情久久不能平静（doge）。 视频中，机器人会把手臂伸出窗外擦窗户，够不到高处时知道自己搬箱子踩在上面，长程任务中途被打断还能精准",
+      "companies": [],
+      "heat": 12.5,
+      "tags": [
+        "具身智能"
+      ]
+    },
+    {
+      "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
+      "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-27T00:24:57.000Z",
+      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+      "companies": [],
+      "heat": 11.6,
+      "tags": [
+        "政策与安全",
+        "商业融资"
+      ],
+      "titleZh": "病毒式AI初创公司Instinct以25亿美元估值筹集了3.5亿美元",
+      "summaryZh": "AgentCore推出持久计算，支持多个AI智能体共用EC2。"
+    },
+    {
+      "title": "The UK Power Grid Has a Phantom Data Center Problem",
+      "link": "https://www.wired.com/story/uk-data-centers-logjam-ofgem-regulations/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-27T06:00:00.000Z",
+      "summary": "The UK’s energy regulator is using a variety of tricks to keep speculative data center projects from plugging into the power grid. The country’s AI ambitions hang in the balance.",
+      "companies": [],
+      "heat": 10.9,
+      "tags": [
+        "芯片算力"
+      ]
+    },
+    {
+      "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
+      "link": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T21:40:53.000Z",
+      "summary": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet h",
+      "companies": [
+        "NVIDIA",
+        "Apple"
+      ],
+      "heat": 10.8,
+      "tags": [
+        "芯片算力",
+        "商业融资"
+      ],
+      "titleZh": "Nvidia即将成为每季度营收达百亿美元的公司",
+      "summaryZh": "Nvidia预计季度营收将达1080亿美元，成为百亿美元级公司。"
+    },
+    {
+      "title": "Radar makes podcasts searchable — and usable by AI agents",
+      "link": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T15:47:28.000Z",
+      "summary": "Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
+      "companies": [],
+      "heat": 10.2,
+      "tags": [
+        "智能体"
+      ],
+      "titleZh": "Radar让播客可搜索，并可用于AI代理",
+      "summaryZh": "Radar使播客可被AI代理使用。"
+    },
+    {
+      "title": "Arga Labs is building a better way to train enterprise AI agents",
+      "link": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T12:55:28.000Z",
+      "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
+      "companies": [],
+      "heat": 10.2,
+      "tags": [
+        "智能体",
+        "商业融资"
+      ],
+      "titleZh": "Arga Labs正在打造一种更好的企业AI代理训练方式",
+      "summaryZh": "Arga Labs获得1000万美元种子轮融资，专注于企业AI代理训练。"
+    },
+    {
+      "title": "HealthBench-Psych: A Mental Health Subset of OpenAI's HealthBench",
+      "link": "https://arxiv.org/abs/2608.25071",
+      "source": "arXiv cs.CL",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.25071v1 Announce Type: new Abstract: General-purpose health benchmarks increasingly anchor claims about LLM medical performance, but they are not always resolved by clinical specialty, maki",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 9.4,
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "title": "How do we explain OpenAI’s executive exodus?",
+      "link": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T19:34:04.000Z",
+      "summary": "Was Greg Brockman the right executive all along?",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 9.4,
       "tags": [
         "大模型"
       ],
-      "llmScore": 4,
-      "companies": [],
-      "heat": 6.8
+      "titleZh": "如何解释OpenAI高管的离职潮？",
+      "summaryZh": "OpenAI高管离职引发讨论。"
     },
     {
       "title": "硅谷今日最热具身模型！不用后训练，看一遍就学会",
@@ -677,135 +697,112 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-08-26T10:07:09.000Z",
-      "summary": "Skild AI发布全新机器人基础模型S1。",
+      "summary": "henry 发自 凹非寺 量子位 | 公众号 QbitAI 自上周Generalist发布能够学习3到12秒动作的具身大脑Gen 1.5 以来～ 刚刚，北美具身初创 Skild AI 又发布了全新机器人基础模型 S1 ，直接把机器人上下文学习的任务长度拉到了 10分钟往上 。 这次的S1主打上下文学习（in-context learning，ICL）： 无需在后训练阶段专门学习新的操作数据，只需看",
+      "companies": [],
+      "heat": 9.1,
       "tags": [
         "具身智能"
-      ],
-      "llmScore": 4,
-      "companies": [],
-      "heat": 6.8
+      ]
     },
     {
-      "title": "Falcon TST 2.0获世界权威测评第一名，推动时间序列基础模型从通用预测走向金融应用",
-      "link": "https://www.qbitai.com/2026/08/479631.html",
-      "source": "量子位",
+      "title": "马斯克真要把英伟达算力“送上天”了，首批AI卫星2027年发射",
+      "link": "http://www.techweb.com.cn/it/2026-08-25/2978510.shtml",
+      "source": "TechWeb",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-26T03:25:00.000Z",
-      "summary": "Falcon TST 2.0在权威测评中排名第一。",
-      "tags": [
-        "大模型"
+      "pubDate": "2026-08-25T02:16:11.000Z",
+      "summary": "【TechWeb】8月25日消息，美国太空探索技术公司（SpaceX）与芯片巨头英伟达（NVIDIA）联合宣布，双方将合作设计一套专为太空环境优化的高性能算力系统，并计划于2027年第四季度发射首批搭载该系统的“Starmind AI”卫星，2028年实现大规模部署。 这一消息由SpaceX首席执行官埃隆·马斯克在社交媒体平台X上率先发布，英伟达官方账号同步确认，随后英伟达官网发布了题为《Spac",
+      "companies": [
+        "xAI",
+        "NVIDIA"
       ],
-      "llmScore": 4,
-      "companies": [],
-      "heat": 6.8
+      "heat": 7.7,
+      "tags": [
+        "芯片算力"
+      ]
     },
     {
-      "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
-      "link": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
-      "source": "Wired",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T17:13:37.000Z",
-      "summary": "15位政界人士签署AI安全协议",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 6.1,
-      "titleZh": "候选人签署协议承诺在数据中心和AI安全方面采取行动",
-      "summaryZh": "15位政界人士签署AI安全协议"
-    },
-    {
-      "title": "Google Discover is getting an AI chatbot-tuned feed",
-      "link": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+      "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
       "source": "The Verge AI",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-08-20T21:50:22.000Z",
-      "summary": "Google Discover将推出AI聊天机器人优化功能",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "Google"
-      ],
-      "heat": 6.1,
-      "titleZh": "Google Discover将推出针对AI聊天机器人的信息流",
-      "summaryZh": "Google Discover 将推出AI聊天机器人优化功能"
-    },
-    {
-      "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
-      "link": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T11:00:00.000Z",
-      "summary": "Runable获得2100万美元融资，AI代理用于企业发展。",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 3,
+      "pubDate": "2026-08-21T21:25:50.000Z",
+      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Sri",
       "companies": [],
-      "heat": 5.6,
-      "titleZh": "Runable获得2100万美元投资，相信AI代理可以从建立企业到扩展企业",
-      "summaryZh": "Runable 获得2100万美元融资，AI代理用于企业发展。"
-    },
-    {
-      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
-      "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T23:47:18.000Z",
-      "summary": "OpenAI Codex额度重置引发用户质疑。",
+      "heat": 7.7,
       "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "OpenAI",
-        "NVIDIA"
-      ],
-      "heat": 3.7,
-      "titleZh": "亚马逊将其Nvidia芯片订单翻了三倍，因‘需求激增’",
-      "summaryZh": "OpenAI Codex 配额重置引发用户质疑。"
+        "商业融资"
+      ]
     },
     {
-      "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
-      "link": "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
+      "title": "宇树科技上市第二日大跌18.7% 市值已不足2800亿元",
+      "link": "http://www.techweb.com.cn/internet/2026-08-20/2978396.shtml",
+      "source": "TechWeb",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-26T16:26:00.000Z",
-      "summary": "DeepSeek开源Harness用于构建AI智能体。",
+      "pubDate": "2026-08-20T08:36:18.000Z",
+      "summary": "【TechWeb】8月20日消息，上市第二天，宇树科技股价大跌。 今日开盘，宇树科技大跌6.51%，报790元。随后股价继续下挫，截至收盘，宇树科技股价下跌18.7%，报687元，总市值2779亿元。 8月19日，宇树科技正式登陆科创板，开盘上涨629.44%，每股报1100元，总市值达4449亿元。 对于宇树科技的行情骤变，知名经济学家盘和林分析认为，人形机器人行业商业化落地尚不成熟，应用场景较",
+      "companies": [],
+      "heat": 7.7,
       "tags": [
-        "智能体"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "DeepSeek"
-      ],
-      "heat": 3.7
+        "具身智能",
+        "商业融资"
+      ]
     },
     {
-      "title": "AI Slop Is Ruining Cute Animals on the Internet",
-      "link": "https://www.wired.com/story/ai-slop-is-ruining-the-internets-cute-animal-economy/",
-      "source": "Wired",
-      "lang": "en",
+      "title": "小宇宙推出《AI趋势报告》：AI创作、AI办公、协作型AI等成讨论新趋势",
+      "link": "https://www.qbitai.com/2026/08/479811.html",
+      "source": "量子位",
+      "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-26T11:00:00.000Z",
-      "summary": "AI生成动物图像引发真实与虚假争议",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
+      "pubDate": "2026-08-26T10:17:15.000Z",
+      "summary": "AI内容创作者增长187%，相关节目数量增长239%",
       "companies": [],
-      "heat": 3.7,
-      "titleZh": "AI垃圾内容正在毁掉互联网上的可爱动物",
-      "summaryZh": "AI生成动物图像引发真实与虚假争议"
+      "heat": 7.3,
+      "tags": [
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "基元律动累计融资数千万美元，推出“中国版OpenRouter”",
+      "link": "https://www.qbitai.com/2026/08/480079.html",
+      "source": "量子位",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-27T05:43:00.000Z",
+      "summary": "近日，AI基础设施公司基元律动（TokenRhythm）宣布完成新一轮融资，融资额达数千万美元。",
+      "companies": [],
+      "heat": 6.9,
+      "tags": [
+        "商业融资"
+      ]
+    },
+    {
+      "title": "Behind the [MASK]: Disentangling Representation and Faithfulness in DAPF-Based Dementia Detection",
+      "link": "https://arxiv.org/abs/2608.25028",
+      "source": "arXiv cs.CL",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.25028v1 Announce Type: new Abstract: Spoken-language analysis via prompt-based domain-adaptive models is a promising direction for low-resource, non-invasive dementia screening, but such mo",
+      "companies": [],
+      "heat": 6.9,
+      "tags": []
+    },
+    {
+      "title": "Less can be More: Relieving RAG Bottlenecks via Evidence Frontloading and Pressure-Adaptive Budgeting",
+      "link": "https://arxiv.org/abs/2608.25115",
+      "source": "arXiv cs.CL",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.25115v1 Announce Type: new Abstract: Existing methods for improving Retrieval-Augmented Generation (RAG) efficiency mainly optimize downstream LLM generation, such as context compression or",
+      "companies": [],
+      "heat": 6.9,
+      "tags": [
+        "大模型"
+      ]
     },
     {
       "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
@@ -818,7 +815,7 @@
       "companies": [
         "OpenAI"
       ],
-      "heat": 3.7,
+      "heat": 6.9,
       "tags": [
         "大模型"
       ],
@@ -826,201 +823,53 @@
       "summaryZh": "ChatGPT for Teachers 正在扩展至55个美国学区，为超过10万名教师和工作人员带来安全的AI工具、培训和支持。"
     },
     {
-      "title": "Raised on AI",
-      "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
-      "source": "MIT Technology Review",
+      "title": "A Primer on Computational Semantics for Artificial Intelligence Systems",
+      "link": "https://arxiv.org/abs/2608.25022",
+      "source": "arXiv cs.CL",
       "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T09:00:00.000Z",
-      "summary": "文章讨论作者为孩子创建AI账户并分享其信息的行为。",
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.25022v1 Announce Type: new Abstract: As people adopt transformer-based language models (e.g., ChatGPT and Gemini) for an increasing number of use-cases, it is important to know how such mod",
+      "companies": [
+        "OpenAI",
+        "Google"
+      ],
+      "heat": 6.3,
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "title": "Apples to Apples? Towards Comparable Crosslingual Language Model Evaluation",
+      "link": "https://arxiv.org/abs/2608.25089",
+      "source": "arXiv cs.CL",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.25089v1 Announce Type: new Abstract: Crosslingual evaluation of language models that enables fair comparisons remains a fundamental challenge in multilingual NLP. Existing studies adopt a v",
+      "companies": [
+        "Apple"
+      ],
+      "heat": 6.3,
       "tags": [
         "AI 动态"
-      ],
-      "llmScore": 1,
-      "companies": [],
-      "heat": 3.7,
-      "titleZh": "人工智能的崛起",
-      "summaryZh": "文章讨论作者为孩子创建AI账户并分享其信息的行为。"
+      ]
     },
     {
-      "title": "When Youth Enter The Chat: An Epistemic Shift in the Validation of LLM-Based Measures of Student Talk",
-      "link": "https://arxiv.org/abs/2608.23780",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23780v1 Announce Type: new Abstract: LLMs are being used increasingly to measure aspects of student discourse (e.g. talk moves, collaboration, equity of voice) at scale. Typically, LLM-base",
-      "companies": [],
-      "heat": 3.7,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "当年轻人进入聊天：基于大语言模型的学生对话评估方法的范式转变",
-      "summaryZh": "arXiv:2608.23780v1 宣布类型：新摘要：大型语言模型正被越来越多地用于大规模测量学生对话的各个方面（例如谈话技巧、协作、发言公平性）。通常，基于大型语言模型的系统"
-    },
-    {
-      "title": "Investigating Knowledge Transfer Across Interactive Dialogue Games",
-      "link": "https://arxiv.org/abs/2608.23969",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23969v1 Announce Type: new Abstract: Dialogue games represent a challenging setting where complex cognitive skills are required to accomplish tasks while coordinating with other players. Co",
-      "companies": [],
-      "heat": 3.7,
-      "tags": [],
-      "titleZh": "研究交互式对话游戏中的知识迁移",
-      "summaryZh": "arXiv:2608.23969v1 宣布类型：新摘要：对话游戏是一种具有挑战性的环境，在这种环境中，需要复杂的认知技能来完成任务，同时与其他玩家进行协调。协"
-    },
-    {
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "link": "https://openai.com/index/jalapeno-first-results",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-25T07:00:00.000Z",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 3.7,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "Jalapeño 首次成果显示在人工智能推理方面行业领先的速度和效率",
-      "summaryZh": "Jalapeño 是 OpenAI 的一款定制推理芯片，可实现更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。"
-    },
-    {
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "link": "https://openai.com/index/gpt-5-6-in-kiro",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-24T12:00:00.000Z",
-      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "companies": [],
-      "heat": 3.7,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "通过 Kiro 中的 GPT-5.6 提升开发者的性价比",
-      "summaryZh": "GPT‑5.6 现已在 Kiro 上线，帮助开发者以更好的性价比进行软件的规划、构建、审查和测试。"
-    },
-    {
-      "title": "QueryStory wants you to believe what AI is telling you",
-      "link": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
-      "source": "TechCrunch AI",
+      "title": "Google Discover is getting an AI chatbot-tuned feed",
+      "link": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+      "source": "The Verge AI",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-08-26T13:00:00.000Z",
-      "summary": "QueryStory获600万美元种子资金。",
-      "tags": [
-        "商业融资"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 3.3,
-      "titleZh": "QueryStory 希望你相信人工智能告诉你的内容",
-      "summaryZh": "QueryStory 获得 600 万美元种子投资。"
-    },
-    {
-      "title": "“额度想重置就重置，不问财务”，Codex Tibo首曝幕后：产品没做好，就补偿用户",
-      "link": "https://www.infoq.cn/article/Ztjb9xolQG8qFThbgxBD?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T09:40:02.000Z",
-      "summary": "Instinct获得3.5亿美元融资，估值25亿美元。",
-      "tags": [
-        "商业融资"
-      ],
-      "llmScore": 4,
-      "companies": [],
-      "heat": 3.3
-    },
-    {
-      "title": "Beyond Static and Linear: What Attention Constraints Best Fit Human Reading Times?",
-      "link": "https://arxiv.org/abs/2608.23818",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23818v1 Announce Type: new Abstract: Transformer-based language models are widely used as models of human language processing, yet their attention mechanisms allow lossless access to the fu",
-      "companies": [],
-      "heat": 3.3,
-      "tags": [],
-      "titleZh": "超越静态与线性：注意力约束哪种最符合人类阅读时间？",
-      "summaryZh": "arXiv:2608.23818v1 宣布类型：新摘要：基于 Transformer 的语言模型被广泛用作人类语言处理的模型，但它们的注意力机制允许无损访问未来输入的信息。"
-    },
-    {
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "link": "https://openai.com/index/loveholidays",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T00:00:00.000Z",
-      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "pubDate": "2026-08-20T21:50:22.000Z",
+      "summary": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak y",
       "companies": [
-        "OpenAI"
+        "Google"
       ],
-      "heat": 3.3,
+      "heat": 6.3,
       "tags": [
-        "大模型"
-      ],
-      "titleZh": "How loveholidays 正使每个人成为开发者，使用 Codex",
-      "summaryZh": "了解 loveholidays 如何利用 OpenAI Codex 让软件开发在企业中更加普及，帮助团队更快地将想法转化为产品。"
-    },
-    {
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "link": "https://openai.com/index/introducing-admin-plugin",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-25T00:00:00.000Z",
-      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 3.3,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "推出 ChatGPT Work 和 Codex 的管理员插件",
-      "summaryZh": "使用 ChatGPT Work 和 Codex 的管理员插件来分析工作区使用情况，管理成员和权限，调整限制，并处理管理员请求。"
-    },
-    {
-      "title": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
-      "link": "https://www.infoq.cn/article/2IBWc7BuB2qoGao5tlQT?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-24T15:43:00.000Z",
-      "summary": "SpaceX推出面向自主AI智能代理的Grok Bot。",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "xAI"
-      ],
-      "heat": 3.3
-    },
-    {
-      "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
-      "link": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
-      "source": "Wired",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-24T09:30:00.000Z",
-      "summary": "教师成为AI深度伪造内容的受害者。",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 3.3,
-      "titleZh": "他们致力于教学。然后深度伪造视频出现了",
-      "summaryZh": "教师成为 AI 深度伪造内容的受害者。"
+        "AI 动态"
+      ]
     },
     {
       "title": "Introducing Intelligence Age",
@@ -1033,27 +882,10 @@
       "companies": [
         "OpenAI"
       ],
-      "heat": 3.3,
+      "heat": 6.3,
       "tags": [
         "大模型"
-      ],
-      "titleZh": "进入智能时代",
-      "summaryZh": "介绍智能时代，这是 OpenAI 的一篇新博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。"
-    },
-    {
-      "title": "宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底",
-      "link": "https://www.qbitai.com/2026/08/479634.html",
-      "source": "量子位",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T05:52:06.000Z",
-      "summary": "神秘模型Demo展示强大功能。",
-      "tags": [
-        "具身智能"
-      ],
-      "llmScore": 4,
-      "companies": [],
-      "heat": 3
+      ]
     },
     {
       "title": "如何把 Agent 的判断与行动变成可恢复的软件事实 | KDC 工程补篇",
@@ -1062,49 +894,53 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-08-27T10:00:00.000Z",
-      "summary": "讨论AI Agent工程落地挑战。",
+      "summary": "AI摘要 本文聚焦 AI Agent 在真实业务中落地的关键工程挑战：如何使推理、授权与行动转化为可恢复、可控制、可审计的软件运行事实。提出“业务因果链”与“运行事实链”双链结构，解耦 Session、Harness 与执行环境，并定义三类 Contract 支撑状态一致性与生命周期管理。 关键观点：① Agent 单次执行不等于业务就绪，需保障目标到反馈的稳定状态；② 领域现实、业务判断事实、软",
+      "companies": [],
+      "heat": 3.9,
       "tags": [
         "智能体"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 0
+      ]
     },
     {
-      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
-      "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
-      "source": "TechCrunch AI",
+      "title": "The Dialect Tax: Dialectal Biases Persist throughout the Language Modeling Pipeline",
+      "link": "https://arxiv.org/abs/2608.24952",
+      "source": "arXiv cs.CL",
       "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T21:37:39.000Z",
-      "summary": "Anthropic与Nscale达成450亿美元计算资源交易。",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 0,
-      "titleZh": "Anthropic在与Nscale的450亿美元交易中继续其算力消耗趋势",
-      "summaryZh": "Anthropic 与 Nscale 达成 450 亿美元的计算资源交易。"
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.24952v1 Announce Type: new Abstract: Systematic dialectal performance gaps in language models (LMs) are well documented, but the source of these disparities within the modern language model",
+      "companies": [],
+      "heat": 3.9,
+      "tags": []
     },
     {
-      "title": "英伟达公布 Vera Rubin 最新进展：推理、网络和定制芯片全面升级",
-      "link": "https://www.infoq.cn/article/3F8I0zcLfC5wcENtLASD?utm_source=rss&utm_medium=article",
+      "title": "Does Fine-Tuning Undo Activation Steering? Behavioural Recovery Without Weight-Edit Reversal",
+      "link": "https://arxiv.org/abs/2608.24988",
+      "source": "arXiv cs.CL",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.24988v1 Announce Type: new Abstract: Activation steering can be embedded directly into a language model's weights, shaping behaviour without inference-time intervention and offering a way t",
+      "companies": [],
+      "heat": 3.9,
+      "tags": []
+    },
+    {
+      "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
+      "link": "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-26T17:44:28.000Z",
-      "summary": "英伟达公布Vera Rubin最新进展。",
-      "tags": [
-        "芯片算力"
-      ],
-      "llmScore": 4,
+      "pubDate": "2026-08-26T16:26:00.000Z",
+      "summary": "DeepSeek 宣布推出 DeepSeek Harness（dsh）开发者预览版。这是一个采用 MIT 许可证发布的开源执行运行时，用于构建自主人工智能智能体。DeepSeek 通过一则 公告 发布了这一消息，同时公布了该项目的 GitHub 仓库 。该软件构建在 Cordis 元框架之上，并采用微内核架构，运行时组件以彼此隔离、可相互替换的插件形式运行，而不是作为单体系统模块。 在 DeepS",
       "companies": [
-        "NVIDIA"
+        "DeepSeek"
       ],
-      "heat": 0
+      "heat": 3.9,
+      "tags": [
+        "大模型",
+        "智能体"
+      ]
     },
     {
       "title": "不懂算法的工厂老兵，在 AMD 锐龙 AI Max+ 395上跑出工业智能体",
@@ -1113,45 +949,60 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-08-26T16:00:40.000Z",
-      "summary": "Grab利用AI代理减少机械性分析工作量。",
+      "summary": "在 CNC 非标加工行业，一张图纸抵达工厂后，通常不会立刻变成一串价格。 报价员需要先判断材料和毛坯尺寸，再识别孔、槽、曲面、薄壁等几何特征，然后手动评估需要使用几轴机床、什么刀具、安排多少道工序。 公差、表面处理、装夹次数、材料利用率以及工厂当前的设备和人工成本，都会改变最终结果。 对于标准件，这套流程可以被固化在系统中，但非标零件这套流程就复杂多了，处理这类非标准件每一张图纸都可能意味着一次重",
+      "companies": [],
+      "heat": 3.9,
       "tags": [
         "智能体"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 0
+      ]
     },
     {
-      "title": "WhatsApp 测试 AI 反诈：消息无需上传云端",
-      "link": "https://www.infoq.cn/article/wAVlMqVg7fqPjXAyFDjC?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T15:00:00.000Z",
-      "summary": "WhatsApp测试AI反诈功能，消息无需上传云端。",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 0
-    },
-    {
-      "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
-      "link": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+      "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
+      "link": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
       "source": "TechCrunch AI",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-08-26T12:00:00.000Z",
-      "summary": "Legato推出AI助听眼镜，集成专利技术。",
-      "tags": [
-        "具身智能"
+      "pubDate": "2026-08-26T15:00:00.000Z",
+      "summary": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
+      "companies": [
+        "Meta"
       ],
-      "llmScore": 3,
+      "heat": 3.9,
+      "tags": [
+        "AI 动态"
+      ],
+      "titleZh": "前Meta科学家希望将视觉AI带到工厂车间",
+      "summaryZh": "Perceptron将视觉AI引入工厂。"
+    },
+    {
+      "title": "AI Slop Is Ruining Cute Animals on the Internet",
+      "link": "https://www.wired.com/story/ai-slop-is-ruining-the-internets-cute-animal-economy/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T11:00:00.000Z",
+      "summary": "Pet owners, rescue agencies, and wildlife groups are calling for new safeguards as AI makes it harder to tell whether animals, from polar bears to house cats, are real or fake.",
       "companies": [],
-      "heat": 0,
-      "titleZh": "听力科技初创公司Legato秘密开发后推出1200万美元融资及AI助听眼镜的初步展示",
-      "summaryZh": "Legato 推出 AI 助听眼镜，集成专利技术。"
+      "heat": 3.9,
+      "tags": [
+        "AI 动态"
+      ],
+      "titleZh": "AI垃圾内容正在毁掉互联网上的可爱动物",
+      "summaryZh": "AI生成动物图像引发真实与虚假争议"
+    },
+    {
+      "title": "技术革命：为 Agentic AI 时代做好准备 | 技术趋势",
+      "link": "https://www.infoq.cn/article/8ouuK09WuWA7Up35W9vb?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T10:20:43.000Z",
+      "summary": ">",
+      "companies": [],
+      "heat": 3.9,
+      "tags": [
+        "智能体"
+      ]
     },
     {
       "title": "AI视频应用井喷，美图打开新的增长空间",
@@ -1160,28 +1011,140 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-08-26T10:18:10.000Z",
-      "summary": "美图通过AI视频应用实现新的增长空间。",
+      "summary": "从图像到视频，美图找到了一门更赚钱的生意",
+      "companies": [],
+      "heat": 3.9,
+      "tags": [
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "Learning never stops: How AI makes learning continuous",
+      "link": "https://openai.com/index/learning-never-stops",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-26T10:00:00.000Z",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 3.9,
       "tags": [
         "大模型"
       ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 0
+      "titleZh": "学习永无止境：AI如何让学习持续进行",
+      "summaryZh": "OpenAI的新报告探讨了学生和教育工作者如何使用ChatGPT使学习更加持续，并提供超越课堂的支持。"
     },
     {
-      "title": "Grab 借助 AI 代理将机械性分析的工作量从 44% 降至 30%",
-      "link": "https://www.infoq.cn/article/LqdtQ5sKYcEAzhCNNToE?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
+      "title": "Raised on AI",
+      "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T09:00:00.000Z",
+      "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In sh",
+      "companies": [],
+      "heat": 3.9,
+      "tags": [
+        "AI 动态"
+      ],
+      "titleZh": "人工智能的崛起",
+      "summaryZh": "文章讨论作者为孩子创建AI账户并分享其信息的行为。"
+    },
+    {
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "link": "https://openai.com/index/jalapeno-first-results",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-25T07:00:00.000Z",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 3.9,
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "link": "https://openai.com/index/gpt-5-6-in-kiro",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-24T12:00:00.000Z",
+      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+      "companies": [],
+      "heat": 3.9,
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "title": "小米苹果抢着用：2nm制程芯片比3nm好在哪",
+      "link": "http://www.techweb.com.cn/it/2026-08-24/2978485.shtml",
+      "source": "TechWeb",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-26T10:10:29.000Z",
-      "summary": "AI代理帮助Grab减少44%的机械性分析工作量。",
-      "tags": [
-        "智能体"
+      "pubDate": "2026-08-24T03:10:46.000Z",
+      "summary": "智能手机行业每隔几年都会迎来一次芯片制程升级，按照目前曝光信息，小米18系列预计将搭载第六代骁龙8至尊版移动平台，而苹果iPhone 18 Pro系列预计采用A20 Pro芯片，有消息称两款旗舰芯片都将采用台积电N2，也就是2nm制程工艺。 那么，所谓“2nm制程”到底是什么意思？它真的比现在主流的3nm芯片先进很多吗？今天我们就来简单聊聊。 很多稍微了解过芯片的消费者可能会认为，2nm芯片就是晶",
+      "companies": [
+        "Apple"
       ],
-      "llmScore": 3,
+      "heat": 3.9,
+      "tags": [
+        "芯片算力"
+      ]
+    },
+    {
+      "title": "Unsupervised Post-Training of Foundation Models: A Survey",
+      "link": "https://arxiv.org/abs/2608.24982",
+      "source": "arXiv cs.CL",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.24982v1 Announce Type: new Abstract: Foundation-model post-training usually relies on human labels, preference data, stronger teachers, or executable verifiers. We study Unsupervised Post-T",
       "companies": [],
-      "heat": 0
+      "heat": 3.5,
+      "tags": []
+    },
+    {
+      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+      "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T23:47:18.000Z",
+      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
+      "companies": [
+        "NVIDIA"
+      ],
+      "heat": 3.5,
+      "tags": [
+        "芯片算力",
+        "商业融资"
+      ],
+      "titleZh": "亚马逊将其Nvidia芯片订单翻了三倍，因‘需求激增’",
+      "summaryZh": "OpenAI Codex 配额重置引发用户质疑。"
+    },
+    {
+      "title": "QueryStory wants you to believe what AI is telling you",
+      "link": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T13:00:00.000Z",
+      "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
+      "companies": [],
+      "heat": 3.5,
+      "tags": [
+        "大模型",
+        "政策与安全"
+      ],
+      "titleZh": "QueryStory 希望你相信人工智能告诉你的内容",
+      "summaryZh": "QueryStory 获得 600 万美元种子投资。"
     },
     {
       "title": "刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》",
@@ -1190,151 +1153,250 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-08-26T05:56:25.000Z",
-      "summary": "Agnes Video 2.5 Flash免费发布。",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 3,
+      "summary": "Agnes Video 2.5 Flash",
       "companies": [],
-      "heat": 0
-    },
-    {
-      "title": "From Triage to Discharge: A Survey of NLP Tasks, Methods, and Open Challenges in the Emergency Department",
-      "link": "https://arxiv.org/abs/2608.23627",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23627v1 Announce Type: new Abstract: Emergency departments (EDs) operate under time pressure, generating multimodal data such as clinical conversations, triage notes, and discharge document",
-      "companies": [],
-      "heat": 0,
-      "tags": [],
-      "titleZh": "从分诊到出院：急诊科中自然语言处理任务、方法和开放挑战的综述",
-      "summaryZh": "arXiv:2608.23627v1 宣布类型：新摘要：急诊科在时间压力下运作，生成多模态数据，如临床对话、分诊记录和出院文件"
-    },
-    {
-      "title": "Contextual Embedding Evidence for Main--Light Verb Distinctions in Urdu",
-      "link": "https://arxiv.org/abs/2608.23645",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23645v1 Announce Type: new Abstract: Urdu light verbs contribute schematic event-structural meaning while remaining lexically related to corresponding main verbs. This study tests represent",
-      "companies": [],
-      "heat": 0,
-      "tags": [],
-      "titleZh": "乌尔都语中主-轻动词区别的上下文嵌入证据",
-      "summaryZh": "arXiv:2608.23645v1 宣布类型：新摘要：乌尔都语的轻动词在保持与相应主要动词词汇相关性的同时，贡献了图式化的事件结构意义。本研究测试了表示"
-    },
-    {
-      "title": "What Reaches Expert Review? Representation, Structural Screening, and Candidate-Form Dependence in AI-Assisted Item Development",
-      "link": "https://arxiv.org/abs/2608.23766",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23766v1 Announce Type: new Abstract: Between AI-assisted item generation and expert review sits a computational evaluator whose decisions are usually treated as technical preliminaries. Yet",
-      "companies": [],
-      "heat": 0,
+      "heat": 3.5,
       "tags": [
         "AI 动态"
-      ],
-      "titleZh": "什么能进入专家评审？人工智能辅助项目开发中的表征、结构筛选和候选者形式依赖性",
-      "summaryZh": "arXiv:2608.23766v1 宣布类型：新摘要：在 AI 辅助项目生成和专家评审之间，存在一个计算评估者，其决策通常被视为技术初步。然而"
+      ]
     },
     {
-      "title": "Inter-dimension Dependence for Multi-Dimensional Evaluation of Open-Ended Text",
-      "link": "https://arxiv.org/abs/2608.23783",
+      "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
+      "link": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-24T09:30:00.000Z",
+      "summary": "The deepfake epidemic in schools is affecting more than students. Four teachers tell WIRED about becoming targets of sexualized, AI-generated content—and how difficult it was to find accountability.",
+      "companies": [],
+      "heat": 3.5,
+      "tags": [
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
+      "link": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T17:13:37.000Z",
+      "summary": "More than 15 politicians from across the country have signed on to the AI Pact, vowing to regulate data centers and AI. “We’ve got to get this right,” says Senate candidate Dan Osborn of Nebraska.",
+      "companies": [],
+      "heat": 3.2,
+      "tags": [
+        "芯片算力"
+      ],
+      "titleZh": "候选人签署协议承诺在数据中心和AI安全方面采取行动",
+      "summaryZh": "15位政界人士签署AI安全协议"
+    },
+    {
+      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "source": "Ars Technica",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-20T13:00:35.000Z",
+      "summary": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
+      "companies": [
+        "xAI"
+      ],
+      "heat": 3.2,
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "title": "非结构化数据的结构化处理：基于 Snowflake Cortex AI Functions | 技术实践",
+      "link": "https://www.infoq.cn/article/Xw6Nlqq7N2J0CKA0ehx8?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-27T14:02:54.000Z",
+      "summary": "AI摘要 核心内容：文章提出将传统三层数据架构扩展至非结构化数据，利用 Snowflake Cortex AI Functions 在 transformed 层直接实现非结构化数据的结构化转换，打通从原始音视频、文本到可分析洞察的端到端链路。 适合数据工程师、AI 平台架构师、企业数据治理负责人阅读 2026 年，智能体将在企业级应用中取得哪些实质性突破？ 点击下载 《2026 年 AI 与数据",
+      "companies": [],
+      "heat": 0,
+      "tags": [
+        "智能体",
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "Aspire 13.5 正式发布：终端进入仪表板，TypeScript AppHost 转正",
+      "link": "https://www.infoq.cn/article/cV1s25pv0lLTvYB9diU3?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-27T13:33:00.000Z",
+      "summary": "上周，Microsoft 团队发布了 Aspire 13.5 ，此次更新焕新了仪表板和 aspire.dev 主页，扩展了 AppHost 与开发者交互的方式，并为应用程序的部署方式增加了更多灵活性。 根据发布说明， 此前 Aspire 13 的工作重点是推动该工具扩展到更多语言、部署目标和编码智能体，包括功能完全对等的 TypeScript AppHost、新的命令行功能，以及 Kubernet",
+      "companies": [
+        "Microsoft"
+      ],
+      "heat": 0,
+      "tags": [
+        "智能体",
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "Detection != Reliable Control: Decodable Empathy Directions Yield at Most Partial Shifts in Automated Empathy Scores",
+      "link": "https://arxiv.org/abs/2608.24901",
       "source": "arXiv cs.CL",
       "lang": "en",
       "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23783v1 Announce Type: new Abstract: LLM-as-a-judge methods are widely used for evaluating the quality of generated open-ended text. Such evaluations are generally multi-dimensional, since ",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.24901v1 Announce Type: new Abstract: A decodable \"empathy\" direction is routinely read as a causal lever, conflating decodability, automated-metric control, and human-perceived change. We t",
+      "companies": [],
+      "heat": 0,
+      "tags": []
+    },
+    {
+      "title": "Semantic Variability of Replies Across LLMs: Implications for Designing Conversation-Based Assessment",
+      "link": "https://arxiv.org/abs/2608.24920",
+      "source": "arXiv cs.CL",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.24920v1 Announce Type: new Abstract: This study examines whether LLM-generated replies remain semantically consistent when the underlying LLM changes. Using messages from real collaborative",
       "companies": [],
       "heat": 0,
       "tags": [
         "大模型"
-      ],
-      "titleZh": "多维开放式文本评估的维度间依赖性",
-      "summaryZh": "arXiv:2608.23783v1 宣布类型：新摘要：LLM-as-a-judge 方法被广泛用于评估生成的开放式文本质量。此类评估通常是多维的，因为"
+      ]
     },
     {
-      "title": "Giga-Embeddings: Mixture-of-Experts Encoders for High-Throughput Text Embeddings",
-      "link": "https://arxiv.org/abs/2608.23806",
+      "title": "Padamitra: Grounded Glossary Generation for Classical Sanskrit",
+      "link": "https://arxiv.org/abs/2608.25038",
       "source": "arXiv cs.CL",
       "lang": "en",
       "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23806v1 Announce Type: new Abstract: We introduce Giga-Embeddings, a family of text embedding models designed to combine strong retrieval quality with efficient serving. Its largest member ",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.25038v1 Announce Type: new Abstract: We introduce grounded glossary generation, a structured task requiring models to recover semantically meaningful Sanskrit phrases and produce translatio",
       "companies": [],
       "heat": 0,
-      "tags": [],
-      "titleZh": "Giga-嵌入：用于高吞吐量文本嵌入的专家混合编码器",
-      "summaryZh": "arXiv:2608.23806v1 宣布类型：新摘要：我们引入 Giga-Embeddings，这是一个文本嵌入模型家族，旨在结合强大的检索质量与高效的部署。其最大成员"
+      "tags": []
     },
     {
-      "title": "From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers",
-      "link": "https://arxiv.org/abs/2608.23812",
+      "title": "DataKernelBench: Can LLMs Optimize Database Queries on GPUs?",
+      "link": "https://arxiv.org/abs/2608.25061",
       "source": "arXiv cs.CL",
       "lang": "en",
       "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23812v1 Announce Type: new Abstract: Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously satisfy multiple",
-      "companies": [],
-      "heat": 0,
-      "tags": [
-        "政策与安全"
-      ],
-      "titleZh": "从偏好到原则：基于评分标准的 grounded 知识答案对齐",
-      "summaryZh": "arXiv:2608.23812v1 宣布类型：新摘要：为开放域问答设计有效的奖励信号具有挑战性，因为高质量的回答必须同时满足多个"
-    },
-    {
-      "title": "Mitigating Exploration Bias in RL for Multi-Instruction Following",
-      "link": "https://arxiv.org/abs/2608.23830",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23830v1 Announce Type: new Abstract: RL has emerged as a powerful paradigm for enhancing the instruction following capabilities of LLMs. While existing training recipes achieve substantial ",
-      "companies": [],
-      "heat": 0,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "缓解多指令遵循中的探索偏差",
-      "summaryZh": "arXiv:2608.23830v1 宣布类型：新摘要：强化学习（RL）已成为增强大语言模型（LLMs）指令遵循能力的强大范式。尽管现有的训练方法取得了显著成果"
-    },
-    {
-      "title": "Names Can Hurt: Spotting Slopsquatting Risks Caused by Package Name Hallucinations in Local Coding LLMs",
-      "link": "https://arxiv.org/abs/2608.23897",
-      "source": "arXiv cs.CL",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T04:00:00.000Z",
-      "summary": "arXiv:2608.23897v1 Announce Type: new Abstract: When a code generating language model fabricates a Python package name, an adversary who has pre-registered that name on PyPI can convert that hallucina",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.25061v1 Announce Type: new Abstract: GPUs increasingly accelerate database systems, but query-specific peak performance still often relies on hand-written kernels. Existing LLM kernel bench",
       "companies": [],
       "heat": 0,
       "tags": [
         "大模型",
-        "AI 动态"
-      ],
-      "titleZh": "名称可能造成伤害：识别本地编码大语言模型中因包名称幻觉引发的斜体攻击风险",
-      "summaryZh": "arXiv:2608.23897v1 公告类型：新 公告：当一个代码生成语言模型虚构一个 Python 包名称时，一个在 PyPI 上预先注册该名称的对手可以将该幻觉转化为实际的包。"
+        "芯片算力"
+      ]
     },
     {
-      "title": "WRC乒乓球局爆火！这家中国具身创业公司，砸出了一套全栈新解法",
-      "link": "https://www.qbitai.com/2026/08/478860.html",
-      "source": "量子位",
+      "title": "MTDiag: A Multi-Turn Diagnostic Dataset Towards Clinically Meaningful LLM Evaluation",
+      "link": "https://arxiv.org/abs/2608.25085",
+      "source": "arXiv cs.CL",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.25085v1 Announce Type: new Abstract: Clinical diagnosis is fundamentally interactive and incremental, yet the dominant paradigm for evaluating Large Language Models (LLMs) in medicine remai",
+      "companies": [],
+      "heat": 0,
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "title": "SelfGraphRAG: Bridging the Supervision Gap in Graph-Based RAG with Synthetic QA Generation",
+      "link": "https://arxiv.org/abs/2608.25123",
+      "source": "arXiv cs.CL",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-27T04:00:00.000Z",
+      "summary": "arXiv:2608.25123v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) improves large language models by incorporating external knowledge without retraining, but existing methods often u",
+      "companies": [],
+      "heat": 0,
+      "tags": []
+    },
+    {
+      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
+      "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T21:37:39.000Z",
+      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 0,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "Anthropic在与Nscale的450亿美元交易中继续其算力消耗趋势",
+      "summaryZh": "Anthropic 与 Nscale 达成 450 亿美元的计算资源交易。"
+    },
+    {
+      "title": "WhatsApp 测试 AI 反诈：消息无需上传云端",
+      "link": "https://www.infoq.cn/article/wAVlMqVg7fqPjXAyFDjC?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-26T03:02:34.000Z",
-      "summary": "中国具身公司展示全栈新解法。",
-      "tags": [
-        "具身智能"
-      ],
-      "llmScore": 3,
+      "pubDate": "2026-08-26T15:00:00.000Z",
+      "summary": "WhatsApp 正在 测试 Scam Alert ，这是一项可选择启用的端侧机器学习功能，当非联系人发来的消息符合与诈骗相关的模式时，它会向用户发出警告。此次小范围测试还公布了一项技术设计：在分类期间将消息内容保留在设备上，同时利用机密计算、差分隐私和透明度机制衡量模型性能，并防止向特定目标投放模型。 启用后，Scam Alert 会将一个小型机器学习模型下载到设备上，并利用对话结构和语言信号评",
       "companies": [],
-      "heat": 0
+      "heat": 0,
+      "tags": [
+        "政策与安全",
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+      "link": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T12:00:00.000Z",
+      "summary": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
+      "companies": [],
+      "heat": 0,
+      "tags": [
+        "AI 动态"
+      ],
+      "titleZh": "听力科技初创公司Legato秘密开发后推出1200万美元融资及AI助听眼镜的初步展示",
+      "summaryZh": "Legato 推出 AI 助听眼镜，集成专利技术。"
+    },
+    {
+      "title": "Grab 借助 AI 代理将机械性分析的工作量从 44% 降至 30%",
+      "link": "https://www.infoq.cn/article/LqdtQ5sKYcEAzhCNNToE?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-26T10:10:29.000Z",
+      "summary": ">",
+      "companies": [],
+      "heat": 0,
+      "tags": [
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "link": "https://openai.com/index/loveholidays",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-26T00:00:00.000Z",
+      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 0,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "How loveholidays 正使每个人成为开发者，使用 Codex",
+      "summaryZh": "了解 loveholidays 如何利用 OpenAI Codex 让软件开发在企业中更加普及，帮助团队更快地将想法转化为产品。"
     },
     {
       "title": "It Should Be Harder to Apply for a Job. No, Really",
@@ -1343,15 +1405,27 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-25T09:30:00.000Z",
-      "summary": "AI技术使求职更便捷，但带来负面影响。",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 3,
+      "summary": "Thanks to a dwindling supply of open roles, “one-click” applications, and the rise of artificial intelligence, it’s easier than ever to apply for a job. We’re all paying the price.",
       "companies": [],
       "heat": 0,
-      "titleZh": "申请工作应该更难。真的应该如此",
-      "summaryZh": "AI技术使求职更便捷，但带来负面影响。"
+      "tags": [
+        "AI 动态"
+      ]
+    },
+    {
+      "title": "雷军详解小米玄戒O100原型机和小米AI Cube原型机",
+      "link": "http://www.techweb.com.cn/it/2026-08-25/2978529.shtml",
+      "source": "TechWeb",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-08-25T08:29:35.000Z",
+      "summary": "【TechWeb】8月25日消息，昨日下午，小米在北京召开玄戒芯片技术沟通会，一次性发布三款自研芯片玄戒O3、玄戒O100与玄戒D100。今天下午，小米创办人、董事长兼CEO雷军次日发文详解了搭载新芯片的两款原型机。这是小米继2025年5月发布首款3nm自研旗舰SoC玄戒O1之后，首次向外界展示体系化的芯片底层架构设计能力。 玄戒O100原型机定位为“为端侧大模型而生的高速AI演示终端”。该设备采",
+      "companies": [],
+      "heat": 0,
+      "tags": [
+        "大模型",
+        "芯片算力"
+      ]
     },
     {
       "title": "Disrupting a new covert influence campaign from Russia",
@@ -1368,9 +1442,23 @@
       "tags": [
         "大模型",
         "政策与安全"
+      ]
+    },
+    {
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "link": "https://openai.com/index/introducing-admin-plugin",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-08-25T00:00:00.000Z",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "companies": [
+        "OpenAI"
       ],
-      "titleZh": "破坏来自俄罗斯的新隐秘影响力行动",
-      "summaryZh": "OpenAI 禁用了使用 AI 以推广一个虚假的以色列智库和一个赞扬俄罗斯并批评西方的“主权”指数的俄罗斯来源账户。"
+      "heat": 0,
+      "tags": [
+        "大模型"
+      ]
     },
     {
       "title": "The Unlikely Place at the Center of China’s AI Boom",
@@ -1379,15 +1467,12 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-21T23:25:32.000Z",
-      "summary": "内蒙古因低成本能源成为AI数据中心枢纽。",
-      "tags": [
-        "芯片算力"
-      ],
-      "llmScore": 4,
+      "summary": "Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data centers.",
       "companies": [],
       "heat": 0,
-      "titleZh": "中国人工智能热潮中心的意想不到之地",
-      "summaryZh": "内蒙古因低成本能源成为 AI 数据中心枢纽。"
+      "tags": [
+        "芯片算力"
+      ]
     },
     {
       "title": "Major YouTube creators are facing backlash for accepting AI money",
@@ -1396,32 +1481,26 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-08-21T13:37:52.000Z",
-      "summary": "YouTube创作者因接受AI资金遭批评",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 3,
+      "summary": "A still from Sam Kolder’s video “AI is replacing me.” | Screenshot: The Verge, YouTube Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" ",
       "companies": [],
       "heat": 0,
-      "titleZh": "主要YouTube创作者因接受AI资金而遭到抵制",
-      "summaryZh": "YouTube 创作者因接受 AI 资金而遭到批评。"
+      "tags": [
+        "AI 动态"
+      ]
     },
     {
-      "title": "Silicon Valley Doesn't Get Why You Hate AI",
-      "link": "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/",
-      "source": "Wired",
+      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+      "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
+      "source": "Ars Technica",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-08-20T18:49:07.000Z",
-      "summary": "硅谷科技领袖不理解公众对AI的不满。",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 3,
+      "pubDate": "2026-08-21T13:11:35.000Z",
+      "summary": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
       "companies": [],
       "heat": 0,
-      "titleZh": "硅谷不明白你为何讨厌AI",
-      "summaryZh": "硅谷科技领袖不理解公众对 AI 的不满。"
+      "tags": [
+        "具身智能"
+      ]
     }
   ]
 }

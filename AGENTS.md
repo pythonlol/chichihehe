@@ -30,7 +30,7 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 
 结构：
 
-- `scripts/fetch-news.mjs` — 三层白名单源抓取 RSS（核心源全采：OpenAI Blog、Google DeepMind、arXiv cs.AI/CL/LG、NVIDIA AI Blog；可信媒体 AI 关键词筛选：量子位、InfoQ 中文、TechCrunch AI、VentureBeat AI、MIT Technology Review、The Verge AI、Ars Technica、Wired；聚合/自媒体不采），输出 `src/data/news.json`（保留近 7 天、最多 100 条、单源上限 15 条，跨源关键词指纹去重 Jaccard≥0.35 同事件只留最权威最早一条，按热度降序）；内容清洗：摘要去残渣正则（图片来源/欢迎关注/点击查看原文等）、垃圾内容过滤（培训/营销/课程推广）、赞助内容过滤（Sponsored/Presented by）、占位摘要检测后抓全文重新生成（限 15 条/5 并发）；LLM 精筛（`scripts/llm-classify.mjs`）：可信媒体条目过 qwen-turbo 输出 JSON（is_ai_related/is_promo/category/summary/score），核心源跳过，无 key 时回退关键词方案
+- `scripts/fetch-news.mjs` — 三层白名单源抓取 RSS（核心源全采：OpenAI Blog、Google DeepMind、arXiv cs.AI/CL/LG、NVIDIA AI Blog；可信媒体 AI 关键词筛选：量子位、InfoQ 中文、IT之家、TechWeb、爱范儿、极客公园、TechCrunch AI、VentureBeat AI、MIT Technology Review、The Verge AI、Ars Technica、Wired；后四个中文源为 2026-08-27 加入，专门补齐百度/阿里/腾讯/字节/智谱/月之暗面/MiniMax 等国内大厂动态；聚合/自媒体不采），输出 `src/data/news.json`（保留近 7 天、最多 100 条、单源上限 15 条，跨源关键词指纹去重 Jaccard≥0.35 同事件只留最权威最早一条，按热度降序）；内容清洗：摘要去残渣正则（图片来源/欢迎关注/点击查看原文等）、垃圾内容过滤（培训/营销/课程推广）、赞助内容过滤（Sponsored/Presented by）、占位摘要检测后抓全文重新生成（限 15 条/5 并发）；LLM 精筛（`scripts/llm-classify.mjs`）：可信媒体条目过 qwen-turbo 输出 JSON（is_ai_related/is_promo/category/summary/score），核心源跳过，无 key 时回退关键词方案
 - `scripts/llm-classify.mjs` — DashScope qwen-turbo 批量结构化分析（10 条/批），输出 is_ai_related（bool，过滤非 AI）、is_promo（bool，过滤软文）、category（单标签，从 TAGS 选一）、summary（一句话摘要替代脏摘要）、score（1-5 信息增量评分）；无 API key 或调用失败返回 null，调用方回退到 categorize() 关键词分类
 - `scripts/categorize.mjs` — 关键词内容分类，给每条资讯打 0~2 个内容标签（大模型〔含开源〕、智能体、芯片算力、具身智能〔机器人+自动驾驶〕、政策与安全、商业融资，兜底 AI 动态〔含 AI 应用〕；2026-08-17 由 11 个标签合并而来），导出 `TAGS` 供首页筛选栏使用；另导出 `detectCompanies` 识别知名 AI 公司（OpenAI、Anthropic、Google、Meta、阿里、字节、DeepSeek 等 20 家），供「AI 公司动态」主题筛选；另导出 `isAIRelated` 用于可信媒体源的 AI 相关性筛选
 - `scripts/translate.mjs` — 英文资讯翻译为中文（titleZh/summaryZh），走阿里百炼 DashScope OpenAI 兼容接口（qwen-turbo，批量 10 条/次），需环境变量 `DASHSCOPE_API_KEY`，未设置则跳过保留英文；结果缓存 `src/data/translation-cache.json`（随仓库提交，按 link 去重，只翻新增）
@@ -49,7 +49,7 @@ Astro 5 静态站，聚合中英 RSS 源的每日 AI 资讯。
 - `npm run fetch` — 手动抓取最新资讯（RSS 资讯 + 政策通知 + 模型排行榜；单独跑用 `npm run fetch:news` / `npm run fetch:policy` / `npm run fetch:leaderboard`）
 - `npm run dev` / `npm run build` / `npm run preview`
 
-注意：机器之心 RSS（jiqizhixin.com/rss）已失效返回 HTML，勿再加回。36氪 RSS（36kr.com/feed）同样失效返回 HTML。Anthropic、Hugging Face、阿里通义、智谱、Mistral、DeepSeek、Meta AI、Microsoft AI 均无可用 RSS（2026-08-27 验证）；GitHub Trending 无 RSS 需爬取（本机网络不通 github.com）。
+注意：机器之心 RSS（jiqizhixin.com/rss）已失效返回 HTML，勿再加回。36氪 RSS（36kr.com/feed）同样失效返回 HTML。Bing News RSS（bing.com/news/search?format=RSS）已失效，302 回首页。APPSO/AIbase 无可用 RSS。Anthropic、Hugging Face、阿里通义、智谱、Mistral、DeepSeek、Meta AI、Microsoft AI 均无可用 RSS（2026-08-27 验证）；GitHub Trending 无 RSS 需爬取（本机网络不通 github.com）。categorize.mjs 的 AI_KEYWORDS 已含国内大厂产品词（文心/混元/豆包/Kimi/GLM/MiniMax 等），防止纯公司产品新闻被 AI 相关性筛选误杀。
 
 ## 部署状态（2026-07-23）
 

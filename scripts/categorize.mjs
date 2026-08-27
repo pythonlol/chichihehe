@@ -30,7 +30,7 @@ const COMPANIES = [
   ['月之暗面', ['月之暗面', 'kimi']],
   ['智谱', ['智谱', 'chatglm', 'glm-']],
   ['MiniMax', ['minimax', '海螺']],
-  ['腾讯', ['腾讯', '混元']],
+  ['腾讯', ['腾讯', '混元', '元宝', 'tencent', '微信']],
   ['华为', ['华为', '盘古', '昇腾']],
   ['科大讯飞', ['科大讯飞', '讯飞', '星火']],
   ['Mistral', ['mistral']],
@@ -69,10 +69,14 @@ const AI_KEYWORDS = [
   'large language model', 'multimodal', 'text-to-image', 'text-to-video',
   'robot', 'autonomous', 'self-driving', 'waymo', 'robotaxi',
   'nvidia', 'gpu', 'data center',
+  // 国内大厂 / 模型产品词：公司新闻标题可能只含产品名（如"混元""豆包"），保证被识别为 AI 相关
+  'deepseek', 'qwen', 'kimi', 'glm', 'chatglm', 'doubao', 'minimax',
   // Chinese
   '人工智能', '智能体', '大模型', '机器学习', '深度学习', '神经网络',
   '生成式', '微调', '算力', '智驾', '自动驾驶', '人形机器人', '具身',
   '通用人工智能', '开源模型', '推理模型', '芯片', '英伟达', '数据中心',
+  '文心', '通义', '千问', '混元', '豆包', '月之暗面', '智谱', '海螺',
+  '深度求索', '盘古', '昇腾', '讯飞', '星火大模型', '元宝', '小艺',
 ];
 
 /**

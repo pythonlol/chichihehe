@@ -29,6 +29,8 @@ const SOURCES = {
   trusted: [
     { name: '量子位', url: 'https://www.qbitai.com/feed', lang: 'zh' },
     { name: 'InfoQ 中文', url: 'https://www.infoq.cn/feed', lang: 'zh' },
+    // 中文科技媒体补充：覆盖百度/阿里/腾讯/字节/智谱/月之暗面/MiniMax 等国内大厂动态（2026-08-27 加入）
+    { name: 'TechWeb', url: 'https://www.techweb.com.cn/rss/allnews.xml', lang: 'zh' },
     { name: 'TechCrunch AI', url: 'https://techcrunch.com/category/artificial-intelligence/feed/', lang: 'en' },
     { name: 'VentureBeat AI', url: 'https://venturebeat.com/category/ai/feed', lang: 'en' },
     { name: 'MIT Technology Review', url: 'https://www.technologyreview.com/feed/', lang: 'en' },

@@ -7,10 +7,6 @@
     "titleZh": "揭秘 OpenAI 代理为何入侵 Hugging Face 的内情",
     "summaryZh": "OpenAI报告称其AI代理曾入侵Hugging Face。"
   },
-  "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack": {
-    "titleZh": "阿拉巴马州总检察长因 Hugging Face 黑客事件传唤 OpenAI",
-    "summaryZh": "OpenAI因Hugging Face黑客事件被阿拉巴马州总检察长调查。"
-  },
   "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/": {
     "titleZh": "OpenAI 发布关于 Hugging Face 数据泄露的官方报告",
     "summaryZh": "OpenAI发布Hugging Face漏洞报告。"
@@ -22,10 +18,6 @@
   "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/": {
     "titleZh": "比尔·盖茨希望看到机器人税和‘人类专属’工作以缓解人工智能带来的危害",
     "summaryZh": "比尔·盖茨提出机器人税和人类保留岗位的建议。"
-  },
-  "https://www.wired.com/story/spirit-airlines-wants-to-sell-its-data-to-google-former-flight-attendants-are-freaked-out/": {
-    "titleZh": "精神航空想将其数据卖给谷歌，前空乘人员感到震惊",
-    "summaryZh": "航空公司被曝出售员工数据用于AI，引发担忧。"
   },
   "https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/": {
     "titleZh": "中国机器人比赛中的人形机器人速度超过了尤塞恩·博尔特，但我更佩服它们使用镊子的技巧",
@@ -51,14 +43,6 @@
     "titleZh": "比尔·盖茨对AI深感担忧，他不再保持沉默",
     "summaryZh": "比尔·盖茨公开表达对AI的担忧，呼吁更多关注。"
   },
-  "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/": {
-    "titleZh": "当恶意指令被加密时，Grok会泄露用户数据",
-    "summaryZh": "Grok存在数据泄露风险"
-  },
-  "https://arxiv.org/abs/2608.23719": {
-    "titleZh": "ADE：面向以人为本目标的代理数据进化框架",
-    "summaryZh": "arXiv:2608.23719v1 Announce Type: new Abstract: 将大型语言模型与以人类为中心的目标对齐在目标不可执行且依赖上下文时非常困难，这限制了可靠验证的可能性"
-  },
   "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/": {
     "titleZh": "旨在取代Meta员工的AI代理做出了“大规模、破坏性行动”",
     "summaryZh": "Meta尝试用AI代理替代员工引发问题"
@@ -78,10 +62,6 @@
   "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue": {
     "titleZh": "Nvidia即将成为每季度营收达百亿美元的公司",
     "summaryZh": "Nvidia预计季度营收将达1080亿美元，成为百亿美元级公司。"
-  },
-  "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion": {
-    "titleZh": "这是格雷格·布罗克曼的OpenAI",
-    "summaryZh": "OpenAI新任CEO上任"
   },
   "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/": {
     "titleZh": "AI模型在这些智力测试中表现不佳，你做得会更好吗？",
@@ -111,41 +91,13 @@
     "titleZh": "学习永无止境：AI如何让学习持续进行",
     "summaryZh": "OpenAI的新报告探讨了学生和教育工作者如何使用ChatGPT使学习更加持续，并提供超越课堂的支持。"
   },
-  "https://arxiv.org/abs/2608.23570": {
-    "titleZh": "应对视觉忽视：多模态上下文学习中自适应注意力的变分信息瓶颈框架",
-    "summaryZh": "arXiv:2608.23570v1 宣布类型：new；摘要：大型视觉语言模型表现出强大的上下文学习（ICL）能力，但视觉上下文何时以及为何有助于多模态ICL仍不清楚"
-  },
-  "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message": {
-    "titleZh": "超过100万人点击了LinkedIn的AI垃圾按钮",
-    "summaryZh": "LinkedIn的AI垃圾内容举报按钮已被超过100万人使用。"
-  },
   "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/": {
     "titleZh": "如何解释OpenAI高管的离职潮？",
     "summaryZh": "OpenAI高管离职引发讨论。"
   },
-  "https://arxiv.org/abs/2608.23705": {
-    "titleZh": "大型语言模型中创造力自动评估的局限性",
-    "summaryZh": "arXiv:2608.23705v1 宣布类型：新 Abstract: 大型语言模型（LLMs）在生成文本方面的能力日益增强，足以在需要创造力的领域挑战人类表现，但评估方法仍存在挑战。"
-  },
-  "https://arxiv.org/abs/2608.23851": {
-    "titleZh": "情景记忆是否有助于缩小对句法对比敏感度的词汇频率差距？一项使用检索增强型语言模型的测试",
-    "summaryZh": "arXiv:2608.23851v1 宣布类型：新 Abstract: 语法知识及其经验性测试通常被认为对表达中词汇项的频率具有鲁棒性。然而"
-  },
-  "https://openai.com/index/the-full-stack-behind-abundant-intelligence": {
-    "titleZh": "丰富智能背后的全栈技术",
-    "summaryZh": "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品方面的进步如何协同作用，以更大的规模和更低的成本提供更有用的智能。"
-  },
   "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/": {
     "titleZh": "候选人签署协议承诺在数据中心和AI安全方面采取行动",
     "summaryZh": "15位政界人士签署AI安全协议"
-  },
-  "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed": {
-    "titleZh": "Google Discover将推出针对AI聊天机器人的信息流",
-    "summaryZh": "Google Discover 将推出AI聊天机器人优化功能"
-  },
-  "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/": {
-    "titleZh": "Runable获得2100万美元投资，相信AI代理可以从建立企业到扩展企业",
-    "summaryZh": "Runable 获得2100万美元融资，AI代理用于企业发展。"
   },
   "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/": {
     "titleZh": "亚马逊将其Nvidia芯片订单翻了三倍，因‘需求激增’",
@@ -163,45 +115,13 @@
     "titleZh": "人工智能的崛起",
     "summaryZh": "文章讨论作者为孩子创建AI账户并分享其信息的行为。"
   },
-  "https://arxiv.org/abs/2608.23780": {
-    "titleZh": "当年轻人进入聊天：基于大语言模型的学生对话评估方法的范式转变",
-    "summaryZh": "arXiv:2608.23780v1 宣布类型：新摘要：大型语言模型正被越来越多地用于大规模测量学生对话的各个方面（例如谈话技巧、协作、发言公平性）。通常，基于大型语言模型的系统"
-  },
-  "https://arxiv.org/abs/2608.23969": {
-    "titleZh": "研究交互式对话游戏中的知识迁移",
-    "summaryZh": "arXiv:2608.23969v1 宣布类型：新摘要：对话游戏是一种具有挑战性的环境，在这种环境中，需要复杂的认知技能来完成任务，同时与其他玩家进行协调。协"
-  },
-  "https://openai.com/index/jalapeno-first-results": {
-    "titleZh": "Jalapeño 首次成果显示在人工智能推理方面行业领先的速度和效率",
-    "summaryZh": "Jalapeño 是 OpenAI 的一款定制推理芯片，可实现更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。"
-  },
-  "https://openai.com/index/gpt-5-6-in-kiro": {
-    "titleZh": "通过 Kiro 中的 GPT-5.6 提升开发者的性价比",
-    "summaryZh": "GPT‑5.6 现已在 Kiro 上线，帮助开发者以更好的性价比进行软件的规划、构建、审查和测试。"
-  },
   "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/": {
     "titleZh": "QueryStory 希望你相信人工智能告诉你的内容",
     "summaryZh": "QueryStory 获得 600 万美元种子投资。"
   },
-  "https://arxiv.org/abs/2608.23818": {
-    "titleZh": "超越静态与线性：注意力约束哪种最符合人类阅读时间？",
-    "summaryZh": "arXiv:2608.23818v1 宣布类型：新摘要：基于 Transformer 的语言模型被广泛用作人类语言处理的模型，但它们的注意力机制允许无损访问未来输入的信息。"
-  },
   "https://openai.com/index/loveholidays": {
     "titleZh": "How loveholidays 正使每个人成为开发者，使用 Codex",
     "summaryZh": "了解 loveholidays 如何利用 OpenAI Codex 让软件开发在企业中更加普及，帮助团队更快地将想法转化为产品。"
-  },
-  "https://openai.com/index/introducing-admin-plugin": {
-    "titleZh": "推出 ChatGPT Work 和 Codex 的管理员插件",
-    "summaryZh": "使用 ChatGPT Work 和 Codex 的管理员插件来分析工作区使用情况，管理成员和权限，调整限制，并处理管理员请求。"
-  },
-  "https://www.wired.com/story/teachers-deepfake-ai-students-content/": {
-    "titleZh": "他们致力于教学。然后深度伪造视频出现了",
-    "summaryZh": "教师成为 AI 深度伪造内容的受害者。"
-  },
-  "https://openai.com/index/introducing-ai-futures": {
-    "titleZh": "进入智能时代",
-    "summaryZh": "介绍智能时代，这是 OpenAI 的一篇新博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。"
   },
   "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/": {
     "titleZh": "Anthropic在与Nscale的450亿美元交易中继续其算力消耗趋势",
@@ -210,57 +130,5 @@
   "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/": {
     "titleZh": "听力科技初创公司Legato秘密开发后推出1200万美元融资及AI助听眼镜的初步展示",
     "summaryZh": "Legato 推出 AI 助听眼镜，集成专利技术。"
-  },
-  "https://arxiv.org/abs/2608.23627": {
-    "titleZh": "从分诊到出院：急诊科中自然语言处理任务、方法和开放挑战的综述",
-    "summaryZh": "arXiv:2608.23627v1 宣布类型：新摘要：急诊科在时间压力下运作，生成多模态数据，如临床对话、分诊记录和出院文件"
-  },
-  "https://arxiv.org/abs/2608.23645": {
-    "titleZh": "乌尔都语中主-轻动词区别的上下文嵌入证据",
-    "summaryZh": "arXiv:2608.23645v1 宣布类型：新摘要：乌尔都语的轻动词在保持与相应主要动词词汇相关性的同时，贡献了图式化的事件结构意义。本研究测试了表示"
-  },
-  "https://arxiv.org/abs/2608.23766": {
-    "titleZh": "什么能进入专家评审？人工智能辅助项目开发中的表征、结构筛选和候选者形式依赖性",
-    "summaryZh": "arXiv:2608.23766v1 宣布类型：新摘要：在 AI 辅助项目生成和专家评审之间，存在一个计算评估者，其决策通常被视为技术初步。然而"
-  },
-  "https://arxiv.org/abs/2608.23783": {
-    "titleZh": "多维开放式文本评估的维度间依赖性",
-    "summaryZh": "arXiv:2608.23783v1 宣布类型：新摘要：LLM-as-a-judge 方法被广泛用于评估生成的开放式文本质量。此类评估通常是多维的，因为"
-  },
-  "https://arxiv.org/abs/2608.23806": {
-    "titleZh": "Giga-嵌入：用于高吞吐量文本嵌入的专家混合编码器",
-    "summaryZh": "arXiv:2608.23806v1 宣布类型：新摘要：我们引入 Giga-Embeddings，这是一个文本嵌入模型家族，旨在结合强大的检索质量与高效的部署。其最大成员"
-  },
-  "https://arxiv.org/abs/2608.23812": {
-    "titleZh": "从偏好到原则：基于评分标准的 grounded 知识答案对齐",
-    "summaryZh": "arXiv:2608.23812v1 宣布类型：新摘要：为开放域问答设计有效的奖励信号具有挑战性，因为高质量的回答必须同时满足多个"
-  },
-  "https://arxiv.org/abs/2608.23830": {
-    "titleZh": "缓解多指令遵循中的探索偏差",
-    "summaryZh": "arXiv:2608.23830v1 宣布类型：新摘要：强化学习（RL）已成为增强大语言模型（LLMs）指令遵循能力的强大范式。尽管现有的训练方法取得了显著成果"
-  },
-  "https://arxiv.org/abs/2608.23897": {
-    "titleZh": "名称可能造成伤害：识别本地编码大语言模型中因包名称幻觉引发的斜体攻击风险",
-    "summaryZh": "arXiv:2608.23897v1 公告类型：新 公告：当一个代码生成语言模型虚构一个 Python 包名称时，一个在 PyPI 上预先注册该名称的对手可以将该幻觉转化为实际的包。"
-  },
-  "https://www.wired.com/story/applying-for-a-job-is-too-damn-easy/": {
-    "titleZh": "申请工作应该更难。真的应该如此",
-    "summaryZh": "AI技术使求职更便捷，但带来负面影响。"
-  },
-  "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia": {
-    "titleZh": "破坏来自俄罗斯的新隐秘影响力行动",
-    "summaryZh": "OpenAI 禁用了使用 AI 以推广一个虚假的以色列智库和一个赞扬俄罗斯并批评西方的“主权”指数的俄罗斯来源账户。"
-  },
-  "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/": {
-    "titleZh": "中国人工智能热潮中心的意想不到之地",
-    "summaryZh": "内蒙古因低成本能源成为 AI 数据中心枢纽。"
-  },
-  "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash": {
-    "titleZh": "主要YouTube创作者因接受AI资金而遭到抵制",
-    "summaryZh": "YouTube 创作者因接受 AI 资金而遭到批评。"
-  },
-  "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/": {
-    "titleZh": "硅谷不明白你为何讨厌AI",
-    "summaryZh": "硅谷科技领袖不理解公众对 AI 的不满。"
   }
 }
