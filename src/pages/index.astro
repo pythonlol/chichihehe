@@ -97,6 +97,10 @@ const dayGroups = [...dayMap.entries()]
 ---
 <Layout title="AI 每日资讯">
 
+  <div class="search-bar">
+    <input type="search" id="search-input" placeholder="搜索标题、摘要、来源…" autocomplete="off" />
+  </div>
+
   <div class="filters" id="filters" role="group" aria-label="内容筛选">
     <button class="active" data-filter="all" aria-pressed="true">全部</button>
     {policyItems.length > 0 && <button data-filter="tag:最新资讯" aria-pressed="false">最新资讯</button>}
@@ -158,13 +162,39 @@ const dayGroups = [...dayMap.entries()]
     ))}
   </div>
 
+  <style>
+    .search-bar {
+      margin-bottom: 14px;
+    }
+    .search-bar input {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 14px;
+      background: var(--card);
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.15s ease;
+      box-sizing: border-box;
+    }
+    .search-bar input:focus {
+      border-color: var(--accent);
+    }
+    .search-bar input::placeholder {
+      color: var(--muted);
+    }
+  </style>
+
   <script>
+    let searchQuery = '';
     const buttons = document.querySelectorAll('#filters button');
     const newsContainer = document.getElementById('news-container') as HTMLElement;
     const companyView = document.getElementById('company-view') as HTMLElement;
     const filterEmpty = document.getElementById('filter-empty') as HTMLElement;
     const dailyDate = document.getElementById('daily-date');
     const dayGroups = document.querySelectorAll('.day-group');
+    const searchInput = document.getElementById('search-input') as HTMLInputElement;
 
     function applyFilter(filter: string, updateHash = true) {
       buttons.forEach((b) => {
@@ -175,8 +205,39 @@ const dayGroups = [...dayMap.entries()]
       if (dailyDate) dailyDate.style.display = filter === 'daily' ? '' : 'none';
       if (filter === 'company') {
         newsContainer.style.display = 'none';
-        filterEmpty.style.display = 'none';
         companyView.style.display = '';
+        // 搜索筛选公司动态视图
+        if (searchQuery) {
+          const details = companyView.querySelectorAll('.company-block');
+          let totalVisible = 0;
+          details.forEach((detail) => {
+            const cards = detail.querySelectorAll('.news-card');
+            let visible = 0;
+            cards.forEach((card) => {
+              const el = card as HTMLElement;
+              const text = (el.textContent || '').toLowerCase();
+              if (text.includes(searchQuery)) { el.style.display = ''; visible++; }
+              else { el.style.display = 'none'; }
+            });
+            const detailEl = detail as HTMLElement;
+            if (visible > 0) {
+              (detail as HTMLDetailsElement).open = true;
+              detailEl.style.display = '';
+              totalVisible += visible;
+            } else {
+              detailEl.style.display = 'none';
+            }
+          });
+          filterEmpty.textContent = '未找到相关资讯，换个关键词试试。';
+          filterEmpty.style.display = totalVisible === 0 ? '' : 'none';
+        } else {
+          filterEmpty.style.display = 'none';
+          companyView.querySelectorAll('.news-card').forEach((c) => { (c as HTMLElement).style.display = ''; });
+          companyView.querySelectorAll('.company-block').forEach((d) => {
+            (d as HTMLElement).style.display = '';
+            (d as HTMLDetailsElement).open = false;
+          });
+        }
       } else {
         companyView.style.display = 'none';
         newsContainer.style.display = '';
@@ -195,12 +256,15 @@ const dayGroups = [...dayMap.entries()]
             else if (filter.startsWith('tag:')) {
               show = (el.dataset.tags || '').split('|').includes(filter.slice(4));
             }
+            if (show && searchQuery) {
+              show = ((el.textContent || '').toLowerCase()).includes(searchQuery);
+            }
             el.style.display = show ? '' : 'none';
             if (show) groupVisible++;
           });
-          // 折叠区在「全部」视图下保持折叠；筛选时自动展开含匹配项的折叠区
+          // 折叠区在「全部」视图下保持折叠；筛选或搜索时自动展开含匹配项的折叠区
           if (foldedContainer && toggleBtn) {
-            if (isAll) {
+            if (isAll && !searchQuery) {
               foldedContainer.style.display = 'none';
               toggleBtn.style.display = '';
               toggleBtn.textContent = `展开更多（${toggleBtn.dataset.count} 条）`;
@@ -220,6 +284,9 @@ const dayGroups = [...dayMap.entries()]
           groupEl.style.display = groupVisible > 0 ? '' : 'none';
           totalVisible += groupVisible;
         });
+        filterEmpty.textContent = searchQuery
+          ? '未找到相关资讯，换个关键词试试。'
+          : '该筛选下暂无资讯，换个标签试试。';
         filterEmpty.style.display = totalVisible === 0 ? '' : 'none';
       }
       // 筛选状态写入 URL hash，支持分享链接与浏览器前进后退
@@ -228,6 +295,13 @@ const dayGroups = [...dayMap.entries()]
         if (location.hash !== hash) location.hash = hash;
       }
     }
+
+    // 搜索输入：实时筛选
+    searchInput?.addEventListener('input', () => {
+      searchQuery = searchInput.value.trim().toLowerCase();
+      const activeBtn = document.querySelector('#filters button.active') as HTMLElement;
+      applyFilter(activeBtn?.dataset.filter || 'all', false);
+    });
 
     // 展开/收起折叠区
     document.querySelectorAll('.expand-toggle').forEach((btn) => {
