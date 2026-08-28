@@ -30,7 +30,10 @@ const SOURCES = {
     { name: '量子位', url: 'https://www.qbitai.com/feed', lang: 'zh' },
     { name: 'InfoQ 中文', url: 'https://www.infoq.cn/feed', lang: 'zh' },
     // 中文科技媒体补充：覆盖百度/阿里/腾讯/字节/智谱/月之暗面/MiniMax 等国内大厂动态（2026-08-27 加入）
+    { name: 'IT之家', url: 'https://www.ithome.com/rss/', lang: 'zh' },
     { name: 'TechWeb', url: 'https://www.techweb.com.cn/rss/allnews.xml', lang: 'zh' },
+    { name: '爱范儿', url: 'https://www.ifanr.com/feed', lang: 'zh' },
+    { name: '极客公园', url: 'https://www.geekpark.net/rss', lang: 'zh' },
     { name: 'TechCrunch AI', url: 'https://techcrunch.com/category/artificial-intelligence/feed/', lang: 'en' },
     { name: 'VentureBeat AI', url: 'https://venturebeat.com/category/ai/feed', lang: 'en' },
     { name: 'MIT Technology Review', url: 'https://www.technologyreview.com/feed/', lang: 'en' },
@@ -317,9 +320,13 @@ for (let i = 0; i < cappedItems.length; i++) {
   deduped.push(ranked[0].item);
 }
 
-const items = deduped
-  .sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate))
-  .slice(0, MAX_ITEMS);
+// —— 100 条截断：公司动态优先保留 ——
+// 纯按时间截断会把发布稍早的大厂动态（腾讯/字节等）整组挤掉，
+// 先保住涉及知名公司的条目，再按时间补足其余名额
+const byTime = deduped.sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate));
+const companyItems = byTime.filter((it) => (it.companies || []).length > 0);
+const plainItems = byTime.filter((it) => !(it.companies || []).length);
+const items = [...companyItems.slice(0, MAX_ITEMS), ...plainItems].slice(0, MAX_ITEMS);
 
 // —— 热度计算：热门实体打分 ——
 // 统计标题关键词被多少家不同媒体提及，同一实体（公司/产品/人物）被报道得越多，

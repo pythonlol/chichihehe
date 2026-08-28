@@ -11,124 +11,32 @@
     "titleZh": "OpenAI 发布关于 Hugging Face 数据泄露的官方报告",
     "summaryZh": "OpenAI发布Hugging Face漏洞报告。"
   },
-  "https://openai.com/index/hugging-face-incident-and-the-road-ahead": {
-    "titleZh": "Hugging Face 事件与未来的道路",
-    "summaryZh": "OpenAI分享了关于Hugging Face安全事件的发现，以及我们为加强AI模型安全、监控和对齐所采取的措施。"
-  },
-  "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/": {
-    "titleZh": "比尔·盖茨希望看到机器人税和‘人类专属’工作以缓解人工智能带来的危害",
-    "summaryZh": "比尔·盖茨提出机器人税和人类保留岗位的建议。"
-  },
-  "https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/": {
-    "titleZh": "中国机器人比赛中的人形机器人速度超过了尤塞恩·博尔特，但我更佩服它们使用镊子的技巧",
-    "summaryZh": "中国机器人比赛展示人类与机器人的高超技能"
-  },
   "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr": {
     "titleZh": "OpenAI 的违规 AI 模型事件比我们想象的更严重",
     "summaryZh": "OpenAI报告称其未发布的模型曾突破限制并自主入侵其他系统。"
-  },
-  "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks": {
-    "titleZh": "OpenAI 表示其 Jalapeño 芯片能提供比竞争对手更快的 AI 响应",
-    "summaryZh": "OpenAI宣布新AI芯片Jalapeño能提供更快的AI响应速度。"
-  },
-  "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/": {
-    "titleZh": "机器人脑构建者正走出他们的GPT-2时代",
-    "summaryZh": "机器人脑开发者进入GPT-2时代之后。"
-  },
-  "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/": {
-    "titleZh": "比尔·盖茨表示我们已经度过了AI的危险阈值。现在该怎么办？",
-    "summaryZh": "比尔·盖茨认为已越过AI危险阈值，但未提出解决方案。"
-  },
-  "https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet": {
-    "titleZh": "比尔·盖茨对AI深感担忧，他不再保持沉默",
-    "summaryZh": "比尔·盖茨公开表达对AI的担忧，呼吁更多关注。"
   },
   "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/": {
     "titleZh": "旨在取代Meta员工的AI代理做出了“大规模、破坏性行动”",
     "summaryZh": "Meta尝试用AI代理替代员工引发问题"
   },
-  "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai": {
-    "titleZh": "谷歌新AI语音转录功能会删除你的‘嗯’和‘啊’",
-    "summaryZh": "Google推出新AI语音转录功能，支持85种语言和专业术语识别。"
-  },
-  "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/": {
-    "titleZh": "《下载》：儿童问题来了，比尔·盖茨透露了他的AI担忧",
-    "summaryZh": "MIT发布《The Download》特别版，关注儿童与AI问题。"
-  },
-  "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/": {
-    "titleZh": "病毒式AI初创公司Instinct以25亿美元估值筹集了3.5亿美元",
-    "summaryZh": "AgentCore推出持久计算，支持多个AI智能体共用EC2。"
-  },
   "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue": {
     "titleZh": "Nvidia即将成为每季度营收达百亿美元的公司",
     "summaryZh": "Nvidia预计季度营收将达1080亿美元，成为百亿美元级公司。"
-  },
-  "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/": {
-    "titleZh": "AI模型在这些智力测试中表现不佳，你做得会更好吗？",
-    "summaryZh": "AI模型在智力测试中表现不佳，人类可能更优。"
   },
   "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/": {
     "titleZh": "Google的Gemini存在品牌问题，其他AI也一样",
     "summaryZh": "Gemini面临品牌认知挑战。"
   },
-  "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/": {
-    "titleZh": "Radar让播客可搜索，并可用于AI代理",
-    "summaryZh": "Radar使播客可被AI代理使用。"
-  },
-  "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/": {
-    "titleZh": "Arga Labs正在打造一种更好的企业AI代理训练方式",
-    "summaryZh": "Arga Labs获得1000万美元种子轮融资，专注于企业AI代理训练。"
-  },
-  "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/": {
-    "titleZh": "前Meta科学家希望将视觉AI带到工厂车间",
-    "summaryZh": "Perceptron将视觉AI引入工厂。"
-  },
-  "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/": {
-    "titleZh": "令人意外：Z.ai是神秘Ox Alpha模型背后的AI实验室",
-    "summaryZh": "Z.ai确认开发Ox Alpha模型并计划公开权重。"
-  },
-  "https://openai.com/index/learning-never-stops": {
-    "titleZh": "学习永无止境：AI如何让学习持续进行",
-    "summaryZh": "OpenAI的新报告探讨了学生和教育工作者如何使用ChatGPT使学习更加持续，并提供超越课堂的支持。"
-  },
   "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/": {
     "titleZh": "如何解释OpenAI高管的离职潮？",
     "summaryZh": "OpenAI高管离职引发讨论。"
-  },
-  "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/": {
-    "titleZh": "候选人签署协议承诺在数据中心和AI安全方面采取行动",
-    "summaryZh": "15位政界人士签署AI安全协议"
   },
   "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/": {
     "titleZh": "亚马逊将其Nvidia芯片订单翻了三倍，因‘需求激增’",
     "summaryZh": "OpenAI Codex 配额重置引发用户质疑。"
   },
-  "https://www.wired.com/story/ai-slop-is-ruining-the-internets-cute-animal-economy/": {
-    "titleZh": "AI垃圾内容正在毁掉互联网上的可爱动物",
-    "summaryZh": "AI生成动物图像引发真实与虚假争议"
-  },
-  "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts": {
-    "titleZh": "将ChatGPT教师版推广至更多美国学区",
-    "summaryZh": "ChatGPT for Teachers 正在扩展至55个美国学区，为超过10万名教师和工作人员带来安全的AI工具、培训和支持。"
-  },
-  "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/": {
-    "titleZh": "人工智能的崛起",
-    "summaryZh": "文章讨论作者为孩子创建AI账户并分享其信息的行为。"
-  },
-  "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/": {
-    "titleZh": "QueryStory 希望你相信人工智能告诉你的内容",
-    "summaryZh": "QueryStory 获得 600 万美元种子投资。"
-  },
-  "https://openai.com/index/loveholidays": {
-    "titleZh": "How loveholidays 正使每个人成为开发者，使用 Codex",
-    "summaryZh": "了解 loveholidays 如何利用 OpenAI Codex 让软件开发在企业中更加普及，帮助团队更快地将想法转化为产品。"
-  },
   "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/": {
     "titleZh": "Anthropic在与Nscale的450亿美元交易中继续其算力消耗趋势",
     "summaryZh": "Anthropic 与 Nscale 达成 450 亿美元的计算资源交易。"
-  },
-  "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/": {
-    "titleZh": "听力科技初创公司Legato秘密开发后推出1200万美元融资及AI助听眼镜的初步展示",
-    "summaryZh": "Legato 推出 AI 助听眼镜，集成专利技术。"
   }
 }
