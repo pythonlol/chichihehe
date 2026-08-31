@@ -85,8 +85,8 @@ function cleanSummary(text = '') {
 
 // —— 垃圾内容过滤：培训/营销/课程推广 ——
 const SPAM_KEYWORDS = [
-  '人才培养项目', '训练营', '报名', '课程报名', '免费试听',
-  '限时优惠', '立即抢购', '名额有限', 'early bird',
+  '人才培养项目', '训练营', '课程报名', '立即报名', '火热报名', '报名通道',
+  '免费试听', '限时优惠', '立即抢购', '名额有限', 'early bird',
 ];
 
 function isSpam(item) {
@@ -97,7 +97,7 @@ function isSpam(item) {
 // —— 赞助内容过滤 ——
 const SPONSORED_KEYWORDS = [
   'sponsored', 'sponsored:', 'sponsored by', 'sponsor post',
-  'presented by', 'branded content', '推广', '赞助内容', '广告内容',
+  'presented by', 'branded content', '推广位', '营销推广', '商务推广', '赞助内容', '广告内容',
 ];
 
 function isSponsored(item) {
@@ -118,6 +118,18 @@ function isPlaceholderSummary(summary = '') {
 // —— 抓取全文重新生成摘要 ——
 const FETCH_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 
+// 从 meta 标签提取 og:description / description（比抠 <p> 干净，多数新闻站都有）
+function metaDescription(html) {
+  for (const m of html.matchAll(/<meta\b[^>]*>/gi)) {
+    const tag = m[0];
+    if (!/(?:property|name)=["'](og:description|twitter:description|description)["']/i.test(tag)) continue;
+    const c = tag.match(/content=["']([\s\S]*?)["']/i);
+    const text = c ? cleanSummary(stripHtml(c[1])).slice(0, 200) : '';
+    if (text.length >= 15) return text;
+  }
+  return null;
+}
+
 async function fetchArticleSummary(url) {
   try {
     const res = await fetch(url, {
@@ -127,6 +139,8 @@ async function fetchArticleSummary(url) {
     });
     if (!res.ok) return null;
     const html = await res.text();
+    const meta = metaDescription(html);
+    if (meta) return meta;
     const cleaned = html
       .replace(/<script[\s\S]*?<\/script>/gi, '')
       .replace(/<style[\s\S]*?<\/style>/gi, '')
@@ -310,13 +324,14 @@ for (let i = 0; i < cappedItems.length; i++) {
     deduped.push(cappedItems[i]);
     continue;
   }
-  // 选最优：core 优先，其次最早发布
+  // 选最优：core 优先，其次最早发布；coverage 记录同事件被多少源报道，供热度加成
   const ranked = cluster.map((idx) => ({
     item: cappedItems[idx],
     tierRank: cappedItems[idx].tier === 'core' ? 0 : 1,
     pubTime: Date.parse(cappedItems[idx].pubDate),
   }));
   ranked.sort((a, b) => a.tierRank - b.tierRank || a.pubTime - b.pubTime);
+  ranked[0].item.coverage = cluster.length;
   deduped.push(ranked[0].item);
 }
 
@@ -328,9 +343,11 @@ const companyItems = byTime.filter((it) => (it.companies || []).length > 0);
 const plainItems = byTime.filter((it) => !(it.companies || []).length);
 const items = [...companyItems.slice(0, MAX_ITEMS), ...plainItems].slice(0, MAX_ITEMS);
 
-// —— 热度计算：热门实体打分 ——
-// 统计标题关键词被多少家不同媒体提及，同一实体（公司/产品/人物）被报道得越多，
-// 包含该实体的新闻热度越高；用 IDF 抑制"的、发布"这类高频泛词的干扰。
+// —— 热度计算：多源报道打分 + 时间衰减 ——
+// 基础分：统计标题关键词被多少家不同媒体提及，用 IDF 抑制高频泛词干扰；
+// 多源加成：去重时被聚类掉的同事件报道（coverage）每个额外源 +5，
+// 否则大新闻去重后反而丢失"多家报道"信号；
+// 时间衰减：半衰期 48 小时，避免旧高热新闻压过新新闻。
 function tokensOf(title) {
   const t = new Set();
   for (const w of title.toLowerCase().match(/[a-z0-9]+/g) || []) {
@@ -352,12 +369,16 @@ toksOf.forEach((toks, i) => {
   }
 });
 const N = items.length;
+const nowMs = Date.now();
 items.forEach((item, i) => {
   let s = 0;
   for (const x of toksOf[i]) {
     const ns = srcOf.get(x).size;
     if (ns >= 2) s += (ns - 1) * Math.log(N / df.get(x));
   }
+  if (item.coverage > 1) s += (item.coverage - 1) * 5;
+  const ageHours = Math.max(0, (nowMs - Date.parse(item.pubDate)) / 3600000);
+  s *= Math.pow(0.5, ageHours / 48);
   item.heat = Math.round(s * 10) / 10;
   if (!item.tags) item.tags = categorize(item);
   // companies 已在去重阶段计算，无需重复
