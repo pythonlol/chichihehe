@@ -9,7 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const CACHE = join(__dirname, '..', 'src', 'data', 'translation-cache.json');
 
 const API = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions';
-const MODEL = 'qwen-turbo';
+const MODEL = 'qwen-plus'; // qwen-turbo 对本账号返回 429 limit_requests（2026-10-22），改用 qwen-plus
 const BATCH = 10;
 
 async function translateBatch(texts, key) {

@@ -5,7 +5,7 @@
 import { TAGS } from './categorize.mjs';
 
 const API = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions';
-const MODEL = 'qwen-turbo';
+const MODEL = 'qwen-plus';
 const BATCH = 10;
 
 const SYSTEM_PROMPT = `你是 AI 资讯编辑。请分析每条资讯，输出 JSON 数组，每个元素包含：
