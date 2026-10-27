@@ -1,5 +1,5 @@
 // 抓取多个 AI 模型排行榜数据，输出 src/data/leaderboard.json
-// 数据源：LiveBench（通用基准）/ Aider（代码编辑）/ Artificial Analysis（智能指数）
+// 数据源：LiveBench 2.0（长周期真实任务）/ Artificial Analysis（综合智能指数）
 // 用法：node scripts/fetch-leaderboard.mjs
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -11,12 +11,12 @@ const OUT = join(__dirname, '..', 'src', 'data', 'leaderboard.json');
 
 const FETCH_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 
-function fetchText(url, timeout = 60000) {
+function fetchOnce(url, timeout) {
   return new Promise((resolve, reject) => {
     const req = https.get(url, { timeout, headers: { 'User-Agent': FETCH_UA } }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         const loc = new URL(res.headers.location, url).href;
-        return resolve(fetchText(loc, timeout));
+        return resolve(fetchOnce(loc, timeout));
       }
       if (res.statusCode !== 200) {
         return reject(new Error(`${url} -> HTTP ${res.statusCode}`));
@@ -30,122 +30,288 @@ function fetchText(url, timeout = 60000) {
   });
 }
 
-function stripTags(html) {
-  return html.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/\s+/g, ' ').trim();
-}
-
-// ========== 1. LiveBench ==========
-const LB_VERSIONS = [
-  '2024-06-24', '2024-07-26', '2024-08-31', '2024-11-25',
-  '2025-04-02', '2025-04-25', '2025-05-30', '2025-11-25',
-  '2025-12-23', '2026-01-08', '2026-06-25',
-];
-const LB_CACHE = '?v=1787505463';
-
-async function fetchLiveBench() {
-  for (let i = LB_VERSIONS.length - 1; i >= 0; i--) {
-    const version = LB_VERSIONS[i];
-    const v = version.replaceAll('-', '_');
-    const base = 'https://livebench.ai';
+// livebench.ai 的 TLS 偶发 ECONNRESET，重试两次
+async function fetchText(url, timeout = 60000, retries = 2) {
+  let lastErr;
+  for (let i = 0; i <= retries; i++) {
     try {
-      console.log(`  尝试版本 ${version} ...`);
-      const [csv, catJson] = await Promise.all([
-        fetchText(`${base}/table_${v}.csv${LB_CACHE}`),
-        fetchText(`${base}/categories_${v}.json${LB_CACHE}`),
-      ]);
-      console.log(`  ✓ 版本 ${version} 数据获取成功`);
-      const lines = csv.trim().split('\n');
-      const headers = lines[0].split(',');
-      const rows = lines.slice(1).map((l) => l.split(','));
-      const categories = JSON.parse(catJson);
-      const models = rows.map((row) => {
-        const obj = {};
-        headers.forEach((h, j) => { obj[h] = row[j]; });
-        const catScores = {};
-        for (const [catName, tasks] of Object.entries(categories)) {
-          const scores = tasks.map((t) => parseFloat(obj[t])).filter((n) => !isNaN(n));
-          catScores[catName] = scores.length > 0
-            ? Math.round((scores.reduce((a, b) => a + b, 0) / scores.length) * 100) / 100 : null;
-        }
-        const valid = Object.values(catScores).filter((n) => n !== null);
-        const globalAverage = valid.length > 0
-          ? Math.round((valid.reduce((a, b) => a + b, 0) / valid.length) * 100) / 100 : 0;
-        return { model: obj.model, globalAverage, categories: catScores };
-      }).sort((a, b) => b.globalAverage - a.globalAverage);
-      return {
-        id: 'livebench', name: 'LiveBench', desc: '通用基准测试',
-        source: 'https://livebench.ai', version, categories, models,
-      };
+      return await fetchOnce(url, timeout);
     } catch (e) {
-      console.warn(`  ✗ 版本 ${version} 失败: ${e.message}`);
-      if (i === 0) throw e;
+      lastErr = e;
+      if (e.message.includes('HTTP 4')) throw e;
     }
   }
+  throw lastErr;
+}
+
+function round2(n) {
+  return Math.round(n * 100) / 100;
+}
+
+// 从 text 的 start 位置（必须是 { 或 [）起配平取出完整 JSON 片段
+function sliceBalanced(text, start) {
+  const open = text[start];
+  const close = open === '{' ? '}' : ']';
+  let depth = 0;
+  let inStr = false;
+  let esc = false;
+  for (let i = start; i < text.length; i++) {
+    const c = text[i];
+    if (inStr) {
+      if (esc) esc = false;
+      else if (c === '\\') esc = true;
+      else if (c === '"') inStr = false;
+      continue;
+    }
+    if (c === '"') { inStr = true; continue; }
+    if (c === open) depth++;
+    else if (c === close) {
+      depth--;
+      if (depth === 0) return text.slice(start, i + 1);
+    }
+  }
+  return null;
+}
+
+// 简易 CSV 解析（LiveBench 的 csv 字段内不含逗号）
+function parseCsv(text) {
+  const lines = text.trim().split(/\r?\n/);
+  const headers = lines[0].split(',');
+  return lines.slice(1).map((line) => {
+    const cells = line.split(',');
+    const row = {};
+    headers.forEach((h, i) => { row[h] = cells[i]; });
+    return row;
+  });
+}
+
+function toNum(v) {
+  if (v === undefined || v === null) return null;
+  const s = String(v).trim();
+  if (s === '' || s === 'n/a' || s === 'NA') return null;
+  const n = parseFloat(s);
+  return Number.isFinite(n) ? n : null;
+}
+
+// ========== 1. LiveBench 2.0 ==========
+// 2.0 起改为 SPA + 静态数据目录：/data/<YYYYMMDD>/table.csv、categories.json、cost.csv
+// release 列表写在 SPA 的 JS 里，这里按倒序探测，取第一个可用的
+const LB_RELEASES = ['20261025', '20261014'];
+
+// 维度中文名（key 保留英文，用于数据取值和排序）
+const LB_METRIC_LABELS = {
+  'Long Agentic': '长周期 Agent',
+  'Reasoning': '推理',
+  'Coding': '代码',
+  'Browser': '浏览器',
+  'Data Analysis': '数据分析',
+  'Research': '研究',
+  'Design': '设计',
+};
+
+async function fetchLiveBenchModelInfo() {
+  // 模型显示名/厂商只存在于 SPA bundle 里，抓不到就回退到 slug 美化
+  const info = {};
+  try {
+    const home = await fetchText('https://livebench.ai/');
+    const m = home.match(/\/static\/js\/main\.[a-z0-9]+\.js/);
+    if (!m) return info;
+    const js = await fetchText(`https://livebench.ai${m[0]}`);
+    const re = /"([a-z0-9][a-z0-9._\-]*)":\{/g;
+    let hit;
+    while ((hit = re.exec(js)) !== null) {
+      const slug = hit[1];
+      if (info[slug]) continue;
+      const body = sliceBalanced(js, hit.index + hit[0].length - 1);
+      if (!body) continue;
+      const dn = body.match(/displayName:"([^"]+)"/);
+      if (!dn) continue;
+      const org = body.match(/organization:"([^"]+)"/);
+      info[slug] = {
+        name: dn[1],
+        creator: org ? org[1] : null,
+        openWeights: /openweight:!0/.test(body),
+        reasoning: /reasoner:!0/.test(body),
+      };
+    }
+  } catch (e) {
+    console.warn(`  ! 模型信息抓取失败（回退 slug）: ${e.message}`);
+  }
+  return info;
+}
+
+function prettifySlug(slug) {
+  return slug.replace(/[-_]/g, ' ').replace(/\b[a-z]/g, (c) => c.toUpperCase());
+}
+
+async function fetchLiveBench() {
+  for (const release of LB_RELEASES) {
+    const base = `https://livebench.ai/data/${release}`;
+    try {
+      console.log(`  尝试 release ${release} ...`);
+      const [csv, catJson, costCsv] = await Promise.all([
+        fetchText(`${base}/table.csv`),
+        fetchText(`${base}/categories.json`),
+        fetchText(`${base}/cost.csv`).catch(() => null),
+      ]);
+      const rawCats = JSON.parse(catJson);
+      const weights = rawCats._overall_weights || {};
+      const catNames = Object.keys(rawCats).filter((k) => !k.startsWith('_'));
+
+      // 价格表：slug -> 输入/输出单价（美元/百万 token）
+      const costMap = {};
+      if (costCsv) {
+        parseCsv(costCsv).forEach((r) => {
+          const pin = toNum(r.input_price_per_million);
+          const pout = toNum(r.output_price_per_million);
+          if (pin !== null || pout !== null) costMap[r.model] = { pin, pout };
+        });
+      }
+
+      const info = await fetchLiveBenchModelInfo();
+
+      const rows = parseCsv(csv);
+      const models = rows.map((row) => {
+        const slug = row.model;
+        const metrics = {};
+        let weightedSum = 0;
+        let weightTotal = 0;
+        for (const cat of catNames) {
+          const cols = rawCats[cat] || [];
+          const vals = cols.map((c) => toNum(row[c])).filter((n) => n !== null);
+          if (vals.length === 0) continue;
+          const score = vals.reduce((a, b) => a + b, 0) / vals.length;
+          metrics[cat] = round2(score);
+          const w = weights[cat] ?? 1;
+          weightedSum += score * w;
+          weightTotal += w;
+        }
+        const meta = info[slug] || {};
+        const cost = costMap[slug] || {};
+        return {
+          model: meta.name || prettifySlug(slug),
+          slug,
+          creator: meta.creator || null,
+          openWeights: meta.openWeights ?? null,
+          reasoning: meta.reasoning ?? null,
+          overall: weightTotal > 0 ? round2(weightedSum / weightTotal) : null,
+          metrics,
+          priceIn: cost.pin ?? null,
+          priceOut: cost.pout ?? null,
+        };
+      }).filter((m) => m.overall !== null)
+        .sort((a, b) => b.overall - a.overall);
+
+      const label = `${release.slice(0, 4)}-${release.slice(4, 6)}-${release.slice(6, 8)}`;
+      console.log(`  ✓ release ${label}：${models.length} 个模型，${catNames.length} 个维度`);
+      return {
+        id: 'livebench',
+        name: 'LiveBench',
+        desc: '长周期真实任务基准，模型交付成品由评分器检验',
+        source: 'https://livebench.ai',
+        version: label,
+        scoreLabel: '综合得分',
+        scoreMax: 100,
+        metrics: catNames.map((c) => ({ key: c, label: LB_METRIC_LABELS[c] || c })),
+        models,
+      };
+    } catch (e) {
+      console.warn(`  ✗ release ${release} 失败: ${e.message}`);
+    }
+  }
+  throw new Error('所有 LiveBench release 均抓取失败');
 }
 
 // ========== 2. Artificial Analysis 智能指数 ==========
+// 站点已迁移到 Next.js App Router，数据在 RSC flight payload 的 initialModels 里
+function extractFlight(html) {
+  const parts = [];
+  const re = /self\.__next_f\.push\(\[1,("(?:[^"\\]|\\[\s\S])*")\]\)/g;
+  let m;
+  while ((m = re.exec(html)) !== null) {
+    try { parts.push(JSON.parse(m[1])); } catch {}
+  }
+  return parts.join('');
+}
+
+// 推理档位变体（Max/Xhigh/High/Medium/Low）会各自占一条，合并到同一模型只留最高分
+const EFFORT_SUFFIX = /-(xhigh|high|medium|low|minimal)$/;
+
+function stripEffort(name) {
+  const m = name.match(/\s*\(([^)]*)\)\s*$/);
+  if (!m) return { name: name.trim(), effort: null };
+  const inner = m[1];
+  if (!/(max|xhigh|high|medium|low|minimal)/i.test(inner)) return { name: name.trim(), effort: null };
+  const effort = inner.split(',')[0].trim();
+  return { name: name.slice(0, m.index).trim(), effort };
+}
+
 async function fetchArtificialAnalysis() {
   try {
     console.log('  抓取 Artificial Analysis 排行榜...');
-    const html = await fetchText('https://artificialanalysis.ai/leaderboards/models', 60000);
-    // 从 HTML 中提取模型数据
-    // 页面是 Next.js SSR，数据嵌入在 HTML 中
-    const models = [];
+    const html = await fetchText('https://artificialanalysis.ai/leaderboards/models', 90000);
+    const flight = extractFlight(html);
+    if (!flight) throw new Error('未解析出 RSC flight 数据');
 
-    // 尝试从 __NEXT_DATA__ JSON 中提取
-    const ndMatch = html.match(/<script[^>]*id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/i);
-    if (ndMatch) {
-      try {
-        const data = JSON.parse(ndMatch[1]);
-        console.log('  从 __NEXT_DATA__ 提取数据');
-        // 数据结构未知，尝试遍历查找模型数据
-        const jsonStr = JSON.stringify(data);
-        // 查找模型名和分数的模式
-        const modelPattern = /"model_name"\s*:\s*"([^"]+)"/g;
-        const scorePattern = /"intelligence_index"\s*:\s*([\d.]+)/g;
-        const nameMatches = [...jsonStr.matchAll(modelPattern)];
-        const scoreMatches = [...jsonStr.matchAll(scorePattern)];
-        for (let i = 0; i < nameMatches.length && i < scoreMatches.length; i++) {
-          models.push({
-            model: nameMatches[i][1],
-            score: parseFloat(scoreMatches[i][1]),
-          });
-        }
-      } catch {}
+    const key = '"initialModels":';
+    const idx = flight.indexOf(key);
+    if (idx < 0) throw new Error('未找到 initialModels');
+    const arrStart = flight.indexOf('[', idx);
+    const raw = sliceBalanced(flight, arrStart);
+    if (!raw) throw new Error('initialModels 数组不完整');
+    const list = JSON.parse(raw);
+
+    // 先按 slug 去掉档位后缀成组，组内取最高分
+    const groups = new Map();
+    for (const m of list) {
+      if (m.intelligenceIndex === null || m.intelligenceIndex === undefined) continue;
+      const baseSlug = m.slug.replace(EFFORT_SUFFIX, '');
+      const prev = groups.get(baseSlug);
+      if (!prev || m.intelligenceIndex > prev.intelligenceIndex) groups.set(baseSlug, m);
     }
 
-    // 如果 __NEXT_DATA__ 没有数据，尝试从表格行中提取
-    if (models.length === 0) {
-      // 查找类似 "Intelligence Index" 附近的数字
-      // 从页面文本中提取已知的模式
-      const text = stripTags(html);
-      // 匹配模式：模型名后跟分数
-      const lines = text.split('\n');
-      for (let i = 0; i < lines.length - 1; i++) {
-        const line = lines[i].trim();
-        // 查找已知模型名
-        if (/^(Claude|GPT|Gemini|Grok|Kimi|GLM|DeepSeek|Qwen|Llama|Mistral|Granite)\s/i.test(line)) {
-          // 下一行可能是分数
-          const nextLine = lines[i + 1].trim();
-          const score = parseInt(nextLine);
-          if (score > 0 && score < 200) {
-            models.push({ model: line, score });
-          }
-        }
-      }
-    }
-
-    models.sort((a, b) => b.score - a.score);
-    const top = models.slice(0, 30); // 只保留 top 30
-    if (top.length > 0) {
-      console.log(`  ✓ Artificial Analysis: ${top.length} 个模型`);
+    const models = [...groups.values()].map((m) => {
+      const { name, effort } = stripEffort(m.name);
+      // 子分是 0~1 的比例，统一折算成百分制
+      const pct = (k) => (m.scores?.[k] != null ? round2(m.scores[k] * 100) : null);
       return {
-        id: 'aa', name: 'Artificial Analysis', desc: '通用智能指数',
-        source: 'https://artificialanalysis.ai/leaderboards/models', models: top,
+        model: name,
+        slug: m.slug,
+        creator: m.modelCreatorName || null,
+        openWeights: !!m.isOpenWeights,
+        reasoning: !!m.isReasoning,
+        effort,
+        overall: round2(m.intelligenceIndex),
+        metrics: {
+          'humanitys-last-exam': pct('humanitys-last-exam'),
+          'long-context': pct('artificial-analysis-long-context-reasoning'),
+          'omniscience': pct('omniscience-accuracy'),
+          'critpt': pct('critpt'),
+        },
+        contextWindow: m.contextWindowTokens ?? null,
+        speed: m.medianOutputTokensPerSecond != null ? Math.round(m.medianOutputTokensPerSecond) : null,
+        priceIn: m.price1mInputTokens ?? null,
+        priceOut: m.price1mOutputTokens ?? null,
       };
-    }
-    console.warn('  ✗ Artificial Analysis: 未提取到数据');
-    return null;
+    }).sort((a, b) => b.overall - a.overall);
+
+    console.log(`  ✓ Artificial Analysis：${list.length} 条原始记录 → 去重后 ${models.length} 个模型`);
+    return {
+      id: 'aa',
+      name: 'Artificial Analysis',
+      desc: '多基准加权综合智能指数',
+      source: 'https://artificialanalysis.ai/leaderboards/models',
+      version: null,
+      scoreLabel: '智能指数',
+      scoreMax: 100,
+      metrics: [
+        { key: 'humanitys-last-exam', label: '人文终考' },
+        { key: 'long-context', label: '长上下文' },
+        { key: 'omniscience', label: '知识准确性' },
+        { key: 'critpt', label: '物理推理' },
+      ],
+      models,
+    };
   } catch (e) {
     console.warn(`  ✗ Artificial Analysis 抓取失败: ${e.message}`);
     return null;
@@ -158,21 +324,25 @@ async function main() {
 
   const leaderboards = [];
 
-  // 1. LiveBench
   console.log('[1/2] LiveBench');
   try {
     const lb = await fetchLiveBench();
-    console.log(`  共 ${lb.models.length} 个模型，前 3 名:`);
-    lb.models.slice(0, 3).forEach((m) => console.log(`    ${m.model}: ${m.globalAverage}`));
+    lb.models.slice(0, 3).forEach((m, i) => console.log(`    ${i + 1}. ${m.model} — ${m.overall}`));
     leaderboards.push(lb);
   } catch (e) {
     console.error(`  LiveBench 失败: ${e.message}`);
   }
 
-  // 2. Artificial Analysis
   console.log('\n[2/2] Artificial Analysis');
   const aa = await fetchArtificialAnalysis();
-  if (aa) leaderboards.push(aa);
+  if (aa) {
+    aa.models.slice(0, 3).forEach((m, i) => console.log(`    ${i + 1}. ${m.model} — ${m.overall}`));
+    leaderboards.push(aa);
+  }
+
+  if (leaderboards.length === 0) {
+    throw new Error('两个数据源均失败，保留原有 leaderboard.json');
+  }
 
   const output = { updatedAt: new Date().toISOString(), leaderboards };
   mkdirSync(dirname(OUT), { recursive: true });

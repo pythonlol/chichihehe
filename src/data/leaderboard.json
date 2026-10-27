@@ -1,688 +1,4823 @@
 {
-  "updatedAt": "2026-08-27T03:15:31.495Z",
+  "updatedAt": "2026-10-27T02:01:54.973Z",
   "leaderboards": [
     {
       "id": "livebench",
       "name": "LiveBench",
-      "desc": "通用基准测试",
+      "desc": "长周期真实任务基准，模型交付成品由评分器检验",
       "source": "https://livebench.ai",
-      "version": "2026-06-25",
-      "categories": {
-        "Reasoning": [
-          "theory_of_mind",
-          "zebra_puzzle",
-          "spatial",
-          "logic_with_navigation"
-        ],
-        "Coding": [
-          "code_generation",
-          "code_completion"
-        ],
-        "Agentic Coding": [
-          "javascript",
-          "typescript",
-          "python"
-        ],
-        "Mathematics": [
-          "AMPS_Hard",
-          "integrals_with_game",
-          "math_comp",
-          "olympiad"
-        ],
-        "Data Analysis": [
-          "consecutive_events",
-          "tablejoin",
-          "tablereformat"
-        ],
-        "Language": [
-          "connections",
-          "plot_unscrambling",
-          "typos"
-        ],
-        "IF": [
-          "paraphrase",
-          "simplify",
-          "story_generation",
-          "summarize"
-        ]
-      },
+      "version": "2026-10-25",
+      "scoreLabel": "综合得分",
+      "scoreMax": 100,
+      "metrics": [
+        {
+          "key": "Long Agentic",
+          "label": "长周期 Agent"
+        },
+        {
+          "key": "Reasoning",
+          "label": "推理"
+        },
+        {
+          "key": "Coding",
+          "label": "代码"
+        },
+        {
+          "key": "Browser",
+          "label": "浏览器"
+        },
+        {
+          "key": "Data Analysis",
+          "label": "数据分析"
+        },
+        {
+          "key": "Research",
+          "label": "研究"
+        },
+        {
+          "key": "Design",
+          "label": "设计"
+        }
+      ],
       "models": [
         {
-          "model": "claude-fable-5-max-effort",
-          "globalAverage": 82.97,
-          "categories": {
-            "Reasoning": 89.65,
-            "Coding": 85.99,
-            "Agentic Coding": 62.17,
-            "Mathematics": 95.99,
-            "Data Analysis": 80.54,
-            "Language": 90.68,
-            "IF": 75.77
-          }
+          "model": "Claude Fable 5.1",
+          "slug": "claude-fable-5.1",
+          "creator": "Anthropic",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 85.69,
+          "metrics": {
+            "Long Agentic": 77.9,
+            "Reasoning": 91.7,
+            "Coding": 97.7,
+            "Browser": 89.8,
+            "Data Analysis": 80.3,
+            "Research": 82,
+            "Design": 83.4
+          },
+          "priceIn": 10,
+          "priceOut": 50
         },
         {
-          "model": "gpt-5.6-sol-max",
-          "globalAverage": 81.05,
-          "categories": {
-            "Reasoning": 91.65,
-            "Coding": 83.94,
-            "Agentic Coding": 56.21,
-            "Mathematics": 96.2,
-            "Data Analysis": 79.84,
-            "Language": 87.68,
-            "IF": 71.85
-          }
+          "model": "GPT-6 Astra",
+          "slug": "gpt-6-astra",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 85.64,
+          "metrics": {
+            "Long Agentic": 77.5,
+            "Reasoning": 92.7,
+            "Coding": 93.7,
+            "Browser": 91.3,
+            "Data Analysis": 83,
+            "Research": 85.2,
+            "Design": 82
+          },
+          "priceIn": 10,
+          "priceOut": 50
         },
         {
-          "model": "gpt-5.5-xhigh",
-          "globalAverage": 80.19,
-          "categories": {
-            "Reasoning": 89.65,
-            "Coding": 82.15,
-            "Agentic Coding": 53.99,
-            "Mathematics": 95.86,
-            "Data Analysis": 81.58,
-            "Language": 87.36,
-            "IF": 70.73
-          }
+          "model": "Claude Opus 5.5",
+          "slug": "claude-opus-5.5",
+          "creator": "Anthropic",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 85.14,
+          "metrics": {
+            "Long Agentic": 72.8,
+            "Reasoning": 92.2,
+            "Coding": 96.3,
+            "Browser": 88.4,
+            "Data Analysis": 80.3,
+            "Research": 85,
+            "Design": 86.9
+          },
+          "priceIn": 4,
+          "priceOut": 20
         },
         {
-          "model": "claude-opus-5-max-effort",
-          "globalAverage": 80.09,
-          "categories": {
-            "Reasoning": 91.21,
-            "Coding": 81.45,
-            "Agentic Coding": 65.2,
-            "Mathematics": 95.73,
-            "Data Analysis": 74.55,
-            "Language": 88.69,
-            "IF": 63.77
-          }
+          "model": "GPT-6.1 Sol",
+          "slug": "gpt-6.1-sol",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 84.07,
+          "metrics": {
+            "Long Agentic": 68.7,
+            "Reasoning": 92.6,
+            "Coding": 96,
+            "Browser": 93.3,
+            "Data Analysis": 82.7,
+            "Research": 83.5,
+            "Design": 82.1
+          },
+          "priceIn": 2,
+          "priceOut": 10
         },
         {
-          "model": "smaug-agentic",
-          "globalAverage": 79.51,
-          "categories": {
-            "Reasoning": 90.27,
-            "Coding": 82.47,
-            "Agentic Coding": 64.65,
-            "Mathematics": 83.92,
-            "Data Analysis": 79.9,
-            "Language": 84.36,
-            "IF": 70.99
-          }
+          "model": "Claude Sonnet 5.5",
+          "slug": "claude-sonnet-5.5",
+          "creator": "Anthropic",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 80.04,
+          "metrics": {
+            "Long Agentic": 63.4,
+            "Reasoning": 91.6,
+            "Coding": 94.7,
+            "Browser": 89.3,
+            "Data Analysis": 59.5,
+            "Research": 83.6,
+            "Design": 85
+          },
+          "priceIn": 2,
+          "priceOut": 10
         },
         {
-          "model": "kimi-k3",
-          "globalAverage": 79.19,
-          "categories": {
-            "Reasoning": 90.67,
-            "Coding": 81.45,
-            "Agentic Coding": 62.17,
-            "Mathematics": 84.44,
-            "Data Analysis": 78.73,
-            "Language": 85.53,
-            "IF": 71.36
-          }
+          "model": "Gemini 4 Argon",
+          "slug": "gemini-4-argon",
+          "creator": "Google",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 79.3,
+          "metrics": {
+            "Long Agentic": 61.2,
+            "Reasoning": 95.1,
+            "Coding": 89.7,
+            "Browser": 82.8,
+            "Data Analysis": 85.2,
+            "Research": 83.1,
+            "Design": 73.7
+          },
+          "priceIn": 2,
+          "priceOut": 10
         },
         {
-          "model": "gemini-3.7-flash-high",
-          "globalAverage": 78.83,
-          "categories": {
-            "Reasoning": 87.8,
-            "Coding": 78.89,
-            "Agentic Coding": 58.28,
-            "Mathematics": 93.47,
-            "Data Analysis": 67.96,
-            "Language": 85.46,
-            "IF": 79.93
-          }
+          "model": "GPT-6.1 Terra",
+          "slug": "gpt-6.1-terra",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 77.21,
+          "metrics": {
+            "Long Agentic": 48.6,
+            "Reasoning": 88.7,
+            "Coding": 90.8,
+            "Browser": 93.1,
+            "Data Analysis": 82.3,
+            "Research": 73.9,
+            "Design": 82.3
+          },
+          "priceIn": 1,
+          "priceOut": 5
         },
         {
-          "model": "qwen3.8-max",
-          "globalAverage": 78.46,
-          "categories": {
-            "Reasoning": 88.21,
-            "Coding": 72.87,
-            "Agentic Coding": 64.65,
-            "Mathematics": 91.31,
-            "Data Analysis": 78.41,
-            "Language": 79.69,
-            "IF": 74.08
-          }
+          "model": "Muse Wonder 1.0",
+          "slug": "muse-wonder-1.0",
+          "creator": "Meta",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 74.15,
+          "metrics": {
+            "Long Agentic": 52.6,
+            "Reasoning": 90.6,
+            "Coding": 86.2,
+            "Browser": 60,
+            "Data Analysis": 81.6,
+            "Research": 88,
+            "Design": 75.1
+          },
+          "priceIn": 4,
+          "priceOut": 20
         },
         {
-          "model": "grok-4.6",
-          "globalAverage": 78.04,
-          "categories": {
-            "Reasoning": 90.51,
-            "Coding": 76.78,
-            "Agentic Coding": 57.02,
-            "Mathematics": 92.57,
-            "Data Analysis": 73.86,
-            "Language": 83.7,
-            "IF": 71.87
-          }
+          "model": "DeepSeek V4.1 Flash 1017",
+          "slug": "deepseek-v4.1-flash-1017",
+          "creator": "DeepSeek",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 74.02,
+          "metrics": {
+            "Long Agentic": 40.9,
+            "Reasoning": 89.1,
+            "Coding": 96,
+            "Browser": 67.2,
+            "Data Analysis": 79.5,
+            "Research": 79.5,
+            "Design": 83.4
+          },
+          "priceIn": 0.3,
+          "priceOut": 1.2
         },
         {
-          "model": "gpt-5.4-xhigh",
-          "globalAverage": 77.97,
-          "categories": {
-            "Reasoning": 88.12,
-            "Coding": 77.54,
-            "Agentic Coding": 53.84,
-            "Mathematics": 94.15,
-            "Data Analysis": 79.31,
-            "Language": 82.63,
-            "IF": 70.22
-          }
+          "model": "Kimi K3.1 Pro",
+          "slug": "kimi-k3.1-pro",
+          "creator": "Moonshot AI",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 71.29,
+          "metrics": {
+            "Long Agentic": 39.1,
+            "Reasoning": 91.1,
+            "Coding": 81.8,
+            "Browser": 75.9,
+            "Data Analysis": 79.1,
+            "Research": 77.9,
+            "Design": 77.8
+          },
+          "priceIn": 2,
+          "priceOut": 10
         },
         {
-          "model": "muse-spark-1.2-xhigh",
-          "globalAverage": 77.95,
-          "categories": {
-            "Reasoning": 90,
-            "Coding": 77.54,
-            "Agentic Coding": 57.58,
-            "Mathematics": 91.2,
-            "Data Analysis": 76.46,
-            "Language": 78.57,
-            "IF": 74.33
-          }
+          "model": "Grok 4.7",
+          "slug": "grok-4.7",
+          "creator": "xAI",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 70.14,
+          "metrics": {
+            "Long Agentic": 46.1,
+            "Reasoning": 82.7,
+            "Coding": 84.5,
+            "Browser": 49.3,
+            "Data Analysis": 76.9,
+            "Research": 86.4,
+            "Design": 78
+          },
+          "priceIn": 2,
+          "priceOut": 6
         },
         {
-          "model": "gpt-5.6-terra-max",
-          "globalAverage": 77.94,
-          "categories": {
-            "Reasoning": 90.63,
-            "Coding": 78.25,
-            "Agentic Coding": 54.95,
-            "Mathematics": 94.91,
-            "Data Analysis": 79.31,
-            "Language": 82.89,
-            "IF": 64.62
-          }
+          "model": "Claude Haiku 5.5",
+          "slug": "claude-haiku-5.5",
+          "creator": "Anthropic",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 69.85,
+          "metrics": {
+            "Long Agentic": 40,
+            "Reasoning": 82.4,
+            "Coding": 91.4,
+            "Browser": 69.5,
+            "Data Analysis": 53.1,
+            "Research": 81.9,
+            "Design": 83.1
+          },
+          "priceIn": 0.1,
+          "priceOut": 0.5
         },
         {
-          "model": "deepseek-v4-pro-0813",
-          "globalAverage": 77.44,
-          "categories": {
-            "Reasoning": 85.84,
-            "Coding": 77.16,
-            "Agentic Coding": 54.95,
-            "Mathematics": 95.09,
-            "Data Analysis": 79.24,
-            "Language": 82.07,
-            "IF": 67.7
-          }
+          "model": "MiMo V2.6 Pro",
+          "slug": "mimo-v2.6-pro",
+          "creator": "Xiaomi",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 68.48,
+          "metrics": {
+            "Long Agentic": 35.2,
+            "Reasoning": 79.6,
+            "Coding": 81.5,
+            "Browser": 77.3,
+            "Data Analysis": 72.3,
+            "Research": 76.7,
+            "Design": 78.5
+          },
+          "priceIn": 0.435,
+          "priceOut": 0.87
         },
         {
-          "model": "gemini-3.1-pro-preview-high",
-          "globalAverage": 76.95,
-          "categories": {
-            "Reasoning": 84,
-            "Coding": 76.45,
-            "Agentic Coding": 44.14,
-            "Mathematics": 91.04,
-            "Data Analysis": 78.54,
-            "Language": 85.38,
-            "IF": 79.1
-          }
+          "model": "GPT-5.6 Terra",
+          "slug": "gpt-5.6-terra",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 67.79,
+          "metrics": {
+            "Long Agentic": 33.1,
+            "Reasoning": 90.6,
+            "Coding": 86.2,
+            "Browser": 70.3,
+            "Data Analysis": 79.3,
+            "Research": 60.4,
+            "Design": 76
+          },
+          "priceIn": 2,
+          "priceOut": 12
         },
         {
-          "model": "deepseek-v4-flash-vision-exp",
-          "globalAverage": 76.76,
-          "categories": {
-            "Reasoning": 85.4,
-            "Coding": 68.2,
-            "Agentic Coding": 65.1,
-            "Mathematics": 87.81,
-            "Data Analysis": 79.48,
-            "Language": 80.36,
-            "IF": 70.96
-          }
+          "model": "Grok 4.6",
+          "slug": "grok-4.6",
+          "creator": "xAI",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 67.75,
+          "metrics": {
+            "Long Agentic": 28,
+            "Reasoning": 91.2,
+            "Coding": 89.1,
+            "Browser": 49.4,
+            "Data Analysis": 75.3,
+            "Research": 84.5,
+            "Design": 79.8
+          },
+          "priceIn": 2,
+          "priceOut": 6
         },
         {
-          "model": "claude-opus-4-7-xhigh-effort",
-          "globalAverage": 76.53,
-          "categories": {
-            "Reasoning": 87.19,
-            "Coding": 82.09,
-            "Agentic Coding": 50.66,
-            "Mathematics": 92.85,
-            "Data Analysis": 78.26,
-            "Language": 77.91,
-            "IF": 66.74
-          }
+          "model": "MiniMax M3.1 Flash",
+          "slug": "minimax-m3.1-flash",
+          "creator": "MiniMax",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 66.89,
+          "metrics": {
+            "Long Agentic": 28.8,
+            "Reasoning": 82.9,
+            "Coding": 83.9,
+            "Browser": 80.6,
+            "Data Analysis": 71.4,
+            "Research": 72.7,
+            "Design": 74
+          },
+          "priceIn": 0.15,
+          "priceOut": 0.6
         },
         {
-          "model": "claude-opus-4-8-max-effort",
-          "globalAverage": 76.22,
-          "categories": {
-            "Reasoning": 89.19,
-            "Coding": 81.83,
-            "Agentic Coding": 50.51,
-            "Mathematics": 94.32,
-            "Data Analysis": 66.03,
-            "Language": 79.66,
-            "IF": 72.03
-          }
+          "model": "GPT-6 Luna",
+          "slug": "gpt-6-luna",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 64.59,
+          "metrics": {
+            "Long Agentic": 30.9,
+            "Reasoning": 81.8,
+            "Coding": 84.5,
+            "Browser": 70.3,
+            "Data Analysis": 73.4,
+            "Research": 43.5,
+            "Design": 82.5
+          },
+          "priceIn": 0.1,
+          "priceOut": 0.5
         },
         {
-          "model": "qwen3.8-flash-next",
-          "globalAverage": 76.19,
-          "categories": {
-            "Reasoning": 87.38,
-            "Coding": 72.55,
-            "Agentic Coding": 61.62,
-            "Mathematics": 85.82,
-            "Data Analysis": 74.24,
-            "Language": 74.64,
-            "IF": 77.11
-          }
+          "model": "Kimi K3",
+          "slug": "kimi-k3",
+          "creator": "Moonshot AI",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 64.57,
+          "metrics": {
+            "Long Agentic": 26.4,
+            "Reasoning": 90.7,
+            "Coding": 59.3,
+            "Browser": 75.2,
+            "Data Analysis": 78.7,
+            "Research": 79,
+            "Design": 77.2
+          },
+          "priceIn": 3,
+          "priceOut": 15
         },
         {
-          "model": "glm-5.3",
-          "globalAverage": 76.14,
-          "categories": {
-            "Reasoning": 85.8,
-            "Coding": 78.95,
-            "Agentic Coding": 60.91,
-            "Mathematics": 87.9,
-            "Data Analysis": 70.24,
-            "Language": 79.86,
-            "IF": 69.3
-          }
+          "model": "Muse Spark 1.3",
+          "slug": "muse-spark-1.3",
+          "creator": "Meta",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 63.03,
+          "metrics": {
+            "Long Agentic": 25.5,
+            "Reasoning": 89.7,
+            "Coding": 90.2,
+            "Browser": 30.9,
+            "Data Analysis": 79.6,
+            "Research": 68.6,
+            "Design": 74.8
+          },
+          "priceIn": 1.25,
+          "priceOut": 4.25
         },
         {
-          "model": "claude-sonnet-5-xhigh-effort",
-          "globalAverage": 76.04,
-          "categories": {
-            "Reasoning": 88.69,
-            "Coding": 80.68,
-            "Agentic Coding": 59.39,
-            "Mathematics": 92.94,
-            "Data Analysis": 71.74,
-            "Language": 74.97,
-            "IF": 63.86
-          }
-        },
-        {
-          "model": "grok-4.5",
-          "globalAverage": 75.77,
-          "categories": {
-            "Reasoning": 87.17,
-            "Coding": 68.59,
-            "Agentic Coding": 56.46,
-            "Mathematics": 90.82,
-            "Data Analysis": 73.04,
-            "Language": 82.8,
-            "IF": 71.53
-          }
-        },
-        {
-          "model": "muse-spark-1.1-xhigh",
-          "globalAverage": 75.3,
-          "categories": {
-            "Reasoning": 87.73,
-            "Coding": 77.16,
-            "Agentic Coding": 58.54,
-            "Mathematics": 87.14,
-            "Data Analysis": 72.55,
-            "Language": 74.34,
-            "IF": 69.64
-          }
-        },
-        {
-          "model": "qwen3.8-27b",
-          "globalAverage": 75.27,
-          "categories": {
-            "Reasoning": 80.03,
-            "Coding": 75.69,
-            "Agentic Coding": 61.36,
-            "Mathematics": 86.21,
-            "Data Analysis": 76.59,
-            "Language": 74.35,
-            "IF": 72.66
-          }
-        },
-        {
-          "model": "gemini-3.5-flash-high",
-          "globalAverage": 74.64,
-          "categories": {
-            "Reasoning": 82,
-            "Coding": 78.18,
-            "Agentic Coding": 48.99,
-            "Mathematics": 88.24,
-            "Data Analysis": 64.86,
-            "Language": 84.58,
-            "IF": 75.6
-          }
-        },
-        {
-          "model": "gpt-5.2-2025-12-11-high",
-          "globalAverage": 74.63,
-          "categories": {
-            "Reasoning": 83.21,
-            "Coding": 76.07,
-            "Agentic Coding": 50.25,
-            "Mathematics": 93.17,
-            "Data Analysis": 78.16,
-            "Language": 79.81,
-            "IF": 61.77
-          }
-        },
-        {
-          "model": "claude-opus-4-6-thinking-auto-high-effort",
-          "globalAverage": 74.52,
-          "categories": {
-            "Reasoning": 88.67,
-            "Coding": 78.18,
-            "Agentic Coding": 48.99,
-            "Mathematics": 89.32,
-            "Data Analysis": 69.89,
-            "Language": 83.27,
-            "IF": 63.31
-          }
-        },
-        {
-          "model": "deepseek-v4-flash-0731",
-          "globalAverage": 74.17,
-          "categories": {
-            "Reasoning": 86.63,
-            "Coding": 74.98,
-            "Agentic Coding": 46.77,
-            "Mathematics": 86.79,
-            "Data Analysis": 79.33,
-            "Language": 79.18,
-            "IF": 65.52
-          }
-        },
-        {
-          "model": "gpt-5.2-codex",
-          "globalAverage": 73.97,
-          "categories": {
-            "Reasoning": 77.71,
-            "Coding": 83.62,
-            "Agentic Coding": 49.39,
-            "Mathematics": 88.77,
-            "Data Analysis": 78.2,
-            "Language": 73.68,
-            "IF": 66.45
-          }
-        },
-        {
-          "model": "gemini-3.6-flash-high",
-          "globalAverage": 73.59,
-          "categories": {
-            "Reasoning": 85.15,
-            "Coding": 77.86,
-            "Agentic Coding": 43.43,
-            "Mathematics": 86.4,
-            "Data Analysis": 63,
-            "Language": 83.9,
-            "IF": 75.37
-          }
-        },
-        {
-          "model": "gpt-5.6-luna-max",
-          "globalAverage": 73.56,
-          "categories": {
-            "Reasoning": 85.64,
-            "Coding": 82.92,
-            "Agentic Coding": 48.43,
-            "Mathematics": 87.2,
-            "Data Analysis": 78.03,
-            "Language": 72.57,
-            "IF": 60.12
-          }
-        },
-        {
-          "model": "glm-5.2",
-          "globalAverage": 73.16,
-          "categories": {
-            "Reasoning": 78.63,
-            "Coding": 79.65,
-            "Agentic Coding": 51.77,
-            "Mathematics": 89.78,
-            "Data Analysis": 73.74,
-            "Language": 76.24,
-            "IF": 62.29
-          }
-        },
-        {
-          "model": "qwen3.7-max",
-          "globalAverage": 73.14,
-          "categories": {
-            "Reasoning": 83.34,
-            "Coding": 74.22,
-            "Agentic Coding": 43.59,
-            "Mathematics": 85.25,
-            "Data Analysis": 71.79,
-            "Language": 79.74,
-            "IF": 74.04
-          }
-        },
-        {
-          "model": "claude-sonnet-4-6-thinking-auto-medium-effort",
-          "globalAverage": 72.99,
-          "categories": {
-            "Reasoning": 84.77,
-            "Coding": 79.27,
-            "Agentic Coding": 42.63,
-            "Mathematics": 86.99,
-            "Data Analysis": 77.95,
-            "Language": 76.1,
-            "IF": 63.22
-          }
-        },
-        {
-          "model": "claude-opus-4-5-20251101-thinking-64k-high-effort",
-          "globalAverage": 72.58,
-          "categories": {
-            "Reasoning": 80.09,
-            "Coding": 79.65,
-            "Agentic Coding": 39.7,
-            "Mathematics": 90.39,
-            "Data Analysis": 74.44,
-            "Language": 81.26,
-            "IF": 62.55
-          }
-        },
-        {
-          "model": "inkling-xhigh",
-          "globalAverage": 71.92,
-          "categories": {
-            "Reasoning": 78.35,
-            "Coding": 71.02,
-            "Agentic Coding": 49.39,
-            "Mathematics": 88.36,
-            "Data Analysis": 72.78,
-            "Language": 73.46,
-            "IF": 70.1
-          }
-        },
-        {
-          "model": "glm-5.3-flash",
-          "globalAverage": 71.59,
-          "categories": {
-            "Reasoning": 77.64,
-            "Coding": 78.95,
-            "Agentic Coding": 56.77,
-            "Mathematics": 81.24,
+          "model": "GLM-5.3 Flash",
+          "slug": "glm-5.3-flash",
+          "creator": "Z.AI",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 62.07,
+          "metrics": {
+            "Long Agentic": 19,
+            "Reasoning": 77.6,
+            "Coding": 80.6,
+            "Browser": 59.8,
             "Data Analysis": 76.4,
-            "Language": 77.31,
-            "IF": 52.82
-          }
+            "Research": 70.1,
+            "Design": 77.2
+          },
+          "priceIn": 0.15,
+          "priceOut": 0.5
         },
         {
-          "model": "deepseek-v4-pro",
-          "globalAverage": 71.57,
-          "categories": {
-            "Reasoning": 82.69,
-            "Coding": 69.99,
-            "Agentic Coding": 42.63,
-            "Mathematics": 90.68,
-            "Data Analysis": 74.54,
-            "Language": 78.13,
-            "IF": 62.35
-          }
+          "model": "Qwen3.8 Max",
+          "slug": "qwen3.8-max",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 61.56,
+          "metrics": {
+            "Long Agentic": 29.9,
+            "Reasoning": 88.2,
+            "Coding": 60.3,
+            "Browser": 49.4,
+            "Data Analysis": 78.4,
+            "Research": 69.9,
+            "Design": 78.6
+          },
+          "priceIn": 2,
+          "priceOut": 6
         },
         {
-          "model": "kimi-k2.6-thinking",
-          "globalAverage": 70.54,
-          "categories": {
-            "Reasoning": 79.38,
-            "Coding": 78.57,
-            "Agentic Coding": 46.92,
-            "Mathematics": 84.28,
-            "Data Analysis": 65.13,
-            "Language": 75.14,
-            "IF": 64.36
-          }
+          "model": "Gemini 3.8 Flash",
+          "slug": "gemini-3.8-flash",
+          "creator": "Google",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 59.21,
+          "metrics": {
+            "Long Agentic": 16.5,
+            "Reasoning": 89.3,
+            "Coding": 82.2,
+            "Browser": 45.1,
+            "Data Analysis": 54,
+            "Research": 79.1,
+            "Design": 72.7
+          },
+          "priceIn": 0.75,
+          "priceOut": 3.75
         },
         {
-          "model": "gpt-5.4-nano-xhigh",
-          "globalAverage": 69.58,
-          "categories": {
-            "Reasoning": 81.1,
-            "Coding": 70.84,
-            "Agentic Coding": 46.77,
-            "Mathematics": 90.98,
-            "Data Analysis": 67.64,
-            "Language": 62.51,
-            "IF": 67.2
-          }
+          "model": "Step 5 (Preview)",
+          "slug": "step-5-preview",
+          "creator": "StepFun",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 58.61,
+          "metrics": {
+            "Long Agentic": 19.4,
+            "Reasoning": 83.8,
+            "Coding": 85.6,
+            "Browser": 24.8,
+            "Data Analysis": 63.5,
+            "Research": 72.8,
+            "Design": 76.9
+          },
+          "priceIn": 1,
+          "priceOut": 2.7
         },
         {
-          "model": "ox-alpha-max",
-          "globalAverage": 69.24,
-          "categories": {
-            "Reasoning": 76.59,
-            "Coding": 75.75,
-            "Agentic Coding": 52.63,
-            "Mathematics": 77.53,
-            "Data Analysis": 75.77,
-            "Language": 66.14,
-            "IF": 60.25
-          }
+          "model": "Qwen3.8 27B",
+          "slug": "qwen3.8-27b",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 58.38,
+          "metrics": {
+            "Long Agentic": 20.6,
+            "Reasoning": 80,
+            "Coding": 86.8,
+            "Browser": 24.2,
+            "Data Analysis": 76.6,
+            "Research": 59.4,
+            "Design": 75.9
+          },
+          "priceIn": 0.5,
+          "priceOut": 3
         },
         {
-          "model": "qwen3.6-plus",
-          "globalAverage": 68.9,
-          "categories": {
-            "Reasoning": 75.83,
-            "Coding": 78.18,
-            "Agentic Coding": 41.36,
-            "Mathematics": 83.72,
-            "Data Analysis": 69.91,
-            "Language": 74.99,
-            "IF": 58.34
-          }
+          "model": "Muse Spark Open",
+          "slug": "muse-spark-open",
+          "creator": "Meta",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 51.63,
+          "metrics": {
+            "Long Agentic": 11.7,
+            "Reasoning": 73.7,
+            "Coding": 73.6,
+            "Browser": 26.2,
+            "Data Analysis": 60.2,
+            "Research": 80.3,
+            "Design": 60.3
+          },
+          "priceIn": 1.25,
+          "priceOut": 4.25
         },
         {
-          "model": "kimi-k2.7-code",
-          "globalAverage": 68.41,
-          "categories": {
-            "Reasoning": 82.81,
-            "Coding": 73.96,
-            "Agentic Coding": 45.66,
-            "Mathematics": 79.6,
-            "Data Analysis": 62.66,
-            "Language": 77.91,
-            "IF": 56.29
-          }
+          "model": "Smaug-Nemotron-3.5-NVFP4",
+          "slug": "smaug-nemotron-3.5-nvfp4",
+          "creator": "Abacus.AI",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 50.31,
+          "metrics": {
+            "Long Agentic": 8.4,
+            "Reasoning": 75.1,
+            "Coding": 72.2,
+            "Browser": 25.6,
+            "Data Analysis": 65.1,
+            "Research": 67.8,
+            "Design": 62.7
+          },
+          "priceIn": 0.15,
+          "priceOut": 0.5
         },
         {
-          "model": "grok-build-0.1",
-          "globalAverage": 67.78,
-          "categories": {
-            "Reasoning": 76.37,
-            "Coding": 65.39,
-            "Agentic Coding": 45.81,
-            "Mathematics": 78.43,
-            "Data Analysis": 70.79,
-            "Language": 72.46,
-            "IF": 65.22
-          }
+          "model": "Nemotron 3.5 Super VL",
+          "slug": "nemotron-super-vl-3.5",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 50.23,
+          "metrics": {
+            "Long Agentic": 11.7,
+            "Reasoning": 74.6,
+            "Coding": 71.3,
+            "Browser": 21.6,
+            "Data Analysis": 64.6,
+            "Research": 66.7,
+            "Design": 62.8
+          },
+          "priceIn": 0.225,
+          "priceOut": 0.575
         },
         {
-          "model": "minimax-m3",
-          "globalAverage": 67.26,
-          "categories": {
-            "Reasoning": 74.48,
-            "Coding": 68.2,
-            "Agentic Coding": 40.66,
-            "Mathematics": 76.95,
-            "Data Analysis": 76.17,
-            "Language": 76.84,
-            "IF": 57.51
-          }
+          "model": "Inkling",
+          "slug": "inkling",
+          "creator": null,
+          "openWeights": null,
+          "reasoning": null,
+          "overall": 47.05,
+          "metrics": {
+            "Long Agentic": 8.5,
+            "Reasoning": 78.3,
+            "Coding": 64,
+            "Browser": 12,
+            "Data Analysis": 72.8,
+            "Research": 59.9,
+            "Design": 58.3
+          },
+          "priceIn": 1,
+          "priceOut": 4.05
         },
         {
-          "model": "gpt-5.4-mini-xhigh",
-          "globalAverage": 66.37,
-          "categories": {
-            "Reasoning": 71.32,
-            "Coding": 71.62,
-            "Agentic Coding": 41.67,
-            "Mathematics": 78.46,
-            "Data Analysis": 70.79,
-            "Language": 70.95,
-            "IF": 59.8
-          }
+          "model": "Nemotron 3.5 Super VL (NVFP4)",
+          "slug": "nemotron-super-vl-3.5-nvfp4",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 46.5,
+          "metrics": {
+            "Long Agentic": 7.3,
+            "Reasoning": 71.7,
+            "Coding": 61.3,
+            "Browser": 18,
+            "Data Analysis": 65.7,
+            "Research": 70.9,
+            "Design": 57.1
+          },
+          "priceIn": 0.15,
+          "priceOut": 0.5
         },
         {
-          "model": "deepseek-v4-flash",
-          "globalAverage": 65.48,
-          "categories": {
-            "Reasoning": 70.58,
-            "Coding": 69.23,
-            "Agentic Coding": 37.63,
-            "Mathematics": 79.65,
-            "Data Analysis": 68.02,
-            "Language": 70.12,
-            "IF": 63.14
-          }
+          "model": "Mistral Large 4",
+          "slug": "mistral-large-4",
+          "creator": "Mistral AI",
+          "openWeights": false,
+          "reasoning": true,
+          "overall": 43.9,
+          "metrics": {
+            "Long Agentic": 8.8,
+            "Reasoning": 83.9,
+            "Coding": 60,
+            "Browser": 0.6,
+            "Data Analysis": 76.5,
+            "Research": 28.1,
+            "Design": 65.6
+          },
+          "priceIn": 0.68,
+          "priceOut": 2.09
         },
         {
-          "model": "qwen3.6-27b",
-          "globalAverage": 64.03,
-          "categories": {
-            "Reasoning": 70.28,
-            "Coding": 71.79,
-            "Agentic Coding": 39.29,
-            "Mathematics": 79.87,
-            "Data Analysis": 70.43,
-            "Language": 63.3,
-            "IF": 53.23
-          }
+          "model": "Gemma 4 31B",
+          "slug": "gemma-4-31b",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": true,
+          "overall": 38.72,
+          "metrics": {
+            "Long Agentic": 10.7,
+            "Reasoning": 68.3,
+            "Coding": 49,
+            "Browser": 0,
+            "Data Analysis": 53.3,
+            "Research": 44.4,
+            "Design": 58.4
+          },
+          "priceIn": 0.14,
+          "priceOut": 0.4
+        }
+      ]
+    },
+    {
+      "id": "aa",
+      "name": "Artificial Analysis",
+      "desc": "多基准加权综合智能指数",
+      "source": "https://artificialanalysis.ai/leaderboards/models",
+      "version": null,
+      "scoreLabel": "智能指数",
+      "scoreMax": 100,
+      "metrics": [
+        {
+          "key": "humanitys-last-exam",
+          "label": "人文终考"
         },
         {
-          "model": "gemini-3.5-flash-lite-high",
-          "globalAverage": 63.94,
-          "categories": {
-            "Reasoning": 60.19,
-            "Coding": 76.07,
-            "Agentic Coding": 45.25,
-            "Mathematics": 73.74,
-            "Data Analysis": 53.25,
-            "Language": 71.82,
-            "IF": 67.24
-          }
+          "key": "long-context",
+          "label": "长上下文"
         },
         {
-          "model": "grok-4.3",
-          "globalAverage": 62.25,
-          "categories": {
-            "Reasoning": 70.82,
-            "Coding": 69.93,
-            "Agentic Coding": 18.54,
-            "Mathematics": 84.34,
-            "Data Analysis": 55.77,
-            "Language": 73.58,
-            "IF": 62.75
-          }
+          "key": "omniscience",
+          "label": "知识准确性"
+        },
+        {
+          "key": "critpt",
+          "label": "物理推理"
+        }
+      ],
+      "models": [
+        {
+          "model": "Claude Opus 5.5",
+          "slug": "claude-opus-5-5",
+          "creator": "Anthropic",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 57.62,
+          "metrics": {
+            "humanitys-last-exam": 61.35,
+            "long-context": 84.67,
+            "omniscience": 66.22,
+            "critpt": 31.71
+          },
+          "contextWindow": 1000000,
+          "speed": 98,
+          "priceIn": 4,
+          "priceOut": 20
+        },
+        {
+          "model": "Claude Sonnet 5.5",
+          "slug": "claude-sonnet-5-5",
+          "creator": "Anthropic",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 56,
+          "metrics": {
+            "humanitys-last-exam": 54.96,
+            "long-context": 82.67,
+            "omniscience": 53.95,
+            "critpt": 31.43
+          },
+          "contextWindow": 1000000,
+          "speed": 141,
+          "priceIn": 2,
+          "priceOut": 10
+        },
+        {
+          "model": "Muse Wonder Full",
+          "slug": "muse-wonder-full",
+          "creator": "Meta",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 55.8,
+          "metrics": {
+            "humanitys-last-exam": 53.61,
+            "long-context": 83.67,
+            "omniscience": 43.22,
+            "critpt": 32.86
+          },
+          "contextWindow": 1000000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Kimi K3.1 Pro",
+          "slug": "kimi-k3-1-pro",
+          "creator": "Kimi",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 55.09,
+          "metrics": {
+            "humanitys-last-exam": 52.46,
+            "long-context": 86.33,
+            "omniscience": 51.02,
+            "critpt": 24.57
+          },
+          "contextWindow": 1000000,
+          "speed": 46,
+          "priceIn": 2,
+          "priceOut": 10
+        },
+        {
+          "model": "Claude Fable 5.1",
+          "slug": "claude-fable-5-1",
+          "creator": "Anthropic",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 53.35,
+          "metrics": {
+            "humanitys-last-exam": 59.13,
+            "long-context": 85.33,
+            "omniscience": 67.23,
+            "critpt": 29.71
+          },
+          "contextWindow": 1000000,
+          "speed": 70,
+          "priceIn": 10,
+          "priceOut": 50
+        },
+        {
+          "model": "GPT-6 Astra",
+          "slug": "gpt-6-astra",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 52.67,
+          "metrics": {
+            "humanitys-last-exam": 54.68,
+            "long-context": 80.67,
+            "omniscience": 62.6,
+            "critpt": 31.71
+          },
+          "contextWindow": 1000000,
+          "speed": 68,
+          "priceIn": 10,
+          "priceOut": 50
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "slug": "gemini-4-argon",
+          "creator": "Google",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "High",
+          "overall": 52.56,
+          "metrics": {
+            "humanitys-last-exam": 57.09,
+            "long-context": 79.67,
+            "omniscience": 49.9,
+            "critpt": 27.14
+          },
+          "contextWindow": 1000000,
+          "speed": 80,
+          "priceIn": 2,
+          "priceOut": 10
+        },
+        {
+          "model": "Muse Wonder",
+          "slug": "muse-wonder",
+          "creator": "Meta",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 52.39,
+          "metrics": {
+            "humanitys-last-exam": 50.09,
+            "long-context": 80.67,
+            "omniscience": 41.1,
+            "critpt": 28.29
+          },
+          "contextWindow": 1048576,
+          "speed": 202,
+          "priceIn": 4,
+          "priceOut": 20
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "slug": "gpt-6-1-sol",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 51.83,
+          "metrics": {
+            "humanitys-last-exam": 52.92,
+            "long-context": 83,
+            "omniscience": 62.1,
+            "critpt": 31.71
+          },
+          "contextWindow": 1000000,
+          "speed": 69,
+          "priceIn": 2,
+          "priceOut": 10
+        },
+        {
+          "model": "GPT-6.1 Terra",
+          "slug": "gpt-6-1-terra",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 48.11,
+          "metrics": {
+            "humanitys-last-exam": 46.25,
+            "long-context": 82.67,
+            "omniscience": 49.13,
+            "critpt": 28
+          },
+          "contextWindow": 1000000,
+          "speed": 91,
+          "priceIn": 1,
+          "priceOut": 5
+        },
+        {
+          "model": "Grok 4.7",
+          "slug": "grok-4-7",
+          "creator": "SpaceXAI",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Xhigh",
+          "overall": 46.45,
+          "metrics": {
+            "humanitys-last-exam": 43.14,
+            "long-context": 76.67,
+            "omniscience": 47.45,
+            "critpt": 17.71
+          },
+          "contextWindow": 500000,
+          "speed": 92,
+          "priceIn": 2,
+          "priceOut": 6
+        },
+        {
+          "model": "MiMo-V2.6-Pro",
+          "slug": "mimo-v2-6-pro",
+          "creator": "Xiaomi",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 46.32,
+          "metrics": {
+            "humanitys-last-exam": 49.35,
+            "long-context": 86.33,
+            "omniscience": 34.85,
+            "critpt": 26.57
+          },
+          "contextWindow": 1000000,
+          "speed": 56,
+          "priceIn": 0.435,
+          "priceOut": 0.87
+        },
+        {
+          "model": "Qwen3.8 Max (0902)",
+          "slug": "qwen3-8-max",
+          "creator": "Alibaba",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 45.42,
+          "metrics": {
+            "humanitys-last-exam": 43.1,
+            "long-context": 80.33,
+            "omniscience": 31.68,
+            "critpt": 17.71
+          },
+          "contextWindow": 983616,
+          "speed": 41,
+          "priceIn": 2,
+          "priceOut": 6
+        },
+        {
+          "model": "DeepSeek V4.1 Flash 1017",
+          "slug": "deepseek-v4-1-flash-1017",
+          "creator": "DeepSeek",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 45.1,
+          "metrics": {
+            "humanitys-last-exam": 43.33,
+            "long-context": 82.67,
+            "omniscience": 42.85,
+            "critpt": 24
+          },
+          "contextWindow": 1000000,
+          "speed": 169,
+          "priceIn": 0.3,
+          "priceOut": 1.2
+        },
+        {
+          "model": "GLM-5.3",
+          "slug": "glm-5-3",
+          "creator": "Z AI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 44.78,
+          "metrics": {
+            "humanitys-last-exam": 42.26,
+            "long-context": 79.67,
+            "omniscience": 33.85,
+            "critpt": 19.14
+          },
+          "contextWindow": 1000000,
+          "speed": 94,
+          "priceIn": 1.4,
+          "priceOut": 4.4
+        },
+        {
+          "model": "Ling 3.1 Flash 1019",
+          "slug": "ling-3-1-flash-1019",
+          "creator": "InclusionAI",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 43.9,
+          "metrics": {
+            "humanitys-last-exam": 43.47,
+            "long-context": 82.33,
+            "omniscience": 29.85,
+            "critpt": 26
+          },
+          "contextWindow": 1048576,
+          "speed": null,
+          "priceIn": 0.3,
+          "priceOut": 0.9
+        },
+        {
+          "model": "Step 5 Preview",
+          "slug": "step-5",
+          "creator": "StepFun",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 43.73,
+          "metrics": {
+            "humanitys-last-exam": 46.48,
+            "long-context": 88.33,
+            "omniscience": 41.53,
+            "critpt": 20.86
+          },
+          "contextWindow": 1000000,
+          "speed": 198,
+          "priceIn": 1,
+          "priceOut": 2.7
+        },
+        {
+          "model": "Claude Haiku 5.5",
+          "slug": "claude-haiku-5-5",
+          "creator": "Anthropic",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 43.4,
+          "metrics": {
+            "humanitys-last-exam": 44.39,
+            "long-context": 82.67,
+            "omniscience": 36.38,
+            "critpt": 18.86
+          },
+          "contextWindow": 1000000,
+          "speed": 234,
+          "priceIn": 0.1,
+          "priceOut": 0.5
+        },
+        {
+          "model": "MiniMax-M3.1-Flash",
+          "slug": "minimax-m3-1-flash",
+          "creator": "MiniMax",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 42.71,
+          "metrics": {
+            "humanitys-last-exam": 47.96,
+            "long-context": 79.67,
+            "omniscience": 56.2,
+            "critpt": 22.29
+          },
+          "contextWindow": 1000000,
+          "speed": 116,
+          "priceIn": 0.15,
+          "priceOut": 0.6
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "slug": "glm-5-3-flash",
+          "creator": "Z AI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 41.81,
+          "metrics": {
+            "humanitys-last-exam": 39.85,
+            "long-context": 80,
+            "omniscience": 27.5,
+            "critpt": 15.43
+          },
+          "contextWindow": 1000000,
+          "speed": 73,
+          "priceIn": 0.15,
+          "priceOut": 0.5
+        },
+        {
+          "model": "Ling 3.1 Flash",
+          "slug": "ling-3-1-flash",
+          "creator": "InclusionAI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 41.09,
+          "metrics": {
+            "humanitys-last-exam": 39.43,
+            "long-context": 83,
+            "omniscience": 29.08,
+            "critpt": 18
+          },
+          "contextWindow": 1000000,
+          "speed": 213,
+          "priceIn": 0.3,
+          "priceOut": 0.9
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "slug": "gemini-3-8-flash",
+          "creator": "Google",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "High",
+          "overall": 40.93,
+          "metrics": {
+            "humanitys-last-exam": 47.82,
+            "long-context": 81.33,
+            "omniscience": 54.6,
+            "critpt": 18.29
+          },
+          "contextWindow": 1000000,
+          "speed": 134,
+          "priceIn": 0.75,
+          "priceOut": 3.75
+        },
+        {
+          "model": "Qwen3.8 2.4T A95B",
+          "slug": "qwen3-8-2-4t-a95b",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 39.95,
+          "metrics": {
+            "humanitys-last-exam": 42.45,
+            "long-context": 80.33,
+            "omniscience": 31.25,
+            "critpt": 20
+          },
+          "contextWindow": 262000,
+          "speed": 41,
+          "priceIn": 2,
+          "priceOut": 6
+        },
+        {
+          "model": "Qwen3.8-Flash-Next",
+          "slug": "qwen3-8-flash-next",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 39.82,
+          "metrics": {
+            "humanitys-last-exam": 38.04,
+            "long-context": 79.67,
+            "omniscience": 24.5,
+            "critpt": 11.14
+          },
+          "contextWindow": 256000,
+          "speed": 53,
+          "priceIn": 0.15,
+          "priceOut": 0.47
+        },
+        {
+          "model": "Muse Spark Open",
+          "slug": "muse-spark-open",
+          "creator": "Meta",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "Xhigh",
+          "overall": 38.87,
+          "metrics": {
+            "humanitys-last-exam": 43.88,
+            "long-context": 78.33,
+            "omniscience": 39.27,
+            "critpt": 14.86
+          },
+          "contextWindow": 1048576,
+          "speed": 204,
+          "priceIn": 1.25,
+          "priceOut": 4.25
+        },
+        {
+          "model": "Mistral Large 4 Preview",
+          "slug": "mistral-large-4",
+          "creator": "Mistral",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 38.38,
+          "metrics": {
+            "humanitys-last-exam": 35.03,
+            "long-context": 81.33,
+            "omniscience": 25.82,
+            "critpt": 10.57
+          },
+          "contextWindow": 524288,
+          "speed": 116,
+          "priceIn": 1.36,
+          "priceOut": 4.18
+        },
+        {
+          "model": "GPT-6 Luna",
+          "slug": "gpt-6-luna",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 38.12,
+          "metrics": {
+            "humanitys-last-exam": 38.51,
+            "long-context": 83.33,
+            "omniscience": 43.78,
+            "critpt": 19.43
+          },
+          "contextWindow": 1000000,
+          "speed": 127,
+          "priceIn": 0.1,
+          "priceOut": 0.5
+        },
+        {
+          "model": "MiMo-V2.6-Flash",
+          "slug": "mimo-v2-6-flash",
+          "creator": "Xiaomi",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 37.88,
+          "metrics": {
+            "humanitys-last-exam": 35.08,
+            "long-context": 74.33,
+            "omniscience": 27,
+            "critpt": 12
+          },
+          "contextWindow": 1000000,
+          "speed": 55,
+          "priceIn": 0.14,
+          "priceOut": 0.28
+        },
+        {
+          "model": "DeepSeek V4 Pro 0813",
+          "slug": "deepseek-v4-pro",
+          "creator": "DeepSeek",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 36,
+          "metrics": {
+            "humanitys-last-exam": 41.01,
+            "long-context": 80.33,
+            "omniscience": 49.1,
+            "critpt": 18
+          },
+          "contextWindow": 1000000,
+          "speed": 98,
+          "priceIn": 1.32,
+          "priceOut": 3.96
+        },
+        {
+          "model": "Agnes 2.5 Pro Beta",
+          "slug": "agnes-2-5-pro-beta",
+          "creator": "Sapiens AI",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 35.24,
+          "metrics": {
+            "humanitys-last-exam": 37.53,
+            "long-context": 83,
+            "omniscience": 16.77,
+            "critpt": 15.71
+          },
+          "contextWindow": 1000000,
+          "speed": 108,
+          "priceIn": 0.1,
+          "priceOut": 0.3
+        },
+        {
+          "model": "DeepSeek V4 Flash Vision",
+          "slug": "deepseek-v4-flash-vision",
+          "creator": "DeepSeek",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 34.84,
+          "metrics": {
+            "humanitys-last-exam": 34.48,
+            "long-context": 81.33,
+            "omniscience": 38.57,
+            "critpt": 10.86
+          },
+          "contextWindow": 1000000,
+          "speed": 182,
+          "priceIn": 0.44,
+          "priceOut": 1.32
+        },
+        {
+          "model": "JT-4.1 Flash 236B A21B (Reasoning)",
+          "slug": "jt-4-1-flash-236b-a21b",
+          "creator": "China Mobile",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 33.92,
+          "metrics": {
+            "humanitys-last-exam": 43.56,
+            "long-context": 78.33,
+            "omniscience": 49.4,
+            "critpt": 14
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Qwen3.8 27B",
+          "slug": "qwen3-8-27b",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "Xhigh",
+          "overall": 33.68,
+          "metrics": {
+            "humanitys-last-exam": 33.92,
+            "long-context": 82,
+            "omniscience": 15.58,
+            "critpt": 5.43
+          },
+          "contextWindow": 256000,
+          "speed": 42,
+          "priceIn": 0.5,
+          "priceOut": 3
+        },
+        {
+          "model": "Motif 3",
+          "slug": "motif-3",
+          "creator": "Motif Technologies",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 33.57,
+          "metrics": {
+            "humanitys-last-exam": 36.98,
+            "long-context": 76,
+            "omniscience": 30.07,
+            "critpt": 6.57
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "GPT-6.1 Terra (Non-reasoning)",
+          "slug": "gpt-6-1-terra-non-reasoning",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 33.49,
+          "metrics": {
+            "humanitys-last-exam": 21.13,
+            "long-context": 67.67,
+            "omniscience": 44.03,
+            "critpt": 4.86
+          },
+          "contextWindow": 1000000,
+          "speed": 91,
+          "priceIn": 1,
+          "priceOut": 5
+        },
+        {
+          "model": "GPT-5.3 Codex",
+          "slug": "gpt-5-3-codex",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Xhigh",
+          "overall": 32.5,
+          "metrics": {
+            "humanitys-last-exam": 42.49,
+            "long-context": 83.33,
+            "omniscience": 52.88,
+            "critpt": 16.86
+          },
+          "contextWindow": 400000,
+          "speed": 103,
+          "priceIn": 1.75,
+          "priceOut": 14
+        },
+        {
+          "model": "K2 Horizon 375B A23B",
+          "slug": "k2-horizon-375b-a23b",
+          "creator": "Institute of Foundation Models",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 30.5,
+          "metrics": {
+            "humanitys-last-exam": 31.97,
+            "long-context": 80,
+            "omniscience": 18.18,
+            "critpt": 4.57
+          },
+          "contextWindow": 524288,
+          "speed": 919,
+          "priceIn": 0,
+          "priceOut": 0
+        },
+        {
+          "model": "Beam 1.0",
+          "slug": "reflection-beam",
+          "creator": "Reflection",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 30.33,
+          "metrics": {
+            "humanitys-last-exam": 34.66,
+            "long-context": 78,
+            "omniscience": 33.07,
+            "critpt": 13.14
+          },
+          "contextWindow": 1048576,
+          "speed": 366,
+          "priceIn": 0.4,
+          "priceOut": 1.2
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "slug": "gemini-3-1-pro-preview",
+          "creator": "Google",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 29.72,
+          "metrics": {
+            "humanitys-last-exam": 47.03,
+            "long-context": 82,
+            "omniscience": 54.85,
+            "critpt": 17.71
+          },
+          "contextWindow": 1000000,
+          "speed": 138,
+          "priceIn": 2,
+          "priceOut": 12
+        },
+        {
+          "model": "MiniMax-M3",
+          "slug": "minimax-m3",
+          "creator": "MiniMax",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 29.22,
+          "metrics": {
+            "humanitys-last-exam": 38.97,
+            "long-context": 83,
+            "omniscience": 16.7,
+            "critpt": 3.71
+          },
+          "contextWindow": 1000000,
+          "speed": 109,
+          "priceIn": 0.3,
+          "priceOut": 1.2
+        },
+        {
+          "model": "Nex-N2-Pro (Based on Qwen3.5-397B-A17B)",
+          "slug": "nex-n2-pro",
+          "creator": "Nex AGI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 28.2,
+          "metrics": {
+            "humanitys-last-exam": 33.73,
+            "long-context": 81.67,
+            "omniscience": 34.82,
+            "critpt": 8.57
+          },
+          "contextWindow": 262000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "JT-4.1 Flash 236B A21B (Non-reasoning)",
+          "slug": "jt-4-1-flash-236b-a21b-non-reasoning",
+          "creator": "China Mobile",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 27.29,
+          "metrics": {
+            "humanitys-last-exam": 17.79,
+            "long-context": 71.33,
+            "omniscience": 24.28,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Quasar 438B",
+          "slug": "quasar-438b",
+          "creator": "Multiverse Computing",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Max",
+          "overall": 26.74,
+          "metrics": {
+            "humanitys-last-exam": 18.67,
+            "long-context": 76.33,
+            "omniscience": 15.52,
+            "critpt": 9.43
+          },
+          "contextWindow": 1000000,
+          "speed": 170,
+          "priceIn": 0.11,
+          "priceOut": 0.33
+        },
+        {
+          "model": "Solar Pro 4",
+          "slug": "solar-pro4",
+          "creator": "Upstage",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 26.56,
+          "metrics": {
+            "humanitys-last-exam": 29.84,
+            "long-context": 70.67,
+            "omniscience": 19.42,
+            "critpt": 6.29
+          },
+          "contextWindow": 512000,
+          "speed": null,
+          "priceIn": 0.3,
+          "priceOut": 1.2
+        },
+        {
+          "model": "Nemotron 3.5 Super VL",
+          "slug": "nemotron-3-5-super-vl",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 26.49,
+          "metrics": {
+            "humanitys-last-exam": 30.72,
+            "long-context": 69,
+            "omniscience": 23.28,
+            "critpt": 10.57
+          },
+          "contextWindow": 1000000,
+          "speed": 449,
+          "priceIn": 0.225,
+          "priceOut": 0.575
+        },
+        {
+          "model": "Apodex 1.1",
+          "slug": "apodex-1-1",
+          "creator": "Apodex",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 26.41,
+          "metrics": {
+            "humanitys-last-exam": 34.06,
+            "long-context": 79.33,
+            "omniscience": 31.68,
+            "critpt": 4.57
+          },
+          "contextWindow": 256000,
+          "speed": null,
+          "priceIn": 0.3,
+          "priceOut": 3
+        },
+        {
+          "model": "GPT-5.5 Instant (June 2026)",
+          "slug": "gpt-5-5-instant-06-26",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 26.01,
+          "metrics": {
+            "humanitys-last-exam": 19.93,
+            "long-context": 70,
+            "omniscience": 44.42,
+            "critpt": 0
+          },
+          "contextWindow": 400000,
+          "speed": 158,
+          "priceIn": 5,
+          "priceOut": 30
+        },
+        {
+          "model": "Kimi K2.7 Code",
+          "slug": "kimi-k2-7-code",
+          "creator": "Kimi",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 25.81,
+          "metrics": {
+            "humanitys-last-exam": 35.03,
+            "long-context": 79.33,
+            "omniscience": 39.57,
+            "critpt": 10
+          },
+          "contextWindow": 256000,
+          "speed": 83,
+          "priceIn": 0.95,
+          "priceOut": 4
+        },
+        {
+          "model": "Inkling Small",
+          "slug": "inkling-small",
+          "creator": "Thinking Machines",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 25.66,
+          "metrics": {
+            "humanitys-last-exam": 33.32,
+            "long-context": 75.67,
+            "omniscience": 33.17,
+            "critpt": 8.29
+          },
+          "contextWindow": 1000000,
+          "speed": 224,
+          "priceIn": 0.3,
+          "priceOut": 1.2
+        },
+        {
+          "model": "K2 Horizon MoVA 36B A4B",
+          "slug": "k2-horizon-mova-36b-a4b",
+          "creator": "Institute of Foundation Models",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 25.3,
+          "metrics": {
+            "humanitys-last-exam": 23.45,
+            "long-context": 71.67,
+            "omniscience": 15,
+            "critpt": 2.29
+          },
+          "contextWindow": 524288,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Hy3",
+          "slug": "hy3",
+          "creator": "Tencent",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 25.3,
+          "metrics": {
+            "humanitys-last-exam": 33.46,
+            "long-context": 79,
+            "omniscience": 31.97,
+            "critpt": 4.86
+          },
+          "contextWindow": 256000,
+          "speed": 84,
+          "priceIn": 0.136,
+          "priceOut": 0.5549999999999999
+        },
+        {
+          "model": "Qwen3.7 Plus",
+          "slug": "qwen3-7-plus",
+          "creator": "Alibaba",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 25.16,
+          "metrics": {
+            "humanitys-last-exam": 35.63,
+            "long-context": 73,
+            "omniscience": 22.52,
+            "critpt": 9.14
+          },
+          "contextWindow": 1000000,
+          "speed": 57,
+          "priceIn": 0.4,
+          "priceOut": 1.6
+        },
+        {
+          "model": "Inkling",
+          "slug": "inkling",
+          "creator": "Thinking Machines",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "Xhigh",
+          "overall": 24.98,
+          "metrics": {
+            "humanitys-last-exam": 31.88,
+            "long-context": 77.33,
+            "omniscience": 41.55,
+            "critpt": 5.43
+          },
+          "contextWindow": 1000000,
+          "speed": 195,
+          "priceIn": 1,
+          "priceOut": 4.05
+        },
+        {
+          "model": "Solar Open2 250B",
+          "slug": "solar-open2-250b",
+          "creator": "Upstage",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 24.74,
+          "metrics": {
+            "humanitys-last-exam": 28.54,
+            "long-context": 71.67,
+            "omniscience": 18.83,
+            "critpt": 5.71
+          },
+          "contextWindow": 1048576,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Ling-3.0-flash-VL",
+          "slug": "ling-3-0-flash-vl",
+          "creator": "InclusionAI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 24.57,
+          "metrics": {
+            "humanitys-last-exam": 21.96,
+            "long-context": 78.33,
+            "omniscience": 14.35,
+            "critpt": 2
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Solar Mini 4",
+          "slug": "solar-mini4",
+          "creator": "Upstage",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 24.05,
+          "metrics": {
+            "humanitys-last-exam": 25.76,
+            "long-context": 83.33,
+            "omniscience": 18.42,
+            "critpt": 1.43
+          },
+          "contextWindow": 1048576,
+          "speed": 122,
+          "priceIn": 0.1,
+          "priceOut": 0.4
+        },
+        {
+          "model": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "slug": "nvidia-nemotron-3-ultra-550b-a55b",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 22.93,
+          "metrics": {
+            "humanitys-last-exam": 28.41,
+            "long-context": 79.33,
+            "omniscience": 22.58,
+            "critpt": 3.14
+          },
+          "contextWindow": 262144,
+          "speed": 197,
+          "priceIn": 0.6,
+          "priceOut": 2.7
+        },
+        {
+          "model": "Ling-3.0-flash-Fin",
+          "slug": "ling-3-0-flash-fin",
+          "creator": "InclusionAI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 22.6,
+          "metrics": {
+            "humanitys-last-exam": 22.61,
+            "long-context": 73.67,
+            "omniscience": 17.87,
+            "critpt": 2.57
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Gemini 3.5 Flash-Lite",
+          "slug": "gemini-3-5-flash-lite",
+          "creator": "Google",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 22.17,
+          "metrics": {
+            "humanitys-last-exam": 18.81,
+            "long-context": 76,
+            "omniscience": 29.47,
+            "critpt": 0
+          },
+          "contextWindow": 1000000,
+          "speed": 419,
+          "priceIn": 0.3,
+          "priceOut": 2.5
+        },
+        {
+          "model": "G9v3-39A5B",
+          "slug": "g9v3-39a5b",
+          "creator": "AI9Stars",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 21.83,
+          "metrics": {
+            "humanitys-last-exam": 17.47,
+            "long-context": 65.33,
+            "omniscience": 14.87,
+            "critpt": 0.29
+          },
+          "contextWindow": 131072,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "KAT Coder Pro V2",
+          "slug": "kat-coder-pro-v2",
+          "creator": "KwaiKAT",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 21.7,
+          "metrics": {
+            "humanitys-last-exam": 16.13,
+            "long-context": 73,
+            "omniscience": 21.48,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "A.X-K2",
+          "slug": "a-x-k2",
+          "creator": "SK Telecom",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 21.46,
+          "metrics": {
+            "humanitys-last-exam": 29.56,
+            "long-context": 70,
+            "omniscience": 18.62,
+            "critpt": 8.86
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Qwen3.5 397B A17B (Non-reasoning)",
+          "slug": "qwen3-5-397b-a17b-non-reasoning",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 21.44,
+          "metrics": {
+            "humanitys-last-exam": 19.83,
+            "long-context": 64.33,
+            "omniscience": 24.52,
+            "critpt": 0.86
+          },
+          "contextWindow": 262144,
+          "speed": 59,
+          "priceIn": 0.6,
+          "priceOut": 3.6
+        },
+        {
+          "model": "Nemotron 3.5 Bolt 74B-A9B",
+          "slug": "nemotron-3-5-bolt-74b-a9b",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 21.41,
+          "metrics": {
+            "humanitys-last-exam": 24.65,
+            "long-context": 69.67,
+            "omniscience": 17.08,
+            "critpt": 4.29
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "K2 Horizon 7B",
+          "slug": "k2-horizon-7b",
+          "creator": "Institute of Foundation Models",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 20.6,
+          "metrics": {
+            "humanitys-last-exam": 18.21,
+            "long-context": 69.67,
+            "omniscience": 12.77,
+            "critpt": 0.29
+          },
+          "contextWindow": 524288,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Qwen3.5 Omni Plus",
+          "slug": "qwen3-5-omni-plus",
+          "creator": "Alibaba",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 20.38,
+          "metrics": {
+            "humanitys-last-exam": 14.87,
+            "long-context": 63.67,
+            "omniscience": 17.43,
+            "critpt": 0.56
+          },
+          "contextWindow": 256000,
+          "speed": 122,
+          "priceIn": 0.4,
+          "priceOut": 4.8
+        },
+        {
+          "model": "DeepSeek V4 Pro 0813 (Non-reasoning)",
+          "slug": "deepseek-v4-pro-non-reasoning",
+          "creator": "DeepSeek",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 20.36,
+          "metrics": {
+            "humanitys-last-exam": 10.57,
+            "long-context": 50.67,
+            "omniscience": 41.45,
+            "critpt": 0
+          },
+          "contextWindow": 1000000,
+          "speed": 104,
+          "priceIn": 1.32,
+          "priceOut": 3.96
+        },
+        {
+          "model": "o3",
+          "slug": "o3",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 20.2,
+          "metrics": {
+            "humanitys-last-exam": 20.05,
+            "long-context": 74.67,
+            "omniscience": 38.57,
+            "critpt": 1.14
+          },
+          "contextWindow": 200000,
+          "speed": 166,
+          "priceIn": 2,
+          "priceOut": 8
+        },
+        {
+          "model": "Qwen3.8 27B (Non-reasoning)",
+          "slug": "qwen3-8-27b-non-reasoning",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 20.15,
+          "metrics": {
+            "humanitys-last-exam": 12.14,
+            "long-context": 69.33,
+            "omniscience": 8.58,
+            "critpt": 0.29
+          },
+          "contextWindow": 256000,
+          "speed": 49,
+          "priceIn": 0.5,
+          "priceOut": 3
+        },
+        {
+          "model": "K-EXAONE 2.0 0803",
+          "slug": "k-exaone-2-0-0803",
+          "creator": "LG AI Research",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 19.69,
+          "metrics": {
+            "humanitys-last-exam": 18.58,
+            "long-context": 60,
+            "omniscience": 13.05,
+            "critpt": 0.86
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "LongCat 2.0",
+          "slug": "longcat-2-0",
+          "creator": "LongCat",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 19.11,
+          "metrics": {
+            "humanitys-last-exam": 33.69,
+            "long-context": 65,
+            "omniscience": 29.63,
+            "critpt": 2.57
+          },
+          "contextWindow": 1000000,
+          "speed": 71,
+          "priceIn": 0.75,
+          "priceOut": 2.95
+        },
+        {
+          "model": "JT-35B-Flash",
+          "slug": "jt-35b-flash",
+          "creator": "China Mobile",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 18.66,
+          "metrics": {
+            "humanitys-last-exam": 6.44,
+            "long-context": 65.67,
+            "omniscience": 24.18,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "GPT-6 Luna (Non-reasoning)",
+          "slug": "gpt-6-luna-non-reasoning",
+          "creator": "OpenAI",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 18.47,
+          "metrics": {
+            "humanitys-last-exam": 8.57,
+            "long-context": 39.67,
+            "omniscience": 31.85,
+            "critpt": 1.14
+          },
+          "contextWindow": 1000000,
+          "speed": 121,
+          "priceIn": 0.1,
+          "priceOut": 0.5
+        },
+        {
+          "model": "Qwen3.5 397B A17B (Reasoning)",
+          "slug": "qwen3-5-397b-a17b",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 18.42,
+          "metrics": {
+            "humanitys-last-exam": 28.96,
+            "long-context": 77.33,
+            "omniscience": 30.8,
+            "critpt": 1.71
+          },
+          "contextWindow": 262144,
+          "speed": 58,
+          "priceIn": 0.6,
+          "priceOut": 3.6
+        },
+        {
+          "model": "Qwen3.6 35B A3B (Reasoning)",
+          "slug": "qwen3-6-35b-a3b",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 18.23,
+          "metrics": {
+            "humanitys-last-exam": 22.24,
+            "long-context": 71.67,
+            "omniscience": 18.82,
+            "critpt": 0.29
+          },
+          "contextWindow": 262144,
+          "speed": 133,
+          "priceIn": 0.375,
+          "priceOut": 2.25
+        },
+        {
+          "model": "Qwen3.5 122B A10B (Non-reasoning)",
+          "slug": "qwen3-5-122b-a10b-non-reasoning",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 17.75,
+          "metrics": {
+            "humanitys-last-exam": 15.94,
+            "long-context": 61.33,
+            "omniscience": 19.12,
+            "critpt": 0.86
+          },
+          "contextWindow": 262144,
+          "speed": 146,
+          "priceIn": 0.4,
+          "priceOut": 3.2
+        },
+        {
+          "model": "Muse Glimmer",
+          "slug": "muse-glimmer",
+          "creator": "Meta",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "High",
+          "overall": 17.48,
+          "metrics": {
+            "humanitys-last-exam": 21.96,
+            "long-context": 83.33,
+            "omniscience": 26.98,
+            "critpt": 2.57
+          },
+          "contextWindow": 131072,
+          "speed": 105,
+          "priceIn": 0.3,
+          "priceOut": 1.2
+        },
+        {
+          "model": "Doubao Seed Code",
+          "slug": "doubao-seed-code",
+          "creator": "ByteDance Seed",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 16.95,
+          "metrics": {
+            "humanitys-last-exam": 14.09,
+            "long-context": 71.67,
+            "omniscience": 24.88,
+            "critpt": 0.29
+          },
+          "contextWindow": 256000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Gemma 4 26B A4B (Reasoning)",
+          "slug": "gemma-4-26b-a4b",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 16.67,
+          "metrics": {
+            "humanitys-last-exam": 19.32,
+            "long-context": 65.67,
+            "omniscience": 19.1,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 95,
+          "priceIn": 0.1,
+          "priceOut": 0.34
+        },
+        {
+          "model": "Ring-2.6-1T",
+          "slug": "ring-2-6-1t",
+          "creator": "InclusionAI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 16.62,
+          "metrics": {
+            "humanitys-last-exam": 21.59,
+            "long-context": 70,
+            "omniscience": 25.7,
+            "critpt": 3.71
+          },
+          "contextWindow": 262144,
+          "speed": 122,
+          "priceIn": 0.3,
+          "priceOut": 2.5
+        },
+        {
+          "model": "K2 Horizon 3.7B",
+          "slug": "k2-horizon-3-7b",
+          "creator": "Institute of Foundation Models",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 15.61,
+          "metrics": {
+            "humanitys-last-exam": 13.86,
+            "long-context": 62.33,
+            "omniscience": 10.77,
+            "critpt": 0
+          },
+          "contextWindow": 524288,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Qwen3.5 122B A10B (Reasoning)",
+          "slug": "qwen3-5-122b-a10b",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 15.57,
+          "metrics": {
+            "humanitys-last-exam": 25.21,
+            "long-context": 76.33,
+            "omniscience": 24.37,
+            "critpt": 0.57
+          },
+          "contextWindow": 262144,
+          "speed": 131,
+          "priceIn": 0.4,
+          "priceOut": 3.2
+        },
+        {
+          "model": "Qwen3.6 35B A3B (Non-reasoning)",
+          "slug": "qwen3-6-35b-a3b-non-reasoning",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 15.23,
+          "metrics": {
+            "humanitys-last-exam": 13.9,
+            "long-context": 64.33,
+            "omniscience": 16.72,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": 146,
+          "priceIn": 0.375,
+          "priceOut": 2.25
+        },
+        {
+          "model": "Gemma 4 31B (Reasoning)",
+          "slug": "gemma-4-31b",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 14.67,
+          "metrics": {
+            "humanitys-last-exam": 23.63,
+            "long-context": 69.67,
+            "omniscience": 20.03,
+            "critpt": 1.43
+          },
+          "contextWindow": 256000,
+          "speed": 35,
+          "priceIn": 0,
+          "priceOut": 0
+        },
+        {
+          "model": "ERNIE 5.0 Thinking Preview",
+          "slug": "ernie-5-0-thinking-preview",
+          "creator": "Baidu",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 14.26,
+          "metrics": {
+            "humanitys-last-exam": 13.25,
+            "long-context": null,
+            "omniscience": 22.13,
+            "critpt": 1.43
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Mistral Medium 3.5",
+          "slug": "mistral-medium-3-5",
+          "creator": "Mistral",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 14.19,
+          "metrics": {
+            "humanitys-last-exam": 13.76,
+            "long-context": 69.33,
+            "omniscience": 24.67,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 170,
+          "priceIn": 1.5,
+          "priceOut": 7.5
+        },
+        {
+          "model": "Gemma 4 12B (Reasoning)",
+          "slug": "gemma-4-12b",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 14.18,
+          "metrics": {
+            "humanitys-last-exam": 15.66,
+            "long-context": 63.67,
+            "omniscience": 15.62,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": 112,
+          "priceIn": 0.1,
+          "priceOut": 0.3
+        },
+        {
+          "model": "Nova 2.0 Pro Preview",
+          "slug": "nova-2-0-pro-reasoning-medium",
+          "creator": "Amazon",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Medium",
+          "overall": 14.16,
+          "metrics": {
+            "humanitys-last-exam": 9.41,
+            "long-context": 64,
+            "omniscience": 21.97,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 128,
+          "priceIn": 1.25,
+          "priceOut": 10
+        },
+        {
+          "model": "Gemma 4 31B (Non-reasoning)",
+          "slug": "gemma-4-31b-non-reasoning",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 13.92,
+          "metrics": {
+            "humanitys-last-exam": 11.82,
+            "long-context": 46.67,
+            "omniscience": 16.63,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 54,
+          "priceIn": 0.16499999999999998,
+          "priceOut": 0.4
+        },
+        {
+          "model": "Nova 2.0 Omni",
+          "slug": "nova-2-0-omni-reasoning-medium",
+          "creator": "Amazon",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "Medium",
+          "overall": 13.65,
+          "metrics": {
+            "humanitys-last-exam": 6.95,
+            "long-context": 59.67,
+            "omniscience": 17.7,
+            "critpt": 0
+          },
+          "contextWindow": 1000000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Apriel-v1.6-15B-Thinker",
+          "slug": "apriel-v1-6-15b-thinker",
+          "creator": "ServiceNow",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 13.4,
+          "metrics": {
+            "humanitys-last-exam": 10.8,
+            "long-context": null,
+            "omniscience": 16.97,
+            "critpt": 0.29
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Nova 2.0 Lite",
+          "slug": "nova-2-0-lite-reasoning",
+          "creator": "Amazon",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": "High",
+          "overall": 13.37,
+          "metrics": {
+            "humanitys-last-exam": 11.63,
+            "long-context": 60.33,
+            "omniscience": 19.03,
+            "critpt": 0.29
+          },
+          "contextWindow": 1000000,
+          "speed": 207,
+          "priceIn": 0.3,
+          "priceOut": 2.5
+        },
+        {
+          "model": "Qwen3.5 9B (Non-reasoning)",
+          "slug": "qwen3-5-9b-non-reasoning",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 13.27,
+          "metrics": {
+            "humanitys-last-exam": 9.36,
+            "long-context": 46,
+            "omniscience": 13.98,
+            "critpt": 0.57
+          },
+          "contextWindow": 262144,
+          "speed": 79,
+          "priceIn": 0.17,
+          "priceOut": 0.25
+        },
+        {
+          "model": "EXAONE 4.5 33B (Reasoning)",
+          "slug": "exaone-4-5-33b",
+          "creator": "LG AI Research",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 13.21,
+          "metrics": {
+            "humanitys-last-exam": 12.88,
+            "long-context": 54.67,
+            "omniscience": 16.23,
+            "critpt": 0.29
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Command A+",
+          "slug": "command-a-plus",
+          "creator": "Cohere",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 13.13,
+          "metrics": {
+            "humanitys-last-exam": 11.96,
+            "long-context": 52.67,
+            "omniscience": 8.88,
+            "critpt": 0.29
+          },
+          "contextWindow": 192000,
+          "speed": 152,
+          "priceIn": 0,
+          "priceOut": 0
+        },
+        {
+          "model": "Gemma 4 26B A4B (Non-reasoning)",
+          "slug": "gemma-4-26b-a4b-non-reasoning",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 13.13,
+          "metrics": {
+            "humanitys-last-exam": 11.49,
+            "long-context": 42.33,
+            "omniscience": 15.48,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 115,
+          "priceIn": 0.115,
+          "priceOut": 0.4
+        },
+        {
+          "model": "Qwen3.5 4B (Reasoning)",
+          "slug": "qwen3-5-4b",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 13.12,
+          "metrics": {
+            "humanitys-last-exam": 9.92,
+            "long-context": 63,
+            "omniscience": 15.12,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": 18,
+          "priceIn": 0.03,
+          "priceOut": 0.15
+        },
+        {
+          "model": "Nemotron 3.5 Lightning",
+          "slug": "nemotron-3-5-lightning",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 12.86,
+          "metrics": {
+            "humanitys-last-exam": 10.57,
+            "long-context": 60.33,
+            "omniscience": 14.43,
+            "critpt": 0
+          },
+          "contextWindow": 1000000,
+          "speed": 315,
+          "priceIn": 0.06,
+          "priceOut": 0.2
+        },
+        {
+          "model": "Granite 4.2 30B",
+          "slug": "granite-4-2-30b",
+          "creator": "IBM",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 12.68,
+          "metrics": {
+            "humanitys-last-exam": 11.17,
+            "long-context": 49,
+            "omniscience": 10.08,
+            "critpt": 0.29
+          },
+          "contextWindow": 131072,
+          "speed": 39,
+          "priceIn": 0.16,
+          "priceOut": 0.65
+        },
+        {
+          "model": "Qwen3.5 Omni Flash",
+          "slug": "qwen3-5-omni-flash",
+          "creator": "Alibaba",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 12.47,
+          "metrics": {
+            "humanitys-last-exam": 7.6,
+            "long-context": 52,
+            "omniscience": 14.65,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 235,
+          "priceIn": 0.1,
+          "priceOut": 0.8
+        },
+        {
+          "model": "MiniCPM5-2B",
+          "slug": "minicpm5-2b",
+          "creator": "OpenBMB",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 12.46,
+          "metrics": {
+            "humanitys-last-exam": 8.94,
+            "long-context": 59.33,
+            "omniscience": 8.42,
+            "critpt": 0.29
+          },
+          "contextWindow": 131072,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Mercury 2.5",
+          "slug": "mercury-2-5",
+          "creator": "Inception",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 12.34,
+          "metrics": {
+            "humanitys-last-exam": 11.77,
+            "long-context": 71.67,
+            "omniscience": 22.65,
+            "critpt": 0
+          },
+          "contextWindow": 260000,
+          "speed": 718,
+          "priceIn": 0.25,
+          "priceOut": 0.75
+        },
+        {
+          "model": "JT-MINI",
+          "slug": "jt-mini",
+          "creator": "China Mobile",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 12.21,
+          "metrics": {
+            "humanitys-last-exam": 6.44,
+            "long-context": 13,
+            "omniscience": 14.22,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Magistral Medium 1.2",
+          "slug": "magistral-medium-2509",
+          "creator": "Mistral",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 11.83,
+          "metrics": {
+            "humanitys-last-exam": 10.29,
+            "long-context": 53,
+            "omniscience": 20.78,
+            "critpt": 0.29
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "HyperNova 60B 2605",
+          "slug": "hypernova-60b",
+          "creator": "Multiverse Computing",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "High",
+          "overall": 11.74,
+          "metrics": {
+            "humanitys-last-exam": 16.64,
+            "long-context": 36.33,
+            "omniscience": 15.22,
+            "critpt": 0.86
+          },
+          "contextWindow": 131072,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Nemotron Cascade 2 30B A3B",
+          "slug": "nemotron-cascade-2-30b-a3b",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 11.67,
+          "metrics": {
+            "humanitys-last-exam": 12,
+            "long-context": 39.33,
+            "omniscience": 18.28,
+            "critpt": 0.57
+          },
+          "contextWindow": 1000000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "gpt-oss-120b",
+          "slug": "gpt-oss-120b",
+          "creator": "OpenAI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "High",
+          "overall": 11.6,
+          "metrics": {
+            "humanitys-last-exam": 19.6,
+            "long-context": 52,
+            "omniscience": 21.78,
+            "critpt": 1.14
+          },
+          "contextWindow": 131072,
+          "speed": 250,
+          "priceIn": 0.15,
+          "priceOut": 0.6
+        },
+        {
+          "model": "K2 Think V2",
+          "slug": "k2-think-v2",
+          "creator": "Institute of Foundation Models",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 11.5,
+          "metrics": {
+            "humanitys-last-exam": 10.1,
+            "long-context": 57,
+            "omniscience": 18.02,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "LongCat Flash Lite",
+          "slug": "longcat-flash-lite",
+          "creator": "LongCat",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 11.47,
+          "metrics": {
+            "humanitys-last-exam": 5.84,
+            "long-context": 28.33,
+            "omniscience": 13.3,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "HyperCLOVA X SEED Think (32B)",
+          "slug": "hyperclova-x-seed-think-32b",
+          "creator": "Naver",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 11.36,
+          "metrics": {
+            "humanitys-last-exam": 5.47,
+            "long-context": 13.67,
+            "omniscience": 15.4,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Mistral Small 4 (Reasoning)",
+          "slug": "mistral-small-4",
+          "creator": "Mistral",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 11.27,
+          "metrics": {
+            "humanitys-last-exam": 9.87,
+            "long-context": 49.67,
+            "omniscience": 21.68,
+            "critpt": 0.29
+          },
+          "contextWindow": 256000,
+          "speed": 175,
+          "priceIn": 0.15,
+          "priceOut": 0.6
+        },
+        {
+          "model": "Qwen3.5 9B (Reasoning)",
+          "slug": "qwen3-5-9b",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 11.2,
+          "metrics": {
+            "humanitys-last-exam": 14.92,
+            "long-context": 70,
+            "omniscience": 16.42,
+            "critpt": 0.29
+          },
+          "contextWindow": 262144,
+          "speed": 60,
+          "priceIn": 0.135,
+          "priceOut": 0.2
+        },
+        {
+          "model": "Qwen3 Next 80B A3B (Reasoning)",
+          "slug": "qwen3-next-80b-a3b-reasoning",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 11.2,
+          "metrics": {
+            "humanitys-last-exam": 12.56,
+            "long-context": 63.67,
+            "omniscience": 19.03,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Granite 4.2 8B",
+          "slug": "granite-4-2-8b",
+          "creator": "IBM",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 11.08,
+          "metrics": {
+            "humanitys-last-exam": 9.68,
+            "long-context": 45,
+            "omniscience": 11.22,
+            "critpt": 0.29
+          },
+          "contextWindow": 131072,
+          "speed": 40,
+          "priceIn": 0.06,
+          "priceOut": 0.25
+        },
+        {
+          "model": "Ling 3.0 Tiny",
+          "slug": "ling-3-0-tiny",
+          "creator": "InclusionAI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 11.06,
+          "metrics": {
+            "humanitys-last-exam": 9.31,
+            "long-context": 60.33,
+            "omniscience": 8.52,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": 58,
+          "priceIn": 0,
+          "priceOut": 0
+        },
+        {
+          "model": "Mi:dm K 2.5 Pro",
+          "slug": "mi-dm-k-2-5-pro-dec28",
+          "creator": "Korea Telecom",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 11.04,
+          "metrics": {
+            "humanitys-last-exam": 8.06,
+            "long-context": 9,
+            "omniscience": 17.88,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "G9v3-3B",
+          "slug": "g9v3-3b",
+          "creator": "AI9Stars",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 10.84,
+          "metrics": {
+            "humanitys-last-exam": 4.49,
+            "long-context": 41.33,
+            "omniscience": 6.53,
+            "critpt": 0
+          },
+          "contextWindow": 131072,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Trinity Large Thinking",
+          "slug": "trinity-large-thinking",
+          "creator": "Arcee AI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 10.82,
+          "metrics": {
+            "humanitys-last-exam": 15.85,
+            "long-context": 38,
+            "omniscience": 22.5,
+            "critpt": 0.86
+          },
+          "contextWindow": 512000,
+          "speed": 356,
+          "priceIn": 0.25,
+          "priceOut": 0.8
+        },
+        {
+          "model": "Qwen3.5 4B (Non-reasoning)",
+          "slug": "qwen3-5-4b-non-reasoning",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 10.81,
+          "metrics": {
+            "humanitys-last-exam": 7.97,
+            "long-context": 34.67,
+            "omniscience": 11.22,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": 19,
+          "priceIn": 0.03,
+          "priceOut": 0.15
+        },
+        {
+          "model": "INTELLECT-3 (Based on GLM-4.5-Air)",
+          "slug": "intellect-3",
+          "creator": "Prime Intellect",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 10.61,
+          "metrics": {
+            "humanitys-last-exam": 13.07,
+            "long-context": 39.67,
+            "omniscience": 19.58,
+            "critpt": 0.29
+          },
+          "contextWindow": 131100,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Solar Open 100B (Reasoning)",
+          "slug": "solar-open-100b-reasoning",
+          "creator": "Upstage",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 10.36,
+          "metrics": {
+            "humanitys-last-exam": 10.43,
+            "long-context": 41,
+            "omniscience": 18.53,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Nemotron 3 Nano Omni 30B A3B Reasoning",
+          "slug": "nemotron-3-nano-omni-30b-a3b",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 10.25,
+          "metrics": {
+            "humanitys-last-exam": 4.82,
+            "long-context": 39.67,
+            "omniscience": 15.2,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 230,
+          "priceIn": 0.4,
+          "priceOut": 1.365
+        },
+        {
+          "model": "Nova 2.0 Pro Preview (Non-reasoning)",
+          "slug": "nova-2-0-pro",
+          "creator": "Amazon",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 9.96,
+          "metrics": {
+            "humanitys-last-exam": 3.94,
+            "long-context": 30,
+            "omniscience": 16.92,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 121,
+          "priceIn": 1.25,
+          "priceOut": 10
+        },
+        {
+          "model": "gpt-oss-20b",
+          "slug": "gpt-oss-20b-low",
+          "creator": "OpenAI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "Low",
+          "overall": 9.95,
+          "metrics": {
+            "humanitys-last-exam": 5.28,
+            "long-context": 31,
+            "omniscience": 15.08,
+            "critpt": 0
+          },
+          "contextWindow": 131072,
+          "speed": 216,
+          "priceIn": 0.07,
+          "priceOut": 0.3
+        },
+        {
+          "model": "North Mini Code",
+          "slug": "north-mini-code",
+          "creator": "Cohere",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 9.91,
+          "metrics": {
+            "humanitys-last-exam": 11.08,
+            "long-context": 37.33,
+            "omniscience": 18.9,
+            "critpt": 0.29
+          },
+          "contextWindow": 256000,
+          "speed": 67,
+          "priceIn": 0,
+          "priceOut": 0
+        },
+        {
+          "model": "K2-V2",
+          "slug": "k2-v2",
+          "creator": "Institute of Foundation Models",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "High",
+          "overall": 9.87,
+          "metrics": {
+            "humanitys-last-exam": 10.52,
+            "long-context": 35,
+            "omniscience": 18.53,
+            "critpt": 0
+          },
+          "contextWindow": 512000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Qwen3 Next 80B A3B Instruct",
+          "slug": "qwen3-next-80b-a3b-instruct",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 9.64,
+          "metrics": {
+            "humanitys-last-exam": 7.65,
+            "long-context": 52.67,
+            "omniscience": 17.25,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": 132,
+          "priceIn": 0.1,
+          "priceOut": 1.1
+        },
+        {
+          "model": "DiffusionGemma 26B A4B",
+          "slug": "diffusiongemma-26b-a4b",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 9.51,
+          "metrics": {
+            "humanitys-last-exam": 10.84,
+            "long-context": 19.67,
+            "omniscience": 16.58,
+            "critpt": 0.29
+          },
+          "contextWindow": 256000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Gemma 4 12B (Non-reasoning)",
+          "slug": "gemma-4-12b-non-reasoning",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 9.38,
+          "metrics": {
+            "humanitys-last-exam": 6.35,
+            "long-context": 35,
+            "omniscience": 11.88,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": 120,
+          "priceIn": 0.1,
+          "priceOut": 0.3
+        },
+        {
+          "model": "Llama 4 Maverick",
+          "slug": "llama-4-maverick",
+          "creator": "Meta",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 9.3,
+          "metrics": {
+            "humanitys-last-exam": 4.91,
+            "long-context": 50,
+            "omniscience": 24.9,
+            "critpt": 0
+          },
+          "contextWindow": 1000000,
+          "speed": 53,
+          "priceIn": 0.25,
+          "priceOut": 0.9199999999999999
+        },
+        {
+          "model": "Qwen3 Coder Next",
+          "slug": "qwen3-coder-next",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 9.24,
+          "metrics": {
+            "humanitys-last-exam": 10.15,
+            "long-context": 47,
+            "omniscience": 16.15,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 92,
+          "priceIn": 0.31,
+          "priceOut": 1
+        },
+        {
+          "model": "Motif-2-12.7B-Reasoning",
+          "slug": "motif-2-12-7b",
+          "creator": "Motif Technologies",
+          "openWeights": false,
+          "reasoning": true,
+          "effort": null,
+          "overall": 9.19,
+          "metrics": {
+            "humanitys-last-exam": 8.76,
+            "long-context": 14.67,
+            "omniscience": 15.17,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Nova Premier",
+          "slug": "nova-premier",
+          "creator": "Amazon",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 9.16,
+          "metrics": {
+            "humanitys-last-exam": 4.17,
+            "long-context": 34.33,
+            "omniscience": 21.25,
+            "critpt": 0
+          },
+          "contextWindow": 1000000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Granite 4.2 3B",
+          "slug": "granite-4-2-3b",
+          "creator": "IBM",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 9.06,
+          "metrics": {
+            "humanitys-last-exam": 6.63,
+            "long-context": 24.33,
+            "omniscience": 9.2,
+            "critpt": 0
+          },
+          "contextWindow": 131072,
+          "speed": 40,
+          "priceIn": 0.03,
+          "priceOut": 0.12
+        },
+        {
+          "model": "Mistral Small 4 (Non-reasoning)",
+          "slug": "mistral-small-4-non-reasoning",
+          "creator": "Mistral",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 8.99,
+          "metrics": {
+            "humanitys-last-exam": 3.8,
+            "long-context": 28.33,
+            "omniscience": 16.57,
+            "critpt": 0.29
+          },
+          "contextWindow": 256000,
+          "speed": 160,
+          "priceIn": 0.15,
+          "priceOut": 0.6
+        },
+        {
+          "model": "Tri-21B-Think",
+          "slug": "tri-21b-think-v0-5",
+          "creator": "Trillion Labs",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 8.99,
+          "metrics": {
+            "humanitys-last-exam": 5.93,
+            "long-context": 15.67,
+            "omniscience": 12.33,
+            "critpt": 0.29
+          },
+          "contextWindow": 32000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Gemma 4 E4B (Reasoning)",
+          "slug": "gemma-4-e4b",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 8.91,
+          "metrics": {
+            "humanitys-last-exam": 3.75,
+            "long-context": 32,
+            "omniscience": 8.58,
+            "critpt": 0.57
+          },
+          "contextWindow": 128000,
+          "speed": 49,
+          "priceIn": 0.02,
+          "priceOut": 0.1
+        },
+        {
+          "model": "NVIDIA Nemotron 3 Nano 30B A3B (Reasoning)",
+          "slug": "nvidia-nemotron-3-nano-30b-a3b-reasoning",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 8.9,
+          "metrics": {
+            "humanitys-last-exam": 11.4,
+            "long-context": 38,
+            "omniscience": 17.3,
+            "critpt": 0.86
+          },
+          "contextWindow": 1000000,
+          "speed": 270,
+          "priceIn": 0.05,
+          "priceOut": 0.2
+        },
+        {
+          "model": "MiniCPM5-1B (Reasoning)",
+          "slug": "minicpm5-1b",
+          "creator": "OpenBMB",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 8.8,
+          "metrics": {
+            "humanitys-last-exam": 6.49,
+            "long-context": 6,
+            "omniscience": 2.03,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Sarvam 105B",
+          "slug": "sarvam-105b",
+          "creator": "Sarvam",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "High",
+          "overall": 8.79,
+          "metrics": {
+            "humanitys-last-exam": 11.03,
+            "long-context": 0,
+            "omniscience": 17.6,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": 195,
+          "priceIn": 0.042,
+          "priceOut": 0.17
+        },
+        {
+          "model": "Nova 2.0 Lite (Non-reasoning)",
+          "slug": "nova-2-0-lite",
+          "creator": "Amazon",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 8.74,
+          "metrics": {
+            "humanitys-last-exam": 2.87,
+            "long-context": 18.67,
+            "omniscience": 14.02,
+            "critpt": 0
+          },
+          "contextWindow": 1000000,
+          "speed": 180,
+          "priceIn": 0.3,
+          "priceOut": 2.5
+        },
+        {
+          "model": "MiniCPM5-1B (Non-reasoning)",
+          "slug": "minicpm5-1b-non-reasoning",
+          "creator": "OpenBMB",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 8.69,
+          "metrics": {
+            "humanitys-last-exam": 4.54,
+            "long-context": 5,
+            "omniscience": 0.1,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Magistral Small 1.2",
+          "slug": "magistral-small-2509",
+          "creator": "Mistral",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 8.59,
+          "metrics": {
+            "humanitys-last-exam": 6.44,
+            "long-context": 19.33,
+            "omniscience": 13.45,
+            "critpt": 0.29
+          },
+          "contextWindow": 128000,
+          "speed": 83,
+          "priceIn": 0.5,
+          "priceOut": 1.5
+        },
+        {
+          "model": "Nanbeige4.1-3B",
+          "slug": "nanbeige4-1-3b",
+          "creator": "Nanbeige",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 8.4,
+          "metrics": {
+            "humanitys-last-exam": 10.89,
+            "long-context": 0,
+            "omniscience": 9.87,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "LFM2.5-2.6B",
+          "slug": "lfm2-5-2-6b",
+          "creator": "Liquid AI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 8.39,
+          "metrics": {
+            "humanitys-last-exam": 6.21,
+            "long-context": 5.67,
+            "omniscience": 4.35,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "EXAONE 4.0 32B (Reasoning)",
+          "slug": "exaone-4-0-32b-reasoning",
+          "creator": "LG AI Research",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 8.18,
+          "metrics": {
+            "humanitys-last-exam": 11.45,
+            "long-context": null,
+            "omniscience": 13.87,
+            "critpt": 0
+          },
+          "contextWindow": 131000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Nova 2.0 Omni (Non-reasoning)",
+          "slug": "nova-2-0-omni",
+          "creator": "Amazon",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 8.15,
+          "metrics": {
+            "humanitys-last-exam": 3.85,
+            "long-context": 24.67,
+            "omniscience": 13.23,
+            "critpt": 0
+          },
+          "contextWindow": 1000000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Hermes 4 - Llama-3.1 70B (Reasoning)",
+          "slug": "hermes-4-llama-3-1-70b-reasoning",
+          "creator": "Nous Research",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.91,
+          "metrics": {
+            "humanitys-last-exam": 8.76,
+            "long-context": 9.67,
+            "omniscience": 23.55,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Falcon-H1R-7B",
+          "slug": "falcon-h1r-7b",
+          "creator": "TII UAE",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.83,
+          "metrics": {
+            "humanitys-last-exam": 10.98,
+            "long-context": 11,
+            "omniscience": 14.55,
+            "critpt": 0.29
+          },
+          "contextWindow": 256000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Gemma 4 E2B (Reasoning)",
+          "slug": "gemma-4-e2b",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.77,
+          "metrics": {
+            "humanitys-last-exam": 4.77,
+            "long-context": 16.33,
+            "omniscience": 6.63,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Qwen3 Omni 30B A3B (Reasoning)",
+          "slug": "qwen3-omni-30b-a3b-reasoning",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.76,
+          "metrics": {
+            "humanitys-last-exam": 7.46,
+            "long-context": 0,
+            "omniscience": 14.6,
+            "critpt": 0
+          },
+          "contextWindow": 65536,
+          "speed": 102,
+          "priceIn": 0.25,
+          "priceOut": 0.97
+        },
+        {
+          "model": "Step3 VL 10B",
+          "slug": "step-3-vl-10b",
+          "creator": "StepFun",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.69,
+          "metrics": {
+            "humanitys-last-exam": 10.84,
+            "long-context": 0,
+            "omniscience": 13.27,
+            "critpt": 0
+          },
+          "contextWindow": 65536,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Llama 3.3 Instruct 70B",
+          "slug": "llama-3-3-instruct-70b",
+          "creator": "Meta",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 7.66,
+          "metrics": {
+            "humanitys-last-exam": 3.56,
+            "long-context": 15.67,
+            "omniscience": 18.95,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": 88,
+          "priceIn": 0.6,
+          "priceOut": 0.71
+        },
+        {
+          "model": "Llama 3.1 Nemotron Ultra 253B v1 (Reasoning)",
+          "slug": "llama-3-1-nemotron-ultra-253b-v1-reasoning",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.53,
+          "metrics": {
+            "humanitys-last-exam": 7.38,
+            "long-context": null,
+            "omniscience": 20.07,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "ERNIE 4.5 300B A47B",
+          "slug": "ernie-4-5-300b-a47b",
+          "creator": "Baidu",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 7.5,
+          "metrics": {
+            "humanitys-last-exam": 3.34,
+            "long-context": null,
+            "omniscience": 19.05,
+            "critpt": 0
+          },
+          "contextWindow": 131072,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Hermes 4 - Llama-3.1 405B (Reasoning)",
+          "slug": "hermes-4-llama-3-1-405b-reasoning",
+          "creator": "Nous Research",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.49,
+          "metrics": {
+            "humanitys-last-exam": 10.89,
+            "long-context": 22.33,
+            "omniscience": 30.08,
+            "critpt": 0.29
+          },
+          "contextWindow": 128000,
+          "speed": 43,
+          "priceIn": 1,
+          "priceOut": 3
+        },
+        {
+          "model": "NVIDIA Nemotron Nano 12B v2 VL (Reasoning)",
+          "slug": "nvidia-nemotron-nano-12b-v2-vl-reasoning",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.48,
+          "metrics": {
+            "humanitys-last-exam": 5.51,
+            "long-context": 41,
+            "omniscience": 14.62,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Gemma 4 E4B (Non-reasoning)",
+          "slug": "gemma-4-e4b-non-reasoning",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 7.46,
+          "metrics": {
+            "humanitys-last-exam": 4.82,
+            "long-context": 24,
+            "omniscience": 8.32,
+            "critpt": 0.29
+          },
+          "contextWindow": 128000,
+          "speed": 45,
+          "priceIn": 0.02,
+          "priceOut": 0.1
+        },
+        {
+          "model": "NVIDIA Nemotron Nano 9B V2 (Reasoning)",
+          "slug": "nvidia-nemotron-nano-9b-v2-reasoning",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.43,
+          "metrics": {
+            "humanitys-last-exam": 4.87,
+            "long-context": 22.67,
+            "omniscience": 11.8,
+            "critpt": 0
+          },
+          "contextWindow": 131072,
+          "speed": 227,
+          "priceIn": 0.04,
+          "priceOut": 0.16
+        },
+        {
+          "model": "Hermes 4 - Llama-3.1 405B (Non-reasoning)",
+          "slug": "hermes-4-llama-3-1-405b",
+          "creator": "Nous Research",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 7.41,
+          "metrics": {
+            "humanitys-last-exam": 4.22,
+            "long-context": 22,
+            "omniscience": 26.05,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": 43,
+          "priceIn": 1,
+          "priceOut": 3
+        },
+        {
+          "model": "Kimi Linear 48B A3B Instruct",
+          "slug": "kimi-linear-48b-a3b-instruct",
+          "creator": "Kimi",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 7.3,
+          "metrics": {
+            "humanitys-last-exam": 2.46,
+            "long-context": 28,
+            "omniscience": null,
+            "critpt": null
+          },
+          "contextWindow": 1000000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Llama 3.1 Instruct 405B",
+          "slug": "llama-3-1-instruct-405b",
+          "creator": "Meta",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 7.29,
+          "metrics": {
+            "humanitys-last-exam": 3.98,
+            "long-context": 25.33,
+            "omniscience": 23.18,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "LFM2.5-8B-A1B",
+          "slug": "lfm2-5-8b-a1b",
+          "creator": "Liquid AI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.22,
+          "metrics": {
+            "humanitys-last-exam": 6.86,
+            "long-context": 0,
+            "omniscience": 9.33,
+            "critpt": 0
+          },
+          "contextWindow": 32768,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Ring-flash-2.0",
+          "slug": "ring-flash-2-0",
+          "creator": "InclusionAI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.15,
+          "metrics": {
+            "humanitys-last-exam": 9.64,
+            "long-context": 21,
+            "omniscience": 16.55,
+            "critpt": 0.28
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Olmo 3.1 32B Think",
+          "slug": "olmo-3-1-32b-think",
+          "creator": "Allen Institute for AI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 7.12,
+          "metrics": {
+            "humanitys-last-exam": 6.26,
+            "long-context": 0,
+            "omniscience": 13.78,
+            "critpt": 0
+          },
+          "contextWindow": 65500,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Command A",
+          "slug": "command-a",
+          "creator": "Cohere",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.96,
+          "metrics": {
+            "humanitys-last-exam": 4.03,
+            "long-context": 21.33,
+            "omniscience": 16.38,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 21,
+          "priceIn": 2.5,
+          "priceOut": 10
+        },
+        {
+          "model": "Qwen3.5 2B (Reasoning)",
+          "slug": "qwen3-5-2b",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 6.94,
+          "metrics": {
+            "humanitys-last-exam": 2.59,
+            "long-context": 21,
+            "omniscience": 8.07,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning)",
+          "slug": "nvidia-nemotron-3-nano-30b-a3b",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.85,
+          "metrics": {
+            "humanitys-last-exam": 4.59,
+            "long-context": 10.67,
+            "omniscience": 11.37,
+            "critpt": 0
+          },
+          "contextWindow": 1000000,
+          "speed": 284,
+          "priceIn": 0.05,
+          "priceOut": 0.2
+        },
+        {
+          "model": "NVIDIA Nemotron Nano 9B V2 (Non-reasoning)",
+          "slug": "nvidia-nemotron-nano-9b-v2",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.84,
+          "metrics": {
+            "humanitys-last-exam": 4.59,
+            "long-context": 24,
+            "omniscience": 9.82,
+            "critpt": 0
+          },
+          "contextWindow": 131072,
+          "speed": 171,
+          "priceIn": 0.05,
+          "priceOut": 0.195
+        },
+        {
+          "model": "Hermes 4 - Llama-3.1 70B (Non-reasoning)",
+          "slug": "hermes-4-llama-3-1-70b",
+          "creator": "Nous Research",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.66,
+          "metrics": {
+            "humanitys-last-exam": 3.57,
+            "long-context": 4.67,
+            "omniscience": 18.67,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Sarvam 30B",
+          "slug": "sarvam-30b",
+          "creator": "Sarvam",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": "High",
+          "overall": 6.56,
+          "metrics": {
+            "humanitys-last-exam": 7.51,
+            "long-context": 0,
+            "omniscience": 12.62,
+            "critpt": 0.29
+          },
+          "contextWindow": 65536,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Olmo 3.1 32B Instruct",
+          "slug": "olmo-3-1-32b-instruct",
+          "creator": "Allen Institute for AI",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.5,
+          "metrics": {
+            "humanitys-last-exam": 5,
+            "long-context": 0,
+            "omniscience": 12.05,
+            "critpt": 0
+          },
+          "contextWindow": 65536,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Gemma 4 E2B (Non-reasoning)",
+          "slug": "gemma-4-e2b-non-reasoning",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.48,
+          "metrics": {
+            "humanitys-last-exam": 4.73,
+            "long-context": 16.33,
+            "omniscience": 8.15,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Llama 4 Scout",
+          "slug": "llama-4-scout",
+          "creator": "Meta",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.45,
+          "metrics": {
+            "humanitys-last-exam": 3.78,
+            "long-context": 27.7,
+            "omniscience": 15.17,
+            "critpt": 0
+          },
+          "contextWindow": 10000000,
+          "speed": 85,
+          "priceIn": 0.18,
+          "priceOut": 0.66
+        },
+        {
+          "model": "R1 1776",
+          "slug": "r1-1776",
+          "creator": "Perplexity",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 6.44,
+          "metrics": {
+            "humanitys-last-exam": null,
+            "long-context": null,
+            "omniscience": null,
+            "critpt": null
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Llama 3.2 Instruct 90B (Vision)",
+          "slug": "llama-3-2-instruct-90b-vision",
+          "creator": "Meta",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.41,
+          "metrics": {
+            "humanitys-last-exam": 4.49,
+            "long-context": null,
+            "omniscience": null,
+            "critpt": null
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Celeris-1",
+          "slug": "celeris-1",
+          "creator": "Celeris",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.35,
+          "metrics": {
+            "humanitys-last-exam": 6.81,
+            "long-context": 38,
+            "omniscience": 10.98,
+            "critpt": 0
+          },
+          "contextWindow": 131072,
+          "speed": 1464,
+          "priceIn": 0.2,
+          "priceOut": 0.7
+        },
+        {
+          "model": "EXAONE 4.0 32B (Non-reasoning)",
+          "slug": "exaone-4-0-32b",
+          "creator": "LG AI Research",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.33,
+          "metrics": {
+            "humanitys-last-exam": 5,
+            "long-context": null,
+            "omniscience": 10.62,
+            "critpt": 0
+          },
+          "contextWindow": 131000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Phi-4 Mini Instruct",
+          "slug": "phi-4-mini",
+          "creator": "Microsoft",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.33,
+          "metrics": {
+            "humanitys-last-exam": 4.45,
+            "long-context": 15.33,
+            "omniscience": 9.5,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": 45,
+          "priceIn": 0.075,
+          "priceOut": 0.3
+        },
+        {
+          "model": "Qwen3.5 2B (Non-reasoning)",
+          "slug": "qwen3-5-2b-non-reasoning",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.19,
+          "metrics": {
+            "humanitys-last-exam": 4.96,
+            "long-context": 14,
+            "omniscience": 7.38,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Qwen3.5 0.8B (Reasoning)",
+          "slug": "qwen3-5-0-8b",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 6.13,
+          "metrics": {
+            "humanitys-last-exam": 1.07,
+            "long-context": 9,
+            "omniscience": 4.23,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Jamba 1.7 Large",
+          "slug": "jamba-1-7-large",
+          "creator": "AI21 Labs",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.07,
+          "metrics": {
+            "humanitys-last-exam": 3.66,
+            "long-context": 19.33,
+            "omniscience": 20.58,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "DeepHermes 3 - Mistral 24B Preview (Non-reasoning)",
+          "slug": "deephermes-3-mistral-24b-preview",
+          "creator": "Nous Research",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.07,
+          "metrics": {
+            "humanitys-last-exam": 3.76,
+            "long-context": null,
+            "omniscience": null,
+            "critpt": null
+          },
+          "contextWindow": 32000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Granite 4.0 H Small",
+          "slug": "granite-4-0-h-small",
+          "creator": "IBM",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.05,
+          "metrics": {
+            "humanitys-last-exam": 3.8,
+            "long-context": 11.33,
+            "omniscience": 14.28,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Ministral 3 14B",
+          "slug": "ministral-3-14b",
+          "creator": "Mistral",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.04,
+          "metrics": {
+            "humanitys-last-exam": 4.63,
+            "long-context": 26.33,
+            "omniscience": 13.58,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 72,
+          "priceIn": 0.2,
+          "priceOut": 0.2
+        },
+        {
+          "model": "Qwen3 Omni 30B A3B Instruct",
+          "slug": "qwen3-omni-30b-a3b-instruct",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 6.01,
+          "metrics": {
+            "humanitys-last-exam": 4.63,
+            "long-context": 0,
+            "omniscience": 14.33,
+            "critpt": 0
+          },
+          "contextWindow": 65536,
+          "speed": 96,
+          "priceIn": 0.25,
+          "priceOut": 0.97
+        },
+        {
+          "model": "LFM2 24B A2B",
+          "slug": "lfm2-24b-a2b",
+          "creator": "Liquid AI",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.95,
+          "metrics": {
+            "humanitys-last-exam": 4.22,
+            "long-context": 0,
+            "omniscience": 6.47,
+            "critpt": 0
+          },
+          "contextWindow": 32768,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Phi-4",
+          "slug": "phi-4",
+          "creator": "Microsoft",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.92,
+          "metrics": {
+            "humanitys-last-exam": 3.76,
+            "long-context": 0,
+            "omniscience": 14.07,
+            "critpt": 0
+          },
+          "contextWindow": 16000,
+          "speed": 42,
+          "priceIn": 0.125,
+          "priceOut": 0.5
+        },
+        {
+          "model": "Nova Micro",
+          "slug": "nova-micro",
+          "creator": "Amazon",
+          "openWeights": false,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.88,
+          "metrics": {
+            "humanitys-last-exam": 4.63,
+            "long-context": 13,
+            "omniscience": 10.03,
+            "critpt": 0
+          },
+          "contextWindow": 130000,
+          "speed": 304,
+          "priceIn": 0.035,
+          "priceOut": 0.14
+        },
+        {
+          "model": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
+          "slug": "nvidia-nemotron-nano-12b-v2-vl",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.82,
+          "metrics": {
+            "humanitys-last-exam": 4.26,
+            "long-context": 20.67,
+            "omniscience": 11.92,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": 202,
+          "priceIn": 0.2,
+          "priceOut": 0.6
+        },
+        {
+          "model": "Phi-4 Multimodal Instruct",
+          "slug": "phi-4-multimodal",
+          "creator": "Microsoft",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.81,
+          "metrics": {
+            "humanitys-last-exam": 5,
+            "long-context": null,
+            "omniscience": null,
+            "critpt": null
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": 0.08,
+          "priceOut": 0.32
+        },
+        {
+          "model": "MiniCPM-V 4.6 1.3B",
+          "slug": "minicpm-v4-6-1-3b",
+          "creator": "OpenBMB",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.69,
+          "metrics": {
+            "humanitys-last-exam": 5.05,
+            "long-context": 7,
+            "omniscience": 6.73,
+            "critpt": 0
+          },
+          "contextWindow": 262000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Jamba Reasoning 3B",
+          "slug": "jamba-reasoning-3b",
+          "creator": "AI21 Labs",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 5.67,
+          "metrics": {
+            "humanitys-last-exam": 3.75,
+            "long-context": 6.33,
+            "omniscience": 6.7,
+            "critpt": 0
+          },
+          "contextWindow": 262000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Reka Flash 3",
+          "slug": "reka-flash-3",
+          "creator": "Reka AI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 5.65,
+          "metrics": {
+            "humanitys-last-exam": 4.44,
+            "long-context": 0,
+            "omniscience": 13.67,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": 90,
+          "priceIn": 0.2,
+          "priceOut": 0.8
+        },
+        {
+          "model": "Olmo 3 7B Think",
+          "slug": "olmo-3-7b-think",
+          "creator": "Allen Institute for AI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 5.62,
+          "metrics": {
+            "humanitys-last-exam": 5.98,
+            "long-context": 0,
+            "omniscience": 11.08,
+            "critpt": 0
+          },
+          "contextWindow": 65536,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Molmo 7B-D",
+          "slug": "molmo-7b-d",
+          "creator": "Allen Institute for AI",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.56,
+          "metrics": {
+            "humanitys-last-exam": 5.14,
+            "long-context": 0,
+            "omniscience": null,
+            "critpt": null
+          },
+          "contextWindow": 4096,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Ministral 3 8B",
+          "slug": "ministral-3-8b",
+          "creator": "Mistral",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.48,
+          "metrics": {
+            "humanitys-last-exam": 4.26,
+            "long-context": 25.67,
+            "omniscience": 12.98,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 113,
+          "priceIn": 0.15,
+          "priceOut": 0.15
+        },
+        {
+          "model": "Llama 3.2 Instruct 11B (Vision)",
+          "slug": "llama-3-2-instruct-11b-vision",
+          "creator": "Meta",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.41,
+          "metrics": {
+            "humanitys-last-exam": 5.53,
+            "long-context": 12.67,
+            "omniscience": 10.6,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": 29,
+          "priceIn": 0.345,
+          "priceOut": 0.345
+        },
+        {
+          "model": "Qwen3.5 0.8B (Non-reasoning)",
+          "slug": "qwen3-5-0-8b-non-reasoning",
+          "creator": "Alibaba",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.4,
+          "metrics": {
+            "humanitys-last-exam": 5.1,
+            "long-context": 8,
+            "omniscience": 4.98,
+            "critpt": 0
+          },
+          "contextWindow": 262144,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Exaone 4.0 1.2B (Reasoning)",
+          "slug": "exaone-4-0-1-2b-reasoning",
+          "creator": "LG AI Research",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 5.27,
+          "metrics": {
+            "humanitys-last-exam": 5.98,
+            "long-context": 0,
+            "omniscience": 6.83,
+            "critpt": 0
+          },
+          "contextWindow": 64000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Olmo 3 7B Instruct",
+          "slug": "olmo-3-7b-instruct",
+          "creator": "Allen Institute for AI",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.24,
+          "metrics": {
+            "humanitys-last-exam": 5.79,
+            "long-context": 0,
+            "omniscience": 7.4,
+            "critpt": 0
+          },
+          "contextWindow": 65536,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Exaone 4.0 1.2B (Non-reasoning)",
+          "slug": "exaone-4-0-1-2b",
+          "creator": "LG AI Research",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.23,
+          "metrics": {
+            "humanitys-last-exam": 5.7,
+            "long-context": 0,
+            "omniscience": 5,
+            "critpt": 0
+          },
+          "contextWindow": 64000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "LFM2.5-1.2B-Thinking",
+          "slug": "lfm2-5-1-2b-thinking",
+          "creator": "Liquid AI",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 5.22,
+          "metrics": {
+            "humanitys-last-exam": 6.21,
+            "long-context": 0,
+            "omniscience": 7.42,
+            "critpt": 0
+          },
+          "contextWindow": 32000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Jamba 1.7 Mini",
+          "slug": "jamba-1-7-mini",
+          "creator": "AI21 Labs",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.22,
+          "metrics": {
+            "humanitys-last-exam": 4.45,
+            "long-context": 16,
+            "omniscience": 11.27,
+            "critpt": 0
+          },
+          "contextWindow": 258000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "LFM2.5-1.2B-Instruct",
+          "slug": "lfm2-5-1-2b-instruct",
+          "creator": "Liquid AI",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.21,
+          "metrics": {
+            "humanitys-last-exam": 6.72,
+            "long-context": 0,
+            "omniscience": 7.02,
+            "critpt": 0
+          },
+          "contextWindow": 32000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Granite 4.0 H 1B",
+          "slug": "granite-4-0-h-nano-1b",
+          "creator": "IBM",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.19,
+          "metrics": {
+            "humanitys-last-exam": 5,
+            "long-context": 7,
+            "omniscience": 5.2,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Gemma 3 270M",
+          "slug": "gemma-3-270m",
+          "creator": "Google",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.12,
+          "metrics": {
+            "humanitys-last-exam": 3.61,
+            "long-context": 0,
+            "omniscience": 0.88,
+            "critpt": 0
+          },
+          "contextWindow": 32000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Granite 4.0 Micro",
+          "slug": "granite-4-0-micro",
+          "creator": "IBM",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.11,
+          "metrics": {
+            "humanitys-last-exam": 5,
+            "long-context": 7,
+            "omniscience": 9.32,
+            "critpt": 0
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Apertus 70B Instruct",
+          "slug": "apertus-70b-instruct",
+          "creator": "Swiss AI Initiative",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.11,
+          "metrics": {
+            "humanitys-last-exam": 5.47,
+            "long-context": 0,
+            "omniscience": 11.63,
+            "critpt": 0
+          },
+          "contextWindow": 65536,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "DeepHermes 3 - Llama-3.1 8B Preview (Non-reasoning)",
+          "slug": "deephermes-3-llama-3-1-8b-preview",
+          "creator": "Nous Research",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5.08,
+          "metrics": {
+            "humanitys-last-exam": 4.26,
+            "long-context": null,
+            "omniscience": null,
+            "critpt": null
+          },
+          "contextWindow": 128000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Molmo2-8B",
+          "slug": "molmo2-8b",
+          "creator": "Allen Institute for AI",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 5,
+          "metrics": {
+            "humanitys-last-exam": 4.26,
+            "long-context": 0,
+            "omniscience": 11.45,
+            "critpt": 0
+          },
+          "contextWindow": 36864,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Ministral 3 3B",
+          "slug": "ministral-3-3b",
+          "creator": "Mistral",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 4.84,
+          "metrics": {
+            "humanitys-last-exam": 5.38,
+            "long-context": 17,
+            "omniscience": 8.98,
+            "critpt": 0
+          },
+          "contextWindow": 256000,
+          "speed": 201,
+          "priceIn": 0.1,
+          "priceOut": 0.1
+        },
+        {
+          "model": "LFM2.5-VL-1.6B",
+          "slug": "lfm2-5-vl-1-6b",
+          "creator": "Liquid AI",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 4.83,
+          "metrics": {
+            "humanitys-last-exam": 5.1,
+            "long-context": 0,
+            "omniscience": 5.78,
+            "critpt": 0
+          },
+          "contextWindow": 32000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Granite 4.0 350M",
+          "slug": "granite-4-0-350m",
+          "creator": "IBM",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 4.83,
+          "metrics": {
+            "humanitys-last-exam": 5.51,
+            "long-context": 0,
+            "omniscience": 3.85,
+            "critpt": 0
+          },
+          "contextWindow": 32768,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "Tiny Aya Global",
+          "slug": "tiny-aya-global",
+          "creator": "Cohere",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 4.83,
+          "metrics": {
+            "humanitys-last-exam": 5.24,
+            "long-context": 0,
+            "omniscience": 6.07,
+            "critpt": 0
+          },
+          "contextWindow": 8192,
+          "speed": null,
+          "priceIn": 0,
+          "priceOut": 0
+        },
+        {
+          "model": "Apertus 8B Instruct",
+          "slug": "apertus-8b-instruct",
+          "creator": "Swiss AI Initiative",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 4.83,
+          "metrics": {
+            "humanitys-last-exam": 4.96,
+            "long-context": 0,
+            "omniscience": 9.65,
+            "critpt": 0
+          },
+          "contextWindow": 65536,
+          "speed": 141,
+          "priceIn": 0.1,
+          "priceOut": 0.2
+        },
+        {
+          "model": "Granite 4.0 H 350M",
+          "slug": "granite-4-0-h-350m",
+          "creator": "IBM",
+          "openWeights": true,
+          "reasoning": false,
+          "effort": null,
+          "overall": 4.83,
+          "metrics": {
+            "humanitys-last-exam": 6.44,
+            "long-context": 0,
+            "omniscience": 3.8,
+            "critpt": 0
+          },
+          "contextWindow": 32768,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "NVIDIA Nemotron 3 Nano 4B",
+          "slug": "nvidia-nemotron-3-nano-4b",
+          "creator": "NVIDIA",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 4.77,
+          "metrics": {
+            "humanitys-last-exam": 4.87,
+            "long-context": 21.67,
+            "omniscience": 9.57,
+            "critpt": 0
+          },
+          "contextWindow": 262000,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
+        },
+        {
+          "model": "K2 Horizon 0.9B",
+          "slug": "k2-horizon-0-9b",
+          "creator": "Institute of Foundation Models",
+          "openWeights": true,
+          "reasoning": true,
+          "effort": null,
+          "overall": 3.05,
+          "metrics": {
+            "humanitys-last-exam": 5.38,
+            "long-context": 6.33,
+            "omniscience": 6.93,
+            "critpt": 0
+          },
+          "contextWindow": 131072,
+          "speed": null,
+          "priceIn": null,
+          "priceOut": null
         }
       ]
     }
