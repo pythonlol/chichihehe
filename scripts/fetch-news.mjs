@@ -392,3 +392,7 @@ await translateEnglishItems(items);
 await mkdir(dirname(OUT), { recursive: true });
 await writeFile(OUT, JSON.stringify({ updatedAt: new Date().toISOString(), items }, null, 2), 'utf8');
 console.log(`已写入 ${items.length} 条资讯 -> ${OUT}`);
+
+// 数据已落盘。部分 HTTP keep-alive 句柄可能残留，导致 event loop 不退出，
+// 进而让 update.sh 卡在第一步、后续抓取与构建全部不执行。这里显式收尾。
+process.exit(0);

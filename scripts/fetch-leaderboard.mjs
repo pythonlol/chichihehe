@@ -212,6 +212,7 @@ async function fetchLiveBench() {
         version: label,
         scoreLabel: '综合得分',
         scoreMax: 100,
+        note: null,
         metrics: catNames.map((c) => ({ key: c, label: LB_METRIC_LABELS[c] || c })),
         models,
       };
@@ -261,10 +262,15 @@ async function fetchArtificialAnalysis() {
     if (!raw) throw new Error('initialModels 数组不完整');
     const list = JSON.parse(raw);
 
+    // AA 的 initialModels 现在包含大量「已收录但尚未发布综合指数」的模型：
+    // 这些记录 intelligenceIndex 为 null（子项 scores 可能已齐全），既不该进榜，也不该硬造分数
+    const scored = list.filter((m) => m.intelligenceIndex !== null && m.intelligenceIndex !== undefined);
+    const unscored = list.length - scored.length;
+    if (scored.length === 0) throw new Error('所有模型均无智能指数，视为抓取失败');
+
     // 先按 slug 去掉档位后缀成组，组内取最高分
     const groups = new Map();
-    for (const m of list) {
-      if (m.intelligenceIndex === null || m.intelligenceIndex === undefined) continue;
+    for (const m of scored) {
       const baseSlug = m.slug.replace(EFFORT_SUFFIX, '');
       const prev = groups.get(baseSlug);
       if (!prev || m.intelligenceIndex > prev.intelligenceIndex) groups.set(baseSlug, m);
@@ -295,7 +301,7 @@ async function fetchArtificialAnalysis() {
       };
     }).sort((a, b) => b.overall - a.overall);
 
-    console.log(`  ✓ Artificial Analysis：${list.length} 条原始记录 → 去重后 ${models.length} 个模型`);
+    console.log(`  ✓ Artificial Analysis：${list.length} 条原始记录（${unscored} 条尚未发布智能指数）→ 去重后 ${models.length} 个模型`);
     return {
       id: 'aa',
       name: 'Artificial Analysis',
@@ -304,6 +310,9 @@ async function fetchArtificialAnalysis() {
       version: null,
       scoreLabel: '智能指数',
       scoreMax: 100,
+      note: unscored > 0
+        ? `仅统计已发布智能指数的模型，另有 ${unscored} 个已收录模型尚未发布综合指数`
+        : null,
       metrics: [
         { key: 'humanitys-last-exam', label: '人文终考' },
         { key: 'long-context', label: '长上下文' },

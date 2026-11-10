@@ -20,6 +20,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
 
@@ -32,16 +33,20 @@ jobs:
 
       - name: 抓取最新资讯
         run: node scripts/fetch-news.mjs
+        timeout-minutes: 15
         env:
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
 
       - name: 抓取政策通知（北上广深 + 工信部）
         run: node scripts/fetch-policy.mjs
+        timeout-minutes: 15
 
       - name: 抓取模型排行榜（LiveBench）
         run: node scripts/fetch-leaderboard.mjs
+        timeout-minutes: 15
 
       - run: npm run build
+        timeout-minutes: 10
 
       - uses: actions/upload-pages-artifact@v3
         with:
