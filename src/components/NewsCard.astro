@@ -11,6 +11,8 @@ interface NewsItem {
   companies?: string[];
   titleZh?: string;
   summaryZh?: string;
+  coverage?: number;
+  alsoReportedBy?: string[];
 }
 
 interface Props {
@@ -36,6 +38,11 @@ function formatDateTime(iso: string, compact = false) {
     <span class:list={['tag', { en: item.lang === 'en' }]}>{item.source}</span>
     {(item.tags || []).map((t) => <span class="tag cat">{t}</span>)}
     {item.heat >= 8 && <span class="heat">🔥 热门</span>}
+    {(item.alsoReportedBy?.length ?? 0) > 0 && (
+      <span class="also-reported" title={`同时报道：${item.alsoReportedBy!.join('、')}`}>
+        另外 {item.alsoReportedBy!.length} 家也报道了
+      </span>
+    )}
     <time datetime={item.pubDate}>{formatDateTime(item.pubDate, compact)}</time>
   </div>
   {(item.summaryZh || item.summary) && <p class="news-summary">{item.summaryZh || item.summary}</p>}

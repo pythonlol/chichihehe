@@ -1,161 +1,6 @@
 {
-  "updatedAt": "2026-11-10T03:02:30.911Z",
+  "updatedAt": "2026-11-10T03:17:54.385Z",
   "items": [
-    {
-      "title": "早报｜苹果国行AI备案新增iPad和笔记本/Claude Fable 5.2发布，价格降20%/曝玛莎拉蒂拟与尊界合作，新车将由江淮生产",
-      "link": "https://www.ifanr.com/1688654?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-10T00:47:46.000Z",
-      "summary": "苹果国行AI备案新增iPad/笔记本；Claude Fable 5.2发布降价20%；谷歌发布第八代TPU双系统；迪士尼与Adobe合作定制IP生成模型",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "Anthropic",
-        "Google",
-        "Apple"
-      ],
-      "heat": 79.8
-    },
-    {
-      "title": "ChatGPT 占全球 AI 聊天流量超 81%；iOS 27.3 曝光 Siri「个人记忆系统」；传玛莎拉蒂+尊界合作新车曝光｜极客早知道",
-      "link": "http://www.geekpark.net/news/373736",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-10T00:19:15.000Z",
-      "summary": "ChatGPT占全球AI聊天流量超81%；iOS 27.3曝光Siri「个人记忆系统」；Anthropic发布Claude Fable/Mythos 5.2双模型，API调用费降20%",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "OpenAI",
-        "Anthropic",
-        "Apple"
-      ],
-      "heat": 50.7
-    },
-    {
-      "title": "当 AI 在加速狂奔，什么反而应该“慢”下来？",
-      "link": "https://www.infoq.cn/article/Guys6YS7FsKUg8dLtMJx?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T13:41:41.000Z",
-      "summary": "探讨AI加速发展背景下需‘慢下来’的关键领域：伦理对齐、系统韧性、人才培育与治理节奏",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 47.3
-    },
-    {
-      "title": "当AI在加速狂奔，什么反而应该“慢”下来？",
-      "link": "https://www.qbitai.com/2026/11/508586.html",
-      "source": "量子位",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T03:47:12.000Z",
-      "summary": "AI正从对话交互迈向自主交付；腾讯WorkBuddy累计承接超90亿次任务请求，Token消耗显著增长",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "腾讯"
-      ],
-      "heat": 41
-    },
-    {
-      "title": "腾讯首款专属 AI 游戏陪伴 Agent“鹅次元”开启内测，支持实时陪聊、手机 QQ 陪伴聊天等",
-      "link": "https://www.ithome.com/1/024/620.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-10T01:43:25.000Z",
-      "summary": "腾讯首款AI游戏陪伴Agent‘鹅次元’开启内测，支持游戏画面感知、实时陪聊、QQ跨端互动及桌宠功能。",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "腾讯"
-      ],
-      "heat": 37.7
-    },
-    {
-      "title": "IT早报 1110：出轨风波后英伟达宣布 CEO 黄仁勋仍将留任；华为、江淮和 Stellantis 三方合作车型外观确认；尊界或推 40-50 万子品牌；奥迪 A8 旗舰轿车停产...",
-      "link": "https://www.ithome.com/1/024/579.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T23:55:30.000Z",
-      "summary": "IT早报合集：英伟达CEO黄仁勋留任；华为江淮Stellantis合作车型外观确认；尊界拟推子品牌；奥迪A8停产。",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 2,
-      "companies": [
-        "NVIDIA",
-        "华为"
-      ],
-      "heat": 34.5
-    },
-    {
-      "title": "消息称 Anthropic 计划通过 IPO 募集至多 693 亿美元资金，规模锁定历史前二",
-      "link": "https://www.ithome.com/1/024/694.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-10T02:28:54.000Z",
-      "summary": "Anthropic计划IPO募资至多693亿美元，规模仅次于SpaceX，创AI公司历史第二高融资纪录。",
-      "tags": [
-        "商业融资"
-      ],
-      "llmScore": 5,
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 30.2
-    },
-    {
-      "title": "触觉也能 Token 化！蚂蚁灵波发布通用触觉模型，把“具身原生”推进到机器人指尖",
-      "link": "https://www.infoq.cn/article/W7VPoeNBPX4y2u72WAGM?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-10T10:40:29.000Z",
-      "summary": "蚂蚁灵波开源通用触觉基础模型，实现触觉信号Token化，支持跨硬件/模型/任务的机器人指尖感知复用",
-      "tags": [
-        "具身智能"
-      ],
-      "llmScore": 5,
-      "companies": [],
-      "heat": 29.9
-    },
-    {
-      "title": "Meta 推出轻量级 AI 模型 Muse Ember：跑分媲美 Claude Haiku 5.5，单任务成本仅 1/3",
-      "link": "https://www.ithome.com/1/024/604.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-10T00:59:26.000Z",
-      "summary": "Meta推出轻量级AI模型Muse Ember，效率高、成本低，跑分媲美Claude Haiku 5.5，单任务成本仅1/3。",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "Anthropic",
-        "Meta"
-      ],
-      "heat": 29.7
-    },
     {
       "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
@@ -163,7 +8,30 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-11-09T19:00:00.000Z",
-      "summary": "Anthropic发布Claude Fable 5.2与Mythos 5.2新模型，宣称专为解决高难度技术任务并提升推理性能",
+      "summary": "Anthropic发布Claude Fable 5.2与Mythos 5.2两个新模型，专攻高难度技术任务，宣称在推理与代码能力上显著提升",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "Anthropic"
+      ],
+      "coverage": 2,
+      "alsoReportedBy": [
+        "爱范儿"
+      ],
+      "heat": 38,
+      "titleZh": "Anthropic 推出全新 Claude Fable 与 Mythos 5.2 模型",
+      "summaryZh": "Anthropic发布Claude Fable与Mythos 5.2新模型，专攻高难度技术推理任务，并宣称性能显著提升。"
+    },
+    {
+      "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO",
+      "link": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/",
+      "source": "The Decoder",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T21:15:23.000Z",
+      "summary": "Anthropic发布Claude Fable 5.2与Mythos 5.2双模型，分开源与机构专供版本，强化物理推理能力",
       "tags": [
         "大模型"
       ],
@@ -171,46 +39,14 @@
       "companies": [
         "Anthropic"
       ],
-      "heat": 29.7,
-      "titleZh": "Anthropic 推出全新 Claude Fable 与 Mythos 5.2 模型",
-      "summaryZh": "Anthropic发布Claude Fable与Mythos 5.2新模型，专攻高难度技术推理任务，并宣称性能显著提升。"
-    },
-    {
-      "title": "OpenAI、Anthropic、Google 各有接口，开放标准离统一还有多远？",
-      "link": "https://www.infoq.cn/article/5e8Qs11VHRHRyYsB2kFO?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T14:35:00.000Z",
-      "summary": "AGNTCon+MCPCon 2026推动Agentic AI标准建设；MCP转向安全议题，Agentic AI Foundation新增四个项目",
-      "tags": [
-        "智能体"
+      "coverage": 3,
+      "alsoReportedBy": [
+        "IT之家",
+        "TechCrunch AI"
       ],
-      "llmScore": 3,
-      "companies": [
-        "OpenAI",
-        "Anthropic",
-        "Google"
-      ],
-      "heat": 29
-    },
-    {
-      "title": "苹果罕见公布人形机器人进展，宇树 G1 背着一台跑千问的 Mac mini",
-      "link": "https://www.ifanr.com/1688485?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T07:56:58.000Z",
-      "summary": "苹果罕见披露人形机器人进展，宇树G1背负运行千问的Mac mini，体现端侧大模型与具身平台融合新路径",
-      "tags": [
-        "具身智能"
-      ],
-      "llmScore": 5,
-      "companies": [
-        "Apple",
-        "阿里巴巴"
-      ],
-      "heat": 26.8
+      "heat": 35.7,
+      "titleZh": "Claude Fable 5.2 与 Mythos 5.2 双双发布，巩固 Anthropic 在 AI 领域的领先地位，恰逢其 IPO 前夕",
+      "summaryZh": "Anthropic发布Claude Fable 5.2与Mythos 5.2双模型，分开源与机构专供版本，强化物理推理能力"
     },
     {
       "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
@@ -219,7 +55,7 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-11-09T19:24:51.000Z",
-      "summary": "Anthropic发布Mythos与Fable新模型，称在编码、推理、视觉及用户交互清晰度方面有提升，同时引发RSI（响应安全性干预）担忧",
+      "summary": "Anthropic发布Mythos与Fable新模型，提升编码、推理与视觉能力，并优化用户沟通清晰度，同时回应RSI风险关切",
       "tags": [
         "大模型"
       ],
@@ -227,9 +63,61 @@
       "companies": [
         "Anthropic"
       ],
-      "heat": 25.3,
+      "heat": 31.6,
       "titleZh": "Anthropic 在引发远程服务中断（RSI）担忧的背景下发布新款 Mythos 与 Fable 模型",
       "summaryZh": "Anthropic发布Mythos和Fable新模型，称其在编程、推理、视觉理解及用户交互能力方面均有提升，但未披露具体技术细节。"
+    },
+    {
+      "title": "OpenAI、Anthropic、Google 各有接口，开放标准离统一还有多远？",
+      "link": "https://www.infoq.cn/article/5e8Qs11VHRHRyYsB2kFO?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T14:35:00.000Z",
+      "summary": "OpenAI、Anthropic、Google接口互不兼容，AI服务开放标准统一进程缓慢，生态碎片化问题突出",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "heat": 30.6
+    },
+    {
+      "title": "触觉也能 Token 化！蚂蚁灵波发布通用触觉模型，把“具身原生”推进到机器人指尖",
+      "link": "https://www.infoq.cn/article/W7VPoeNBPX4y2u72WAGM?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T10:40:29.000Z",
+      "summary": "蚂蚁灵波发布通用触觉基础模型，实现触觉信号Token化，支持跨硬件/模型/任务复用，推动具身智能向机器人指尖延伸",
+      "tags": [
+        "具身智能"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 27.6
+    },
+    {
+      "title": "苹果罕见公布人形机器人进展，宇树 G1 背着一台跑千问的 Mac mini",
+      "link": "https://www.ifanr.com/1688485?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T07:56:58.000Z",
+      "summary": "苹果罕见披露人形机器人进展：宇树G1背负运行千问的Mac mini，标志端侧大模型与具身平台实质性融合",
+      "tags": [
+        "具身智能"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "Apple",
+        "阿里巴巴"
+      ],
+      "heat": 27
     },
     {
       "title": "35 秒内“叫停”失控的 AI 智能体，OpenAI 部署“控制室”系统",
@@ -238,7 +126,7 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-10T02:05:45.000Z",
-      "summary": "OpenAI部署“控制室”系统，可在35秒内主动叫停失控AI智能体任务，实现风险研究负载的实时拦截与输出阻断。",
+      "summary": "OpenAI内部部署‘控制室’系统，可在35秒内强制终止失控AI智能体任务，实现主动风险阻断，非传统监控式安全机制",
       "tags": [
         "智能体"
       ],
@@ -246,7 +134,7 @@
       "companies": [
         "OpenAI"
       ],
-      "heat": 25
+      "heat": 26.5
     },
     {
       "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
@@ -255,7 +143,7 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-09T16:26:51.000Z",
-      "summary": "千问办公2.0发布Team Agent，支持多人协同与Agent协作；新增人机共创能力，打通对话、预览与编辑",
+      "summary": "千问办公2.0发布Team Agent，支持多人与Agent协作及人机共创，打通对话、预览与编辑全流程",
       "tags": [
         "智能体"
       ],
@@ -263,7 +151,24 @@
       "companies": [
         "阿里巴巴"
       ],
-      "heat": 24.4
+      "heat": 24.7
+    },
+    {
+      "title": "Anthropic 重做源代码管理系统：提交量增长 12 倍，传统架构开始失效",
+      "link": "https://www.infoq.cn/article/sBjhhysFKZibZpXQZEGy?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T11:00:00.000Z",
+      "summary": "Anthropic为AI原生开发重写源代码管理系统，提交量增长12倍，暴露传统SCM架构在AI规模化编码下的瓶颈",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 22.9
     },
     {
       "title": "千问“死磕”Personal Agent：为什么下限比上限更重要？",
@@ -272,15 +177,15 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-09T17:02:39.000Z",
-      "summary": "千问聚焦Personal Agent下限能力，强调服务补齐与任务完成率优先于上限性能突破",
+      "summary": "千问聚焦Personal Agent服务下限，优先提升任务完成率与基础服务能力，而非单纯追求能力上限",
       "tags": [
         "智能体"
       ],
-      "llmScore": 4,
+      "llmScore": 3,
       "companies": [
         "阿里巴巴"
       ],
-      "heat": 22.3
+      "heat": 22.7
     },
     {
       "title": "波士顿动力给 Atlas 人形机器人装上轮子，可以跳起来转一圈",
@@ -289,65 +194,13 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-10T02:32:02.000Z",
-      "summary": "波士顿动力为Atlas人形机器人加装滑板车轮子，实现高速移动与跳跃旋转，仅通过转接器和仿真环境适配，未重构硬件与软件。",
+      "summary": "波士顿动力为Atlas人形机器人加装滑板车轮子实现高速移动与跳跃旋转，未改动核心硬件与软件架构，属具身智能工程创新",
       "tags": [
         "具身智能"
       ],
       "llmScore": 4,
       "companies": [],
-      "heat": 21.7
-    },
-    {
-      "title": "冲击“史上最大 IPO”：消息称 Anthropic 下周四 / 五上市，估值预期遭遇市场降温",
-      "link": "https://www.ithome.com/1/024/576.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T23:32:38.000Z",
-      "summary": "Anthropic冲刺史上最大AI IPO，拟于11月19日或20日纳斯达克上市，估值预期遭市场降温，IPO细节待披露。",
-      "tags": [
-        "商业融资"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 21.7
-    },
-    {
-      "title": "实测 HY4：腾讯最「夯」大模型，离一线还有多远？",
-      "link": "http://www.geekpark.net/news/373644",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T03:57:03.000Z",
-      "summary": "腾讯混元Hy4正式发布并即将开源，定位「最强开源模型之一」，同步推出轻量版Hy4 flash，补足腾讯在底层模型领域的声量短板",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "腾讯"
-      ],
-      "heat": 21.1
-    },
-    {
-      "title": "早报｜曝特努斯要求加快AI研发/Win 11优化8GB内存电脑流畅度/马斯克：SpaceX明年12月年化营收或超5000亿美元",
-      "link": "https://www.ifanr.com/1688379?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T00:34:19.000Z",
-      "summary": "特努斯加速AI研发；Win11优化低配设备AI体验；Anthropic拟启动IPO路演；比亚迪回应玛莎拉蒂收购传闻",
-      "tags": [
-        "商业融资"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "Anthropic",
-        "xAI"
-      ],
-      "heat": 20.7
+      "heat": 21.6
     },
     {
       "title": "不想当管理者，就用不好 Coding Agent？Anthropic 工程师长文谈 Agent 管理实战",
@@ -356,87 +209,15 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-09T18:24:32.000Z",
-      "summary": "Anthropic工程师分享Coding Agent管理实战经验，强调非管理者角色如何高效使用Agent完成工程任务",
+      "summary": "Anthropic工程师详解Coding Agent管理实战，强调非管理者角色同样需掌握Agent协同与控制方法",
       "tags": [
         "智能体"
       ],
-      "llmScore": 3,
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 20.6
-    },
-    {
-      "title": "刚刚，Claude Fable 5.2 登顶世界第一，一夜斩杀 Opus 5.5",
-      "link": "https://www.ifanr.com/1688605?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T22:54:06.000Z",
-      "summary": "Claude Fable 5.2登顶全球最强模型榜单，击败Opus 5.5，标志新一代闭源大模型性能突破",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 5,
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 18.2
-    },
-    {
-      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
-      "link": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T18:09:52.000Z",
-      "summary": "黄仁勋涉间谍传闻加剧美方对Nvidia游说放松对华芯片出口管制的质疑，威胁其在中国AI市场的战略存续",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 5,
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 17,
-      "titleZh": "黄仁勋与一名涉嫌中国间谍人士的关联事件，引发外界对其英伟达公司在华业务战略的审视",
-      "summaryZh": "黄仁勋被指与一名疑似中国间谍存在私密关系，引发外界对其游说美国放松对华芯片出口管制行为合法性的严重质疑，威胁英伟达（Nvidia）在华AI市场战略"
-    },
-    {
-      "title": "“印度成OpenAI最大市场”，Altman首次回应“离职潮”：一群聪明人互不信任",
-      "link": "https://www.infoq.cn/article/7AXcQvPCSwfPhtL8iQpo?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T14:00:00.000Z",
-      "summary": "Sam Altman首度回应OpenAI印度成最大市场传闻及内部离职潮；反思高智商团队信任危机",
-      "tags": [
-        "AI 动态"
-      ],
       "llmScore": 4,
       "companies": [
-        "OpenAI"
+        "Anthropic"
       ],
-      "heat": 16
-    },
-    {
-      "title": "Here’s what Trump said he knew about Jensen Huang",
-      "link": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T23:47:46.000Z",
-      "summary": "特朗普在白宫记者会上回应关于英伟达CEO黄仁勋的问题，称‘知道他是谁’，但未透露具体合作细节",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 2,
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 15.4,
-      "titleZh": "特朗普称自己了解黄仁勋的哪些情况",
-      "summaryZh": "特朗普在白宫记者会上回应关于英伟达CEO黄仁勋的问题，称‘知道他是谁’，但未透露具体合作细节"
+      "heat": 21.3
     },
     {
       "title": "AI越来越聪明，企业却快管不住了：Gartner 2027年十大趋势，智能体治理成新战场",
@@ -445,13 +226,88 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-09T16:55:59.000Z",
-      "summary": "Gartner 2027十大趋势指出智能体治理成新战场；强调80%新应用将具备可抛弃性与易替换性",
+      "summary": "Gartner预测智能体治理成新战场；2031年80%新应用将具备可抛弃性与易替换性",
       "tags": [
         "政策与安全"
       ],
       "llmScore": 4,
       "companies": [],
-      "heat": 14.6
+      "heat": 18.3
+    },
+    {
+      "title": "早报｜曝特努斯要求加快AI研发/Win 11优化8GB内存电脑流畅度/马斯克：SpaceX明年12月年化营收或超5000亿美元",
+      "link": "https://www.ifanr.com/1688379?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T00:34:19.000Z",
+      "summary": "曝特努斯要求加快AI研发；Anthropic拟启动IPO路演；GPT-6 Cyber发布复现1724项漏洞",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "OpenAI",
+        "Anthropic",
+        "xAI"
+      ],
+      "heat": 17.5
+    },
+    {
+      "title": "实测 HY4：腾讯最「夯」大模型，离一线还有多远？",
+      "link": "http://www.geekpark.net/news/373644",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T03:57:03.000Z",
+      "summary": "腾讯混元Hy4正式发布并即将开源，定位最强开源模型之一，轻量版Hy4 flash同步亮相",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "腾讯"
+      ],
+      "heat": 16.3
+    },
+    {
+      "title": "ChatGPT 占全球 AI 聊天流量超 81%；iOS 27.3 曝光 Siri「个人记忆系统」；传玛莎拉蒂+尊界合作新车曝光｜极客早知道",
+      "link": "http://www.geekpark.net/news/373736",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T00:19:15.000Z",
+      "summary": "ChatGPT占全球AI聊天流量超81%；Claude Fable/Mythos 5.2双模型发布，API调用费降20%",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "OpenAI",
+        "Anthropic",
+        "Apple"
+      ],
+      "heat": 13.8
+    },
+    {
+      "title": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
+      "link": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
+      "source": "The Decoder",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T12:59:02.000Z",
+      "summary": "谷歌一年内推出四款TPU 8变体，包括支持全程加密处理的TPU 8tx和算力/内存翻倍的TPU 8i Max。",
+      "tags": [
+        "芯片算力"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "Google",
+        "NVIDIA"
+      ],
+      "heat": 13.8,
+      "titleZh": "谷歌一年内接连推出四款 TPU 变体，加速加码对英伟达的竞争",
+      "summaryZh": "谷歌一年内推出四款TPU 8变体，包括支持全程加密处理的TPU 8tx和算力/内存翻倍的TPU 8i Max。"
     },
     {
       "title": "联想万全混合词元工厂发布：母本工厂落地张家口，2027 年建成 15000P 异构算力集群",
@@ -460,113 +316,34 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-10T02:10:04.000Z",
-      "summary": "联想发布万全混合词元工厂，张家口母本工厂落地，2027年建成15000P异构算力集群，支撑词元经济与全国智算网络。",
-      "tags": [
-        "芯片算力"
-      ],
-      "llmScore": 4,
-      "companies": [],
-      "heat": 12.8
-    },
-    {
-      "title": "The backlash about data centers might really just be about electricity",
-      "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T19:35:33.000Z",
-      "summary": "美国多地反对数据中心建设的舆论实质是电力资源争夺，折射AI算力扩张与能源基础设施矛盾",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 12.6,
-      "titleZh": "关于数据中心的争议，或许本质上只是围绕电力问题展开",
-      "summaryZh": "美国多地反对数据中心建设的舆论实质是电力资源争夺，折射AI算力扩张与能源基础设施矛盾"
-    },
-    {
-      "title": "不能把整个安全体系押在大模型上：AI 分诊 CVE，人工审查仍不能少",
-      "link": "https://www.infoq.cn/article/mBvmvcQ8a8ty2Ob1xN64?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T16:00:00.000Z",
-      "summary": "亚马逊云科技用AI智能体分诊Linux内核CVE；强调AI不能替代人工安全审查，需人机协同",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 11.8
-    },
-    {
-      "title": "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对",
-      "link": "http://www.geekpark.net/news/373637",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-06T12:13:06.000Z",
-      "summary": "OpenAI前CTO创立的TML发布Inkling 2 Small，被AA评为「中国以外得分最高的开放权重模型」，估值达400亿美元，直指中国开源模型竞对",
+      "summary": "联想发布万全混合词元工厂，张家口母本工厂落地，2027年建成15000P异构算力集群，聚焦中文大模型训练基础设施",
       "tags": [
         "大模型"
       ],
-      "llmScore": 5,
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 11.7
-    },
-    {
-      "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
-      "link": "http://www.geekpark.net/news/373554",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-06T01:01:57.000Z",
-      "summary": "美国中期选举后芯片股重挫、纳指单日暴跌5.52%；民主党拟推《禁止人工智能法案》；OpenAI被误传推出GPT-6 Cyber（该信息为虚构/未证实）",
-      "tags": [
-        "政策与安全"
-      ],
       "llmScore": 4,
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 11.5
+      "companies": [],
+      "heat": 13.2
     },
     {
-      "title": "Anthropic reportedly plans to move forward with IPO plans",
-      "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-      "source": "TechCrunch AI",
+      "title": "Disney and Adobe are building generative AI tools together",
+      "link": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "source": "The Verge AI",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-11-10T01:27:12.000Z",
-      "summary": "Anthropic reportedly plans to move forward with IPO plans, expected to set valuation range this week per WSJ",
+      "pubDate": "2026-11-09T15:38:56.000Z",
+      "summary": "迪士尼与Adobe合作开发‘艺术家主导’的专属生成式AI模型，聚焦内容创作管线，强调可控性与创意版权保护",
       "tags": [
-        "商业融资"
+        "大模型"
       ],
       "llmScore": 4,
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 10.8,
-      "titleZh": "据称Anthropic公司正持续推进首次公开募股（IPO）计划",
-      "summaryZh": "Anthropic据报正积极推进IPO进程，预计本周将敲定估值区间。"
-    },
-    {
-      "title": "为什么「陪伴」，注定是 Personal AI 的核心",
-      "link": "http://www.geekpark.net/news/373653",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-08T09:52:45.000Z",
-      "summary": "Personal AI核心价值在于「陪伴感」，Muse上线实时语音与动态头像，验证情感连接比能力精度更能驱动用户持续交互与行为改变",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 3,
       "companies": [],
-      "heat": 10
+      "coverage": 2,
+      "alsoReportedBy": [
+        "The Decoder"
+      ],
+      "heat": 12.4,
+      "titleZh": "迪士尼与Adobe正携手开发生成式AI工具",
+      "summaryZh": "迪士尼（Disney）与Adobe合作开发“艺术家主导”的专属生成式AI模型，聚焦优化创意内容生产流程"
     },
     {
       "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
@@ -575,17 +352,74 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-11-08T21:00:11.000Z",
-      "summary": "Nvidia董事会正式启动对CEO黄仁勋与疑似中国间谍关系的内部调查，黄本人在备忘录中承认存在婚外关系",
+      "summary": "黄仁勋在内部备忘录中承认与一名疑似中方间谍存在婚外情，此事触发英伟达董事会正式调查",
       "tags": [
-        "政策与安全"
+        "AI 动态"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "NVIDIA"
+      ],
+      "coverage": 2,
+      "alsoReportedBy": [
+        "The Verge AI"
+      ],
+      "heat": 12.1,
+      "titleZh": "英伟达将就首席执行官黄仁勋与疑似中国间谍的关系展开调查",
+      "summaryZh": "英伟达内部备忘录证实，CEO黄仁勋承认曾与一名疑似中国间谍存在私人往来，公司已就此启动正式调查。"
+    },
+    {
+      "title": "Debate to Deceive: Poisoning LLM's Fact-Checking via Game-Theoretic Multi-Agent Debate",
+      "link": "https://arxiv.org/abs/2611.08756",
+      "source": "arXiv cs.AI",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T05:00:00.000Z",
+      "summary": "揭示通过博弈论多智能体辩论可毒化LLM事实核查能力，构成新型知识攻击范式",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 11.2,
+      "titleZh": "从辩论到欺骗：通过博弈论多智能体辩论机制污染大语言模型的事实核查能力",
+      "summaryZh": "揭示通过博弈论多智能体辩论可毒化LLM事实核查能力，构成新型知识攻击范式"
+    },
+    {
+      "title": "Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls",
+      "link": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/",
+      "source": "The Decoder",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T11:38:43.000Z",
+      "summary": "英伟达CEO黄仁勋卷入涉嫌与中国情报人员关联的间谍风波，削弱其游说放松AI芯片出口管制的公信力。",
+      "tags": [
+        "AI 动态"
       ],
       "llmScore": 5,
       "companies": [
         "NVIDIA"
       ],
-      "heat": 9.5,
-      "titleZh": "英伟达将就首席执行官黄仁勋与疑似中国间谍的关系展开调查",
-      "summaryZh": "英伟达内部备忘录证实，CEO黄仁勋承认曾与一名疑似中国间谍存在私人往来，公司已就此启动正式调查。"
+      "heat": 11,
+      "titleZh": "英伟达间谍丑闻削弱黄仁勋游说美方收紧 AI 芯片出口管制的力度",
+      "summaryZh": "英伟达CEO黄仁勋卷入涉嫌与中国情报人员关联的间谍风波，削弱其游说放松AI芯片出口管制的公信力。"
+    },
+    {
+      "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+      "link": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T11:00:00.000Z",
+      "summary": "作家尝试用‘纸质证据链’工具应对AI生成内容指控，但行业对文稿来源的焦虑仍难解",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 10.7,
+      "titleZh": "作者可通过‘留痕工具’（Paper Trail）应对人工智能相关指控——这是否已足够？",
+      "summaryZh": "作家借助“纸质轨迹”等溯源工具应对AI剽窃指控，但行业层面的信任机制仍存在根本性缺陷。"
     },
     {
       "title": "实测 Seedream5.5，豆包想把 AI 作图接进整条工作流",
@@ -594,72 +428,15 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-09T12:01:18.000Z",
-      "summary": "实测Seedream 5.5将AI作图深度嵌入设计工作流，支持百轮无损改图，强化AIGC生产力闭环",
+      "summary": "实测豆包Seedream 5.5将AI作图深度嵌入设计工作流，支持百轮无损改图，强化生产力闭环",
       "tags": [
         "智能体"
       ],
-      "llmScore": 4,
+      "llmScore": 3,
       "companies": [
         "字节跳动"
       ],
       "heat": 9.4
-    },
-    {
-      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s ‘about a 50-50’",
-      "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T05:26:29.000Z",
-      "summary": "耶鲁管理学院Jeffrey Sonnenfeld评估黄仁勋CEO职位去留概率为五五开，董事会调查结果将决定Nvidia领导层稳定性",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 9.3,
-      "titleZh": "黄仁勋的职位是否岌岌可危？耶鲁大学杰弗里·索恩菲尔德教授估计‘概率约为五五开’",
-      "summaryZh": "耶鲁大学管理学院学者Jeffrey Sonnenfeld表示，受间谍关联事件影响，英伟达CEO黄仁勋去留概率目前约为五五开，董事会正就此事展开全面调查。"
-    },
-    {
-      "title": "What could China get from Jensen Huang?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T23:51:58.000Z",
-      "summary": "分析英伟达芯片对中美AI发展不对称性的影响：中国亟需获取其高端AI算力，但受出口管制制约",
-      "tags": [
-        "芯片算力"
-      ],
-      "llmScore": 5,
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 9.1,
-      "titleZh": "中国能从黄仁勋身上获得什么？",
-      "summaryZh": "探讨中国获取英伟达技术的可能性，凸显其GPU在中美AI战略竞争中的关键卡点地位。"
-    },
-    {
-      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
-      "link": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T22:46:09.000Z",
-      "summary": "做空机构Culper Research早在Nvidia间谍风波爆发前六个月，就质疑黄仁勋与一名涉嫌中国间谍的高管关系异常密切",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 8.6,
-      "titleZh": "一名做空机构早在丑闻爆发前六个月，就已警示外界英伟达CEO与一名涉嫌中国间谍人员存在关联",
-      "summaryZh": "做空机构Culper Research早在半年前就已质疑黄仁勋与一名疑似中国间谍的高管关系异常密切，早于英伟达（Nvidia）间谍风波曝光"
     },
     {
       "title": "AI接管一家8万Star开源公司，写代码、派任务、查Bug全包了",
@@ -668,7 +445,7 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-09T05:47:58.000Z",
-      "summary": "AI接管8万Star开源项目全流程：写代码、派任务、查Bug，主管Agent可自主招聘Worker",
+      "summary": "AI接管8万Star开源项目：主管Agent可自主写代码、分配任务、查Bug，甚至模拟招聘新Worker，展现自治智能体新范式",
       "tags": [
         "智能体"
       ],
@@ -677,53 +454,82 @@
       "heat": 8.6
     },
     {
-      "title": "美“核武级”AI禁令悬顶：美股恐慌收跌，马斯克财富单日缩水800亿美元",
-      "link": "http://www.techweb.com.cn/it/2026-11-06/2980326.shtml",
-      "source": "TechWeb",
+      "title": "当AI在加速狂奔，什么反而应该“慢”下来？",
+      "link": "https://www.qbitai.com/2026/11/508586.html",
+      "source": "量子位",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-11-06T01:43:00.000Z",
-      "summary": "美国民主党议员呼吁全面封禁‘超级AI’，监管风暴致美股恐慌下跌，马斯克单日财富缩水800亿美元。",
+      "pubDate": "2026-11-09T03:47:12.000Z",
+      "summary": "AI正从对话交互转向自主交付；腾讯WorkBuddy作为最大AI办公智能体，已承接超90亿次任务，Token消耗激增",
       "tags": [
-        "政策与安全"
+        "智能体"
       ],
-      "llmScore": 5,
+      "llmScore": 4,
       "companies": [
-        "xAI"
+        "腾讯"
+      ],
+      "coverage": 2,
+      "alsoReportedBy": [
+        "InfoQ 中文"
       ],
       "heat": 8.6
     },
     {
-      "title": "早报｜首款触屏MacBook Pro开卖/2027年放假安排公布，调休减少/GPT-6 Cyber发布，复现1724项漏洞",
-      "link": "https://www.ifanr.com/1688032?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T18:44:20.000Z",
+      "summary": "Meta推出Spaces新协作空间，支持用户与Muse AI智能体进行更深度、场景化的协同交互",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "Meta"
+      ],
+      "coverage": 4,
+      "alsoReportedBy": [
+        "IT之家",
+        "爱范儿",
+        "The Decoder"
+      ],
+      "heat": 8.4,
+      "titleZh": "Meta推出Spaces，一种与Muse智能体协作的新方式",
+      "summaryZh": "Meta推出Spaces新协作空间，支持用户与Muse AI智能体深度协同工作"
+    },
+    {
+      "title": "为什么「陪伴」，注定是 Personal AI 的核心",
+      "link": "http://www.geekpark.net/news/373653",
+      "source": "极客公园",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-11-06T00:15:15.000Z",
-      "summary": "GPT-6 Cyber发布复现1724项漏洞；丰田设直属机器人部门；全球DRAM营收逼近2000亿美元；鸿蒙电脑累计发货破百万",
+      "pubDate": "2026-11-08T09:52:45.000Z",
+      "summary": "Personal AI核心价值转向‘陪伴感’，Muse上线实时语音与动态头像强化情感交互体验",
       "tags": [
         "AI 动态"
       ],
-      "llmScore": 4,
+      "llmScore": 3,
+      "companies": [],
+      "heat": 8.2
+    },
+    {
+      "title": "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对",
+      "link": "http://www.geekpark.net/news/373637",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T12:13:06.000Z",
+      "summary": "OpenAI 前 CTO 创立的 Thinking Machines Lab 发布 Inkling 2 Small 模型，被评为中国以外得分最高的开放权重模型，估值达 400 亿美元",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 5,
       "companies": [
         "OpenAI"
       ],
       "heat": 8.2
-    },
-    {
-      "title": "Agent 越用越多，企业为何仍不够 AI Native？",
-      "link": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T00:08:00.000Z",
-      "summary": "企业Agent使用量上升但仍未实现AI Native；症结在于组织流程、评估体系与人才结构未同步演进",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 4,
-      "companies": [],
-      "heat": 8.1
     },
     {
       "title": "Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents",
@@ -743,6 +549,285 @@
       "summaryZh": "构建Flex-RSI基准，首次系统评测前沿智能体在递归自我改进中的能力演化、稳定性与失败模式"
     },
     {
+      "title": "“印度成OpenAI最大市场”，Altman首次回应“离职潮”：一群聪明人互不信任",
+      "link": "https://www.infoq.cn/article/7AXcQvPCSwfPhtL8iQpo?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T14:00:00.000Z",
+      "summary": "Altman首度回应OpenAI离职潮称‘聪明人互不信任’；同时确认印度已成为OpenAI最大市场",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 7.9
+    },
+    {
+      "title": "办公提效之后，企业级 Agent 开始对经营结果负责",
+      "link": "http://www.geekpark.net/news/373642",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-07T03:31:37.000Z",
+      "summary": "腾讯云提出企业级智能体下一阶段核心是深入业务流程、适配复杂系统权限，并对经营结果（如营收、成本）产生可量化价值，而非仅办公提效",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "腾讯"
+      ],
+      "heat": 7.9
+    },
+    {
+      "title": "宇树科技股价涨超 10%，此前已连续 2 个交易日收涨",
+      "link": "https://www.ithome.com/1/024/660.htm",
+      "source": "IT之家",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T02:20:01.000Z",
+      "summary": "宇树科技股价单日涨超10%、三连涨，创始人称明年或是机器人行业临界点，GPT-6将推动物理世界模型突破",
+      "tags": [
+        "具身智能"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 7.7
+    },
+    {
+      "title": "Tencent's AI chief says AI bioweapons are coming, but closing off models isn't the answer",
+      "link": "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/",
+      "source": "The Decoder",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T15:44:53.000Z",
+      "summary": "腾讯首席AI科学家 warns AI可能催生生物武器，主张在开源与闭源间寻求安全治理中间路径。",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "腾讯"
+      ],
+      "heat": 7.6,
+      "titleZh": "腾讯首席 AI 官称 AI 生物武器即将出现，但封闭模型并非应对之道",
+      "summaryZh": "腾讯首席AI科学家 warns AI可能催生生物武器，主张在开源与闭源间寻求安全治理中间路径。"
+    },
+    {
+      "title": "具身智能，也到了 API 时刻？",
+      "link": "http://www.geekpark.net/news/373683",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T02:18:55.000Z",
+      "summary": "具身智能正进入API化阶段，支持跨本体迁移与开发者自定义机器人任务适配",
+      "tags": [
+        "具身智能"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 7.2
+    },
+    {
+      "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
+      "link": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+      "source": "The Decoder",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-08T13:49:21.000Z",
+      "summary": "Seth、Block与Tononi在Nature发文指出当前AI无意识，且硅基硬件无法产生意识，批判‘脑即计算机’隐喻误导意识研究。",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "Meta"
+      ],
+      "heat": 6.8,
+      "titleZh": "‘大脑即计算机’这一隐喻塑造了现代人工智能发展，却可能误导当前关于意识的讨论",
+      "summaryZh": "Seth、Block与Tononi在Nature发文指出当前AI无意识，且硅基硬件无法产生意识，批判‘脑即计算机’隐喻误导意识研究。"
+    },
+    {
+      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T15:50:38.000Z",
+      "summary": "特朗普在《60 Minutes》中淡化AI安全风险，称可‘管控’，并扬言‘必要时逮捕AI高管’，引发对美AI治理路径的担忧",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 6.6,
+      "titleZh": "特朗普在接受《60分钟》专访时谈及人工智能安全问题，并扬言或将逮捕某位AI企业高管",
+      "summaryZh": "特朗普在《60分钟》采访中质疑AI安全风险的严重性，称其“可控”，并抛出可能逮捕AI高管的争议性言论"
+    },
+    {
+      "title": "美“核武级”AI禁令悬顶：美股恐慌收跌，马斯克财富单日缩水800亿美元",
+      "link": "http://www.techweb.com.cn/it/2026-11-06/2980326.shtml",
+      "source": "TechWeb",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T01:43:00.000Z",
+      "summary": "美民主党议员呼吁暂停先进AI发展、封禁超级智能，引发美股恐慌与马斯克财富单日缩水800亿美元",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "xAI"
+      ],
+      "heat": 6.3
+    },
+    {
+      "title": "早报｜首款触屏MacBook Pro开卖/2027年放假安排公布，调休减少/GPT-6 Cyber发布，复现1724项漏洞",
+      "link": "https://www.ifanr.com/1688032?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T00:15:15.000Z",
+      "summary": "GPT-6 Cyber发布复现1724项漏洞；丰田设直属机器人部门；鸿蒙电脑政企版发布",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "OpenAI"
+      ],
+      "coverage": 2,
+      "alsoReportedBy": [
+        "极客公园"
+      ],
+      "heat": 6.2
+    },
+    {
+      "title": "不能把整个安全体系押在大模型上：AI 分诊 CVE，人工审查仍不能少",
+      "link": "https://www.infoq.cn/article/mBvmvcQ8a8ty2Ob1xN64?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T16:00:00.000Z",
+      "summary": "亚马逊云科技用AI智能体分诊Linux内核CVE，但强调人工审查不可替代，安全体系不能全押在大模型上",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 6.1
+    },
+    {
+      "title": "2.5小时一个零日，400多个root提权：Linux被AI挖成了筛子，人类逆向几周才看懂一个",
+      "link": "https://www.infoq.cn/article/6kuDZAK0IFkKviGrGzIR?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T10:25:36.000Z",
+      "summary": "AI加速Linux零日漏洞挖掘，2.5小时发现一个、400+个root提权漏洞，人类逆向需数周，暴露AI赋能攻击面激增风险",
+      "tags": [
+        "安全与政策"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 6.1
+    },
+    {
+      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "link": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "source": "The Decoder",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-08T14:23:00.000Z",
+      "summary": "Karpathy用Claude Opus 5.5在周末处理4300万Hacker News评论，生成6454条高质量视频，推荐效果超越YouTube。",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 6.1,
+      "titleZh": "安德烈·卡帕西仅用一个周末、借助 Claude 与 20 年积累的 Hacker News 数据，便搭建起一个精选视频平台",
+      "summaryZh": "Karpathy用Claude Opus 5.5在周末处理4300万Hacker News评论，生成6454条高质量视频，推荐效果超越YouTube。"
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "link": "https://openai.com/index/coderabbit-codex-daybreak",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T08:00:00.000Z",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 5.9,
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "titleZh": "CodeRabbit 扩展了智能体软件开发能力，交付效率提升 20 倍",
+      "summaryZh": "CodeRabbit依托OpenAI模型对AI生成代码实施治理与可信验证，并借助Codex大幅提升开发效率——同等规模工程团队可交付的软件量提升达20倍。"
+    },
+    {
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "link": "https://openai.com/index/kuken",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T08:00:00.000Z",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 5.9,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "库肯工业（Kuken Industries）仅用数分钟即可检索长达 70 年的设计图纸",
+      "summaryZh": "Kuken Industries 公司利用 OpenAI API 检索长达70年的冷却塔设计图纸；工程师查找维修所需图纸的耗时已从近一小时缩短至4.5分钟。"
+    },
+    {
+      "title": "CARGO: Causal Attribution and Responsibility-Guided Preventive Safe Multi-Agent Reinforcement Learning for Cooperative Driving",
+      "link": "https://arxiv.org/abs/2611.09139",
+      "source": "arXiv cs.AI",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T05:00:00.000Z",
+      "summary": "CARGO框架引入因果归因与责任引导机制，提升多智能体协同驾驶的安全强化学习性能",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 5.8,
+      "titleZh": "CARGO：面向协同驾驶的因果归因与责任引导型预防式安全多智能体强化学习",
+      "summaryZh": "CARGO框架引入因果归因与责任引导机制，提升多智能体协同驾驶的安全性与可解释性"
+    },
+    {
+      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
+      "link": "http://www.geekpark.net/news/373643",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-07T03:35:36.000Z",
+      "summary": "博世在研发部门部署豆包工作智能体，替代人工整理跨群故障信息、判断对接人、生成报告，显著压缩故障分析前的沟通与准备时间",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "字节跳动"
+      ],
+      "heat": 5.6
+    },
+    {
       "title": "Toward LLM Self-Play Under Data Scarcity: Effectiveness, Generalizability, and Trustworthiness",
       "link": "https://arxiv.org/abs/2611.08908",
       "source": "arXiv cs.AI",
@@ -755,182 +840,29 @@
       ],
       "llmScore": 5,
       "companies": [],
-      "heat": 7.9,
+      "heat": 5.4,
       "titleZh": "数据稀缺条件下的大语言模型自博弈：有效性、泛化性与可信度",
       "summaryZh": "探索数据稀缺下LLM自博弈范式的有效性、泛化性与可信度边界，为低资源场景模型演进提供新路径"
     },
     {
-      "title": "宇树科技股价涨超 10%，此前已连续 2 个交易日收涨",
-      "link": "https://www.ithome.com/1/024/660.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-10T02:20:01.000Z",
-      "summary": "宇树科技股价单日涨超10%，市值达3200亿元；创始人王兴兴称明年或是机器人行业临界点，GPT-6将加速物理世界模型落地。",
-      "tags": [
-        "具身智能"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 7.7
-    },
-    {
-      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
-      "link": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T20:09:06.000Z",
-      "summary": "黄仁勋因争议退出ElevenLabs峰会，此前亦退出Anthropic活动，引发AI行业高层信任连锁反应",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "Anthropic",
-        "NVIDIA"
-      ],
-      "heat": 7.5,
-      "titleZh": "黄仁勋因英伟达相关争议退出ElevenLabs峰会",
-      "summaryZh": "黄仁勋因间谍争议退出ElevenLabs峰会及Anthropic相关活动，AI行业高层公开行程正显著受地缘政治风险影响"
-    },
-    {
-      "title": "具身智能，也到了 API 时刻？",
-      "link": "http://www.geekpark.net/news/373683",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T02:18:55.000Z",
-      "summary": "具身智能正迎来API时刻：部分模型支持跨本体迁移与新任务适配，开发者可接入自有机器人验证能力，标志从演示视频走向工程化接口",
-      "tags": [
-        "具身智能"
-      ],
-      "llmScore": 5,
-      "companies": [],
-      "heat": 6.9
-    },
-    {
-      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T15:50:38.000Z",
-      "summary": "特朗普在《60分钟》采访中淡化AI安全风险，称可‘管控’，并扬言可能逮捕警告风险的AI高管",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 4,
-      "companies": [],
-      "heat": 6.7,
-      "titleZh": "特朗普在接受《60分钟》专访时谈及人工智能安全问题，并扬言或将逮捕某位AI企业高管",
-      "summaryZh": "特朗普在《60分钟》采访中质疑AI安全风险的严重性，称其“可控”，并抛出可能逮捕AI高管的争议性言论"
-    },
-    {
-      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-      "link": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T16:56:54.000Z",
-      "summary": "Anthropic斥资34亿美元采购天然气涡轮机以支撑AI数据中心能源需求，凸显大模型军备竞赛下的算力基建困局",
-      "tags": [
-        "芯片算力"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 6.5,
-      "titleZh": "Anthropic公司加入AI行业的天然气热潮，斥资34亿美元采购燃气轮机",
-      "summaryZh": "Anthropic斥资34亿美元采购天然气涡轮机，为其AI数据中心能源供应布局引发行业广泛关注；此举凸显AI算力扩张对能源基础设施的迫切需求"
-    },
-    {
-      "title": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一；英伟达显卡订单排长队，中国客户预计只能拿到 1%；字节限制员工使用个人 AI｜极客早知道",
-      "link": "http://www.geekpark.net/news/373494",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-05T00:45:25.000Z",
-      "summary": "Apple智能国行上线测试，苹果股价大涨超6%；英伟达显卡订单爆满，中国客户预计仅获1%份额；字节内部限制员工使用个人AI工具",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "NVIDIA",
-        "Apple",
-        "字节跳动"
-      ],
-      "heat": 6.5
-    },
-    {
-      "title": "2.5小时一个零日，400多个root提权：Linux被AI挖成了筛子，人类逆向几周才看懂一个",
-      "link": "https://www.infoq.cn/article/6kuDZAK0IFkKviGrGzIR?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T10:25:36.000Z",
-      "summary": "AI加速发现Linux零日漏洞（2.5小时一个）与root提权（超400个）；人类逆向分析滞后数周",
-      "tags": [
-        "安全"
-      ],
-      "llmScore": 5,
-      "companies": [],
-      "heat": 6.2
-    },
-    {
-      "title": "Disney and Adobe are building generative AI tools together",
-      "link": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T15:38:56.000Z",
-      "summary": "迪士尼与 Adobe 合作开发‘艺术家主导’的专有生成式AI模型，用于内容创作与IP衍生",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 4,
-      "companies": [],
-      "heat": 5.9,
-      "titleZh": "迪士尼与Adobe正携手开发生成式AI工具",
-      "summaryZh": "迪士尼（Disney）与Adobe合作开发“艺术家主导”的专属生成式AI模型，聚焦优化创意内容生产流程"
-    },
-    {
-      "title": "CARGO: Causal Attribution and Responsibility-Guided Preventive Safe Multi-Agent Reinforcement Learning for Cooperative Driving",
-      "link": "https://arxiv.org/abs/2611.09139",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-11-09T05:00:00.000Z",
-      "summary": "CARGO框架引入因果归因与责任引导机制，提升多智能体协同驾驶的安全性与可解释性",
-      "tags": [
-        "具身智能"
-      ],
-      "llmScore": 5,
-      "companies": [],
-      "heat": 5.8,
-      "titleZh": "CARGO：面向协同驾驶的因果归因与责任引导型预防式安全多智能体强化学习",
-      "summaryZh": "CARGO框架引入因果归因与责任引导机制，提升多智能体协同驾驶的安全性与可解释性"
-    },
-    {
-      "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
-      "link": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+      "link": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
       "source": "Wired",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-11-09T11:00:00.000Z",
-      "summary": "出版业面临AI生成内容溯源困境，作者依赖‘纸质轨迹’等工具自证原创性，但有效性存疑",
+      "pubDate": "2026-11-06T18:43:43.000Z",
+      "summary": "DeepSeek与GLM等国产开源AI模型在模拟网络攻防中表现逼近OpenAI闭源顶级网安模型",
       "tags": [
-        "政策与安全"
+        "大模型"
       ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 5.6,
-      "titleZh": "作者可通过‘留痕工具’（Paper Trail）应对人工智能相关指控——这是否已足够？",
-      "summaryZh": "作家借助“纸质轨迹”等溯源工具应对AI剽窃指控，但行业层面的信任机制仍存在根本性缺陷。"
+      "llmScore": 4,
+      "companies": [
+        "OpenAI",
+        "DeepSeek"
+      ],
+      "heat": 5.3,
+      "titleZh": "免费的中国AI模型在黑客攻击能力方面正变得异常强大",
+      "summaryZh": "DeepSeek 与 GLM 等国产开源 AI 模型在模拟网络攻防实验中展现出接近 OpenAI 顶级（未公开）网络安全模型的黑客能力。"
     },
     {
       "title": "微信 AI 录音笔体验：手机都能装的办公神器，免费！",
@@ -939,7 +871,7 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-09T04:00:04.000Z",
-      "summary": "微信AI录音笔上线手机端，免费提供会议转录、摘要等办公功能，属轻量级AI应用普及动态",
+      "summary": "微信上线AI录音笔功能，支持手机端免费使用，聚焦会议纪要、摘要与转写等轻量办公场景",
       "tags": [
         "AI 动态"
       ],
@@ -947,24 +879,7 @@
       "companies": [
         "腾讯"
       ],
-      "heat": 5.6
-    },
-    {
-      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
-      "link": "http://www.geekpark.net/news/373643",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-07T03:35:36.000Z",
-      "summary": "博世引入豆包工作处理研发故障信息整合、分派与报告生成，将工程师从低效沟通中解放，聚焦问题根因分析，属企业级Agent落地典型场景",
-      "tags": [
-        "智能体"
-      ],
-      "llmScore": 4,
-      "companies": [
-        "字节跳动"
-      ],
-      "heat": 5.6
+      "heat": 5
     },
     {
       "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
@@ -973,34 +888,34 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-11-08T10:00:00.000Z",
-      "summary": "世界模型正推动AI从文本迈向3D空间，通过模拟真实物理规律赋能机器人与自动驾驶导航",
+      "summary": "世界模型正加速发展，通过3D物理模拟赋能机器人与自动驾驶，推动AI从文本走向具身理解",
       "tags": [
         "大模型"
       ],
-      "llmScore": 4,
+      "llmScore": 5,
       "companies": [],
-      "heat": 5.5,
+      "heat": 5,
       "titleZh": "世界模型即将无处不在——你需要了解的关键信息",
       "summaryZh": "世界模型正推动AI从文本迈向3D空间，通过模拟真实物理规律赋能机器人与自动驾驶导航"
     },
     {
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "source": "TechCrunch AI",
+      "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+      "link": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+      "source": "MIT Technology Review",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-11-06T18:44:20.000Z",
-      "summary": "Meta推出Spaces新协作空间，支持用户与Muse AI智能体深度协同工作",
+      "pubDate": "2026-11-09T13:15:00.000Z",
+      "summary": "MIT Tech Review《The Download》早报指出AI气候主张缺乏实证支撑，并提及对英伟达的调查；强调‘AI减碳论’尚未成立",
       "tags": [
-        "智能体"
+        "政策与安全"
       ],
-      "llmScore": 3,
+      "llmScore": 4,
       "companies": [
-        "Meta"
+        "NVIDIA"
       ],
-      "heat": 5,
-      "titleZh": "Meta推出Spaces，一种与Muse智能体协作的新方式",
-      "summaryZh": "Meta推出Spaces新协作空间，支持用户与Muse AI智能体深度协同工作"
+      "heat": 4.9,
+      "titleZh": "《技术周刊》：空洞的人工智能气候承诺，以及针对英伟达的调查",
+      "summaryZh": "《麻省理工科技评论》质疑当前关于AI技术具有气候效益的主张缺乏实证支撑，并同步报道了针对英伟达的相关调查最新进展。"
     },
     {
       "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
@@ -1009,7 +924,7 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-11-07T21:17:08.000Z",
-      "summary": "美情报备忘录称中方国安部门招募科技高管刺探英伟达CEO，涉AI供应链安全与间谍风险",
+      "summary": "美方情报备忘录称中国国家安全部招募某科技女高管，意图刺探英伟达CEO黄仁勋信息",
       "tags": [
         "政策与安全"
       ],
@@ -1022,96 +937,95 @@
       "summaryZh": "美情报备忘录称中方国安部招募某科技公司女性高管刺探英伟达CEO，事件加剧AI领域地缘安全焦虑"
     },
     {
-      "title": "苹果AI国行版开测：支持机型有限，Siri AI还要再等等",
-      "link": "http://www.techweb.com.cn/internet/2026-11-04/2980262.shtml",
-      "source": "TechWeb",
-      "lang": "zh",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "source": "TechCrunch AI",
+      "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-11-04T01:08:18.000Z",
-      "summary": "苹果AI国行版开启Beta测试，iOS 27.3首批支持基础系统级AI能力，Siri AI功能暂未开放，支持机型有限。",
+      "pubDate": "2026-11-06T18:44:38.000Z",
+      "summary": "数百台公开暴露于互联网的服务器被发现托管Artex AI渗透测试工具，存在严重安全风险",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 4.2,
+      "titleZh": "数百款 Artex AI 黑客工具被发现公然暴露于互联网上",
+      "summaryZh": "数百台公开暴露于互联网的服务器被发现托管Artex AI渗透测试工具，存在严重安全风险"
+    },
+    {
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-07T22:07:22.000Z",
+      "summary": "美国中期选举结果或将影响马斯克旗下数据中心战略，TechCrunch Equity栏目分析其对AI基建的潜在冲击",
       "tags": [
         "AI 动态"
       ],
       "llmScore": 3,
       "companies": [
-        "Apple"
+        "xAI"
       ],
-      "heat": 4.3
-    },
-    {
-      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "link": "https://openai.com/index/introducing-gpt-6-cyber",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-11-05T09:00:00.000Z",
-      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-      "companies": [
-        "OpenAI"
+      "coverage": 2,
+      "alsoReportedBy": [
+        "MIT Technology Review"
       ],
       "heat": 4.1,
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "titleZh": "GPT‑6 Cyber：推动对齐型网络安全智能体的前沿发展",
-      "summaryZh": "隆重推出GPT‑6 Cyber——OpenAI面向网络安全领域的专用大模型，专长于识别可利用漏洞并生成修复方案，训练中严格限定于授权范围内运行。"
+      "titleZh": "中期选举过后，埃隆·马斯克与数据中心业务前景堪忧",
+      "summaryZh": "美国中期选举结果或将影响马斯克旗下数据中心战略，TechCrunch Equity栏目分析其对AI基建的潜在冲击"
     },
     {
-      "title": "Crusoe sells troubled Wyoming data center project to Google",
-      "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-07T01:40:28.000Z",
-      "summary": "Crusoe将陷入困境的怀俄明州AI数据中心项目出售给谷歌，凸显超大规模AI基建落地挑战",
-      "tags": [
-        "芯片算力"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "Google"
-      ],
-      "heat": 3.8,
-      "titleZh": "Crusoe公司将陷入困境的怀俄明州数据中心项目出售给谷歌（Google）",
-      "summaryZh": "Crusoe公司将陷入困境的怀俄明州AI数据中心项目出售给谷歌，暴露出超大规模AI基础设施落地所面临的现实挑战。"
-    },
-    {
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-06T22:53:46.000Z",
-      "summary": "OpenAI据报再融110亿美元，估值达1.25万亿美元，新一轮融资尚未正式关闭",
-      "tags": [
-        "商业融资"
-      ],
-      "llmScore": 5,
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 3.8,
-      "titleZh": "据报道称，OpenAI以1.25万亿美元估值额外融资110亿美元",
-      "summaryZh": "据媒体报道，OpenAI再度完成110亿美元融资，估值升至1.25万亿美元，新一轮融资预计数周内正式收官。"
-    },
-    {
-      "title": "OpenAI挖角成功：Claude Code“产品一姐”Cat Wu无缝加盟",
-      "link": "http://www.techweb.com.cn/it/2026-11-05/2980303.shtml",
-      "source": "TechWeb",
+      "title": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一；英伟达显卡订单排长队，中国客户预计只能拿到 1%；字节限制员工使用个人 AI｜极客早知道",
+      "link": "http://www.geekpark.net/news/373494",
+      "source": "极客公园",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-11-05T02:46:08.000Z",
-      "summary": "OpenAI成功挖角Anthropic前Claude Code产品负责人Cat Wu，其将任核心产品管理负责人，正值Anthropic IPO前夕。",
+      "pubDate": "2026-11-05T00:45:25.000Z",
+      "summary": "Apple 智能国行上线测试，接入阿里千问支持 Siri/写作/视觉；苹果股价大涨超 6%；英伟达显卡中国订单受限；字节限制员工使用个人 AI",
       "tags": [
-        "AI 动态"
+        "大模型"
       ],
       "llmScore": 4,
       "companies": [
-        "OpenAI",
-        "Anthropic"
+        "NVIDIA",
+        "Apple",
+        "阿里巴巴"
       ],
-      "heat": 3.6
+      "heat": 4.1
+    },
+    {
+      "title": "Rapidus 社长小池淳义：计划在现有晶圆厂附近再建设 3 座工厂和 1 个研发基地",
+      "link": "https://www.ithome.com/1/024/727.htm",
+      "source": "IT之家",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T03:13:48.000Z",
+      "summary": "Rapidus计划在现有晶圆厂旁新建3座工厂和1个研发基地，打造2nm产研集群，强调其芯片可降低AI普及带来的电力消耗",
+      "tags": [
+        "芯片算力"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 3.9
+    },
+    {
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T00:28:49.000Z",
+      "summary": "派拉蒙Skydance CEO David Ellison称AI将是‘现代史上最大创意解锁’，预测其对影视业影响将超CGI",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 3.8,
+      "titleZh": "大卫·艾利森称，人工智能可能是‘现代史上最大的创意解锁’",
+      "summaryZh": "派拉蒙CEO表示，人工智能对影视创作的影响将远超计算机生成图像（CGI）技术，有望成为现代史上规模最大的一次创意解放浪潮。"
     },
     {
       "title": "Merge builds product and business tools with OpenAI technology",
@@ -1124,7 +1038,7 @@
       "companies": [
         "OpenAI"
       ],
-      "heat": 3.5,
+      "heat": 3.6,
       "tags": [
         "大模型"
       ],
@@ -1132,23 +1046,40 @@
       "summaryZh": "Merge借助GPT-6 Astra、ChatGPT和Codex审查产品代码并支持市场营销；其团队还利用AI规划高管晚宴及准备销售周报。"
     },
     {
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "link": "https://openai.com/index/control-room",
-      "source": "OpenAI Blog",
+      "title": "Codex 游戏掌机突然开卖，网友却在催更 GPT-6.2",
+      "link": "https://www.ifanr.com/1688678?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T01:19:39.000Z",
+      "summary": "Codex游戏掌机突然开售，但社区焦点意外转向对GPT-6.2的期待，反映用户对下一代大模型的强烈预期",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 3.4
+    },
+    {
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "source": "TechCrunch AI",
       "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-11-09T13:00:00.000Z",
-      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T22:53:46.000Z",
+      "summary": "OpenAI据悉再获110亿美元融资，投后估值达1.25万亿美元，本轮融资尚未最终交割",
+      "tags": [
+        "商业融资"
+      ],
+      "llmScore": 5,
       "companies": [
         "OpenAI"
       ],
       "heat": 3.2,
-      "tags": [
-        "大模型",
-        "政策与安全"
-      ],
-      "titleZh": "Control Room：一套用于追踪并终止研究基础设施中各类模型工作负载的中央系统",
-      "summaryZh": "了解OpenAI控制室（Control Room）如何追踪模型在研究基础设施中的工作负载，并在出现安全或安保风险时快速中止相关任务。"
+      "titleZh": "据报道称，OpenAI以1.25万亿美元估值额外融资110亿美元",
+      "summaryZh": "据媒体报道，OpenAI再度完成110亿美元融资，估值升至1.25万亿美元，新一轮融资预计数周内正式收官。"
     },
     {
       "title": "ChatGPT Enterprise now available in AWS Marketplace",
@@ -1169,6 +1100,43 @@
       "summaryZh": "ChatGPT Enterprise 现已登陆 AWS Marketplace，助力企业依托既有的 AWS 采购与账单体系，简化采购流程。"
     },
     {
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "link": "https://openai.com/index/introducing-gpt-6-cyber",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-05T09:00:00.000Z",
+      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 2.8,
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "titleZh": "GPT‑6 Cyber：推动对齐型网络安全智能体的前沿发展",
+      "summaryZh": "隆重推出GPT‑6 Cyber——OpenAI面向网络安全领域的专用大模型，专长于识别可利用漏洞并生成修复方案，训练中严格限定于授权范围内运行。"
+    },
+    {
+      "title": "OpenAI挖角成功：Claude Code“产品一姐”Cat Wu无缝加盟",
+      "link": "http://www.techweb.com.cn/it/2026-11-05/2980303.shtml",
+      "source": "TechWeb",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-05T02:46:08.000Z",
+      "summary": "前Anthropic Claude Code产品负责人Cat Wu闪电加盟OpenAI，出任核心产品管理负责人",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "heat": 2.8
+    },
+    {
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "link": "https://openai.com/index/partnering-with-hacktron",
       "source": "OpenAI Blog",
@@ -1179,7 +1147,7 @@
       "companies": [
         "OpenAI"
       ],
-      "heat": 3.1,
+      "heat": 2.6,
       "tags": [
         "大模型"
       ],
@@ -1187,78 +1155,21 @@
       "summaryZh": "OpenAI 正与 Hacktron 展开合作，旨在发现安全漏洞、测试与第三方服务的连接稳定性，并借助前沿人工智能技术强化防御能力。"
     },
     {
-      "title": "Kuken Industries searches 70 years of drawings in minutes",
-      "link": "https://openai.com/index/kuken",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-11-09T08:00:00.000Z",
-      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 3,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "库肯工业（Kuken Industries）仅用数分钟即可检索长达 70 年的设计图纸",
-      "summaryZh": "Kuken Industries 公司利用 OpenAI API 检索长达70年的冷却塔设计图纸；工程师查找维修所需图纸的耗时已从近一小时缩短至4.5分钟。"
-    },
-    {
-      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
-      "link": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
-      "source": "Wired",
-      "lang": "en",
+      "title": "苹果AI国行版开测：支持机型有限，Siri AI还要再等等",
+      "link": "http://www.techweb.com.cn/internet/2026-11-04/2980262.shtml",
+      "source": "TechWeb",
+      "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-11-06T18:43:43.000Z",
-      "summary": "DeepSeek与GLM等国产开源AI模型在模拟网络攻防实验中展现出逼近OpenAI闭源顶级网安模型的黑客能力",
+      "pubDate": "2026-11-04T01:08:18.000Z",
+      "summary": "苹果国行版AI功能随iOS 27.3 Beta开放测试，首批支持实时翻译等系统级能力，12月正式推送",
       "tags": [
-        "大模型"
+        "AI 动态"
       ],
-      "llmScore": 5,
+      "llmScore": 4,
       "companies": [
-        "OpenAI",
-        "DeepSeek"
+        "Apple"
       ],
-      "heat": 3,
-      "titleZh": "免费的中国AI模型在黑客攻击能力方面正变得异常强大",
-      "summaryZh": "DeepSeek 与 GLM 等国产开源 AI 模型在模拟网络攻防实验中展现出接近 OpenAI 顶级（未公开）网络安全模型的黑客能力。"
-    },
-    {
-      "title": "Zero-Shot Weight-Space Programming Across a Difficulty-Graded Ladder of Two-Player Games",
-      "link": "https://arxiv.org/abs/2611.09271",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-11-09T05:00:00.000Z",
-      "summary": "实现跨难度梯度双人博弈的零样本权重空间编程，无需梯度即可手工设定网络全权重",
-      "tags": [
-        "大模型"
-      ],
-      "llmScore": 5,
-      "companies": [],
-      "heat": 2.8,
-      "titleZh": "跨难度分级双人游戏序列的零样本权重空间编程",
-      "summaryZh": "实现跨难度梯度双人博弈的零样本权重空间编程，无需梯度即可手工设定网络全权重"
-    },
-    {
-      "title": "The race is on to sue Nvidia",
-      "link": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T22:23:42.000Z",
-      "summary": "Nvidia因CEO涉间谍关联致股价下跌超4%，多家律所已启动证券集体诉讼筹备工作",
-      "tags": [
-        "商业融资"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 2.5,
-      "titleZh": "起诉英伟达的法律竞赛已然打响",
-      "summaryZh": "英伟达（Nvidia）董事会启动内部调查后股价大跌逾4%，多家律所已着手准备集体诉讼，焦点集中于信息披露充分性及高管关联风险"
+      "heat": 2.6
     },
     {
       "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
@@ -1267,7 +1178,7 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-04T00:28:02.000Z",
-      "summary": "国行Apple智能开启Beta测试，支持实时翻译等基础功能；ChatGPT搜索量已达谷歌20%；AI初创Seedance五成收入来自海外市场",
+      "summary": "国行 Apple 智能开启 Beta 测试，支持实时翻译等；ChatGPT 搜索量达谷歌 20%；AI 创企 Seedance 五成收入来自海外",
       "tags": [
         "大模型"
       ],
@@ -1277,61 +1188,41 @@
         "Google",
         "Apple"
       ],
-      "heat": 2.4
+      "heat": 2.5
     },
     {
-      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
-      "link": "https://arxiv.org/abs/2611.08644",
+      "title": "I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+      "link": "https://arxiv.org/abs/2611.08811",
       "source": "arXiv cs.AI",
       "lang": "en",
       "tier": "core",
       "pubDate": "2026-11-09T05:00:00.000Z",
-      "summary": "提出Decision Context机制，使LLM智能体能在跨会话中持续学习用户纠正行为，突破现有记忆局限",
+      "summary": "首次系统评估‘思维注入攻击’对大型推理模型（LRM）的影响，揭示CoT链被恶意操控的风险",
       "tags": [
         "智能体"
       ],
       "llmScore": 5,
       "companies": [],
       "heat": 2.3,
-      "titleZh": "决策上下文：面向AI智能体的持续行为学习",
-      "summaryZh": "提出Decision Context机制，使LLM智能体能在跨会话中持续学习用户纠正行为，突破现有记忆局限"
+      "titleZh": "我思故我攻：面向推理型智能体的思维注入攻击评估",
+      "summaryZh": "首次系统评估‘思维注入攻击’对大型推理模型（LRM）的影响，揭示CoT链被恶意操控的风险"
     },
     {
-      "title": "The Download: empty AI climate claims, and an Nvidia investigation",
-      "link": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
-      "source": "MIT Technology Review",
+      "title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
+      "link": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+      "source": "The Decoder",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-11-09T13:15:00.000Z",
-      "summary": "《The Download》指出AI气候效益主张缺乏实证；同时报道针对英伟达的调查进展",
-      "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 3,
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 2.2,
-      "titleZh": "《技术周刊》：空洞的人工智能气候承诺，以及针对英伟达的调查",
-      "summaryZh": "《麻省理工科技评论》质疑当前关于AI技术具有气候效益的主张缺乏实证支撑，并同步报道了针对英伟达的相关调查最新进展。"
-    },
-    {
-      "title": "Franklin Templeton uses OpenAI to support investment research",
-      "link": "https://openai.com/index/franklin-templeton",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-11-05T00:00:00.000Z",
-      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 1.9,
+      "pubDate": "2026-11-08T11:44:41.000Z",
+      "summary": "图灵奖得主Richard Sutton重申‘苦涩教训’：单纯扩大LLM规模不足以为继，需根本性新学习范式；Tworek等学者附议。",
       "tags": [
         "大模型"
       ],
-      "titleZh": "富兰克林邓普顿（Franklin Templeton）利用OpenAI支持投资研究",
-      "summaryZh": "富兰克林邓普顿（Franklin Templeton）率先从股票研究切入，开发 AI 工作流，助力投资组合经理比对不同研究观点并深入评估投资风险。"
+      "llmScore": 4,
+      "companies": [],
+      "heat": 2,
+      "titleZh": "‘苦涩教训’提出者给大语言模型规模扩展支持者上了一堂‘苦涩教训’",
+      "summaryZh": "图灵奖得主Richard Sutton重申‘苦涩教训’：单纯扩大LLM规模不足以为继，需根本性新学习范式；Tworek等学者附议。"
     },
     {
       "title": "OpenAI to acquire Pierre Computer Company, Inc.",
@@ -1344,12 +1235,67 @@
       "companies": [
         "OpenAI"
       ],
-      "heat": 1.7,
+      "heat": 2,
       "tags": [
         "大模型"
       ],
       "titleZh": "OpenAI 将收购 Pierre Computer Company, Inc.",
       "summaryZh": "OpenAI 将收购 Pierre Computer Company，进一步拓展 Codex 在代码构建、理解与审查方面的工具能力。"
+    },
+    {
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "link": "https://openai.com/index/franklin-templeton",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-05T00:00:00.000Z",
+      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 1.6,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "富兰克林邓普顿（Franklin Templeton）利用OpenAI支持投资研究",
+      "summaryZh": "富兰克林邓普顿（Franklin Templeton）率先从股票研究切入，开发 AI 工作流，助力投资组合经理比对不同研究观点并深入评估投资风险。"
+    },
+    {
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-03T17:01:49.000Z",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "companies": [
+        "Google"
+      ],
+      "heat": 1.2,
+      "tags": [
+        "智能体"
+      ],
+      "titleZh": "基于谷歌Antigravity的智能体化学信息学",
+      "summaryZh": "了解谷歌 Antigravity 及我们的化学信息学技能如何加速药物发现工作流程、助力化合物检索，并提出新型刚性化大环化合物。"
+    },
+    {
+      "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+      "link": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-05T21:37:18.000Z",
+      "summary": "AI聊天机器人平台加速探索广告变现路径；Anthropic坚持无广告策略，形成差异化竞争",
+      "tags": [
+        "商业融资"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 0.9,
+      "titleZh": "聊天机器人广告已正式登场——哪些策略奏效，哪些尚未见效",
+      "summaryZh": "人工智能聊天机器人行业正加速商业化进程，多家公司试水广告变现模式，而 Anthropic 则坚持无广告路线，形成鲜明对比。"
     },
     {
       "title": "Measuring how AI agents handle everyday wet-lab science",
@@ -1371,41 +1317,23 @@
       "summaryZh": "OpenAI 推出 BioBasicsBench——一个涵盖100项任务的基准测试，用于评估AI智能体解读原始实验数据及处理日常湿实验室科研任务的能力。"
     },
     {
-      "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
-      "link": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
-      "source": "Wired",
+      "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
+      "link": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/",
+      "source": "Meta Engineering",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-11-05T21:37:18.000Z",
-      "summary": "AI聊天机器人广告商业化加速落地，Anthropic坚持无广告路线，其余厂商探索用户接受度与广告收益平衡点",
+      "pubDate": "2026-11-03T17:00:35.000Z",
+      "summary": "Meta 开源 F3 Lightning 框架，加速广告场景下机器学习特征的开发、编译与线上服务，支持单请求超 20,000 特征的实时计算",
       "tags": [
-        "商业融资"
+        "AI 动态"
       ],
-      "llmScore": 3,
+      "llmScore": 4,
       "companies": [
-        "Anthropic"
+        "Meta"
       ],
       "heat": 0.8,
-      "titleZh": "聊天机器人广告已正式登场——哪些策略奏效，哪些尚未见效",
-      "summaryZh": "人工智能聊天机器人行业正加速商业化进程，多家公司试水广告变现模式，而 Anthropic 则坚持无广告路线，形成鲜明对比。"
-    },
-    {
-      "title": "Australian universities are creating AI-native graduates",
-      "link": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-11-05T17:00:00.000Z",
-      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 0.8,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "澳大利亚高校正着力培养原生AI人才",
-      "summaryZh": "澳大利亚高校正扩大 ChatGPT 的使用权限，并将人工智能深度融入教学与学习过程，以帮助学生适应人工智能驱动的未来职场。"
+      "titleZh": "F3 Lightning：Meta如何大规模加速广告机器学习特征上线",
+      "summaryZh": "Meta 开源 F3 Lightning 框架，加速广告场景下机器学习特征的开发、编译与线上服务，支持单请求超 20,000 特征的实时计算"
     },
     {
       "title": "A thousand fewer paths to root",
@@ -1433,9 +1361,9 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-10T10:00:00.000Z",
-      "summary": "InfoQ报道ADD资产驱动开发范式，解决AI Coding在业务理解、上下文容量与生成稳定性三方面局限",
+      "summary": "ADD资产驱动开发提出解决AI Coding三大局限：私域认知缺失、上下文容量有限、生成结果不确定性",
       "tags": [
-        "大模型"
+        "智能体"
       ],
       "llmScore": 4,
       "companies": [],
@@ -1448,11 +1376,11 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-10T01:42:05.000Z",
-      "summary": "三星电子与SK海力士拟各投资10~20万亿韩元采购ASML EUV光刻机，以应对AI芯片产能扩张需求。",
+      "summary": "三星电子与SK海力士拟各投资超10万亿韩元采购ASML EUV光刻机，以应对AI芯片扩产需求，强化先进制程产能。",
       "tags": [
         "芯片算力"
       ],
-      "llmScore": 3,
+      "llmScore": 4,
       "companies": [],
       "heat": 0
     },
@@ -1463,7 +1391,7 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-10T00:59:58.000Z",
-      "summary": "我国发布‘星云星座计划’，构建全栈国产化太空算力网，将数据中心搬上太空，迈出太空云产业化关键一步。",
+      "summary": "我国“星云星座计划”发布，构建全栈国产化太空算力网，实现遥感、通信、AI算力在轨协同，属太空AI基础设施突破。",
       "tags": [
         "芯片算力"
       ],
@@ -1472,30 +1400,13 @@
       "heat": 0
     },
     {
-      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-11-10T00:28:49.000Z",
-      "summary": "Paramount Skydance CEO David Ellison称AI将是“现代史上最大创意解锁”，影响将超CGI在电影业的作用",
-      "tags": [
-        "AI 动态"
-      ],
-      "llmScore": 3,
-      "companies": [],
-      "heat": 0,
-      "titleZh": "大卫·艾利森称，人工智能可能是‘现代史上最大的创意解锁’",
-      "summaryZh": "派拉蒙CEO表示，人工智能对影视创作的影响将远超计算机生成图像（CGI）技术，有望成为现代史上规模最大的一次创意解放浪潮。"
-    },
-    {
       "title": "Instagram’s Effect Builder makes new filters from AI prompts",
       "link": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
       "source": "The Verge AI",
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-11-09T18:07:23.000Z",
-      "summary": "Instagram 推出 AI 驱动的 Effect Builder 工具，允许美国用户通过文本提示实时生成 Stories 自定义滤镜",
+      "summary": "Instagram上线Effect Builder工具，用户可通过自然语言提示生成个性化Stories滤镜，面向美国用户开放",
       "tags": [
         "AI 动态"
       ],
@@ -1512,7 +1423,7 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-11-09T17:05:43.000Z",
-      "summary": "加州参议员斯科特·维纳当选众议员，曾主导AI风险监管立法，或成国会AI监管关键推手",
+      "summary": "加州参议员斯科特·维纳当选接替南希·佩洛西国会席位，其曾主导多项前沿AI风险监管立法提案",
       "tags": [
         "政策与安全"
       ],
@@ -1529,7 +1440,7 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-11-09T16:12:28.000Z",
-      "summary": "Medium推出TK写作App，深度集成AI辅助创作功能，直面AI生成内容在出版领域引发的伦理与质量争议",
+      "summary": "Medium推出TK写作App，深度集成AI辅助创作功能，直面AI在内容生产中伦理与质量争议",
       "tags": [
         "AI 动态"
       ],
@@ -1546,13 +1457,32 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-09T13:14:31.000Z",
-      "summary": "开发者AI提效比例一年内从68%骤降至26%；反映工具成熟度、工作流适配与预期管理问题",
+      "summary": "InfoQ调查显示，开发者每周借助AI节约数十小时的比例一年内从68%骤降至26%，反映AI提效感知显著下滑",
       "tags": [
         "AI 动态"
       ],
-      "llmScore": 3,
+      "llmScore": 4,
       "companies": [],
       "heat": 0
+    },
+    {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "link": "https://openai.com/index/control-room",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T13:00:00.000Z",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 0,
+      "tags": [
+        "大模型",
+        "政策与安全"
+      ],
+      "titleZh": "Control Room：一套用于追踪并终止研究基础设施中各类模型工作负载的中央系统",
+      "summaryZh": "了解OpenAI控制室（Control Room）如何追踪模型在研究基础设施中的工作负载，并在出现安全或安保风险时快速中止相关任务。"
     },
     {
       "title": "Innovating with AI in the special chemicals industry",
@@ -1561,7 +1491,7 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-11-09T13:00:00.000Z",
-      "summary": "特种化学品行业探索AI+云+建模加速研发，核心瓶颈在于技术与可靠数据、科学经验的对接",
+      "summary": "探讨AI在特种化学品行业加速创新的应用，核心挑战在于将AI/云/建模技术与可靠数据及科学经验打通",
       "tags": [
         "AI 动态"
       ],
@@ -1578,11 +1508,11 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-11-09T10:00:00.000Z",
-      "summary": "联合国安塔利亚气候大会前夕，《MIT Tech Review》强调：AI对气候的净正面贡献尚未被科学论证",
+      "summary": "直指联合国安塔利亚气候大会中AI议题被高估，强调‘AI助力气候治理’尚无扎实证据链与可验证路径",
       "tags": [
         "政策与安全"
       ],
-      "llmScore": 4,
+      "llmScore": 5,
       "companies": [],
       "heat": 0,
       "titleZh": "人工智能的气候价值主张尚未得到充分论证",
@@ -1595,7 +1525,7 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-09T09:19:02.000Z",
-      "summary": "Seedream 5.5精准像素级重绘iPhone Duo界面，展现AI UI生成与理解能力跃升，逼近专业设计工具水平",
+      "summary": "Seedream 5.5精准像素级重绘iPhone Duo界面，展现AI图像编辑向专业设计工具演进的关键进展",
       "tags": [
         "智能体"
       ],
@@ -1610,45 +1540,9 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-09T08:57:20.000Z",
-      "summary": "一名计算机专业女生控诉AI深度渗透教学全流程：课程大纲由Claude生成、作业AI批改、导师邮件疑似自动发送，引发教育伦理与人本价值反思。",
+      "summary": "大二女生控诉AI深度介入计算机教育：课程大纲、作业批改、导师邮件均由AI生成，引发对AI侵蚀教育本质的反思",
       "tags": [
-        "政策与安全"
-      ],
-      "llmScore": 5,
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 0
-    },
-    {
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "link": "https://openai.com/index/coderabbit-codex-daybreak",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-11-09T08:00:00.000Z",
-      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 0,
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "titleZh": "CodeRabbit 扩展了智能体软件开发能力，交付效率提升 20 倍",
-      "summaryZh": "CodeRabbit依托OpenAI模型对AI生成代码实施治理与可信验证，并借助Codex大幅提升开发效率——同等规模工程团队可交付的软件量提升达20倍。"
-    },
-    {
-      "title": "L3大撤退！奔驰宝马官宣不玩了：还没L2好用",
-      "link": "https://www.qbitai.com/2026/11/508629.html",
-      "source": "量子位",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-11-09T07:02:36.000Z",
-      "summary": "奔驰宝马公开质疑L3级自动驾驶实用性，奔驰新款S级取消Drive Pilot系统，反思技术落地过早",
-      "tags": [
-        "政策与安全"
+        "AI 动态"
       ],
       "llmScore": 4,
       "companies": [],
@@ -1661,30 +1555,30 @@
       "lang": "zh",
       "tier": "trusted",
       "pubDate": "2026-11-09T06:52:47.000Z",
-      "summary": "AI漫剧市场规模将破400亿元，但盈利艰难：抖音新剧破亿率仅0.48%，超九成项目未达盈亏平衡线。",
+      "summary": "AI漫剧市场虽预计2026年达400亿元，但新剧破亿率仅0.48%，盈亏平衡率低，行业普遍亏损，揭示内容侧AI商业化困境。",
       "tags": [
-        "AI 动态"
+        "商业融资"
       ],
-      "llmScore": 3,
+      "llmScore": 4,
       "companies": [],
       "heat": 0
     },
     {
-      "title": "AlterNet: Adaptive-Depth Mixture-of-Experts with Learned Halting for Elastic Inference",
-      "link": "https://arxiv.org/abs/2611.08741",
+      "title": "NormGym: Evaluating Normative Competence through Social Interaction",
+      "link": "https://arxiv.org/abs/2611.08613",
       "source": "arXiv cs.AI",
       "lang": "en",
       "tier": "core",
       "pubDate": "2026-11-09T05:00:00.000Z",
-      "summary": "提出AlterNet架构，通过自适应深度MoE与学习型停机机制实现弹性推理计算",
+      "summary": "提出NormGym评估框架，首次系统量化AI智能体在社会交互中推断并遵守规范性期望的能力。",
       "tags": [
-        "大模型"
+        "智能体"
       ],
-      "llmScore": 5,
+      "llmScore": 4,
       "companies": [],
       "heat": 0,
-      "titleZh": "AlterNet：面向弹性推理的自适应深度混合专家模型与可学习停机机制",
-      "summaryZh": "提出AlterNet架构，通过自适应深度MoE与学习型停机机制实现弹性推理计算"
+      "titleZh": "NormGym：通过社交互动评估规范性能力",
+      "summaryZh": "提出NormGym评估框架，首次系统量化AI智能体在社会交互中推断并遵守规范性期望的能力。"
     },
     {
       "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
@@ -1693,7 +1587,7 @@
       "lang": "en",
       "tier": "trusted",
       "pubDate": "2026-11-08T12:00:00.000Z",
-      "summary": "《纽约时报》Cooking 应用上线 AI 食谱修改器 Beta 版，支持食材替换与饮食适配，体验良好",
+      "summary": "《纽约时报》Cooking App上线AI食谱修改器Beta版，支持食材替换与个性化适配，体验良好",
       "tags": [
         "AI 动态"
       ],
@@ -1702,6 +1596,139 @@
       "heat": 0,
       "titleZh": "我试用了《纽约时报》烹饪版新推出的AI食谱修改器，效果其实相当不错",
       "summaryZh": "《纽约时报》Cooking 应用上线 AI 食谱修改器 Beta 版，支持食材替换与饮食适配，体验良好"
+    },
+    {
+      "title": "被年轻人遗忘的磁带，正在 AI 时代闷声发大财",
+      "link": "https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-08T03:35:42.000Z",
+      "summary": "磁带因高密度、低功耗、长寿命特性，正被用于AI训练数据冷存储，迎来技术复兴",
+      "tags": [
+        "芯片算力"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 0
+    },
+    {
+      "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+      "link": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-07T11:00:00.000Z",
+      "summary": "面向照护者的AI应用能力提升，但未能实质性缓解照护者身心负担这一系统性难题",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 0,
+      "titleZh": "面向照护者的应用程序迎来AI加持，但这或许仍显不足",
+      "summaryZh": "面向照护者的AI应用能力提升，但未能实质性缓解照护者身心负担这一系统性难题"
+    },
+    {
+      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "source": "Ars Technica",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T20:56:41.000Z",
+      "summary": "区块链分析公司Chainalysis遭多向网络攻击，黑客窃取全部客户凭证与令牌；通报中首次明确提及攻击使用AI代理（AI agents）参与",
+      "tags": [
+        "安全"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 0,
+      "titleZh": "Chainalysis称黑客窃取了其所有客户的登录凭证与访问令牌",
+      "summaryZh": "区块链分析公司Chainalysis遭多向网络攻击，黑客窃取全部客户凭证与令牌；通报中首次明确提及攻击使用AI代理（AI agents）参与"
+    },
+    {
+      "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+      "link": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T16:00:00.000Z",
+      "summary": "数据经纪商大规模收集企业内部文件与邮件用于AI训练，引发员工隐私与合规性质疑",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 0,
+      "titleZh": "AI公司极其渴望收购你的工作文件和电子邮件",
+      "summaryZh": "数据经纪商大规模收集企业内部文件与邮件用于AI训练，引发员工隐私与合规性质疑"
+    },
+    {
+      "title": "iMac M6 体验：外表人畜无害 ⇄ 内核凶猛澎湃",
+      "link": "https://www.ifanr.com/1688638?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T11:00:03.000Z",
+      "summary": "iMac M6 聚焦AI与智能体时代下的个人计算新范式，强调本地化AI工作流与生活集成",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 0
+    },
+    {
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T10:00:00.000Z",
+      "summary": "作者亲测人形机器人打扫公寓，描述其动作逻辑、局限性与未来感，属具身智能真实场景体验的一线报道",
+      "tags": [
+        "具身智能"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 0,
+      "titleZh": "我亲眼目睹一台人形机器人打扫了我的公寓，仿佛提前尝到了未来的滋味。",
+      "summaryZh": "作者亲测人形机器人打扫公寓，描述其动作逻辑、局限性与未来感，属具身智能真实场景体验的一线报道"
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "source": "Google DeepMind",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-05T17:05:16.000Z",
+      "summary": "",
+      "companies": [
+        "Google"
+      ],
+      "heat": 0,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "Gemini Omni 1.2 Flash：速度快、成本低，支持更长视频片段"
+    },
+    {
+      "title": "Australian universities are creating AI-native graduates",
+      "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-05T17:00:00.000Z",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 0,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "澳大利亚高校正着力培养原生AI人才",
+      "summaryZh": "澳大利亚高校正扩大 ChatGPT 的使用权限，并将人工智能深度融入教学与学习过程，以帮助学生适应人工智能驱动的未来职场。"
     },
     {
       "title": "Setting a new standard for responsible AI infrastructure",

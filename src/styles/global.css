@@ -272,6 +272,19 @@ main.container {
   border: 1px solid rgba(251, 146, 60, 0.3);
 }
 
+/* 多源交叉验证：同一事件被多家媒体报道，悬停看具体来源 */
+.also-reported {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 1px 8px;
+  font-size: 12px;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, transparent);
+  cursor: help;
+  white-space: nowrap;
+}
+
 .news-summary {
   font-size: 14px;
   color: var(--muted);

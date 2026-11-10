@@ -40,13 +40,17 @@ const SOURCES = {
     { name: 'The Verge AI', url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', lang: 'en' },
     { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', lang: 'en' },
     { name: 'Wired', url: 'https://www.wired.com/feed/tag/ai/latest/rss', lang: 'en' },
+    // 2026-11-10 新增：补齐英文科技媒体与公司官方博客两类来源
+    { name: 'The Decoder', url: 'https://the-decoder.com/feed/', lang: 'en' },
+    { name: 'Claude.dev', url: 'https://claude.dev/rss.xml', lang: 'en' }, // Anthropic 官方开发者博客
+    { name: 'Meta Engineering', url: 'https://engineering.fb.com/feed/', lang: 'en' }, // Meta 官方工程博客
   ],
 };
 
 const DAYS = 7;
 const MAX_ITEMS = 100;
 const MAX_PER_SOURCE = 15; // 单源上限，防止单一源（如 arXiv）挤占名额
-const DEDUP_THRESHOLD = 0.35; // Jaccard 相似度阈值，≥此值视为同事件
+// 注：旧的 Jaccard 阈值 DEDUP_THRESHOLD 已废弃，现由 sameEvent() 的三条规则判定同事件
 
 const parser = new Parser({
   timeout: 20000,
@@ -295,9 +299,11 @@ for (const [, items] of bySource) {
   cappedItems.push(...items.slice(0, MAX_PER_SOURCE));
 }
 
-// —— 跨源去重：关键词指纹聚类 ——
-// 提取公司名 + 标题/摘要关键词组成指纹，Jaccard 相似度 ≥ 阈值视为同事件
-// 聚类内保留最权威（core > trusted）且最早的一条
+// —— 跨源去重：识别「同一事件的不同报道」 ——
+// 旧实现用「标题+摘要」的 Jaccard ≥ 0.35，实测在真实语料上永远不触发：
+// 100 条里最高只有 0.16，连标题几乎完全一致的两条都识别不出（摘要把标题信号稀释了）。
+// 更关键的是去重发生在翻译之前，英文标题和中文标题字符集完全不同，字符相似度必然是 0。
+// 改为三条互补规则，核心是「稀有实体」，这是唯一能跨语言对齐的信号。
 const STOP = new Set([
   'the', 'and', 'for', 'with', 'from', 'that', 'this', 'will', 'says',
   'after', 'over', 'into', 'amid', 'what', 'how', 'why', 'its', 'are',
@@ -306,40 +312,72 @@ const STOP = new Set([
   'but', 'can', 'may', 'do', 'if', 'we', 'he', 'she', 'they',
 ]);
 
-function fingerprintTokens(item) {
-  const text = `${item.title || ''} ${item.summary || ''}`.toLowerCase();
-  const tokens = new Set();
-  // 英文词
-  for (const w of text.match(/[a-z0-9]+/g) || []) {
-    if (w.length >= 3 && !STOP.has(w)) tokens.add(w);
+// 泛词：几乎每条标题都有，不能当作「同一事件」的证据
+const GENERIC_ENTITY = new Set([
+  'agent', 'agents', 'model', 'models', 'llm', 'llms', 'api', 'app', 'apps',
+  'research', 'blog', 'feed', 'official', 'news', 'update', 'release', 'launch', 'announce',
+]);
+
+// 英文/型号实体：Claude、Fable、Muse、GPT-6、5.2 这类
+function entityTokens(title = '') {
+  const s = new Set();
+  for (const w of title.match(/[A-Za-z][A-Za-z0-9.\-]{2,}/g) || []) {
+    const k = w.toLowerCase().replace(/[.\-]+$/, '');
+    if (k.length >= 3 && !STOP.has(k) && !GENERIC_ENTITY.has(k)) s.add(k);
   }
-  // 中文二元组
-  const zh = text.match(/[一-鿿]/g);
-  if (zh) {
-    for (let i = 0; i < zh.length - 1; i++) {
-      tokens.add(zh[i] + zh[i + 1]);
-    }
-  }
-  // 公司名（最稳定的实体标识）
-  for (const c of item.companies || []) {
-    tokens.add(c.toLowerCase());
-  }
-  return tokens;
+  for (const num of title.match(/\d+\.\d+/g) || []) s.add(num);
+  return s;
 }
 
-function jaccard(a, b) {
-  let inter = 0;
-  for (const t of a) {
-    if (b.has(t)) inter++;
-  }
-  return inter / (a.size + b.size - inter);
+function zhBigrams(title = '') {
+  const s = new Set();
+  const zh = title.match(/[一-鿿]/g);
+  if (zh) for (let i = 0; i < zh.length - 1; i++) s.add(zh[i] + zh[i + 1]);
+  return s;
 }
 
-// 预计算公司和指纹
+// 早报/合集类标题里并列多条新闻，天然会和其他条目重叠，不能按普通条目判同事件
+const DIGEST_TITLE = /早报|早知道|周刊|盘点|一周|速览|要闻|简报|晨报|晚报/;
+function isDigestTitle(t = '') {
+  return DIGEST_TITLE.test(t) || (t.match(/[/／;；|｜]/g) || []).length >= 2;
+}
+
+function intersectSize(a, b) {
+  let n = 0;
+  for (const t of a) if (b.has(t)) n++;
+  return n;
+}
+
 cappedItems.forEach((it) => {
   it.companies = detectCompanies(it);
 });
-const fingerprints = cappedItems.map(fingerprintTokens);
+
+const entSets = cappedItems.map((it) => entityTokens(it.title || ''));
+const zhSets = cappedItems.map((it) => zhBigrams(it.title || ''));
+const digestFlags = cappedItems.map((it) => isDigestTitle(it.title || ''));
+
+// 实体稀有度：只出现在少数条目里的实体才有辨识力，像 "openai" 这种到处都是的没有
+const entDf = new Map();
+for (const s of entSets) for (const t of s) entDf.set(t, (entDf.get(t) || 0) + 1);
+const isRareEnt = (t) => (entDf.get(t) || 0) <= Math.max(3, cappedItems.length * 0.06);
+
+function sameEvent(i, j) {
+  const sharedEnt = [...entSets[i]].filter((t) => entSets[j].has(t));
+  const rareShared = sharedEnt.filter(isRareEnt);
+  const sharedZh = intersectSize(zhSets[i], zhSets[j]);
+  const sameCompany = (cappedItems[i].companies || []).some(
+    (c) => (cappedItems[j].companies || []).includes(c),
+  );
+
+  // 规则 1（跨语言主信号）：共享 ≥2 个实体且至少 1 个稀有，如 Anthropic + Fable + 5.2
+  if (sharedEnt.length >= 2 && rareShared.length >= 1) return true;
+  // 规则 2（中文对中文）：二元组重叠够多且有共同公司；合集类不参与，否则早报会跟别的新闻乱合并
+  if (!digestFlags[i] && !digestFlags[j] && sharedZh >= 5 && sameCompany) return true;
+  // 规则 3：标题几乎一致（仅有空格或标点差异）
+  const union = new Set([...entSets[i], ...zhSets[i], ...entSets[j], ...zhSets[j]]).size;
+  if ((sharedEnt.length + sharedZh) / (union || 1) >= 0.5) return true;
+  return false;
+}
 
 // 贪心聚类
 const assigned = new Set();
@@ -350,7 +388,7 @@ for (let i = 0; i < cappedItems.length; i++) {
   assigned.add(i);
   for (let j = i + 1; j < cappedItems.length; j++) {
     if (assigned.has(j)) continue;
-    if (jaccard(fingerprints[i], fingerprints[j]) >= DEDUP_THRESHOLD) {
+    if (sameEvent(i, j)) {
       cluster.push(j);
       assigned.add(j);
     }
@@ -359,15 +397,25 @@ for (let i = 0; i < cappedItems.length; i++) {
     deduped.push(cappedItems[i]);
     continue;
   }
-  // 选最优：core 优先，其次最早发布；coverage 记录同事件被多少源报道，供热度加成
+
+  // 主条目优先级：非合集 > core > 更早发布
+  // 早报只作为「也报道了」的补充来源，不能让它顶掉专门讲该事件的那条
   const ranked = cluster.map((idx) => ({
     item: cappedItems[idx],
+    digestRank: digestFlags[idx] ? 1 : 0,
     tierRank: cappedItems[idx].tier === 'core' ? 0 : 1,
     pubTime: Date.parse(cappedItems[idx].pubDate),
   }));
-  ranked.sort((a, b) => a.tierRank - b.tierRank || a.pubTime - b.pubTime);
-  ranked[0].item.coverage = cluster.length;
-  deduped.push(ranked[0].item);
+  ranked.sort((a, b) => a.digestRank - b.digestRank || a.tierRank - b.tierRank || a.pubTime - b.pubTime);
+
+  const main = ranked[0].item;
+  const sources = [...new Set(cluster.map((idx) => cappedItems[idx].source))];
+  const others = sources.filter((s) => s !== main.source);
+  // coverage = 涉及的不同来源数（不是条目数），供热度加成与页面展示
+  main.coverage = sources.length;
+  // 只有真正来自其他来源时才有意义，避免出现「另外 0 家也报道了」
+  if (others.length > 0) main.alsoReportedBy = others;
+  deduped.push(main);
 }
 
 // —— 100 条截断：公司动态优先保留 ——

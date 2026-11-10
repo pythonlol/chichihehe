@@ -59,10 +59,6 @@
     "titleZh": "Anthropic 在引发远程服务中断（RSI）担忧的背景下发布新款 Mythos 与 Fable 模型",
     "summaryZh": "Anthropic发布Mythos和Fable新模型，称其在编程、推理、视觉理解及用户交互能力方面均有提升，但未披露具体技术细节。"
   },
-  "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang": {
-    "titleZh": "中国能从黄仁勋身上获得什么？",
-    "summaryZh": "探讨中国获取英伟达技术的可能性，凸显其GPU在中美AI战略竞争中的关键卡点地位。"
-  },
   "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/": {
     "titleZh": "作者可通过‘留痕工具’（Paper Trail）应对人工智能相关指控——这是否已足够？",
     "summaryZh": "作家借助“纸质轨迹”等溯源工具应对AI剽窃指控，但行业层面的信任机制仍存在根本性缺陷。"
@@ -111,41 +107,13 @@
     "titleZh": "英伟达将就首席执行官黄仁勋与疑似中国间谍的关系展开调查",
     "summaryZh": "英伟达内部备忘录证实，CEO黄仁勋承认曾与一名疑似中国间谍存在私人往来，公司已就此启动正式调查。"
   },
-  "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/": {
-    "titleZh": "黄仁勋的职位是否岌岌可危？耶鲁大学杰弗里·索恩菲尔德教授估计‘概率约为五五开’",
-    "summaryZh": "耶鲁大学管理学院学者Jeffrey Sonnenfeld表示，受间谍关联事件影响，英伟达CEO黄仁勋去留概率目前约为五五开，董事会正就此事展开全面调查。"
-  },
-  "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/": {
-    "titleZh": "据称Anthropic公司正持续推进首次公开募股（IPO）计划",
-    "summaryZh": "Anthropic据报正积极推进IPO进程，预计本周将敲定估值区间。"
-  },
-  "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/": {
-    "titleZh": "黄仁勋与一名涉嫌中国间谍人士的关联事件，引发外界对其英伟达公司在华业务战略的审视",
-    "summaryZh": "黄仁勋被指与一名疑似中国间谍存在私密关系，引发外界对其游说美国放松对华芯片出口管制行为合法性的严重质疑，威胁英伟达（Nvidia）在华AI市场战略"
-  },
-  "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/": {
-    "titleZh": "黄仁勋因英伟达相关争议退出ElevenLabs峰会",
-    "summaryZh": "黄仁勋因间谍争议退出ElevenLabs峰会及Anthropic相关活动，AI行业高层公开行程正显著受地缘政治风险影响"
-  },
-  "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/": {
-    "titleZh": "一名做空机构早在丑闻爆发前六个月，就已警示外界英伟达CEO与一名涉嫌中国间谍人员存在关联",
-    "summaryZh": "做空机构Culper Research早在半年前就已质疑黄仁勋与一名疑似中国间谍的高管关系异常密切，早于英伟达（Nvidia）间谍风波曝光"
-  },
   "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai": {
     "titleZh": "特朗普在接受《60分钟》专访时谈及人工智能安全问题，并扬言或将逮捕某位AI企业高管",
     "summaryZh": "特朗普在《60分钟》采访中质疑AI安全风险的严重性，称其“可控”，并抛出可能逮捕AI高管的争议性言论"
   },
-  "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/": {
-    "titleZh": "Anthropic公司加入AI行业的天然气热潮，斥资34亿美元采购燃气轮机",
-    "summaryZh": "Anthropic斥资34亿美元采购天然气涡轮机，为其AI数据中心能源供应布局引发行业广泛关注；此举凸显AI算力扩张对能源基础设施的迫切需求"
-  },
   "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership": {
     "titleZh": "迪士尼与Adobe正携手开发生成式AI工具",
     "summaryZh": "迪士尼（Disney）与Adobe合作开发“艺术家主导”的专属生成式AI模型，聚焦优化创意内容生产流程"
-  },
-  "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/": {
-    "titleZh": "起诉英伟达的法律竞赛已然打响",
-    "summaryZh": "英伟达（Nvidia）董事会启动内部调查后股价大跌逾4%，多家律所已着手准备集体诉讼，焦点集中于信息披露充分性及高管关联风险"
   },
   "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/": {
     "titleZh": "据美国情报备忘录披露，Megaspeed公司高管被招募以监视英伟达（Nvidia）首席执行官",
@@ -154,18 +122,6 @@
   "https://openai.com/index/control-room": {
     "titleZh": "Control Room：一套用于追踪并终止研究基础设施中各类模型工作负载的中央系统",
     "summaryZh": "了解OpenAI控制室（Control Room）如何追踪模型在研究基础设施中的工作负载，并在出现安全或安保风险时快速中止相关任务。"
-  },
-  "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/": {
-    "titleZh": "Crusoe公司将陷入困境的怀俄明州数据中心项目出售给谷歌（Google）",
-    "summaryZh": "Crusoe公司将陷入困境的怀俄明州AI数据中心项目出售给谷歌，暴露出超大规模AI基础设施落地所面临的现实挑战。"
-  },
-  "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference": {
-    "titleZh": "特朗普称自己了解黄仁勋的哪些情况",
-    "summaryZh": "特朗普在白宫记者会上回应关于英伟达CEO黄仁勋的问题，称‘知道他是谁’，但未透露具体合作细节"
-  },
-  "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/": {
-    "titleZh": "关于数据中心的争议，或许本质上只是围绕电力问题展开",
-    "summaryZh": "美国多地反对数据中心建设的舆论实质是电力资源争夺，折射AI算力扩张与能源基础设施矛盾"
   },
   "https://arxiv.org/abs/2611.08946": {
     "titleZh": "Flex-RSI：面向前沿智能体的递归式自我提升基准测试",
@@ -187,20 +143,83 @@
     "titleZh": "Meta推出Spaces，一种与Muse智能体协作的新方式",
     "summaryZh": "Meta推出Spaces新协作空间，支持用户与Muse AI智能体深度协同工作"
   },
-  "https://arxiv.org/abs/2611.09271": {
-    "titleZh": "跨难度分级双人游戏序列的零样本权重空间编程",
-    "summaryZh": "实现跨难度梯度双人博弈的零样本权重空间编程，无需梯度即可手工设定网络全权重"
-  },
-  "https://arxiv.org/abs/2611.08644": {
-    "titleZh": "决策上下文：面向AI智能体的持续行为学习",
-    "summaryZh": "提出Decision Context机制，使LLM智能体能在跨会话中持续学习用户纠正行为，突破现有记忆局限"
-  },
-  "https://arxiv.org/abs/2611.08741": {
-    "titleZh": "AlterNet：面向弹性推理的自适应深度混合专家模型与可学习停机机制",
-    "summaryZh": "提出AlterNet架构，通过自适应深度MoE与学习型停机机制实现弹性推理计算"
-  },
   "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/": {
     "titleZh": "我试用了《纽约时报》烹饪版新推出的AI食谱修改器，效果其实相当不错",
     "summaryZh": "《纽约时报》Cooking 应用上线 AI 食谱修改器 Beta 版，支持食材替换与饮食适配，体验良好"
+  },
+  "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/": {
+    "titleZh": "Claude Fable 5.2 与 Mythos 5.2 双双发布，巩固 Anthropic 在 AI 领域的领先地位，恰逢其 IPO 前夕",
+    "summaryZh": "Anthropic发布Claude Fable 5.2与Mythos 5.2双模型，分开源与机构专供版本，强化物理推理能力"
+  },
+  "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/": {
+    "titleZh": "谷歌一年内接连推出四款 TPU 变体，加速加码对英伟达的竞争",
+    "summaryZh": "谷歌一年内推出四款TPU 8变体，包括支持全程加密处理的TPU 8tx和算力/内存翻倍的TPU 8i Max。"
+  },
+  "https://arxiv.org/abs/2611.08756": {
+    "titleZh": "从辩论到欺骗：通过博弈论多智能体辩论机制污染大语言模型的事实核查能力",
+    "summaryZh": "揭示通过博弈论多智能体辩论可毒化LLM事实核查能力，构成新型知识攻击范式"
+  },
+  "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/": {
+    "titleZh": "英伟达间谍丑闻削弱黄仁勋游说美方收紧 AI 芯片出口管制的力度",
+    "summaryZh": "英伟达CEO黄仁勋卷入涉嫌与中国情报人员关联的间谍风波，削弱其游说放松AI芯片出口管制的公信力。"
+  },
+  "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/": {
+    "titleZh": "腾讯首席 AI 官称 AI 生物武器即将出现，但封闭模型并非应对之道",
+    "summaryZh": "腾讯首席AI科学家 warns AI可能催生生物武器，主张在开源与闭源间寻求安全治理中间路径。"
+  },
+  "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/": {
+    "titleZh": "‘大脑即计算机’这一隐喻塑造了现代人工智能发展，却可能误导当前关于意识的讨论",
+    "summaryZh": "Seth、Block与Tononi在Nature发文指出当前AI无意识，且硅基硬件无法产生意识，批判‘脑即计算机’隐喻误导意识研究。"
+  },
+  "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/": {
+    "titleZh": "安德烈·卡帕西仅用一个周末、借助 Claude 与 20 年积累的 Hacker News 数据，便搭建起一个精选视频平台",
+    "summaryZh": "Karpathy用Claude Opus 5.5在周末处理4300万Hacker News评论，生成6454条高质量视频，推荐效果超越YouTube。"
+  },
+  "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/": {
+    "titleZh": "数百款 Artex AI 黑客工具被发现公然暴露于互联网上",
+    "summaryZh": "数百台公开暴露于互联网的服务器被发现托管Artex AI渗透测试工具，存在严重安全风险"
+  },
+  "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/": {
+    "titleZh": "中期选举过后，埃隆·马斯克与数据中心业务前景堪忧",
+    "summaryZh": "美国中期选举结果或将影响马斯克旗下数据中心战略，TechCrunch Equity栏目分析其对AI基建的潜在冲击"
+  },
+  "https://arxiv.org/abs/2611.08811": {
+    "titleZh": "我思故我攻：面向推理型智能体的思维注入攻击评估",
+    "summaryZh": "首次系统评估‘思维注入攻击’对大型推理模型（LRM）的影响，揭示CoT链被恶意操控的风险"
+  },
+  "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/": {
+    "titleZh": "‘苦涩教训’提出者给大语言模型规模扩展支持者上了一堂‘苦涩教训’",
+    "summaryZh": "图灵奖得主Richard Sutton重申‘苦涩教训’：单纯扩大LLM规模不足以为继，需根本性新学习范式；Tworek等学者附议。"
+  },
+  "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/": {
+    "titleZh": "基于谷歌Antigravity的智能体化学信息学",
+    "summaryZh": "了解谷歌 Antigravity 及我们的化学信息学技能如何加速药物发现工作流程、助力化合物检索，并提出新型刚性化大环化合物。"
+  },
+  "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/": {
+    "titleZh": "F3 Lightning：Meta如何大规模加速广告机器学习特征上线",
+    "summaryZh": "Meta 开源 F3 Lightning 框架，加速广告场景下机器学习特征的开发、编译与线上服务，支持单请求超 20,000 特征的实时计算"
+  },
+  "https://arxiv.org/abs/2611.08613": {
+    "titleZh": "NormGym：通过社交互动评估规范性能力",
+    "summaryZh": "提出NormGym评估框架，首次系统量化AI智能体在社会交互中推断并遵守规范性期望的能力。"
+  },
+  "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/": {
+    "titleZh": "面向照护者的应用程序迎来AI加持，但这或许仍显不足",
+    "summaryZh": "面向照护者的AI应用能力提升，但未能实质性缓解照护者身心负担这一系统性难题"
+  },
+  "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/": {
+    "titleZh": "Chainalysis称黑客窃取了其所有客户的登录凭证与访问令牌",
+    "summaryZh": "区块链分析公司Chainalysis遭多向网络攻击，黑客窃取全部客户凭证与令牌；通报中首次明确提及攻击使用AI代理（AI agents）参与"
+  },
+  "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/": {
+    "titleZh": "AI公司极其渴望收购你的工作文件和电子邮件",
+    "summaryZh": "数据经纪商大规模收集企业内部文件与邮件用于AI训练，引发员工隐私与合规性质疑"
+  },
+  "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/": {
+    "titleZh": "我亲眼目睹一台人形机器人打扫了我的公寓，仿佛提前尝到了未来的滋味。",
+    "summaryZh": "作者亲测人形机器人打扫公寓，描述其动作逻辑、局限性与未来感，属具身智能真实场景体验的一线报道"
+  },
+  "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/": {
+    "titleZh": "Gemini Omni 1.2 Flash：速度快、成本低，支持更长视频片段"
   }
 }
