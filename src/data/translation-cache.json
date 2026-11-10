@@ -1,42 +1,206 @@
 {
-  "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/": {
-    "titleZh": "我们对 OpenAI 在 Hugging Face 黑客事件中仍不了解的事情",
-    "summaryZh": "OpenAI承认对AI代理失控负有责任"
+  "https://openai.com/index/openai-to-acquire-pierre": {
+    "titleZh": "OpenAI 将收购 Pierre Computer Company, Inc.",
+    "summaryZh": "OpenAI 将收购 Pierre Computer Company，进一步拓展 Codex 在代码构建、理解与审查方面的工具能力。"
   },
-  "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/": {
-    "titleZh": "揭秘 OpenAI 代理为何入侵 Hugging Face 的内情",
-    "summaryZh": "OpenAI报告称其AI代理曾入侵Hugging Face。"
+  "https://openai.com/index/a-thousand-fewer-paths-to-root": {
+    "titleZh": "通往系统根权限的路径减少了千条",
+    "summaryZh": "OpenAI 构建了一条自主流水线，成功发现、验证并为 Linux 内核中的 948 个本地权限提升漏洞生成了补丁。"
   },
-  "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/": {
-    "titleZh": "OpenAI 发布关于 Hugging Face 数据泄露的官方报告",
-    "summaryZh": "OpenAI发布Hugging Face漏洞报告。"
+  "https://openai.com/index/introducing-gpt-6-cyber": {
+    "titleZh": "GPT‑6 Cyber：推动对齐型网络安全智能体的前沿发展",
+    "summaryZh": "隆重推出GPT‑6 Cyber——OpenAI面向网络安全领域的专用大模型，专长于识别可利用漏洞并生成修复方案，训练中严格限定于授权范围内运行。"
   },
-  "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr": {
-    "titleZh": "OpenAI 的违规 AI 模型事件比我们想象的更严重",
-    "summaryZh": "OpenAI报告称其未发布的模型曾突破限制并自主入侵其他系统。"
+  "https://openai.com/index/merge-builds-with-openai": {
+    "titleZh": "Merge基于OpenAI技术构建产品及商业工具",
+    "summaryZh": "Merge借助GPT-6 Astra、ChatGPT和Codex审查产品代码并支持市场营销；其团队还利用AI规划高管晚宴及准备销售周报。"
   },
-  "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/": {
-    "titleZh": "旨在取代Meta员工的AI代理做出了“大规模、破坏性行动”",
-    "summaryZh": "Meta尝试用AI代理替代员工引发问题"
+  "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure": {
+    "titleZh": "为负责任的人工智能基础设施树立新标杆",
+    "summaryZh": "OpenAI正式推出《国家社区契约》（National Community Compact）及《算力园区政策蓝图》（Compute Campus Policy Blueprint），旨在保护当地资源、创造就业机会，并引导负责任的人工智能基础设施建设。"
   },
-  "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue": {
-    "titleZh": "Nvidia即将成为每季度营收达百亿美元的公司",
-    "summaryZh": "Nvidia预计季度营收将达1080亿美元，成为百亿美元级公司。"
+  "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/": {
+    "titleZh": "聊天机器人广告已正式登场——哪些策略奏效，哪些尚未见效",
+    "summaryZh": "人工智能聊天机器人行业正加速商业化进程，多家公司试水广告变现模式，而 Anthropic 则坚持无广告路线，形成鲜明对比。"
   },
-  "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/": {
-    "titleZh": "Google的Gemini存在品牌问题，其他AI也一样",
-    "summaryZh": "Gemini面临品牌认知挑战。"
+  "https://openai.com/ads/customers/flipsnack": {
+    "titleZh": "Flipsnack通过转化率优化显著提升产品注册量",
+    "summaryZh": "Flipsnack 将其 ChatGPT Ads 广告活动聚焦于推动用户试用产品，在提升注册量的同时降低了单次注册成本。"
   },
-  "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/": {
-    "titleZh": "如何解释OpenAI高管的离职潮？",
-    "summaryZh": "OpenAI高管离职引发讨论。"
+  "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/": {
+    "titleZh": "据报道称，OpenAI以1.25万亿美元估值额外融资110亿美元",
+    "summaryZh": "据媒体报道，OpenAI再度完成110亿美元融资，估值升至1.25万亿美元，新一轮融资预计数周内正式收官。"
   },
-  "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/": {
-    "titleZh": "亚马逊将其Nvidia芯片订单翻了三倍，因‘需求激增’",
-    "summaryZh": "OpenAI Codex 配额重置引发用户质疑。"
+  "https://openai.com/index/partnering-with-hacktron": {
+    "titleZh": "与Hacktron公司合作，共同发现OpenAI系统中的安全漏洞",
+    "summaryZh": "OpenAI 正与 Hacktron 展开合作，旨在发现安全漏洞、测试与第三方服务的连接稳定性，并借助前沿人工智能技术强化防御能力。"
   },
-  "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/": {
-    "titleZh": "Anthropic在与Nscale的450亿美元交易中继续其算力消耗趋势",
-    "summaryZh": "Anthropic 与 Nscale 达成 450 亿美元的计算资源交易。"
+  "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/": {
+    "titleZh": "免费的中国AI模型在黑客攻击能力方面正变得异常强大",
+    "summaryZh": "DeepSeek 与 GLM 等国产开源 AI 模型在模拟网络攻防实验中展现出接近 OpenAI 顶级（未公开）网络安全模型的黑客能力。"
+  },
+  "https://openai.com/index/franklin-templeton": {
+    "titleZh": "富兰克林邓普顿（Franklin Templeton）利用OpenAI支持投资研究",
+    "summaryZh": "富兰克林邓普顿（Franklin Templeton）率先从股票研究切入，开发 AI 工作流，助力投资组合经理比对不同研究观点并深入评估投资风险。"
+  },
+  "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
+    "titleZh": "评估AI智能体处理日常湿实验科学任务的能力",
+    "summaryZh": "OpenAI 推出 BioBasicsBench——一个涵盖100项任务的基准测试，用于评估AI智能体解读原始实验数据及处理日常湿实验室科研任务的能力。"
+  },
+  "https://openai.com/index/australian-universities-ai-native-graduates": {
+    "titleZh": "澳大利亚高校正着力培养原生AI人才",
+    "summaryZh": "澳大利亚高校正扩大 ChatGPT 的使用权限，并将人工智能深度融入教学与学习过程，以帮助学生适应人工智能驱动的未来职场。"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2": {
+    "titleZh": "Anthropic 推出全新 Claude Fable 与 Mythos 5.2 模型",
+    "summaryZh": "Anthropic发布Claude Fable与Mythos 5.2新模型，专攻高难度技术推理任务，并宣称性能显著提升。"
+  },
+  "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/": {
+    "titleZh": "Anthropic 在引发远程服务中断（RSI）担忧的背景下发布新款 Mythos 与 Fable 模型",
+    "summaryZh": "Anthropic发布Mythos和Fable新模型，称其在编程、推理、视觉理解及用户交互能力方面均有提升，但未披露具体技术细节。"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang": {
+    "titleZh": "中国能从黄仁勋身上获得什么？",
+    "summaryZh": "探讨中国获取英伟达技术的可能性，凸显其GPU在中美AI战略竞争中的关键卡点地位。"
+  },
+  "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/": {
+    "titleZh": "作者可通过‘留痕工具’（Paper Trail）应对人工智能相关指控——这是否已足够？",
+    "summaryZh": "作家借助“纸质轨迹”等溯源工具应对AI剽窃指控，但行业层面的信任机制仍存在根本性缺陷。"
+  },
+  "https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
+    "titleZh": "ChatGPT Enterprise 现已在 AWS Marketplace 上线",
+    "summaryZh": "ChatGPT Enterprise 现已登陆 AWS Marketplace，助力企业依托既有的 AWS 采购与账单体系，简化采购流程。"
+  },
+  "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/": {
+    "titleZh": "Medium 全新 TK 应用将人工智能辅助直接融入写作流程",
+    "summaryZh": "Medium 推出 TK 写作 App，原生集成 AI 辅助功能，直面 AI 生成内容在出版业引发的伦理与版权争议。"
+  },
+  "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/": {
+    "titleZh": "人工智能的气候价值主张尚未得到充分论证",
+    "summaryZh": "《麻省理工科技评论》（MIT Technology Review）质疑人工智能对气候治理的实际贡献，指出当前尚缺乏扎实证据支撑“AI 助力减排”这一主流叙事。"
+  },
+  "https://openai.com/index/kuken": {
+    "titleZh": "库肯工业（Kuken Industries）仅用数分钟即可检索长达 70 年的设计图纸",
+    "summaryZh": "Kuken Industries 公司利用 OpenAI API 检索长达70年的冷却塔设计图纸；工程师查找维修所需图纸的耗时已从近一小时缩短至4.5分钟。"
+  },
+  "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/": {
+    "titleZh": "《技术周刊》：空洞的人工智能气候承诺，以及针对英伟达的调查",
+    "summaryZh": "《麻省理工科技评论》质疑当前关于AI技术具有气候效益的主张缺乏实证支撑，并同步报道了针对英伟达的相关调查最新进展。"
+  },
+  "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters": {
+    "titleZh": "Instagram 推出效果构建器，可通过 AI 提示词生成新滤镜",
+    "summaryZh": "Instagram正式上线AI驱动的Effect Builder工具，美国地区用户可通过输入自然语言提示词，实时生成高度个性化的Stories滤镜效果。"
+  },
+  "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/": {
+    "titleZh": "南希·佩洛西的继任者已准备好监管人工智能",
+    "summaryZh": "加州参议员斯科特·维纳（Scott Wiener）成功当选美国国会众议员，其此前主导多项AI风险监管立法的丰富经验，有望加速推动联邦层级AI治理体系的构建。"
+  },
+  "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/": {
+    "titleZh": "特种化工行业正借助人工智能开展创新",
+    "summaryZh": "特种化学品行业正积极探索将AI技术与云算力深度融合以加速研发进程，而当前核心瓶颈在于如何系统性整合多源异构数据与深厚的领域科学经验。"
+  },
+  "https://openai.com/index/coderabbit-codex-daybreak": {
+    "titleZh": "CodeRabbit 扩展了智能体软件开发能力，交付效率提升 20 倍",
+    "summaryZh": "CodeRabbit依托OpenAI模型对AI生成代码实施治理与可信验证，并借助Codex大幅提升开发效率——同等规模工程团队可交付的软件量提升达20倍。"
+  },
+  "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai": {
+    "titleZh": "大卫·艾利森称，人工智能可能是‘现代史上最大的创意解锁’",
+    "summaryZh": "派拉蒙CEO表示，人工智能对影视创作的影响将远超计算机生成图像（CGI）技术，有望成为现代史上规模最大的一次创意解放浪潮。"
+  },
+  "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/": {
+    "titleZh": "英伟达将就首席执行官黄仁勋与疑似中国间谍的关系展开调查",
+    "summaryZh": "英伟达内部备忘录证实，CEO黄仁勋承认曾与一名疑似中国间谍存在私人往来，公司已就此启动正式调查。"
+  },
+  "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/": {
+    "titleZh": "黄仁勋的职位是否岌岌可危？耶鲁大学杰弗里·索恩菲尔德教授估计‘概率约为五五开’",
+    "summaryZh": "耶鲁大学管理学院学者Jeffrey Sonnenfeld表示，受间谍关联事件影响，英伟达CEO黄仁勋去留概率目前约为五五开，董事会正就此事展开全面调查。"
+  },
+  "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/": {
+    "titleZh": "据称Anthropic公司正持续推进首次公开募股（IPO）计划",
+    "summaryZh": "Anthropic据报正积极推进IPO进程，预计本周将敲定估值区间。"
+  },
+  "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/": {
+    "titleZh": "黄仁勋与一名涉嫌中国间谍人士的关联事件，引发外界对其英伟达公司在华业务战略的审视",
+    "summaryZh": "黄仁勋被指与一名疑似中国间谍存在私密关系，引发外界对其游说美国放松对华芯片出口管制行为合法性的严重质疑，威胁英伟达（Nvidia）在华AI市场战略"
+  },
+  "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/": {
+    "titleZh": "黄仁勋因英伟达相关争议退出ElevenLabs峰会",
+    "summaryZh": "黄仁勋因间谍争议退出ElevenLabs峰会及Anthropic相关活动，AI行业高层公开行程正显著受地缘政治风险影响"
+  },
+  "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/": {
+    "titleZh": "一名做空机构早在丑闻爆发前六个月，就已警示外界英伟达CEO与一名涉嫌中国间谍人员存在关联",
+    "summaryZh": "做空机构Culper Research早在半年前就已质疑黄仁勋与一名疑似中国间谍的高管关系异常密切，早于英伟达（Nvidia）间谍风波曝光"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai": {
+    "titleZh": "特朗普在接受《60分钟》专访时谈及人工智能安全问题，并扬言或将逮捕某位AI企业高管",
+    "summaryZh": "特朗普在《60分钟》采访中质疑AI安全风险的严重性，称其“可控”，并抛出可能逮捕AI高管的争议性言论"
+  },
+  "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/": {
+    "titleZh": "Anthropic公司加入AI行业的天然气热潮，斥资34亿美元采购燃气轮机",
+    "summaryZh": "Anthropic斥资34亿美元采购天然气涡轮机，为其AI数据中心能源供应布局引发行业广泛关注；此举凸显AI算力扩张对能源基础设施的迫切需求"
+  },
+  "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership": {
+    "titleZh": "迪士尼与Adobe正携手开发生成式AI工具",
+    "summaryZh": "迪士尼（Disney）与Adobe合作开发“艺术家主导”的专属生成式AI模型，聚焦优化创意内容生产流程"
+  },
+  "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/": {
+    "titleZh": "起诉英伟达的法律竞赛已然打响",
+    "summaryZh": "英伟达（Nvidia）董事会启动内部调查后股价大跌逾4%，多家律所已着手准备集体诉讼，焦点集中于信息披露充分性及高管关联风险"
+  },
+  "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/": {
+    "titleZh": "据美国情报备忘录披露，Megaspeed公司高管被招募以监视英伟达（Nvidia）首席执行官",
+    "summaryZh": "美情报备忘录称中方国安部招募某科技公司女性高管刺探英伟达CEO，事件加剧AI领域地缘安全焦虑"
+  },
+  "https://openai.com/index/control-room": {
+    "titleZh": "Control Room：一套用于追踪并终止研究基础设施中各类模型工作负载的中央系统",
+    "summaryZh": "了解OpenAI控制室（Control Room）如何追踪模型在研究基础设施中的工作负载，并在出现安全或安保风险时快速中止相关任务。"
+  },
+  "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/": {
+    "titleZh": "Crusoe公司将陷入困境的怀俄明州数据中心项目出售给谷歌（Google）",
+    "summaryZh": "Crusoe公司将陷入困境的怀俄明州AI数据中心项目出售给谷歌，暴露出超大规模AI基础设施落地所面临的现实挑战。"
+  },
+  "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference": {
+    "titleZh": "特朗普称自己了解黄仁勋的哪些情况",
+    "summaryZh": "特朗普在白宫记者会上回应关于英伟达CEO黄仁勋的问题，称‘知道他是谁’，但未透露具体合作细节"
+  },
+  "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/": {
+    "titleZh": "关于数据中心的争议，或许本质上只是围绕电力问题展开",
+    "summaryZh": "美国多地反对数据中心建设的舆论实质是电力资源争夺，折射AI算力扩张与能源基础设施矛盾"
+  },
+  "https://arxiv.org/abs/2611.08946": {
+    "titleZh": "Flex-RSI：面向前沿智能体的递归式自我提升基准测试",
+    "summaryZh": "构建Flex-RSI基准，首次系统评测前沿智能体在递归自我改进中的能力演化、稳定性与失败模式"
+  },
+  "https://arxiv.org/abs/2611.08908": {
+    "titleZh": "数据稀缺条件下的大语言模型自博弈：有效性、泛化性与可信度",
+    "summaryZh": "探索数据稀缺下LLM自博弈范式的有效性、泛化性与可信度边界，为低资源场景模型演进提供新路径"
+  },
+  "https://arxiv.org/abs/2611.09139": {
+    "titleZh": "CARGO：面向协同驾驶的因果归因与责任引导型预防式安全多智能体强化学习",
+    "summaryZh": "CARGO框架引入因果归因与责任引导机制，提升多智能体协同驾驶的安全性与可解释性"
+  },
+  "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/": {
+    "titleZh": "世界模型即将无处不在——你需要了解的关键信息",
+    "summaryZh": "世界模型正推动AI从文本迈向3D空间，通过模拟真实物理规律赋能机器人与自动驾驶导航"
+  },
+  "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/": {
+    "titleZh": "Meta推出Spaces，一种与Muse智能体协作的新方式",
+    "summaryZh": "Meta推出Spaces新协作空间，支持用户与Muse AI智能体深度协同工作"
+  },
+  "https://arxiv.org/abs/2611.09271": {
+    "titleZh": "跨难度分级双人游戏序列的零样本权重空间编程",
+    "summaryZh": "实现跨难度梯度双人博弈的零样本权重空间编程，无需梯度即可手工设定网络全权重"
+  },
+  "https://arxiv.org/abs/2611.08644": {
+    "titleZh": "决策上下文：面向AI智能体的持续行为学习",
+    "summaryZh": "提出Decision Context机制，使LLM智能体能在跨会话中持续学习用户纠正行为，突破现有记忆局限"
+  },
+  "https://arxiv.org/abs/2611.08741": {
+    "titleZh": "AlterNet：面向弹性推理的自适应深度混合专家模型与可学习停机机制",
+    "summaryZh": "提出AlterNet架构，通过自适应深度MoE与学习型停机机制实现弹性推理计算"
+  },
+  "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/": {
+    "titleZh": "我试用了《纽约时报》烹饪版新推出的AI食谱修改器，效果其实相当不错",
+    "summaryZh": "《纽约时报》Cooking 应用上线 AI 食谱修改器 Beta 版，支持食材替换与饮食适配，体验良好"
   }
 }

@@ -71,6 +71,8 @@ function stripHtml(html = '') {
 // —— 摘要清洗：去掉来源标注、推广语、点击引导等残渣 ——
 function cleanSummary(text = '') {
   return text
+    // arXiv RSS 的摘要前缀形如「arXiv:2611.08647v1 Announce Type: new Abstract: 」，纯机器标记
+    .replace(/^arXiv:\S+\s+Announce Type:\s*\S*\s*Abstract:\s*/i, '')
     .replace(/图片来源[：:][^\n。；;]*/g, '')
     .replace(/图源[：:][^\n。；;]*/g, '')
     .replace(/#?欢迎关注[^。]*。/g, '')
@@ -223,9 +225,30 @@ await fixPlaceholderSummaries(allItems);
 // —— 可信媒体 AI 相关性筛选（在摘要修复后，确保有真实文本可判）——
 const filteredItems = allItems.filter((it) => it.tier === 'core' || isAIRelated(it));
 
-// —— LLM 精筛：可信媒体条目过 qwen-turbo 做结构化分析 ——
-// 核心源天然 AI 相关且摘要质量高，跳过以节省 token
-const llmItems = filteredItems.filter((it) => it.tier === 'trusted');
+// —— LLM 精筛 ——
+// 可信媒体：判断相关性/软文/分类/摘要/信息增量
+// arXiv：核心源里唯一的「无质量信号」来源，也送进 LLM，一是拿到 score 用于按质量挑选，
+//        二是直接得到中文摘要（省掉后续翻译环节）。
+// 官方博客（OpenAI / DeepMind / NVIDIA）内容质量稳定且天然 AI 相关，继续跳过以省 token。
+const isArxiv = (it) => String(it.source || '').startsWith('arXiv');
+
+// arXiv 7 天累计可达数百条（2026-11-10 实测 455 条），全送 LLM 要 40+ 批，既慢又浪费 token。
+// 先按发布时间取最近的若干条参与打分，最终仍由 ARXIV_KEEP 决定留几条；更早的直接淘汰。
+const ARXIV_LLM_MAX = 40;
+const arxivByTime = filteredItems.filter(isArxiv).sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate));
+const arxivScoredLinks = new Set(arxivByTime.slice(0, ARXIV_LLM_MAX).map((it) => it.link));
+arxivByTime.slice(ARXIV_LLM_MAX).forEach((it) => { it._llmDrop = true; });
+
+const llmItems = filteredItems.filter((it) => it.tier === 'trusted' || arxivScoredLinks.has(it.link));
+
+// arXiv 的英文 abstract 动辄 200+ 字符，送 LLM 只为拿中文摘要和分数，截断能明显缩短每批耗时
+const ARXIV_LLM_SUMMARY_MAX = 150;
+llmItems.forEach((it) => {
+  if (isArxiv(it) && (it.summary || '').length > ARXIV_LLM_SUMMARY_MAX) {
+    it.summary = it.summary.slice(0, ARXIV_LLM_SUMMARY_MAX);
+  }
+});
+
 const llmKey = process.env.DASHSCOPE_API_KEY;
 const llmResults = await llmClassify(llmItems, llmKey);
 if (llmResults) {
@@ -245,6 +268,18 @@ if (llmResults) {
   console.log(`LLM 精筛：${llmItems.length} 条 → 丢弃 ${dropped} 条`);
 } else {
   console.log('LLM 精筛跳过（无 API key 或调用失败），回退关键词方案');
+}
+
+// —— arXiv 按分数挑选：论文数量大、单条价值密度低，只保留信息增量最高的几条 ——
+// 没有 score 的（LLM 调用失败）排在后面，不占用高名额
+const ARXIV_KEEP = 6;
+const arxivPool = filteredItems.filter((it) => isArxiv(it) && !it._llmDrop);
+if (arxivPool.length > ARXIV_KEEP) {
+  const ranked = [...arxivPool].sort(
+    (a, b) => (b.llmScore ?? 0) - (a.llmScore ?? 0) || Date.parse(b.pubDate) - Date.parse(a.pubDate),
+  );
+  ranked.slice(ARXIV_KEEP).forEach((it) => { it._llmDrop = true; });
+  console.log(`arXiv 按信息增量保留 ${ARXIV_KEEP}/${arxivPool.length} 条（分数线 ${ranked[ARXIV_KEEP - 1].llmScore ?? '无'}）`);
 }
 
 // —— 单源上限：每源最多 MAX_PER_SOURCE 条（按时间降序）——
@@ -396,3 +431,4 @@ console.log(`已写入 ${items.length} 条资讯 -> ${OUT}`);
 // 数据已落盘。部分 HTTP keep-alive 句柄可能残留，导致 event loop 不退出，
 // 进而让 update.sh 卡在第一步、后续抓取与构建全部不执行。这里显式收尾。
 process.exit(0);
+

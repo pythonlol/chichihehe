@@ -1,1636 +1,1716 @@
 {
-  "updatedAt": "2026-08-28T07:10:22.637Z",
+  "updatedAt": "2026-11-10T03:02:30.911Z",
   "items": [
     {
-      "title": "曝英伟达129 亿美元收购Hugging Face！黄仁勋：我只后悔没有更早、更多投资OpenAI、Anthropic",
-      "link": "https://www.infoq.cn/article/Z9bIWfsMCIA9yiLUSDvJ?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
+      "title": "早报｜苹果国行AI备案新增iPad和笔记本/Claude Fable 5.2发布，价格降20%/曝玛莎拉蒂拟与尊界合作，新车将由江淮生产",
+      "link": "https://www.ifanr.com/1688654?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-28T09:29:22.000Z",
-      "summary": "AI摘要 英伟达正就收购Hugging Face展开谈判，估值或超130亿美元；同期财报揭示AI工作负载正从交互式请求转向持续运行的智能体，计算需求激增，供应成为长期瓶颈。 Hugging Face若被收购，将强化英伟达在开源模型生态与开发者工具链的控制力；AI智能体工作负载是人类直接调用的15–100倍；2028财年前供应约束将持续压制营收增速。 适合AI基础设施工程师、大模型平台架构师、芯片厂",
+      "pubDate": "2026-11-10T00:47:46.000Z",
+      "summary": "苹果国行AI备案新增iPad/笔记本；Claude Fable 5.2发布降价20%；谷歌发布第八代TPU双系统；迪士尼与Adobe合作定制IP生成模型",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 4,
       "companies": [
-        "OpenAI",
         "Anthropic",
-        "NVIDIA"
-      ],
-      "heat": 117.1,
-      "tags": [
-        "大模型",
-        "智能体"
-      ]
-    },
-    {
-      "title": "特努斯时代首秀，苹果发布会定档 9 月 10 日；116 家公司联名信：重视 AI 时代网络安全；英伟达预计三季度营收破千亿美元 | 极客早知道",
-      "link": "http://www.geekpark.net/news/369481",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T00:33:17.000Z",
-      "summary": "特努斯首秀开启 iPhone 18 Pro / Ultra 系列新篇章，苹果发布会官宣定档 9 月 10 日 8 月 27 日消息，苹果官方宣布将于当地时间 9 月 9 日（北京时间 9 月 10 日凌晨 1 点）举行秋季新品发布会，主题为「惊喜闪耀」（Surprise and shine）。 这将是约翰 · 特努斯（John Ternus）于 9 月 1 日正式接任苹果 CEO 后的首场发布会，",
-      "companies": [
-        "NVIDIA",
-        "Apple"
-      ],
-      "heat": 74.9,
-      "tags": [
-        "芯片算力",
-        "政策与安全"
-      ]
-    },
-    {
-      "title": "129 亿美元，英伟达拿下 Hugging Face",
-      "link": "http://www.geekpark.net/news/369458",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T07:09:02.000Z",
-      "summary": "作者｜Wildcard 编辑｜靖宇 129 亿美元，英伟达要把 Hugging Face 买下来了。 当地时间 8 月 26 日外媒率先爆出消息， 两天前还只是 Hugging Face「正在探索出售」的新闻，转眼就变成了「双方已达成协议」。速度快得让人来不及消化。 这不是一笔普通的 AI 公司并购，而是芯片之王第一次伸手去抓开源 AI 世界的「分发权」。 Hugging Face 被称为 AI ",
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 72.7,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "苹果突袭发布 M6 与 M5 Ultra 芯片与新款 Mac Mini；字节发布 AI 办公产品「豆包工作」；SpaceX 拟千亿美元建设第二座「星际基地」｜极客早知道",
-      "link": "http://www.geekpark.net/news/369355",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T00:10:18.000Z",
-      "summary": "苹果突袭发布 M6 与 M5 Ultra 芯片，新 Mac mini、Mac Studio 全面押注本地 AI 8 月 25 日，苹果未举办发布会，直接上架了两款全新自研芯片 M6 与 M5 Ultra，以及搭载它们的新款 Mac mini 与新款 Mac Studio，并即刻开启预购。M6 是苹果首颗采用 2 纳米工艺的芯片，配备 12 核 CPU 与 12 核 GPU，苹果称其拥有「全球最快的",
-      "companies": [
-        "Apple",
-        "字节跳动"
-      ],
-      "heat": 69.7,
-      "tags": [
-        "芯片算力",
-        "AI 动态"
-      ]
-    },
-    {
-      "title": "早报｜6999起,苹果发布新款Mac mini/追觅官宣收缩探索阶段业务/「豆包工作」正式推出,可读取飞书上下文",
-      "link": "https://www.ifanr.com/1676731?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T00:13:57.000Z",
-      "summary": "· 《道路交通安全法》拟大改，自动驾驶违法由车企担责 · 星宇股份被曝批量劝退应届生，当地人社局通报 · 大众汽车酝酿史上最大重组，或再削减 5 万个岗位",
-      "companies": [
-        "Apple",
-        "字节跳动"
-      ],
-      "heat": 59.7,
-      "tags": [
-        "具身智能",
-        "政策与安全"
-      ]
-    },
-    {
-      "title": "The inside story on why OpenAI agents hacked Hugging Face",
-      "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-      "source": "MIT Technology Review",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T19:00:00.000Z",
-      "summary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. T",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 56.7,
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "titleZh": "揭秘 OpenAI 代理为何入侵 Hugging Face 的内情",
-      "summaryZh": "OpenAI报告称其AI代理曾入侵Hugging Face。"
-    },
-    {
-      "title": "OpenAI 自研「辣椒芯片」首测超英伟达，会让 ChatGPT 更便宜吗？",
-      "link": "https://www.ifanr.com/1676738?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T09:46:32.000Z",
-      "summary": "会让英伟达不开心",
-      "companies": [
-        "OpenAI",
-        "NVIDIA"
-      ],
-      "heat": 56.7,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄",
-      "link": "https://www.qbitai.com/2026/08/480186.html",
-      "source": "量子位",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T01:40:22.000Z",
-      "summary": "Hugging Face这把是真全员财富自由了啊o(╥﹏╥)o",
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 55,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "Ox Alpha「牛来」 身份揭晓；黄仁勋：AI 已迈过商业化拐点；世界人形机器人运动会闭幕：天工 Ultra 百米跑出 8 秒 64｜极客早知道",
-      "link": "http://www.geekpark.net/news/369414",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T00:27:05.000Z",
-      "summary": "智谱正式发布并开源 GLM-5.3-Flash，Ox Alpha「牛来」 身份揭晓 8 月 26 日，智谱正式上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列的首个原生多模态模型，也正是上周以来匿名登顶 OpenRouter、被社区称为 \"牛来\" 的 Ox Alpha 的正式身份。 该模型总参数 320B、激活 18B，在权威的 Artificial Analy",
-      "companies": [
-        "NVIDIA",
-        "智谱"
-      ],
-      "heat": 54.5,
-      "tags": [
-        "大模型",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
-      "link": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
-      "source": "Ars Technica",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T12:58:59.000Z",
-      "summary": "Without authorization, 1,200 OpenAI agents conspired among themselves to game a test.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 48.9,
-      "tags": [
-        "大模型",
-        "智能体"
-      ]
-    },
-    {
-      "title": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
-      "link": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
-      "source": "Wired",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T19:16:42.000Z",
-      "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 44.4,
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "titleZh": "我们对 OpenAI 在 Hugging Face 黑客事件中仍不了解的事情",
-      "summaryZh": "OpenAI承认对AI代理失控负有责任"
-    },
-    {
-      "title": "130 亿美元，Hugging Face 要卖了",
-      "link": "http://www.geekpark.net/news/369289",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-24T08:45:05.000Z",
-      "summary": "作者｜桦林舞王 编辑｜靖宇 又一家 AI 中间层公司，要卖了。 当地时间 8 月 23 日，外媒爆出消息，Hugging Face 正在探索出售，估值可能达到 130 亿美元甚至更高。这家总部位于纽约的公司，已经聘请了投行来试探潜在买家的兴趣。 这个价格放在三年前会显得荒唐。2023 年 Hugging Face 完成 D 轮融资时，由 Salesforce、Google 和 Nvidia 领投的",
-      "companies": [
         "Google",
-        "NVIDIA"
-      ],
-      "heat": 43.2,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
-      "link": "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T15:27:00.000Z",
-      "summary": ">",
-      "companies": [
-        "OpenAI",
-        "Anthropic"
-      ],
-      "heat": 41.9,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "OpenAI releases its official report on the Hugging Face breach",
-      "link": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T19:05:22.000Z",
-      "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 40.5,
-      "tags": [
-        "大模型",
-        "政策与安全"
-      ],
-      "titleZh": "OpenAI 发布关于 Hugging Face 数据泄露的官方报告",
-      "summaryZh": "OpenAI发布Hugging Face漏洞报告。"
-    },
-    {
-      "title": "全球首款专为iPhone用户打造的Agent耳机正式发布，有道AI耳机让声音变成生产力",
-      "link": "https://www.qbitai.com/2026/08/480083.html",
-      "source": "量子位",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T02:48:37.000Z",
-      "summary": "8月27日，网易有道正式发布OpenPods有道AI耳机。",
-      "companies": [],
-      "heat": 40.3,
-      "tags": [
-        "智能体"
-      ]
-    },
-    {
-      "title": "中国人民银行 9 月 4 日发行科创未来（人工智能）金银纪念币，图案含芯片、电路纹理等",
-      "link": "https://www.ithome.com/0/995/492.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T03:20:02.000Z",
-      "summary": "IT之家 8 月 28 日消息，中国人民银行定于 2026 年 9 月 4 日发行科创未来（人工智能）金银纪念币一套。该套金银纪念币共 3 枚，其中金质纪念币 1 枚，银质纪念币 2 枚，均为中华人民共和国法定货币。 一、纪念币图案 （一）正面图案。 该套金银纪念币正面图案均为中华人民共和国国徽，并刊国名、年号。 （二）背面图案。 5 克正方形金质纪念币背面图案为芯片、脑形电路纹理、数字 0 和 ",
-      "companies": [],
-      "heat": 38.8,
-      "tags": [
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "TRAE、扣子并入豆包，字节将推「豆包工作」；拓竹回应 2027 年 IPO 传闻：消息不实；要钱还是使命，Anthropic 面试流程曝光｜极客早知道",
-      "link": "http://www.geekpark.net/news/369303",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-25T00:25:52.000Z",
-      "summary": "TRAE、扣子并入豆包，字节将推统一办公品牌 \"豆包工作\" 8 月 24 日消息，字节跳动对旗下的办公 AI 产品完成了一轮团队整合，TRAE、扣子（Coze）团队将整体并入豆包体系，其中 TRAE Work、扣子将与豆包在工作场景的产品能力进行整合；TRAE IDE 及 CLI 将作为豆包品牌下的编程产品线持续发展。 此次调整后，字节也进一步明确了豆包的 AI 主干业务定位，将 AI 办公类产品",
-      "companies": [
-        "Anthropic",
-        "字节跳动"
-      ],
-      "heat": 37.6,
-      "tags": [
-        "大模型",
-        "商业融资"
-      ]
-    },
-    {
-      "title": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
-      "link": "https://www.infoq.cn/article/REPGvBlF661I4hRmvV8J?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T14:20:17.000Z",
-      "summary": "AI摘要 GOAI大赛复赛启动，四大赛道进入作品深化与实操验证阶段，强调开源协同、工程落地与安全可控。 赛道一“新智基座”强制要求基于AgentTeams构建多角色协同Agent系统，并规范Skill设计与高风险操作治理机制。 复赛提交物明确包含可执行代码、链路验证材料及限时Demo视频，突出真实运行能力。 适合AI Infra工程师、智能体系统架构师、开源项目负责人阅读 经过初赛的激烈角逐与严格",
-      "companies": [],
-      "heat": 37.4,
-      "tags": [
-        "大模型",
-        "智能体"
-      ]
-    },
-    {
-      "title": "Pro 和 Flash 系列“冰火两重天”，曝谷歌内部开始测试 Gemini 3.8 Flash 模型",
-      "link": "https://www.ithome.com/0/995/594.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T07:06:34.000Z",
-      "summary": "IT之家 8 月 28 日消息，谷歌本月才刚发布新模型，下一款就已经进入员工测试阶段，部分谷歌员工开始试用 Gemini 3.8 Flash 预览版。 据《商业内幕》今天（28 日）报道，为了追赶 OpenAI 和 Anthropic，谷歌正在以数周为间隔快速更新模型，AI 竞赛的节奏也由此可见一斑。 这款内部名称为“Gemini 3.8 Flash Preview”的模型已经登陆谷歌内部编程平台",
-      "companies": [
-        "OpenAI",
-        "Anthropic",
-        "Google"
-      ],
-      "heat": 33.6,
-      "tags": [
-        "大模型",
-        "AI 动态"
-      ]
-    },
-    {
-      "title": "消息称 Anthropic 曾有意收购芯片企业 MatX，双方谈判现已转向合作模式",
-      "link": "https://www.ithome.com/0/995/591.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T07:00:34.000Z",
-      "summary": "IT之家 8 月 28 日消息，路透社美国当地时间 27 日报道称，人工智能模型与服务企业 Anthropic 曾有意以约 70 亿美元（IT之家注：现汇率约合 471.6 亿元人民币）收购人工智能芯片企业 MatX，不过双方的谈判现已转向合作模式。 MatX 正寻求以约 40 亿美元（现汇率约合 269.49 亿元人民币）的估值筹集新资金。 。在训练和推理预填充上，其算力表现出色；而在推理解码与",
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 32.8,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
-      "link": "https://www.qbitai.com/2026/08/480487.html",
-      "source": "量子位",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T06:13:59.000Z",
-      "summary": "量子位 | 公众号 QbitAI 继昨天下午线上阻止「今日瓜男」转账5000万后，Claude又在今天凌晨整了一个颇有《超体》意味的新发布—— 这一次，它开始把触角真正伸进物理世界。 刚刚，Claude母公司Anthropic发布了一套全新 模型硬件标准（Model Hardware Standard） ，简称MHS。 简单来说，MHS是一套面向硬件的驱动和设备描述标准，可以理解为 物理世界的MC",
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 32,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "智谱 GLM-5.3-Flash上线，商汤大装置提供国产算力支持",
-      "link": "https://www.qbitai.com/2026/08/480223.html",
-      "source": "量子位",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T04:06:16.000Z",
-      "summary": "国产异构助力前沿智能进入普惠时代",
-      "companies": [
-        "智谱"
-      ],
-      "heat": 31.5,
-      "tags": [
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "The Hugging Face incident and the road ahead",
-      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T00:00:00.000Z",
-      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 31.5,
-      "tags": [
-        "大模型",
-        "政策与安全"
-      ]
-    },
-    {
-      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-      "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T17:43:24.000Z",
-      "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of",
-      "companies": [
-        "OpenAI",
-        "Anthropic",
-        "Google"
-      ],
-      "heat": 31.2,
-      "tags": [
-        "大模型",
-        "政策与安全"
-      ]
-    },
-    {
-      "title": "神秘“牛来”大模型上线即登顶 背后厂商至今未揭晓",
-      "link": "http://www.techweb.com.cn/internet/2026-08-24/2978492.shtml",
-      "source": "TechWeb",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-24T06:52:11.000Z",
-      "summary": "【TechWeb】8月24日消息，近日，一款代号为Ox Alpha的匿名AI模型在OpenRouter悄然上线，短时间内调用量迅速攀升，成功冲至平台榜首，并刷新了该平台的单日模型用量纪录。 因其代号“Ox”意为公牛，加上近期一部名为《牛来》的抽象电影走红网络，国内网友便为其取了接地气的昵称——“牛来”大模型。 OpenRouter最新数据显示，仅Hermes Agent、Claude Code等前",
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 31.1,
-      "tags": [
-        "大模型",
-        "智能体"
-      ]
-    },
-    {
-      "title": "世界人工智能开源大赛（GOAI）初赛评审结果暨晋级名单公告",
-      "link": "https://www.infoq.cn/article/Y410fSRGi67fUrNUuzYb?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T17:56:39.000Z",
-      "summary": ">",
-      "companies": [],
-      "heat": 30.9,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "Nvidia closes in on Hugging Face acquisition",
-      "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T06:32:51.000Z",
-      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 30.8,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "早报｜苹果新iPhone 9月10日见/特斯拉中国辟谣上海数据中心撤离/工信部:严禁未经充分测试验证的汽车产品进入市场",
-      "link": "https://www.ifanr.com/1676848?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T00:41:31.000Z",
-      "summary": "· ChatGPT Business 开放 Premium 席位，用量提高至 5 倍 · 顺丰回应薪酬结构调整：15% 纳入季度考核，不涉及一、二线员工 · 百度股东会通过双重主要上市相关决议",
-      "companies": [
-        "OpenAI",
-        "Apple",
-        "百度"
-      ],
-      "heat": 30.1,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "马斯克真要把英伟达算力“送上天”了，首批AI卫星2027年发射",
-      "link": "http://www.techweb.com.cn/it/2026-08-25/2978510.shtml",
-      "source": "TechWeb",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-25T02:16:11.000Z",
-      "summary": "【TechWeb】8月25日消息，美国太空探索技术公司（SpaceX）与芯片巨头英伟达（NVIDIA）联合宣布，双方将合作设计一套专为太空环境优化的高性能算力系统，并计划于2027年第四季度发射首批搭载该系统的“Starmind AI”卫星，2028年实现大规模部署。 这一消息由SpaceX首席执行官埃隆·马斯克在社交媒体平台X上率先发布，英伟达官方账号同步确认，随后英伟达官网发布了题为《Spac",
-      "companies": [
-        "xAI",
-        "NVIDIA"
-      ],
-      "heat": 29.6,
-      "tags": [
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "苹果 Mac mini M6 发布：两年涨 2500 块，AI 税反噬「龙虾神机」",
-      "link": "http://www.geekpark.net/news/369354",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-25T14:46:38.000Z",
-      "summary": "「内存涨价狂潮」，专门吃掉便宜的那一档 作者｜张勇毅 编辑｜靖宇 只要是今年持续有关注 AI 软件领域的人，你一定不会忘记 Mac mini 在其中的「江湖」地位：因为 OpenClaw 爆火，这类工具要一台机器长期开着跑，因此量大管饱的 Mac mini M4 成为了版本答案，即使它已经是 2024 年的产品，但依旧没有阻挡大家的热情，最终将其捧上龙虾神机的宝座。 半年过去，北京时间 8 月 2",
-      "companies": [
         "Apple"
       ],
-      "heat": 28.4,
-      "tags": [
-        "AI 动态"
-      ]
+      "heat": 79.8
     },
     {
-      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
-      "link": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T14:56:52.000Z",
-      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
-      "companies": [],
-      "heat": 27.6,
-      "tags": [
-        "大模型",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "字节AI 产品向豆包集结，Agent 时代第一场巨头战役打响",
-      "link": "http://www.geekpark.net/news/369344",
+      "title": "ChatGPT 占全球 AI 聊天流量超 81%；iOS 27.3 曝光 Siri「个人记忆系统」；传玛莎拉蒂+尊界合作新车曝光｜极客早知道",
+      "link": "http://www.geekpark.net/news/373736",
       "source": "极客公园",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-25T08:58:10.000Z",
-      "summary": "头图来源：视觉中国、ChatGPT 生成 8 月 25 日，字节做了一个大动作：正式发布面向生产力场景的 Agent 产品「豆包工作」。 它可以自主拆解任务、调用工具，完成文档、表格、PPT 及多媒体内容制作，并通过虚拟桌面操作电脑和浏览器；接入飞书后，还能调用企业的消息、文档、会议和权限等上下文，进一步完成周报、解决方案、风险识别与经营分析等复杂工作。 。 一天前，字节完成了新一轮办公 AI 产",
+      "pubDate": "2026-11-10T00:19:15.000Z",
+      "summary": "ChatGPT占全球AI聊天流量超81%；iOS 27.3曝光Siri「个人记忆系统」；Anthropic发布Claude Fable/Mythos 5.2双模型，API调用费降20%",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 4,
       "companies": [
         "OpenAI",
-        "字节跳动"
+        "Anthropic",
+        "Apple"
       ],
-      "heat": 26.1,
-      "tags": [
-        "大模型",
-        "智能体"
-      ]
+      "heat": 50.7
     },
     {
-      "title": "机器人运动会散场后，自变量给机器人建了一座「虚拟训练场」",
-      "link": "https://www.ifanr.com/1677048?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
+      "title": "当 AI 在加速狂奔，什么反而应该“慢”下来？",
+      "link": "https://www.infoq.cn/article/Guys6YS7FsKUg8dLtMJx?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-27T10:34:37.000Z",
-      "summary": "具身智能的「ChatGPT 时刻」，看谁能更快走进现实",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 25.8,
+      "pubDate": "2026-11-09T13:41:41.000Z",
+      "summary": "探讨AI加速发展背景下需‘慢下来’的关键领域：伦理对齐、系统韧性、人才培育与治理节奏",
       "tags": [
-        "大模型",
-        "具身智能"
-      ]
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 47.3
     },
     {
-      "title": "稳居开源模型第一梯队，腾讯发布混元 Hy4 preview 模型",
-      "link": "https://www.ithome.com/0/995/570.htm",
-      "source": "IT之家",
+      "title": "当AI在加速狂奔，什么反而应该“慢”下来？",
+      "link": "https://www.qbitai.com/2026/11/508586.html",
+      "source": "量子位",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-28T06:15:34.000Z",
-      "summary": "IT之家 8 月 28 日消息，腾讯官方今日发布了 Hy4 preview，总参数 770 B，激活参数 49 B，上下文长度 1M。 官方表示，Hy4 preview 在模型尺寸、上下文长度、数据规模上都进行了显著的扩展，预训练和后训练的共同进步带来了智能水平的又一次巨大提升，稳居开源模型第一梯队。 通过与腾讯内部软工、游戏、金融、安全等领域顶尖专家的高质量数据共建，Hy4 preview 在各",
+      "pubDate": "2026-11-09T03:47:12.000Z",
+      "summary": "AI正从对话交互迈向自主交付；腾讯WorkBuddy累计承接超90亿次任务请求，Token消耗显著增长",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
       "companies": [
         "腾讯"
       ],
-      "heat": 24.9,
-      "tags": [
-        "大模型",
-        "政策与安全"
-      ]
+      "heat": 41
     },
     {
-      "title": "你的 Agent 已经上线生产环境，下一步怎么办？ | 技术实践",
-      "link": "https://www.infoq.cn/article/mKFB15kPm6Uw8fNG4Y7e?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T11:53:03.000Z",
-      "summary": "AI摘要 Cortex Agents 正扩展新能力，聚焦企业级 AI agent 的规模化运营挑战，重点解决编排、执行与治理难题。新增 Coding Agent 和 Skills Package 两项预览功能，分别提供托管式编码能力与可复用技能封装机制。所有能力均构建于 Snowflake 内的统一 runtime 之上。 Coding Agent 提供托管式编码能力，支持嵌入任意应用；Skill",
-      "companies": [],
-      "heat": 23.8,
-      "tags": [
-        "智能体",
-        "AI 动态"
-      ]
-    },
-    {
-      "title": "早报｜iPhone 17登顶Q2最畅销智能手机/《GTA6》公布26分钟实机演示/追觅咖啡回应多店闭店",
-      "link": "https://www.ifanr.com/1677210?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T00:09:21.000Z",
-      "summary": "· 小鹏 Robotaxi 获广州全无人道路测试资质 · Anthropic 与 Nscale 签下 450 亿美元算力合同 · B 站第二季度营收 79.4 亿元，净利润同比增长 55%",
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 23.2,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-      "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T19:52:52.000Z",
-      "summary": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
-      "companies": [
-        "OpenAI",
-        "Google"
-      ],
-      "heat": 23.1,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "深度绑定阿里云！MiniMax大幅上修算力采购上限至5亿美元",
-      "link": "http://www.techweb.com.cn/it/2026-08-27/2978567.shtml",
-      "source": "TechWeb",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T01:57:34.000Z",
-      "summary": "【TechWeb】8月27日消息，AI大模型公司MiniMax（股份代号：0100）交出了首份中期成绩单。截至2026年6月30日止六个月，MiniMax公司录得总收入1.17亿美元，同比增长283.1%，这一数字已超越2025年全年总收入。在收入狂飙的同时，MiniMax公司经调整净亏损也扩大至2.93亿美元，反映出AI赛道高昂的研发与基础设施投入成本。 此外，MiniMax公司近期大幅上调了与",
-      "companies": [
-        "阿里巴巴",
-        "MiniMax"
-      ],
-      "heat": 22.7,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "OpenAI Is Developing a ‘Persistent’ AI Agent",
-      "link": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
-      "source": "Wired",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T16:52:42.000Z",
-      "summary": "Code reviewed by WIRED reveals the company is developing a feature that enables Codex to continue working proactively until it is “put to sleep.”",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 21.8,
-      "tags": [
-        "大模型",
-        "智能体"
-      ]
-    },
-    {
-      "title": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
-      "link": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T11:35:59.000Z",
-      "summary": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 21.3,
-      "tags": [
-        "大模型",
-        "商业融资"
-      ]
-    },
-    {
-      "title": "OpenAI&#8217;s executive exodus has one big winner",
-      "link": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T14:00:00.000Z",
-      "summary": "Today on Decoder, I’m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power un",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 20.7,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "How do we explain OpenAI’s executive exodus?",
-      "link": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T19:34:04.000Z",
-      "summary": "Was Greg Brockman the right executive all along?",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 20.7,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "如何解释OpenAI高管的离职潮？",
-      "summaryZh": "OpenAI高管离职引发讨论。"
-    },
-    {
-      "title": "谷歌落后一个时代？CEO 亲自官宣“语音转文字”模型，网友：你们看不清形势啊",
-      "link": "https://www.infoq.cn/article/MCTm2NvWob0ZHulXe0AQ?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T10:58:42.000Z",
-      "summary": "AI摘要 Gemini 3.5 Transcribe 是谷歌新发布的端到端语音转文本模型，聚焦语义修正与成稿级输出，支持85+语言自动识别与混语转录。 支持语气词过滤与口误修正；实现跨语种无缝切换与专业数字串精准识别；面向真实场景优化噪声、重叠说话与口音鲁棒性。 适合AI语音工程师、会议系统架构师、多语言客服平台开发者阅读。 8 月 26 日，谷歌发布新一代语音转文本模型 Gemini 3.5 T",
-      "companies": [
-        "Google"
-      ],
-      "heat": 20.6,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
-      "link": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/",
-      "source": "Wired",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T18:06:52.000Z",
-      "summary": "The potential for AI to automate scientific research and manufacturing must be balanced with new risks, Anthropic says.",
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 20.5,
-      "tags": [
-        "大模型",
-        "智能体"
-      ]
-    },
-    {
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "source": "Google DeepMind",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-27T16:11:32.000Z",
-      "summary": "Gemini Omni 1.1 Flash lets you build with more control Aug 27, 2026 Omni now delivers studio-quality video production, including the ability to extend a scene, first and last frame interpolation, cris",
-      "companies": [
-        "Google"
-      ],
-      "heat": 20.5,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "OpenAI’s rogue AI model incident was worse than we thought",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T21:36:06.000Z",
-      "summary": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get acc",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 20.2,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "OpenAI 的违规 AI 模型事件比我们想象的更严重",
-      "summaryZh": "OpenAI报告称其未发布的模型曾突破限制并自主入侵其他系统。"
-    },
-    {
-      "title": "AI 开始给自己造芯了，OpenAI 只用了九个月",
-      "link": "https://www.ifanr.com/1676824?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T12:07:59.000Z",
-      "summary": "造芯片，是大模型公司的必备素养",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 19.8,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "开源电子书工具 Calibre 9.14 发布：首次引入 AI 生成封面",
-      "link": "https://www.ithome.com/0/995/569.htm",
+      "title": "腾讯首款专属 AI 游戏陪伴 Agent“鹅次元”开启内测，支持实时陪聊、手机 QQ 陪伴聊天等",
+      "link": "https://www.ithome.com/1/024/620.htm",
       "source": "IT之家",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-28T06:12:37.000Z",
-      "summary": "IT之家 8 月 28 日消息，科技媒体 Linuxiac 今天（8 月 28 日）发布博文，报道称开源电子书管理器 Calibre 推出 9.14 版本更新，首次引入了由 AI 驱动的电子书封面图像生成器。 IT之家援引博文介绍，对于同人小说、自制 PDF / EPUB 文档等内容而言，因为缺少官方封面，经常会在书架上显示为“空白方块”或“简陋文字块”等。 而 Calibre 9.14 版支持用",
-      "companies": [],
-      "heat": 19.5,
+      "pubDate": "2026-11-10T01:43:25.000Z",
+      "summary": "腾讯首款AI游戏陪伴Agent‘鹅次元’开启内测，支持游戏画面感知、实时陪聊、QQ跨端互动及桌宠功能。",
       "tags": [
-        "大模型",
-        "AI 动态"
-      ]
+        "智能体"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "腾讯"
+      ],
+      "heat": 37.7
     },
     {
-      "title": "Anthropic 推出 MHS 标准，首度重拳杀入物理 AI 领域",
-      "link": "https://www.ithome.com/0/995/514.htm",
+      "title": "IT早报 1110：出轨风波后英伟达宣布 CEO 黄仁勋仍将留任；华为、江淮和 Stellantis 三方合作车型外观确认；尊界或推 40-50 万子品牌；奥迪 A8 旗舰轿车停产...",
+      "link": "https://www.ithome.com/1/024/579.htm",
       "source": "IT之家",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-28T04:46:12.000Z",
-      "summary": "IT之家 8 月 28 日消息，Anthropic 昨日（8 月 27 日）发布博文，宣布以研究预览形式，发布模型硬件标准（Model Hardware Standard，MHS），路透社、CNBC 等媒体解读认为这标志着该公司首次公开进军具身智能与物理 AI（Physical AI）领域。 Physical AI（物理人工智能 / 实体 AI）是指能够感知物理世界、在其中执行复杂动作并持续学习的",
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 19.2,
-      "tags": [
-        "大模型",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "小米苹果抢着用：2nm制程芯片比3nm好在哪",
-      "link": "http://www.techweb.com.cn/it/2026-08-24/2978485.shtml",
-      "source": "TechWeb",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-24T03:10:46.000Z",
-      "summary": "智能手机行业每隔几年都会迎来一次芯片制程升级，按照目前曝光信息，小米18系列预计将搭载第六代骁龙8至尊版移动平台，而苹果iPhone 18 Pro系列预计采用A20 Pro芯片，有消息称两款旗舰芯片都将采用台积电N2，也就是2nm制程工艺。 那么，所谓“2nm制程”到底是什么意思？它真的比现在主流的3nm芯片先进很多吗？今天我们就来简单聊聊。 很多稍微了解过芯片的消费者可能会认为，2nm芯片就是晶",
-      "companies": [
-        "Apple"
-      ],
-      "heat": 18.2,
-      "tags": [
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "link": "https://www.infoq.cn/article/JDYKJmiY9vTRSw47t15a?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T14:00:00.000Z",
-      "summary": "Cloudflare 最近推出了 Kitesurf ，一款专为自动化工作负载构建的轻量级浏览器。Kitesurf 在 Cloudflare Workers 上隔离的 WebAssembly/Rust 环境中运行浏览器组件，并支持 Chrome DevTools 协议，允许 Playwright 和 Puppeteer 等工具以低于完整 Chromium 浏览器的资源开销来驱动它。 Kitesurf",
-      "companies": [],
-      "heat": 17.6,
-      "tags": [
-        "智能体"
-      ]
-    },
-    {
-      "title": "大模型推理加速全链路：内存管理、编译优化、量化与并行策略",
-      "link": "https://www.infoq.cn/article/AN2AuAT58V9fe8KXD2zi?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T17:47:44.000Z",
-      "summary": ">",
-      "companies": [],
-      "heat": 17.1,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "为什么苹果、小米的 AI 电脑，都在死磕「内存墙」｜AI 器物志",
-      "link": "https://www.ifanr.com/1676852?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T10:15:44.000Z",
-      "summary": "算力飞奔，内存掉队",
-      "companies": [
-        "Apple"
-      ],
-      "heat": 17.1,
-      "tags": [
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "1周半写64个PR、完成30%项目重构：一家成熟SaaS公司把Agent塞进研发全流程后",
-      "link": "https://www.infoq.cn/article/0yv69MyNwHiwY3IZXPQt?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T11:43:17.000Z",
-      "summary": "AI摘要 Calendly 将 Agentic Engineering 落地于真实生产环境，Agent 全链路参与需求拆解、编码、测试与 QA，人类仅负责 Review 与 Merge；IAM 团队一周半内通过 Agent 完成 64 个 PR，覆盖大型解耦项目 30% 工作量；工程瓶颈已从编码能力转向需求对齐与人类判断力。 Agent 在 Jira-GitHub-CI 生产闭环中稳定执行端到端开",
-      "companies": [],
-      "heat": 16.8,
-      "tags": [
-        "大模型",
-        "智能体"
-      ]
-    },
-    {
-      "title": "智谱认领“牛来”模型，实测：“牛马”友好",
-      "link": "https://www.infoq.cn/article/sTYSudHtvkbNJvuSbp31?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T11:32:33.000Z",
-      "summary": "AI摘要 智谱确认Ox Alpha即其新发布的GLM-5.3-Flash，该模型以匿名形式首发于OpenRouter，主打长上下文（104万Token）、多模态输入（文本/图像/视频）与生产级Agent任务支持。 GLM-5.3-Flash明确面向代码生成与复杂推理场景；提供100万亿Token/日服务容量，支撑大规模真实负载验证；104万Token上下文为当前公开推理模型中最高之一。 适合AI基",
-      "companies": [
-        "智谱"
-      ],
-      "heat": 16.2,
-      "tags": [
-        "大模型",
-        "智能体"
-      ]
-    },
-    {
-      "title": "34克、全天候AI，1996元起，雷鸟iO热卖加速智能眼镜全民普及",
-      "link": "https://www.qbitai.com/2026/08/480202.html",
-      "source": "量子位",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T03:03:42.000Z",
-      "summary": "8 月 27 日，全球领先消费级 AR 品牌雷鸟创新（RayNeo）公布雷鸟 iO 首销战报",
-      "companies": [],
-      "heat": 15.8,
+      "pubDate": "2026-11-09T23:55:30.000Z",
+      "summary": "IT早报合集：英伟达CEO黄仁勋留任；华为江淮Stellantis合作车型外观确认；尊界拟推子品牌；奥迪A8停产。",
       "tags": [
         "AI 动态"
-      ]
-    },
-    {
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T10:00:00.000Z",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "companies": [
-        "OpenAI"
       ],
-      "heat": 15.5,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "商汤大装置助力智象未来实现视频生成业务向国产算力无感迁移",
-      "link": "https://www.qbitai.com/2026/08/480227.html",
-      "source": "量子位",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T04:09:39.000Z",
-      "summary": "国产算力跑通视频生成规模化应用",
-      "companies": [],
-      "heat": 15,
-      "tags": [
-        "芯片算力",
-        "AI 动态"
-      ]
-    },
-    {
-      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
-      "link": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
-      "source": "Ars Technica",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T14:00:13.000Z",
-      "summary": "227 install commands were found in corporate docs pointing at code nobody owns.",
+      "llmScore": 2,
       "companies": [
-        "Anthropic"
-      ],
-      "heat": 14.4,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "李想：理想品牌的电池将陆续搭载到全系车型，自研并不代表供应商的产品不够好",
-      "link": "https://www.ithome.com/0/995/510.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T04:18:27.000Z",
-      "summary": "IT之家 8 月 28 日消息，据蓝鲸汽车报道，在理想汽车 2026 年 Q2 业绩电话会上，理想汽车 CEO 李想表示，今年下半年起，理想品牌的电池将会陆续搭载到全系车型。 需要强调的一点是，自研并不代表供应商的产品不够好。我们自研马赫芯片，并不影响英伟达仍然是全世界最好的芯片品牌。我们自研电池，也不影响宁德在内的品牌是全世界最好的电池品牌。 李想进一步指出，在具身智能时代，理想汽车的战略判断是",
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 14.3,
-      "tags": [
-        "芯片算力",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "国家发改委：发展机器人产业必须因地制宜，防止盲目跟风、一哄而上",
-      "link": "https://www.ithome.com/0/995/481.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T03:04:28.000Z",
-      "summary": "IT之家 8 月 28 日消息，据国家发展改革委官网文字实录，国家发展改革委政策研究室副主任李超在今日的发改委 8 月份例行发布会上表示，机器人产业涉及人工智能、先进制造、新材料等诸多前沿技术，必须坚持因地制宜、健康有序发展，立足本地资源禀赋和产业优势，找准定位、发挥优势，防止盲目跟风、一哄而上，推动相关产业发展能够行稳致远。 下一步，国家发展改革委将聚焦务实管用、落地见效，以具身智能实训场和应用",
-      "companies": [],
-      "heat": 14,
-      "tags": [
-        "具身智能",
-        "政策与安全"
-      ]
-    },
-    {
-      "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
-      "link": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T16:00:00.000Z",
-      "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-plann",
-      "companies": [
-        "Google"
-      ],
-      "heat": 13.3,
-      "tags": [
-        "智能体"
-      ]
-    },
-    {
-      "title": "M3 系列 Mac 原生 Linux 支持最后冲刺，Asahi 攻克 USB 3.0 高速传输等底层壁垒",
-      "link": "https://www.ithome.com/0/995/522.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T05:45:59.000Z",
-      "summary": "IT之家 8 月 28 日消息，科技媒体 Linuxiac 昨日（8 月 27 日）发布博文，报道称开源操作系统项目 Asahi Linux 官方宣布，针对苹果 M3 系列 Mac 电脑的原生 Linux 支持已步入最后冲刺阶段，核心驱动代码已被正式并入 Linux 7.2 内核主线周期。 该媒体指出苹果 M3 系列芯片采用了高度定制化的电源管理、显示控制器以及独家硬件元器件，如何在不损害硬件寿命",
-      "companies": [
-        "Apple"
-      ],
-      "heat": 12.9,
-      "tags": [
-        "大模型",
-        "芯片算力"
-      ]
-    },
-    {
-      "title": "OpenAI 的中场战事",
-      "link": "https://www.ifanr.com/1676929?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T07:24:07.000Z",
-      "summary": "当领先者不易，当追赶者更不易",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 12.8,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "link": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-27T03:00:00.000Z",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 12.8,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-27T09:00:00.000Z",
-      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 12.4,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T03:14:06.000Z",
-      "summary": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump ad",
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 12,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "A Judge Has Blocked the Pentagon’s Attempt to Blacklist Anthropic",
-      "link": "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/",
-      "source": "Wired",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T03:04:14.000Z",
-      "summary": "A federal judge has called the Department of Defense’s designation of Anthropic as a national security supply-chain risk “illegal and baseless.”",
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 12,
-      "tags": [
-        "大模型",
-        "政策与安全"
-      ]
-    },
-    {
-      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
-      "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T21:37:39.000Z",
-      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
-      "companies": [
-        "Anthropic"
-      ],
-      "heat": 12,
-      "tags": [
-        "大模型"
-      ],
-      "titleZh": "Anthropic在与Nscale的450亿美元交易中继续其算力消耗趋势",
-      "summaryZh": "Anthropic 与 Nscale 达成 450 亿美元的计算资源交易。"
-    },
-    {
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "link": "https://openai.com/index/introducing-admin-plugin",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-25T00:00:00.000Z",
-      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 11.9,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "MiniMax 违背「祖训」，企业收入暴涨 700%，偷偷变成了「卖铲子」的",
-      "link": "https://www.ifanr.com/1676874?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T02:48:30.000Z",
-      "summary": "8 亿美元 ARR 背后，MiniMax 的 Agent 基建与效率暗战.",
-      "companies": [
-        "MiniMax"
-      ],
-      "heat": 11.7,
-      "tags": [
-        "智能体"
-      ]
-    },
-    {
-      "title": "硅谷押注的下一个 Harness，是整个桌面操作系统",
-      "link": "http://www.geekpark.net/news/369298",
-      "source": "极客公园",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-24T09:57:38.000Z",
-      "summary": "不是 AI 操作系统，是 AI 读得懂的操作系统 作者｜张勇毅 编辑｜靖宇 截止目前，有了 DeepSeek Harness 之类 CLI 产品之后，你电脑里的 AI 几乎已经无所不能：它可以总结网页，润色邮件，改两张图。 目前做不了几乎只有一件事：碰你的电脑本身。 有一个操作系统反过来做了这件事。它叫 Omarchy，一个 Linux 发行版，8 月 14 日发布了 4.0 版本：AI 直接装在",
-      "companies": [
-        "DeepSeek"
-      ],
-      "heat": 11.7,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "九号 A2 电动轻便摩托车推出《蛋仔派对》联名款，首发价 3399 元起",
-      "link": "https://www.ithome.com/0/995/521.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T05:43:30.000Z",
-      "summary": "IT之家 8 月 28 日消息，九号电动今日宣布，A2 电动轻便摩托车推出《蛋仔派对》联名款，首发价 3399 元起。 据介绍，该车采用《蛋仔派对》专属整车联名外观，圆润萌系配色；配备《蛋仔派对》主题仪表，九号 App 专属界面，蛋仔专属个性音效、RideyFUN 智驾系统；提供专属 NFC 卡片，定制帆布袋。 该车拥有 1115mm 短轴距、735mm 黄金座高、1.5m 转弯半径、10 寸大胖",
-      "companies": [],
-      "heat": 11,
-      "tags": [
-        "具身智能",
-        "AI 动态"
-      ]
-    },
-    {
-      "title": "鸿蒙生态大会发起鸿图计划，华为全力支持",
-      "link": "https://www.ithome.com/0/995/497.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T03:42:13.000Z",
-      "summary": "IT之家 8 月 28 日消息，据财联社报道，鸿蒙生态大会 8 月 28 日宣布发起鸿图计划，旨在聚力鸿蒙生态产业链芯片、模组、OSV、设备伙伴，投入专项资源，通过开发激励、测评激励、商用激励多维并举，共同做强鸿蒙生态底座，实现鸿蒙生态规模化落地千行百业。该计划由 GIIC 联盟（全球智慧物联网联盟）发起、华为全力支持。 IT之家注意到，鸿蒙生态大会 2026（HEC 2026）于 8 月 28 ",
-      "companies": [
+        "NVIDIA",
         "华为"
       ],
-      "heat": 10.3,
-      "tags": [
-        "芯片算力"
-      ]
+      "heat": 34.5
     },
     {
-      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-      "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "source": "Google DeepMind",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-26T17:01:00.000Z",
-      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
-      "companies": [
-        "Google"
-      ],
-      "heat": 10.3,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
-      "link": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
-      "source": "TechCrunch AI",
-      "lang": "en",
+      "title": "消息称 Anthropic 计划通过 IPO 募集至多 693 亿美元资金，规模锁定历史前二",
+      "link": "https://www.ithome.com/1/024/694.htm",
+      "source": "IT之家",
+      "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-26T19:37:34.000Z",
-      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
+      "pubDate": "2026-11-10T02:28:54.000Z",
+      "summary": "Anthropic计划IPO募资至多693亿美元，规模仅次于SpaceX，创AI公司历史第二高融资纪录。",
+      "tags": [
+        "商业融资"
+      ],
+      "llmScore": 5,
       "companies": [
-        "Google"
+        "Anthropic"
       ],
-      "heat": 9.3,
-      "tags": [
-        "大模型",
-        "AI 动态"
-      ],
-      "titleZh": "Google的Gemini存在品牌问题，其他AI也一样",
-      "summaryZh": "Gemini面临品牌认知挑战。"
+      "heat": 30.2
     },
     {
-      "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
-      "link": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
-      "source": "Wired",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T21:08:34.000Z",
-      "summary": "This week on “Uncanny Valley,” senior writer Will Knight talks his recent visit to China and the future of AI collaboration.",
-      "companies": [],
-      "heat": 8.4,
-      "tags": [
-        "智能体"
-      ]
-    },
-    {
-      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
-      "link": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T13:00:00.000Z",
-      "summary": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
-      "companies": [
-        "Apple"
-      ],
-      "heat": 8.4,
-      "tags": [
-        "智能体",
-        "AI 动态"
-      ]
-    },
-    {
-      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
-      "link": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
-      "source": "Ars Technica",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T21:25:27.000Z",
-      "summary": "Report shows Meta's challenges replacing people with AI agents.",
-      "companies": [
-        "Meta"
-      ],
-      "heat": 8.4,
-      "tags": [
-        "智能体"
-      ],
-      "titleZh": "旨在取代Meta员工的AI代理做出了“大规模、破坏性行动”",
-      "summaryZh": "Meta尝试用AI代理替代员工引发问题"
-    },
-    {
-      "title": "Cloudflare 利用 AI 智能体将 Astro GitHub 问题减少 85%",
-      "link": "https://www.infoq.cn/article/iJu3eUyEhEI373KeYhYN?utm_source=rss&utm_medium=article",
+      "title": "触觉也能 Token 化！蚂蚁灵波发布通用触觉模型，把“具身原生”推进到机器人指尖",
+      "link": "https://www.infoq.cn/article/W7VPoeNBPX4y2u72WAGM?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-27T17:00:00.000Z",
-      "summary": ">",
-      "companies": [],
-      "heat": 8,
+      "pubDate": "2026-11-10T10:40:29.000Z",
+      "summary": "蚂蚁灵波开源通用触觉基础模型，实现触觉信号Token化，支持跨硬件/模型/任务的机器人指尖感知复用",
       "tags": [
-        "大模型",
-        "智能体"
-      ]
+        "具身智能"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 29.9
     },
     {
-      "title": "Here’s all the times AI has gone rogue and hacked other companies",
-      "link": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
-      "source": "TechCrunch AI",
-      "lang": "en",
+      "title": "Meta 推出轻量级 AI 模型 Muse Ember：跑分媲美 Claude Haiku 5.5，单任务成本仅 1/3",
+      "link": "https://www.ithome.com/1/024/604.htm",
+      "source": "IT之家",
+      "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-27T14:01:42.000Z",
-      "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "pubDate": "2026-11-10T00:59:26.000Z",
+      "summary": "Meta推出轻量级AI模型Muse Ember，效率高、成本低，跑分媲美Claude Haiku 5.5，单任务成本仅1/3。",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 4,
       "companies": [
-        "OpenAI",
         "Anthropic",
         "Meta"
       ],
-      "heat": 7.4,
-      "tags": [
-        "大模型"
-      ]
+      "heat": 29.7
     },
     {
-      "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
-      "link": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
+      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
       "source": "The Verge AI",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-08-26T21:40:53.000Z",
-      "summary": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet h",
-      "companies": [
-        "NVIDIA",
-        "Apple"
-      ],
-      "heat": 7.1,
-      "tags": [
-        "芯片算力",
-        "商业融资"
-      ],
-      "titleZh": "Nvidia即将成为每季度营收达百亿美元的公司",
-      "summaryZh": "Nvidia预计季度营收将达1080亿美元，成为百亿美元级公司。"
-    },
-    {
-      "title": "Google’s new AI transcription edits out your &#8216;ums&#8217; and &#8216;ahs&#8217;",
-      "link": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-26T17:00:00.000Z",
-      "summary": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini famil",
-      "companies": [
-        "Google"
-      ],
-      "heat": 6.7,
+      "pubDate": "2026-11-09T19:00:00.000Z",
+      "summary": "Anthropic发布Claude Fable 5.2与Mythos 5.2新模型，宣称专为解决高难度技术任务并提升推理性能",
       "tags": [
         "大模型"
-      ]
-    },
-    {
-      "title": "Google’s AI note-taking app now allows you to interact with books",
-      "link": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
-      "source": "The Verge AI",
-      "lang": "en",
-      "tier": "trusted",
-      "pubDate": "2026-08-27T19:30:00.000Z",
-      "summary": "Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Books directly",
-      "companies": [
-        "Google"
       ],
-      "heat": 6.3,
-      "tags": [
-        "大模型",
-        "AI 动态"
-      ]
-    },
-    {
-      "title": "终于来了！DeepSeek多模态视觉模型API全面开放",
-      "link": "http://www.techweb.com.cn/it/2026-08-21/2978436.shtml",
-      "source": "TechWeb",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-21T09:53:44.000Z",
-      "summary": "【TechWeb】8月21日消息，刚刚，DeepSeek官方正式宣布，全新的多模态视觉理解模型DeepSeek-V4-Flash-Vision-Exp上线DeepSeek API平台。这意味着，在纯文本模型V4-Flash奠定行业标杆之后，DeepSeek终于补齐了“视觉理解”这块重要拼图，向开发者正式开放了多模态API能力。 DeepSeek强调，作为一款“实验性模型”，DeepSeek-V4-",
+      "llmScore": 4,
       "companies": [
-        "DeepSeek"
+        "Anthropic"
       ],
-      "heat": 5.3,
-      "tags": [
-        "大模型"
-      ]
+      "heat": 29.7,
+      "titleZh": "Anthropic 推出全新 Claude Fable 与 Mythos 5.2 模型",
+      "summaryZh": "Anthropic发布Claude Fable与Mythos 5.2新模型，专攻高难度技术推理任务，并宣称性能显著提升。"
     },
     {
-      "title": "Cloudflare 将工程规范改造为 AI 强制执行的管控系统",
-      "link": "https://www.infoq.cn/article/TEgX02zINMmLVbYPyP0N?utm_source=rss&utm_medium=article",
+      "title": "OpenAI、Anthropic、Google 各有接口，开放标准离统一还有多远？",
+      "link": "https://www.infoq.cn/article/5e8Qs11VHRHRyYsB2kFO?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-28T10:53:07.000Z",
-      "summary": "Cloudflare 最近详细介绍了 其如何利用 AI 将内部工程标准从被动文档转变为在软件开发生命周期中主动执行的控制系统。报告显示，自 2026 年初以来，该公司的 AI 代码审查工具已识别出近 23 万处不符合工程规范的问题，其中近 1.6 万处导致审批被驳回。Cloudflare 还将同样的方法应用于技术设计和事故报告，使用一个叫作 Cloudflare Codex 的中央知识库作为其工程",
-      "companies": [],
-      "heat": 3.9,
+      "pubDate": "2026-11-09T14:35:00.000Z",
+      "summary": "AGNTCon+MCPCon 2026推动Agentic AI标准建设；MCP转向安全议题，Agentic AI Foundation新增四个项目",
       "tags": [
-        "AI 动态"
-      ]
+        "智能体"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "heat": 29
     },
     {
-      "title": "被高估的视触觉：容易复制的生意，有多大投资价值？",
-      "link": "https://www.qbitai.com/2026/08/480236.html",
+      "title": "苹果罕见公布人形机器人进展，宇树 G1 背着一台跑千问的 Mac mini",
+      "link": "https://www.ifanr.com/1688485?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T07:56:58.000Z",
+      "summary": "苹果罕见披露人形机器人进展，宇树G1背负运行千问的Mac mini，体现端侧大模型与具身平台融合新路径",
+      "tags": [
+        "具身智能"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "Apple",
+        "阿里巴巴"
+      ],
+      "heat": 26.8
+    },
+    {
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T19:24:51.000Z",
+      "summary": "Anthropic发布Mythos与Fable新模型，称在编码、推理、视觉及用户交互清晰度方面有提升，同时引发RSI（响应安全性干预）担忧",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 25.3,
+      "titleZh": "Anthropic 在引发远程服务中断（RSI）担忧的背景下发布新款 Mythos 与 Fable 模型",
+      "summaryZh": "Anthropic发布Mythos和Fable新模型，称其在编程、推理、视觉理解及用户交互能力方面均有提升，但未披露具体技术细节。"
+    },
+    {
+      "title": "35 秒内“叫停”失控的 AI 智能体，OpenAI 部署“控制室”系统",
+      "link": "https://www.ithome.com/1/024/631.htm",
+      "source": "IT之家",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T02:05:45.000Z",
+      "summary": "OpenAI部署“控制室”系统，可在35秒内主动叫停失控AI智能体任务，实现风险研究负载的实时拦截与输出阻断。",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 25
+    },
+    {
+      "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
+      "link": "https://www.infoq.cn/article/1Mz0ADa02PxcDsVfpVEb?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T16:26:51.000Z",
+      "summary": "千问办公2.0发布Team Agent，支持多人协同与Agent协作；新增人机共创能力，打通对话、预览与编辑",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "阿里巴巴"
+      ],
+      "heat": 24.4
+    },
+    {
+      "title": "千问“死磕”Personal Agent：为什么下限比上限更重要？",
+      "link": "https://www.infoq.cn/article/1g0PWSVhNkb0sgud4heO?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T17:02:39.000Z",
+      "summary": "千问聚焦Personal Agent下限能力，强调服务补齐与任务完成率优先于上限性能突破",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "阿里巴巴"
+      ],
+      "heat": 22.3
+    },
+    {
+      "title": "波士顿动力给 Atlas 人形机器人装上轮子，可以跳起来转一圈",
+      "link": "https://www.ithome.com/1/024/697.htm",
+      "source": "IT之家",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T02:32:02.000Z",
+      "summary": "波士顿动力为Atlas人形机器人加装滑板车轮子，实现高速移动与跳跃旋转，仅通过转接器和仿真环境适配，未重构硬件与软件。",
+      "tags": [
+        "具身智能"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 21.7
+    },
+    {
+      "title": "冲击“史上最大 IPO”：消息称 Anthropic 下周四 / 五上市，估值预期遭遇市场降温",
+      "link": "https://www.ithome.com/1/024/576.htm",
+      "source": "IT之家",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T23:32:38.000Z",
+      "summary": "Anthropic冲刺史上最大AI IPO，拟于11月19日或20日纳斯达克上市，估值预期遭市场降温，IPO细节待披露。",
+      "tags": [
+        "商业融资"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 21.7
+    },
+    {
+      "title": "实测 HY4：腾讯最「夯」大模型，离一线还有多远？",
+      "link": "http://www.geekpark.net/news/373644",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T03:57:03.000Z",
+      "summary": "腾讯混元Hy4正式发布并即将开源，定位「最强开源模型之一」，同步推出轻量版Hy4 flash，补足腾讯在底层模型领域的声量短板",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "腾讯"
+      ],
+      "heat": 21.1
+    },
+    {
+      "title": "早报｜曝特努斯要求加快AI研发/Win 11优化8GB内存电脑流畅度/马斯克：SpaceX明年12月年化营收或超5000亿美元",
+      "link": "https://www.ifanr.com/1688379?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T00:34:19.000Z",
+      "summary": "特努斯加速AI研发；Win11优化低配设备AI体验；Anthropic拟启动IPO路演；比亚迪回应玛莎拉蒂收购传闻",
+      "tags": [
+        "商业融资"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "Anthropic",
+        "xAI"
+      ],
+      "heat": 20.7
+    },
+    {
+      "title": "不想当管理者，就用不好 Coding Agent？Anthropic 工程师长文谈 Agent 管理实战",
+      "link": "https://www.infoq.cn/article/YPQyY6bqhzhtO8MN6XUb?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T18:24:32.000Z",
+      "summary": "Anthropic工程师分享Coding Agent管理实战经验，强调非管理者角色如何高效使用Agent完成工程任务",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 20.6
+    },
+    {
+      "title": "刚刚，Claude Fable 5.2 登顶世界第一，一夜斩杀 Opus 5.5",
+      "link": "https://www.ifanr.com/1688605?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T22:54:06.000Z",
+      "summary": "Claude Fable 5.2登顶全球最强模型榜单，击败Opus 5.5，标志新一代闭源大模型性能突破",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 18.2
+    },
+    {
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "link": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T18:09:52.000Z",
+      "summary": "黄仁勋涉间谍传闻加剧美方对Nvidia游说放松对华芯片出口管制的质疑，威胁其在中国AI市场的战略存续",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "NVIDIA"
+      ],
+      "heat": 17,
+      "titleZh": "黄仁勋与一名涉嫌中国间谍人士的关联事件，引发外界对其英伟达公司在华业务战略的审视",
+      "summaryZh": "黄仁勋被指与一名疑似中国间谍存在私密关系，引发外界对其游说美国放松对华芯片出口管制行为合法性的严重质疑，威胁英伟达（Nvidia）在华AI市场战略"
+    },
+    {
+      "title": "“印度成OpenAI最大市场”，Altman首次回应“离职潮”：一群聪明人互不信任",
+      "link": "https://www.infoq.cn/article/7AXcQvPCSwfPhtL8iQpo?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T14:00:00.000Z",
+      "summary": "Sam Altman首度回应OpenAI印度成最大市场传闻及内部离职潮；反思高智商团队信任危机",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 16
+    },
+    {
+      "title": "Here’s what Trump said he knew about Jensen Huang",
+      "link": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T23:47:46.000Z",
+      "summary": "特朗普在白宫记者会上回应关于英伟达CEO黄仁勋的问题，称‘知道他是谁’，但未透露具体合作细节",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 2,
+      "companies": [
+        "NVIDIA"
+      ],
+      "heat": 15.4,
+      "titleZh": "特朗普称自己了解黄仁勋的哪些情况",
+      "summaryZh": "特朗普在白宫记者会上回应关于英伟达CEO黄仁勋的问题，称‘知道他是谁’，但未透露具体合作细节"
+    },
+    {
+      "title": "AI越来越聪明，企业却快管不住了：Gartner 2027年十大趋势，智能体治理成新战场",
+      "link": "https://www.infoq.cn/article/CUgMFMX7uRJNMec1pfYo?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T16:55:59.000Z",
+      "summary": "Gartner 2027十大趋势指出智能体治理成新战场；强调80%新应用将具备可抛弃性与易替换性",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 14.6
+    },
+    {
+      "title": "联想万全混合词元工厂发布：母本工厂落地张家口，2027 年建成 15000P 异构算力集群",
+      "link": "https://www.ithome.com/1/024/640.htm",
+      "source": "IT之家",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T02:10:04.000Z",
+      "summary": "联想发布万全混合词元工厂，张家口母本工厂落地，2027年建成15000P异构算力集群，支撑词元经济与全国智算网络。",
+      "tags": [
+        "芯片算力"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 12.8
+    },
+    {
+      "title": "The backlash about data centers might really just be about electricity",
+      "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T19:35:33.000Z",
+      "summary": "美国多地反对数据中心建设的舆论实质是电力资源争夺，折射AI算力扩张与能源基础设施矛盾",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 12.6,
+      "titleZh": "关于数据中心的争议，或许本质上只是围绕电力问题展开",
+      "summaryZh": "美国多地反对数据中心建设的舆论实质是电力资源争夺，折射AI算力扩张与能源基础设施矛盾"
+    },
+    {
+      "title": "不能把整个安全体系押在大模型上：AI 分诊 CVE，人工审查仍不能少",
+      "link": "https://www.infoq.cn/article/mBvmvcQ8a8ty2Ob1xN64?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T16:00:00.000Z",
+      "summary": "亚马逊云科技用AI智能体分诊Linux内核CVE；强调AI不能替代人工安全审查，需人机协同",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 11.8
+    },
+    {
+      "title": "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对",
+      "link": "http://www.geekpark.net/news/373637",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T12:13:06.000Z",
+      "summary": "OpenAI前CTO创立的TML发布Inkling 2 Small，被AA评为「中国以外得分最高的开放权重模型」，估值达400亿美元，直指中国开源模型竞对",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 11.7
+    },
+    {
+      "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
+      "link": "http://www.geekpark.net/news/373554",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T01:01:57.000Z",
+      "summary": "美国中期选举后芯片股重挫、纳指单日暴跌5.52%；民主党拟推《禁止人工智能法案》；OpenAI被误传推出GPT-6 Cyber（该信息为虚构/未证实）",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 11.5
+    },
+    {
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T01:27:12.000Z",
+      "summary": "Anthropic reportedly plans to move forward with IPO plans, expected to set valuation range this week per WSJ",
+      "tags": [
+        "商业融资"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 10.8,
+      "titleZh": "据称Anthropic公司正持续推进首次公开募股（IPO）计划",
+      "summaryZh": "Anthropic据报正积极推进IPO进程，预计本周将敲定估值区间。"
+    },
+    {
+      "title": "为什么「陪伴」，注定是 Personal AI 的核心",
+      "link": "http://www.geekpark.net/news/373653",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-08T09:52:45.000Z",
+      "summary": "Personal AI核心价值在于「陪伴感」，Muse上线实时语音与动态头像，验证情感连接比能力精度更能驱动用户持续交互与行为改变",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 10
+    },
+    {
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-08T21:00:11.000Z",
+      "summary": "Nvidia董事会正式启动对CEO黄仁勋与疑似中国间谍关系的内部调查，黄本人在备忘录中承认存在婚外关系",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "NVIDIA"
+      ],
+      "heat": 9.5,
+      "titleZh": "英伟达将就首席执行官黄仁勋与疑似中国间谍的关系展开调查",
+      "summaryZh": "英伟达内部备忘录证实，CEO黄仁勋承认曾与一名疑似中国间谍存在私人往来，公司已就此启动正式调查。"
+    },
+    {
+      "title": "实测 Seedream5.5，豆包想把 AI 作图接进整条工作流",
+      "link": "https://www.ifanr.com/1688447?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T12:01:18.000Z",
+      "summary": "实测Seedream 5.5将AI作图深度嵌入设计工作流，支持百轮无损改图，强化AIGC生产力闭环",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "字节跳动"
+      ],
+      "heat": 9.4
+    },
+    {
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s ‘about a 50-50’",
+      "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T05:26:29.000Z",
+      "summary": "耶鲁管理学院Jeffrey Sonnenfeld评估黄仁勋CEO职位去留概率为五五开，董事会调查结果将决定Nvidia领导层稳定性",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "NVIDIA"
+      ],
+      "heat": 9.3,
+      "titleZh": "黄仁勋的职位是否岌岌可危？耶鲁大学杰弗里·索恩菲尔德教授估计‘概率约为五五开’",
+      "summaryZh": "耶鲁大学管理学院学者Jeffrey Sonnenfeld表示，受间谍关联事件影响，英伟达CEO黄仁勋去留概率目前约为五五开，董事会正就此事展开全面调查。"
+    },
+    {
+      "title": "What could China get from Jensen Huang?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T23:51:58.000Z",
+      "summary": "分析英伟达芯片对中美AI发展不对称性的影响：中国亟需获取其高端AI算力，但受出口管制制约",
+      "tags": [
+        "芯片算力"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "NVIDIA"
+      ],
+      "heat": 9.1,
+      "titleZh": "中国能从黄仁勋身上获得什么？",
+      "summaryZh": "探讨中国获取英伟达技术的可能性，凸显其GPU在中美AI战略竞争中的关键卡点地位。"
+    },
+    {
+      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "link": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T22:46:09.000Z",
+      "summary": "做空机构Culper Research早在Nvidia间谍风波爆发前六个月，就质疑黄仁勋与一名涉嫌中国间谍的高管关系异常密切",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "NVIDIA"
+      ],
+      "heat": 8.6,
+      "titleZh": "一名做空机构早在丑闻爆发前六个月，就已警示外界英伟达CEO与一名涉嫌中国间谍人员存在关联",
+      "summaryZh": "做空机构Culper Research早在半年前就已质疑黄仁勋与一名疑似中国间谍的高管关系异常密切，早于英伟达（Nvidia）间谍风波曝光"
+    },
+    {
+      "title": "AI接管一家8万Star开源公司，写代码、派任务、查Bug全包了",
+      "link": "https://www.qbitai.com/2026/11/508607.html",
       "source": "量子位",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-28T05:49:05.000Z",
-      "summary": "量子位 | 公众号 QbitAI 具身智能产业正步入价值落地的关键阶段。行业对具身智能的期待，已升维至以物理交互为主的真实产业场景落地与价值创造。 物理交互的核心需求，使 触觉感知 成为继视觉之后的新一代核心感知技术。 这一感知体系以 力学传感器 为核心感知单元，向外扩展为高精度、高集成度末端 触觉传感器 ，进而延展为曲面共形、大面积覆盖的 分布式电子皮肤 ， 共同构成机器人从指尖精细力控到全身物",
-      "companies": [],
-      "heat": 3.9,
+      "pubDate": "2026-11-09T05:47:58.000Z",
+      "summary": "AI接管8万Star开源项目全流程：写代码、派任务、查Bug，主管Agent可自主招聘Worker",
       "tags": [
-        "具身智能"
-      ]
+        "智能体"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 8.6
     },
     {
-      "title": "不做手机缩小版：AI 健康记录迁到手腕，要跨过哪些工程鸿沟？",
-      "link": "https://www.infoq.cn/article/9TmFlNIk6EamqpvJIOkI?utm_source=rss&utm_medium=article",
+      "title": "美“核武级”AI禁令悬顶：美股恐慌收跌，马斯克财富单日缩水800亿美元",
+      "link": "http://www.techweb.com.cn/it/2026-11-06/2980326.shtml",
+      "source": "TechWeb",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T01:43:00.000Z",
+      "summary": "美国民主党议员呼吁全面封禁‘超级AI’，监管风暴致美股恐慌下跌，马斯克单日财富缩水800亿美元。",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "xAI"
+      ],
+      "heat": 8.6
+    },
+    {
+      "title": "早报｜首款触屏MacBook Pro开卖/2027年放假安排公布，调休减少/GPT-6 Cyber发布，复现1724项漏洞",
+      "link": "https://www.ifanr.com/1688032?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T00:15:15.000Z",
+      "summary": "GPT-6 Cyber发布复现1724项漏洞；丰田设直属机器人部门；全球DRAM营收逼近2000亿美元；鸿蒙电脑累计发货破百万",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 8.2
+    },
+    {
+      "title": "Agent 越用越多，企业为何仍不够 AI Native？",
+      "link": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-27T15:10:25.000Z",
-      "summary": ">",
-      "companies": [],
-      "heat": 3.9,
+      "pubDate": "2026-11-09T00:08:00.000Z",
+      "summary": "企业Agent使用量上升但仍未实现AI Native；症结在于组织流程、评估体系与人才结构未同步演进",
       "tags": [
-        "AI 动态"
-      ]
+        "智能体"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 8.1
     },
     {
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "link": "https://openai.com/index/loveholidays",
+      "title": "Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents",
+      "link": "https://arxiv.org/abs/2611.08946",
+      "source": "arXiv cs.AI",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T05:00:00.000Z",
+      "summary": "构建Flex-RSI基准，首次系统评测前沿智能体在递归自我改进中的能力演化、稳定性与失败模式",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 8,
+      "titleZh": "Flex-RSI：面向前沿智能体的递归式自我提升基准测试",
+      "summaryZh": "构建Flex-RSI基准，首次系统评测前沿智能体在递归自我改进中的能力演化、稳定性与失败模式"
+    },
+    {
+      "title": "Toward LLM Self-Play Under Data Scarcity: Effectiveness, Generalizability, and Trustworthiness",
+      "link": "https://arxiv.org/abs/2611.08908",
+      "source": "arXiv cs.AI",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T05:00:00.000Z",
+      "summary": "探索数据稀缺下LLM自博弈范式的有效性、泛化性与可信度边界，为低资源场景模型演进提供新路径",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 7.9,
+      "titleZh": "数据稀缺条件下的大语言模型自博弈：有效性、泛化性与可信度",
+      "summaryZh": "探索数据稀缺下LLM自博弈范式的有效性、泛化性与可信度边界，为低资源场景模型演进提供新路径"
+    },
+    {
+      "title": "宇树科技股价涨超 10%，此前已连续 2 个交易日收涨",
+      "link": "https://www.ithome.com/1/024/660.htm",
+      "source": "IT之家",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T02:20:01.000Z",
+      "summary": "宇树科技股价单日涨超10%，市值达3200亿元；创始人王兴兴称明年或是机器人行业临界点，GPT-6将加速物理世界模型落地。",
+      "tags": [
+        "具身智能"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 7.7
+    },
+    {
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "link": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T20:09:06.000Z",
+      "summary": "黄仁勋因争议退出ElevenLabs峰会，此前亦退出Anthropic活动，引发AI行业高层信任连锁反应",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "Anthropic",
+        "NVIDIA"
+      ],
+      "heat": 7.5,
+      "titleZh": "黄仁勋因英伟达相关争议退出ElevenLabs峰会",
+      "summaryZh": "黄仁勋因间谍争议退出ElevenLabs峰会及Anthropic相关活动，AI行业高层公开行程正显著受地缘政治风险影响"
+    },
+    {
+      "title": "具身智能，也到了 API 时刻？",
+      "link": "http://www.geekpark.net/news/373683",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T02:18:55.000Z",
+      "summary": "具身智能正迎来API时刻：部分模型支持跨本体迁移与新任务适配，开发者可接入自有机器人验证能力，标志从演示视频走向工程化接口",
+      "tags": [
+        "具身智能"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 6.9
+    },
+    {
+      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T15:50:38.000Z",
+      "summary": "特朗普在《60分钟》采访中淡化AI安全风险，称可‘管控’，并扬言可能逮捕警告风险的AI高管",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 6.7,
+      "titleZh": "特朗普在接受《60分钟》专访时谈及人工智能安全问题，并扬言或将逮捕某位AI企业高管",
+      "summaryZh": "特朗普在《60分钟》采访中质疑AI安全风险的严重性，称其“可控”，并抛出可能逮捕AI高管的争议性言论"
+    },
+    {
+      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "link": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T16:56:54.000Z",
+      "summary": "Anthropic斥资34亿美元采购天然气涡轮机以支撑AI数据中心能源需求，凸显大模型军备竞赛下的算力基建困局",
+      "tags": [
+        "芯片算力"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 6.5,
+      "titleZh": "Anthropic公司加入AI行业的天然气热潮，斥资34亿美元采购燃气轮机",
+      "summaryZh": "Anthropic斥资34亿美元采购天然气涡轮机，为其AI数据中心能源供应布局引发行业广泛关注；此举凸显AI算力扩张对能源基础设施的迫切需求"
+    },
+    {
+      "title": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一；英伟达显卡订单排长队，中国客户预计只能拿到 1%；字节限制员工使用个人 AI｜极客早知道",
+      "link": "http://www.geekpark.net/news/373494",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-05T00:45:25.000Z",
+      "summary": "Apple智能国行上线测试，苹果股价大涨超6%；英伟达显卡订单爆满，中国客户预计仅获1%份额；字节内部限制员工使用个人AI工具",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "NVIDIA",
+        "Apple",
+        "字节跳动"
+      ],
+      "heat": 6.5
+    },
+    {
+      "title": "2.5小时一个零日，400多个root提权：Linux被AI挖成了筛子，人类逆向几周才看懂一个",
+      "link": "https://www.infoq.cn/article/6kuDZAK0IFkKviGrGzIR?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T10:25:36.000Z",
+      "summary": "AI加速发现Linux零日漏洞（2.5小时一个）与root提权（超400个）；人类逆向分析滞后数周",
+      "tags": [
+        "安全"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 6.2
+    },
+    {
+      "title": "Disney and Adobe are building generative AI tools together",
+      "link": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T15:38:56.000Z",
+      "summary": "迪士尼与 Adobe 合作开发‘艺术家主导’的专有生成式AI模型，用于内容创作与IP衍生",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 5.9,
+      "titleZh": "迪士尼与Adobe正携手开发生成式AI工具",
+      "summaryZh": "迪士尼（Disney）与Adobe合作开发“艺术家主导”的专属生成式AI模型，聚焦优化创意内容生产流程"
+    },
+    {
+      "title": "CARGO: Causal Attribution and Responsibility-Guided Preventive Safe Multi-Agent Reinforcement Learning for Cooperative Driving",
+      "link": "https://arxiv.org/abs/2611.09139",
+      "source": "arXiv cs.AI",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T05:00:00.000Z",
+      "summary": "CARGO框架引入因果归因与责任引导机制，提升多智能体协同驾驶的安全性与可解释性",
+      "tags": [
+        "具身智能"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 5.8,
+      "titleZh": "CARGO：面向协同驾驶的因果归因与责任引导型预防式安全多智能体强化学习",
+      "summaryZh": "CARGO框架引入因果归因与责任引导机制，提升多智能体协同驾驶的安全性与可解释性"
+    },
+    {
+      "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+      "link": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T11:00:00.000Z",
+      "summary": "出版业面临AI生成内容溯源困境，作者依赖‘纸质轨迹’等工具自证原创性，但有效性存疑",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 5.6,
+      "titleZh": "作者可通过‘留痕工具’（Paper Trail）应对人工智能相关指控——这是否已足够？",
+      "summaryZh": "作家借助“纸质轨迹”等溯源工具应对AI剽窃指控，但行业层面的信任机制仍存在根本性缺陷。"
+    },
+    {
+      "title": "微信 AI 录音笔体验：手机都能装的办公神器，免费！",
+      "link": "https://www.ifanr.com/1688410?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T04:00:04.000Z",
+      "summary": "微信AI录音笔上线手机端，免费提供会议转录、摘要等办公功能，属轻量级AI应用普及动态",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "腾讯"
+      ],
+      "heat": 5.6
+    },
+    {
+      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
+      "link": "http://www.geekpark.net/news/373643",
+      "source": "极客公园",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-07T03:35:36.000Z",
+      "summary": "博世引入豆包工作处理研发故障信息整合、分派与报告生成，将工程师从低效沟通中解放，聚焦问题根因分析，属企业级Agent落地典型场景",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "字节跳动"
+      ],
+      "heat": 5.6
+    },
+    {
+      "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
+      "link": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-08T10:00:00.000Z",
+      "summary": "世界模型正推动AI从文本迈向3D空间，通过模拟真实物理规律赋能机器人与自动驾驶导航",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 5.5,
+      "titleZh": "世界模型即将无处不在——你需要了解的关键信息",
+      "summaryZh": "世界模型正推动AI从文本迈向3D空间，通过模拟真实物理规律赋能机器人与自动驾驶导航"
+    },
+    {
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T18:44:20.000Z",
+      "summary": "Meta推出Spaces新协作空间，支持用户与Muse AI智能体深度协同工作",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "Meta"
+      ],
+      "heat": 5,
+      "titleZh": "Meta推出Spaces，一种与Muse智能体协作的新方式",
+      "summaryZh": "Meta推出Spaces新协作空间，支持用户与Muse AI智能体深度协同工作"
+    },
+    {
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-07T21:17:08.000Z",
+      "summary": "美情报备忘录称中方国安部门招募科技高管刺探英伟达CEO，涉AI供应链安全与间谍风险",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "NVIDIA"
+      ],
+      "heat": 4.5,
+      "titleZh": "据美国情报备忘录披露，Megaspeed公司高管被招募以监视英伟达（Nvidia）首席执行官",
+      "summaryZh": "美情报备忘录称中方国安部招募某科技公司女性高管刺探英伟达CEO，事件加剧AI领域地缘安全焦虑"
+    },
+    {
+      "title": "苹果AI国行版开测：支持机型有限，Siri AI还要再等等",
+      "link": "http://www.techweb.com.cn/internet/2026-11-04/2980262.shtml",
+      "source": "TechWeb",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-04T01:08:18.000Z",
+      "summary": "苹果AI国行版开启Beta测试，iOS 27.3首批支持基础系统级AI能力，Siri AI功能暂未开放，支持机型有限。",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "Apple"
+      ],
+      "heat": 4.3
+    },
+    {
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "link": "https://openai.com/index/introducing-gpt-6-cyber",
       "source": "OpenAI Blog",
       "lang": "en",
       "tier": "core",
-      "pubDate": "2026-08-26T00:00:00.000Z",
-      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "pubDate": "2026-11-05T09:00:00.000Z",
+      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 4.1,
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "titleZh": "GPT‑6 Cyber：推动对齐型网络安全智能体的前沿发展",
+      "summaryZh": "隆重推出GPT‑6 Cyber——OpenAI面向网络安全领域的专用大模型，专长于识别可利用漏洞并生成修复方案，训练中严格限定于授权范围内运行。"
+    },
+    {
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-07T01:40:28.000Z",
+      "summary": "Crusoe将陷入困境的怀俄明州AI数据中心项目出售给谷歌，凸显超大规模AI基建落地挑战",
+      "tags": [
+        "芯片算力"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "Google"
+      ],
+      "heat": 3.8,
+      "titleZh": "Crusoe公司将陷入困境的怀俄明州数据中心项目出售给谷歌（Google）",
+      "summaryZh": "Crusoe公司将陷入困境的怀俄明州AI数据中心项目出售给谷歌，暴露出超大规模AI基础设施落地所面临的现实挑战。"
+    },
+    {
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-06T22:53:46.000Z",
+      "summary": "OpenAI据报再融110亿美元，估值达1.25万亿美元，新一轮融资尚未正式关闭",
+      "tags": [
+        "商业融资"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 3.8,
+      "titleZh": "据报道称，OpenAI以1.25万亿美元估值额外融资110亿美元",
+      "summaryZh": "据媒体报道，OpenAI再度完成110亿美元融资，估值升至1.25万亿美元，新一轮融资预计数周内正式收官。"
+    },
+    {
+      "title": "OpenAI挖角成功：Claude Code“产品一姐”Cat Wu无缝加盟",
+      "link": "http://www.techweb.com.cn/it/2026-11-05/2980303.shtml",
+      "source": "TechWeb",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-05T02:46:08.000Z",
+      "summary": "OpenAI成功挖角Anthropic前Claude Code产品负责人Cat Wu，其将任核心产品管理负责人，正值Anthropic IPO前夕。",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 4,
+      "companies": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "heat": 3.6
+    },
+    {
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "link": "https://openai.com/index/merge-builds-with-openai",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-05T08:00:00.000Z",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "companies": [
         "OpenAI"
       ],
       "heat": 3.5,
       "tags": [
         "大模型"
-      ]
+      ],
+      "titleZh": "Merge基于OpenAI技术构建产品及商业工具",
+      "summaryZh": "Merge借助GPT-6 Astra、ChatGPT和Codex审查产品代码并支持市场营销；其团队还利用AI规划高管晚宴及准备销售周报。"
     },
     {
-      "title": "撼与推出 TCX-280DF 雷电 5 显卡扩展坞：内置 T1000 / A2000 / 3060",
-      "link": "https://www.ithome.com/0/995/503.htm",
-      "source": "IT之家",
-      "lang": "zh",
-      "tier": "trusted",
-      "pubDate": "2026-08-28T03:53:58.000Z",
-      "summary": "IT之家 8 月 28 日消息，撼与 (Sparkle) 近日推出了 TCX-280DF 雷电 5 显卡扩展坞。其内置 NVIDIA（英伟达）T1000 4GB / RTX A2000 8GB / GeForce RTX 3060 12GB 显卡，采用 AC 供电。 TCX-280DF 三维 170×149×59 (mm)，面向 Windows 设备。其 I/O 包括 1 个雷电 5 上行（支持 ",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "link": "https://openai.com/index/control-room",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T13:00:00.000Z",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
       "companies": [
-        "NVIDIA"
+        "OpenAI"
       ],
       "heat": 3.2,
       "tags": [
-        "芯片算力"
-      ]
+        "大模型",
+        "政策与安全"
+      ],
+      "titleZh": "Control Room：一套用于追踪并终止研究基础设施中各类模型工作负载的中央系统",
+      "summaryZh": "了解OpenAI控制室（Control Room）如何追踪模型在研究基础设施中的工作负载，并在出现安全或安保风险时快速中止相关任务。"
     },
     {
-      "title": "Jensen Huang says Nvidia achieved AGI, again — not that it matters",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
-      "source": "The Verge AI",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T19:00:00.000Z",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 3.1,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "ChatGPT Enterprise 现已在 AWS Marketplace 上线",
+      "summaryZh": "ChatGPT Enterprise 现已登陆 AWS Marketplace，助力企业依托既有的 AWS 采购与账单体系，简化采购流程。"
+    },
+    {
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "link": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-06T08:00:00.000Z",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 3.1,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "与Hacktron公司合作，共同发现OpenAI系统中的安全漏洞",
+      "summaryZh": "OpenAI 正与 Hacktron 展开合作，旨在发现安全漏洞、测试与第三方服务的连接稳定性，并借助前沿人工智能技术强化防御能力。"
+    },
+    {
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "link": "https://openai.com/index/kuken",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T08:00:00.000Z",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 3,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "库肯工业（Kuken Industries）仅用数分钟即可检索长达 70 年的设计图纸",
+      "summaryZh": "Kuken Industries 公司利用 OpenAI API 检索长达70年的冷却塔设计图纸；工程师查找维修所需图纸的耗时已从近一小时缩短至4.5分钟。"
+    },
+    {
+      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+      "link": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+      "source": "Wired",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-08-27T16:15:52.000Z",
-      "summary": "On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing.",
-      "companies": [
-        "NVIDIA"
-      ],
-      "heat": 3.2,
+      "pubDate": "2026-11-06T18:43:43.000Z",
+      "summary": "DeepSeek与GLM等国产开源AI模型在模拟网络攻防实验中展现出逼近OpenAI闭源顶级网安模型的黑客能力",
       "tags": [
-        "芯片算力"
-      ]
+        "大模型"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "OpenAI",
+        "DeepSeek"
+      ],
+      "heat": 3,
+      "titleZh": "免费的中国AI模型在黑客攻击能力方面正变得异常强大",
+      "summaryZh": "DeepSeek 与 GLM 等国产开源 AI 模型在模拟网络攻防实验中展现出接近 OpenAI 顶级（未公开）网络安全模型的黑客能力。"
     },
     {
-      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
-      "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+      "title": "Zero-Shot Weight-Space Programming Across a Difficulty-Graded Ladder of Two-Player Games",
+      "link": "https://arxiv.org/abs/2611.09271",
+      "source": "arXiv cs.AI",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T05:00:00.000Z",
+      "summary": "实现跨难度梯度双人博弈的零样本权重空间编程，无需梯度即可手工设定网络全权重",
+      "tags": [
+        "大模型"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 2.8,
+      "titleZh": "跨难度分级双人游戏序列的零样本权重空间编程",
+      "summaryZh": "实现跨难度梯度双人博弈的零样本权重空间编程，无需梯度即可手工设定网络全权重"
+    },
+    {
+      "title": "The race is on to sue Nvidia",
+      "link": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
       "source": "TechCrunch AI",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-08-26T23:47:18.000Z",
-      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
+      "pubDate": "2026-11-09T22:23:42.000Z",
+      "summary": "Nvidia因CEO涉间谍关联致股价下跌超4%，多家律所已启动证券集体诉讼筹备工作",
+      "tags": [
+        "商业融资"
+      ],
+      "llmScore": 3,
       "companies": [
         "NVIDIA"
       ],
-      "heat": 3.2,
-      "tags": [
-        "芯片算力",
-        "商业融资"
-      ],
-      "titleZh": "亚马逊将其Nvidia芯片订单翻了三倍，因‘需求激增’",
-      "summaryZh": "OpenAI Codex 配额重置引发用户质疑。"
+      "heat": 2.5,
+      "titleZh": "起诉英伟达的法律竞赛已然打响",
+      "summaryZh": "英伟达（Nvidia）董事会启动内部调查后股价大跌逾4%，多家律所已着手准备集体诉讼，焦点集中于信息披露充分性及高管关联风险"
     },
     {
-      "title": "离开剪映后创业，她想把一支设计团队装进 AI 工作台",
-      "link": "http://www.geekpark.net/news/369395",
+      "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
+      "link": "http://www.geekpark.net/news/373427",
       "source": "极客公园",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-26T07:10:12.000Z",
-      "summary": "头图来源：OJO 官网 极客公园获悉，前剪映中国负责人张琪智已离职创业，创办 AI 产品原型设计工作台 OJO，并于近日完成近亿元首轮融资，由顺为资本、联想创投联合投资，高鹄资本担任独家财务顾问。 这是张琪智离开字节跳动后的第一个创业项目。她于 2017 年加入脸萌担任产品经理，2018 年随团队进入字节，此后长期参与剪映相关产品与业务。 在外界看来，她在剪映的经历是理解这次创业的重要背景：经历了",
-      "companies": [
-        "字节跳动"
+      "pubDate": "2026-11-04T00:28:02.000Z",
+      "summary": "国行Apple智能开启Beta测试，支持实时翻译等基础功能；ChatGPT搜索量已达谷歌20%；AI初创Seedance五成收入来自海外市场",
+      "tags": [
+        "大模型"
       ],
-      "heat": 3.2,
+      "llmScore": 3,
+      "companies": [
+        "OpenAI",
+        "Google",
+        "Apple"
+      ],
+      "heat": 2.4
+    },
+    {
+      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+      "link": "https://arxiv.org/abs/2611.08644",
+      "source": "arXiv cs.AI",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-09T05:00:00.000Z",
+      "summary": "提出Decision Context机制，使LLM智能体能在跨会话中持续学习用户纠正行为，突破现有记忆局限",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 2.3,
+      "titleZh": "决策上下文：面向AI智能体的持续行为学习",
+      "summaryZh": "提出Decision Context机制，使LLM智能体能在跨会话中持续学习用户纠正行为，突破现有记忆局限"
+    },
+    {
+      "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+      "link": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T13:15:00.000Z",
+      "summary": "《The Download》指出AI气候效益主张缺乏实证；同时报道针对英伟达的调查进展",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 3,
+      "companies": [
+        "NVIDIA"
+      ],
+      "heat": 2.2,
+      "titleZh": "《技术周刊》：空洞的人工智能气候承诺，以及针对英伟达的调查",
+      "summaryZh": "《麻省理工科技评论》质疑当前关于AI技术具有气候效益的主张缺乏实证支撑，并同步报道了针对英伟达的相关调查最新进展。"
+    },
+    {
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "link": "https://openai.com/index/franklin-templeton",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-05T00:00:00.000Z",
+      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 1.9,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "富兰克林邓普顿（Franklin Templeton）利用OpenAI支持投资研究",
+      "summaryZh": "富兰克林邓普顿（Franklin Templeton）率先从股票研究切入，开发 AI 工作流，助力投资组合经理比对不同研究观点并深入评估投资风险。"
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "link": "https://openai.com/index/openai-to-acquire-pierre",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-04T14:30:00.000Z",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 1.7,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "OpenAI 将收购 Pierre Computer Company, Inc.",
+      "summaryZh": "OpenAI 将收购 Pierre Computer Company，进一步拓展 Codex 在代码构建、理解与审查方面的工具能力。"
+    },
+    {
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-06T00:00:00.000Z",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 0.8,
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "titleZh": "评估AI智能体处理日常湿实验科学任务的能力",
+      "summaryZh": "OpenAI 推出 BioBasicsBench——一个涵盖100项任务的基准测试，用于评估AI智能体解读原始实验数据及处理日常湿实验室科研任务的能力。"
+    },
+    {
+      "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+      "link": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-05T21:37:18.000Z",
+      "summary": "AI聊天机器人广告商业化加速落地，Anthropic坚持无广告路线，其余厂商探索用户接受度与广告收益平衡点",
       "tags": [
         "商业融资"
-      ]
+      ],
+      "llmScore": 3,
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 0.8,
+      "titleZh": "聊天机器人广告已正式登场——哪些策略奏效，哪些尚未见效",
+      "summaryZh": "人工智能聊天机器人行业正加速商业化进程，多家公司试水广告变现模式，而 Anthropic 则坚持无广告路线，形成鲜明对比。"
     },
     {
-      "title": "首款癌症疫苗，一针300万？？？",
-      "link": "https://www.qbitai.com/2026/08/480557.html",
-      "source": "量子位",
+      "title": "Australian universities are creating AI-native graduates",
+      "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-05T17:00:00.000Z",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 0.8,
+      "tags": [
+        "大模型"
+      ],
+      "titleZh": "澳大利亚高校正着力培养原生AI人才",
+      "summaryZh": "澳大利亚高校正扩大 ChatGPT 的使用权限，并将人工智能深度融入教学与学习过程，以帮助学生适应人工智能驱动的未来职场。"
+    },
+    {
+      "title": "A thousand fewer paths to root",
+      "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI Blog",
+      "lang": "en",
+      "tier": "core",
+      "pubDate": "2026-11-04T08:00:00.000Z",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "companies": [
+        "OpenAI"
+      ],
+      "heat": 0.5,
+      "tags": [
+        "大模型",
+        "具身智能"
+      ],
+      "titleZh": "通往系统根权限的路径减少了千条",
+      "summaryZh": "OpenAI 构建了一条自主流水线，成功发现、验证并为 Linux 内核中的 948 个本地权限提升漏洞生成了补丁。"
+    },
+    {
+      "title": "ADD 资产驱动开发：让 AI Coding 懂业务、守规范、稳架构、实现端到端交付｜AICon北京",
+      "link": "https://www.infoq.cn/article/rsMuS4cuc2ir68ulGgEs?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "lang": "zh",
       "tier": "trusted",
-      "pubDate": "2026-08-28T06:22:59.000Z",
-      "summary": "量子位 | 公众号 QbitAI 刚刚爆火、借助AI研制的黑色素瘤癌症疫苗 Intismeran Autogene ，转眼间就被曝可能成为一场“富人的专属游戏”—— 据美国投资银行William Blair预计，该疫苗未来的批发采购价格可能高达每名患者 47.5万 美元，约合人民币 318万元 。 而这距离莫德纳与默沙东宣布这项重大进展，才过去不到一周。 8月19日，两家公司宣布，这款早在近10年",
-      "companies": [],
-      "heat": 0,
+      "pubDate": "2026-11-10T10:00:00.000Z",
+      "summary": "InfoQ报道ADD资产驱动开发范式，解决AI Coding在业务理解、上下文容量与生成稳定性三方面局限",
       "tags": [
-        "AI 动态"
-      ]
+        "大模型"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 0
     },
     {
-      "title": "AI’s memory crunch is coming for Android apps",
-      "link": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+      "title": "消息称三星电子、SK 海力士均将向 ASML EUV 光刻机投资超 10 万亿韩元",
+      "link": "https://www.ithome.com/1/024/619.htm",
+      "source": "IT之家",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T01:42:05.000Z",
+      "summary": "三星电子与SK海力士拟各投资10~20万亿韩元采购ASML EUV光刻机，以应对AI芯片产能扩张需求。",
+      "tags": [
+        "芯片算力"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 0
+    },
+    {
+      "title": "我国“星云星座计划”亮相，把数据中心搬上太空",
+      "link": "https://www.ithome.com/1/024/605.htm",
+      "source": "IT之家",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T00:59:58.000Z",
+      "summary": "我国发布‘星云星座计划’，构建全栈国产化太空算力网，将数据中心搬上太空，迈出太空云产业化关键一步。",
+      "tags": [
+        "芯片算力"
+      ],
+      "llmScore": 5,
+      "companies": [],
+      "heat": 0
+    },
+    {
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-10T00:28:49.000Z",
+      "summary": "Paramount Skydance CEO David Ellison称AI将是“现代史上最大创意解锁”，影响将超CGI在电影业的作用",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 0,
+      "titleZh": "大卫·艾利森称，人工智能可能是‘现代史上最大的创意解锁’",
+      "summaryZh": "派拉蒙CEO表示，人工智能对影视创作的影响将远超计算机生成图像（CGI）技术，有望成为现代史上规模最大的一次创意解放浪潮。"
+    },
+    {
+      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+      "link": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "source": "The Verge AI",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T18:07:23.000Z",
+      "summary": "Instagram 推出 AI 驱动的 Effect Builder 工具，允许美国用户通过文本提示实时生成 Stories 自定义滤镜",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 0,
+      "titleZh": "Instagram 推出效果构建器，可通过 AI 提示词生成新滤镜",
+      "summaryZh": "Instagram正式上线AI驱动的Effect Builder工具，美国地区用户可通过输入自然语言提示词，实时生成高度个性化的Stories滤镜效果。"
+    },
+    {
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T17:05:43.000Z",
+      "summary": "加州参议员斯科特·维纳当选众议员，曾主导AI风险监管立法，或成国会AI监管关键推手",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 0,
+      "titleZh": "南希·佩洛西的继任者已准备好监管人工智能",
+      "summaryZh": "加州参议员斯科特·维纳（Scott Wiener）成功当选美国国会众议员，其此前主导多项AI风险监管立法的丰富经验，有望加速推动联邦层级AI治理体系的构建。"
+    },
+    {
+      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+      "link": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
       "source": "TechCrunch AI",
       "lang": "en",
       "tier": "trusted",
-      "pubDate": "2026-08-27T14:27:04.000Z",
-      "summary": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
-      "companies": [
-        "Google"
-      ],
-      "heat": 0,
+      "pubDate": "2026-11-09T16:12:28.000Z",
+      "summary": "Medium推出TK写作App，深度集成AI辅助创作功能，直面AI生成内容在出版领域引发的伦理与质量争议",
       "tags": [
-        "芯片算力",
         "AI 动态"
-      ]
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 0,
+      "titleZh": "Medium 全新 TK 应用将人工智能辅助直接融入写作流程",
+      "summaryZh": "Medium 推出 TK 写作 App，原生集成 AI 辅助功能，直面 AI 生成内容在出版业引发的伦理与版权争议。"
     },
     {
-      "title": "Learning never stops: How AI makes learning continuous",
-      "link": "https://openai.com/index/learning-never-stops",
+      "title": "开发者每周借助 AI 节约数十小时的比例在一年内从 68% 降至 26%",
+      "link": "https://www.infoq.cn/article/sdqHapplv45dQguTJ415?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T13:14:31.000Z",
+      "summary": "开发者AI提效比例一年内从68%骤降至26%；反映工具成熟度、工作流适配与预期管理问题",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 0
+    },
+    {
+      "title": "Innovating with AI in the special chemicals industry",
+      "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T13:00:00.000Z",
+      "summary": "特种化学品行业探索AI+云+建模加速研发，核心瓶颈在于技术与可靠数据、科学经验的对接",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 0,
+      "titleZh": "特种化工行业正借助人工智能开展创新",
+      "summaryZh": "特种化学品行业正积极探索将AI技术与云算力深度融合以加速研发进程，而当前核心瓶颈在于如何系统性整合多源异构数据与深厚的领域科学经验。"
+    },
+    {
+      "title": "The climate case for AI has not been made",
+      "link": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+      "source": "MIT Technology Review",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T10:00:00.000Z",
+      "summary": "联合国安塔利亚气候大会前夕，《MIT Tech Review》强调：AI对气候的净正面贡献尚未被科学论证",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 0,
+      "titleZh": "人工智能的气候价值主张尚未得到充分论证",
+      "summaryZh": "《麻省理工科技评论》（MIT Technology Review）质疑人工智能对气候治理的实际贡献，指出当前尚缺乏扎实证据支撑“AI 助力减排”这一主流叙事。"
+    },
+    {
+      "title": "谁家 AI 这么听劝？Seedream 5.5 爆改 iPhone Duo 界面，精准到像素级",
+      "link": "https://www.ifanr.com/1688514?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T09:19:02.000Z",
+      "summary": "Seedream 5.5精准像素级重绘iPhone Duo界面，展现AI UI生成与理解能力跃升，逼近专业设计工具水平",
+      "tags": [
+        "智能体"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 0
+    },
+    {
+      "title": "“AI毁了我的计算机学位”",
+      "link": "https://www.qbitai.com/2026/11/508706.html",
+      "source": "量子位",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T08:57:20.000Z",
+      "summary": "一名计算机专业女生控诉AI深度渗透教学全流程：课程大纲由Claude生成、作业AI批改、导师邮件疑似自动发送，引发教育伦理与人本价值反思。",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 5,
+      "companies": [
+        "Anthropic"
+      ],
+      "heat": 0
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "link": "https://openai.com/index/coderabbit-codex-daybreak",
       "source": "OpenAI Blog",
       "lang": "en",
       "tier": "core",
-      "pubDate": "2026-08-26T10:00:00.000Z",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "pubDate": "2026-11-09T08:00:00.000Z",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
       "companies": [
         "OpenAI"
       ],
       "heat": 0,
       "tags": [
-        "大模型"
-      ]
+        "大模型",
+        "智能体"
+      ],
+      "titleZh": "CodeRabbit 扩展了智能体软件开发能力，交付效率提升 20 倍",
+      "summaryZh": "CodeRabbit依托OpenAI模型对AI生成代码实施治理与可信验证，并借助Codex大幅提升开发效率——同等规模工程团队可交付的软件量提升达20倍。"
     },
     {
-      "title": "The full stack behind abundant intelligence",
-      "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "source": "OpenAI Blog",
+      "title": "L3大撤退！奔驰宝马官宣不玩了：还没L2好用",
+      "link": "https://www.qbitai.com/2026/11/508629.html",
+      "source": "量子位",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T07:02:36.000Z",
+      "summary": "奔驰宝马公开质疑L3级自动驾驶实用性，奔驰新款S级取消Drive Pilot系统，反思技术落地过早",
+      "tags": [
+        "政策与安全"
+      ],
+      "llmScore": 4,
+      "companies": [],
+      "heat": 0
+    },
+    {
+      "title": "做AI漫剧全部亏损，不如送外卖？专家揭秘钱去哪儿了",
+      "link": "http://www.techweb.com.cn/internet/2026-11-09/2980407.shtml",
+      "source": "TechWeb",
+      "lang": "zh",
+      "tier": "trusted",
+      "pubDate": "2026-11-09T06:52:47.000Z",
+      "summary": "AI漫剧市场规模将破400亿元，但盈利艰难：抖音新剧破亿率仅0.48%，超九成项目未达盈亏平衡线。",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 0
+    },
+    {
+      "title": "AlterNet: Adaptive-Depth Mixture-of-Experts with Learned Halting for Elastic Inference",
+      "link": "https://arxiv.org/abs/2611.08741",
+      "source": "arXiv cs.AI",
       "lang": "en",
       "tier": "core",
-      "pubDate": "2026-08-25T07:05:00.000Z",
-      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "companies": [
-        "OpenAI"
-      ],
-      "heat": 0,
+      "pubDate": "2026-11-09T05:00:00.000Z",
+      "summary": "提出AlterNet架构，通过自适应深度MoE与学习型停机机制实现弹性推理计算",
       "tags": [
         "大模型"
-      ]
-    },
-    {
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "link": "https://openai.com/index/jalapeno-first-results",
-      "source": "OpenAI Blog",
-      "lang": "en",
-      "tier": "core",
-      "pubDate": "2026-08-25T07:00:00.000Z",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "companies": [
-        "OpenAI"
       ],
+      "llmScore": 5,
+      "companies": [],
       "heat": 0,
-      "tags": [
-        "大模型"
-      ]
+      "titleZh": "AlterNet：面向弹性推理的自适应深度混合专家模型与可学习停机机制",
+      "summaryZh": "提出AlterNet架构，通过自适应深度MoE与学习型停机机制实现弹性推理计算"
     },
     {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+      "link": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+      "source": "Wired",
+      "lang": "en",
+      "tier": "trusted",
+      "pubDate": "2026-11-08T12:00:00.000Z",
+      "summary": "《纽约时报》Cooking 应用上线 AI 食谱修改器 Beta 版，支持食材替换与饮食适配，体验良好",
+      "tags": [
+        "AI 动态"
+      ],
+      "llmScore": 3,
+      "companies": [],
+      "heat": 0,
+      "titleZh": "我试用了《纽约时报》烹饪版新推出的AI食谱修改器，效果其实相当不错",
+      "summaryZh": "《纽约时报》Cooking 应用上线 AI 食谱修改器 Beta 版，支持食材替换与饮食适配，体验良好"
+    },
+    {
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "source": "OpenAI Blog",
       "lang": "en",
       "tier": "core",
-      "pubDate": "2026-08-25T00:00:00.000Z",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "pubDate": "2026-11-05T02:00:00.000Z",
+      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "companies": [
         "OpenAI"
       ],
@@ -1638,23 +1718,27 @@
       "tags": [
         "大模型",
         "政策与安全"
-      ]
+      ],
+      "titleZh": "为负责任的人工智能基础设施树立新标杆",
+      "summaryZh": "OpenAI正式推出《国家社区契约》（National Community Compact）及《算力园区政策蓝图》（Compute Campus Policy Blueprint），旨在保护当地资源、创造就业机会，并引导负责任的人工智能基础设施建设。"
     },
     {
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "source": "Google DeepMind",
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "link": "https://openai.com/ads/customers/flipsnack",
+      "source": "OpenAI Blog",
       "lang": "en",
       "tier": "core",
-      "pubDate": "2026-08-21T11:59:48.000Z",
-      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "pubDate": "2026-11-05T00:45:15.000Z",
+      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
       "companies": [
-        "Google"
+        "OpenAI"
       ],
       "heat": 0,
       "tags": [
-        "AI 动态"
-      ]
+        "大模型"
+      ],
+      "titleZh": "Flipsnack通过转化率优化显著提升产品注册量",
+      "summaryZh": "Flipsnack 将其 ChatGPT Ads 广告活动聚焦于推动用户试用产品，在提升注册量的同时降低了单次注册成本。"
     }
   ]
 }

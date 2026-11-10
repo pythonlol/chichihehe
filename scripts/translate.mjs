@@ -26,6 +26,8 @@ async function translateBatch(texts, key) {
       messages: [{ role: 'user', content: prompt }],
       temperature: 0,
     }),
+    // 与 llm-classify 一致：避免单个请求挂起拖死整轮抓取
+    signal: AbortSignal.timeout(90000),
   });
   if (!res.ok) throw new Error(`DashScope HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
   const data = await res.json();
@@ -54,6 +56,13 @@ async function translateAll(texts, key) {
   return out;
 }
 
+// 判断译文是否真的译成了中文：中文字符至少 6 个
+// 不卡中文字数占比——技术类摘要里 OpenAI、Claude Fable 5.2 这类英文名词很多，
+// 占比阈值会误杀正常译文；而没翻译的英文残渣中文字符数为 0，能准确拦下
+function isChineseText(s = '') {
+  return (s.match(/[\u4e00-\u9fff]/g) || []).length >= 6;
+}
+
 /**
  * 为 lang === 'en' 的资讯补充 titleZh / summaryZh（有缓存直接用缓存）
  * @param {Array<{link: string, lang: string, title: string, summary: string}>} items
@@ -70,7 +79,9 @@ export async function translateEnglishItems(items) {
   const missing = [];
   for (const it of targets) {
     const c = cache[it.link];
-    if (c && c.titleZh) {
+    // 缓存摘要若不是中文（历史遗留的英文残渣），整条重翻
+    const cacheSummaryOk = !c?.summaryZh || isChineseText(c.summaryZh);
+    if (c && c.titleZh && cacheSummaryOk) {
       it.titleZh = c.titleZh;
       if (c.summaryZh) it.summaryZh = c.summaryZh;
     } else {
@@ -85,15 +96,29 @@ export async function translateEnglishItems(items) {
     } else {
       console.log(`翻译 ${missing.length} 条英文资讯...`);
       const titles = await translateAll(missing.map((it) => it.title), key);
-      const summaries = await translateAll(missing.map((it) => it.summary || ' '), key);
+      // 摘要已经是中文的（arXiv 经 LLM 精筛时已生成中文摘要）直接复用，不再重复翻译
+      const needSummary = missing.filter((it) => !isChineseText(it.summary || ''));
+      const summaries = needSummary.length
+        ? await translateAll(needSummary.map((it) => it.summary || ' '), key)
+        : [];
+      const summaryByLink = new Map(needSummary.map((it, i) => [it.link, (summaries[i] || '').trim()]));
+
+      let rejected = 0;
       missing.forEach((it, i) => {
-        if (titles[i]) {
-          it.titleZh = titles[i];
-          const summaryZh = (summaries[i] || '').trim();
-          if (it.summary && summaryZh) it.summaryZh = summaryZh;
-          cache[it.link] = { titleZh: it.titleZh, ...(it.summaryZh ? { summaryZh: it.summaryZh } : {}) };
+        if (!titles[i]) return;
+        it.titleZh = titles[i];
+        if (it.summary) {
+          if (isChineseText(it.summary)) {
+            it.summaryZh = it.summary;
+          } else {
+            const zh = summaryByLink.get(it.link) || '';
+            if (zh && isChineseText(zh)) it.summaryZh = zh;
+            else if (zh) rejected++; // 译文不像中文，丢弃，页面回退显示原文摘要
+          }
         }
+        cache[it.link] = { titleZh: it.titleZh, ...(it.summaryZh ? { summaryZh: it.summaryZh } : {}) };
       });
+      if (rejected) console.warn(`[warn] ${rejected} 条摘要译文未通过中文校验，已丢弃并回退原文`);
     }
   }
 
